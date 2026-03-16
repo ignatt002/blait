@@ -16,8 +16,8 @@
       "title": "Генератор: Нахождение коэффициента",
       "hasTheory": false,
       "path": "ОГЭ Математика -> Задание 9",
-      "generatorCode": "const x1 = Math.floor(Math.random() * 15) - 7 || 1; const x2 = Math.floor(Math.random() * 15) - 7 || 2; const b = -(x1 + x2); const c = x1 * x2; const fSign = (n) => (n >= 0 ? '+ ' + n : '- ' + Math.abs(n)); const fBrack = (n) => (n >= 0 ? '- ' + n : '+ ' + Math.abs(n)); task.question = `x^2 ${fSign(b)}x ${fSign(c)} = (x ${fBrack(x1)})(x - a)`; task.answer = x2;",
-      "generatorExplanation": "Для решения используй теорему Виета. В уравнении вида $x^2 + bx + c = (x - x_1)(x - x_2)$ произведение корней равно свободному члену: $x_1 \\cdot x_2 = c$. Чтобы найти $a$, нужно просто найти второй корень уравнения."
+      "generatorCode": "const x1 = Math.floor(Math.random() * 13) - 6 || 1; const x2 = Math.floor(Math.random() * 13) - 6 || 2; const b = -(x1 + x2); const c = x1 * x2; const fSign = (n) => (n >= 0 ? '+ ' + n : '- ' + Math.abs(n)); const fBrack = (n) => (n >= 0 ? '- ' + n : '+ ' + Math.abs(n)); task.question = `x^2 ${fSign(b)}x ${fSign(c)} = (x ${fBrack(x1)})(x - a)`; task.answer = x2;",
+      "generatorExplanation": "Найдите число **a**. По теореме Виета для уравнения $x^2 + bx + c = 0$ произведение корней $x_1 \\cdot x_2 = c$. В задании один корень уже дан в первой скобке (с противоположным знаком), вам нужно найти второй."
     }
   }
 }
