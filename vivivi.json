@@ -1,0 +1,30 @@
+{
+  "topic": {
+    "id": "new-topic",
+    "title": "Новая тема",
+    "color": "#1CB0F6",
+    "subtopics": [
+      {
+        "title": "Введение",
+        "levels": [
+          "lesson-4"
+        ]
+      }
+    ]
+  },
+  "lessons": {
+    "lesson-4": {
+      "title": "обычный урок 1",
+      "theory": "Теория к этому уроку доступна.",
+      "tasks": [
+        {
+          "type": "input",
+          "question": "текст или latex <br> прп <br> зад <br> .п. <br> текст и latex",
+          "correct": "1",
+          "explanation": ""
+        }
+      ]
+    }
+  },
+  "cheatSheets": []
+}
