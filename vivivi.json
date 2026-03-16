@@ -12,15 +12,13 @@
   },
   "lessons": {
     "5": {
-      "tasks": [],
-      "isTest": false,
-      "isRepetition": false,
       "isGenerator": true,
       "title": "Генератор заданий",
       "hasTheory": false,
+      "path": "Уравнения -> Генератор заданий",
       "generatorFormulas": "x^2 + {{b}}x + {{c}} = (x - {{x1}})(x - a)",
-      "generatorExplanation": "Найдите значение коэффициента **a**, чтобы равенство стало верным.",
-      "path": "Уравнения -> Генератор заданий"
+      "generatorCode": "const x1 = Math.floor(Math.random() * 20) - 10 || 1; const x2 = Math.floor(Math.random() * 20) - 10 || 2; const b = -(x1 + x2); const c = x1 * x2; const format = (n) => (n >= 0 ? '+ ' + n : '- ' + Math.abs(n)); const bracket = (n) => (n >= 0 ? '- ' + n : '+ ' + Math.abs(n)); task.formula = `x^2 ${format(b)}x ${format(c)} = (x ${bracket(x1)})(x - a)`; task.answer = x2;",
+      "generatorExplanation": "Найдите значение **a**, используя формулу: $x_1 \\cdot x_2 = c$. В данном случае $a$ — это второй корень уравнения."
     }
   }
 }
