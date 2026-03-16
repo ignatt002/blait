@@ -14,7 +14,32 @@
   },
   "lessons": {
     "5": {
-      "tasks": [],
+      "tasks": [
+        {
+          "id": "gen_1",
+          "text": "Разложите на множители: x² - 5x + 6 (подсказка: x₁=2, x₂=3)",
+          "answer": "(x-2)(x-3)",
+          "type": "formula_1"
+        },
+        {
+          "id": "gen_2",
+          "text": "Найдите свободный член c, если a=1, x₁=4, x₂=-2",
+          "answer": "-8",
+          "type": "formula_2"
+        },
+        {
+          "id": "gen_3",
+          "text": "Разложите на множители: 2x² - 2x - 12 (подсказка: x₁=3, x₂=-2)",
+          "answer": "2(x-3)(x+2)",
+          "type": "formula_1"
+        },
+        {
+          "id": "gen_4",
+          "text": "Найдите свободный член c, если a=3, x₁=1, x₂=5",
+          "answer": "15",
+          "type": "formula_2"
+        }
+      ],
       "isTest": false,
       "isRepetition": false,
       "isGenerator": true,
