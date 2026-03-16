@@ -5,10 +5,8 @@
     "color": "#1cb0f6",
     "subtopics": [
       {
-        "title": "Основное",
-        "levels": [
-          "5"
-        ]
+        "title": "Разложение на множители",
+        "levels": ["5"]
       }
     ]
   },
@@ -20,8 +18,8 @@
       "isGenerator": true,
       "title": "Генератор заданий",
       "hasTheory": false,
-      "generatorFormulas": "ax^2 + bx + c = a(x - x_1)(x - x_2) ИЛИ c = a \\cdot x_1 \\cdot x_2",
-      "generatorExplanation": "Сложи два числа<br><br>Вычти второе из первого",
+      "generatorFormulas": "x^2 + {{b}}x + {{c}} = (x - {{x1}})(x - a)",
+      "generatorExplanation": "Найдите значение коэффициента **a**, чтобы равенство стало верным.",
       "path": "Уравнения -> Генератор заданий"
     }
   }
