@@ -1,7 +1,7 @@
 {
   "topic": {
-    "id": "ID",
-    "title": "Уравнения",
+    "id": "OGE_MATH_9",
+    "title": "Уравнения (Задание 9)",
     "color": "#1cb0f6",
     "subtopics": [
       {
@@ -13,12 +13,11 @@
   "lessons": {
     "5": {
       "isGenerator": true,
-      "title": "Генератор заданий",
+      "title": "Генератор: Нахождение коэффициента",
       "hasTheory": false,
-      "path": "Уравнения -> Генератор заданий",
-      "generatorFormulas": "x^2 + {{b}}x + {{c}} = (x - {{x1}})(x - a)",
-      "generatorCode": "const x1 = Math.floor(Math.random() * 20) - 10 || 1; const x2 = Math.floor(Math.random() * 20) - 10 || 2; const b = -(x1 + x2); const c = x1 * x2; const format = (n) => (n >= 0 ? '+ ' + n : '- ' + Math.abs(n)); const bracket = (n) => (n >= 0 ? '- ' + n : '+ ' + Math.abs(n)); task.formula = `x^2 ${format(b)}x ${format(c)} = (x ${bracket(x1)})(x - a)`; task.answer = x2;",
-      "generatorExplanation": "Найдите значение **a**, используя формулу: $x_1 \\cdot x_2 = c$. В данном случае $a$ — это второй корень уравнения."
+      "path": "ОГЭ Математика -> Задание 9",
+      "generatorCode": "const x1 = Math.floor(Math.random() * 15) - 7 || 1; const x2 = Math.floor(Math.random() * 15) - 7 || 2; const b = -(x1 + x2); const c = x1 * x2; const fSign = (n) => (n >= 0 ? '+ ' + n : '- ' + Math.abs(n)); const fBrack = (n) => (n >= 0 ? '- ' + n : '+ ' + Math.abs(n)); task.question = `x^2 ${fSign(b)}x ${fSign(c)} = (x ${fBrack(x1)})(x - a)`; task.answer = x2;",
+      "generatorExplanation": "Для решения используй теорему Виета. В уравнении вида $x^2 + bx + c = (x - x_1)(x - x_2)$ произведение корней равно свободному члену: $x_1 \\cdot x_2 = c$. Чтобы найти $a$, нужно просто найти второй корень уравнения."
     }
   }
 }
