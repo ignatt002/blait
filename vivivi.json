@@ -1,7 +1,7 @@
 {
   "topic": {
     "id": "ID",
-    "title": "9 класс",
+    "title": "Уравнения",
     "color": "#1cb0f6",
     "subtopics": [
       {
@@ -20,9 +20,9 @@
       "isGenerator": true,
       "title": "Генератор заданий",
       "hasTheory": false,
-      "generatorFormulas": "x + y = ИЛИ a - b =",
+      "generatorFormulas": "ax^2 + bx + c = a(x - x_1)(x - x_2) ИЛИ c = a \\cdot x_1 \\cdot x_2",
       "generatorExplanation": "Сложи два числа<br><br>Вычти второе из первого",
-      "path": "9 класс -> Генератор заданий"
+      "path": "Уравнения -> Генератор заданий"
     }
   }
 }
