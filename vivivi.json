@@ -1,23 +1,40 @@
-{
-  "topic": {
-    "id": "OGE_MATH_9",
-    "title": "Уравнения (Задание 9)",
-    "color": "#1cb0f6",
-    "subtopics": [
-      {
-        "title": "Разложение на множители",
-        "levels": ["5"]
-      }
-    ]
-  },
-  "lessons": {
-    "5": {
-      "isGenerator": true,
-      "title": "Генератор: Нахождение коэффициента",
-      "hasTheory": false,
-      "path": "ОГЭ Математика -> Задание 9",
-      "generatorCode": "const x1 = Math.floor(Math.random() * 13) - 6 || 1; const x2 = Math.floor(Math.random() * 13) - 6 || 2; const b = -(x1 + x2); const c = x1 * x2; const fSign = (n) => (n >= 0 ? '+ ' + n : '- ' + Math.abs(n)); const fBrack = (n) => (n >= 0 ? '- ' + n : '+ ' + Math.abs(n)); task.question = `x^2 ${fSign(b)}x ${fSign(c)} = (x ${fBrack(x1)})(x - a)`; task.answer = x2;",
-      "generatorExplanation": "Найдите число **a**. По теореме Виета для уравнения $x^2 + bx + c = 0$ произведение корней $x_1 \\cdot x_2 = c$. В задании один корень уже дан в первой скобке (с противоположным знаком), вам нужно найти второй."
-    }
-  }
+function generateQuadraticTask() {
+    // 1. Генерируем случайные целые корни от -10 до 10 (исключая 0 для интереса)
+    const x1 = Math.floor(Math.random() * 21) - 10;
+    const x2 = Math.floor(Math.random() * 21) - 10;
+    
+    // 2. Генерируем коэффициент 'a' (обычно 1, 2 или -1 для школьных задач)
+    const aCoefficients = [1, 1, 1, 2, -1]; // Единицу берем чаще
+    const a = aCoefficients[Math.floor(Math.random() * aCoefficients.length)];
+
+    // 3. Вычисляем b и c по теореме Виета (расширенной)
+    const b = -a * (x1 + x2);
+    const c = a * x1 * x2;
+
+    // 4. Формируем строку уравнения ax^2 + bx + c
+    // Функция для красивой склейки с учетом знаков
+    const formatTerm = (val, term) => {
+        if (val === 0) return "";
+        let res = val > 0 ? ` + ${val}` : ` - ${Math.abs(val)}`;
+        if (val === 1 && term !== "") res = " + ";
+        if (val === -1 && term !== "") res = " - ";
+        return res + term;
+    };
+
+    let equation = `${a === 1 ? "" : a === -1 ? "-" : a}x^2`;
+    equation += formatTerm(b, "x");
+    equation += formatTerm(c, "");
+
+    // 5. Формируем ответ
+    const answer = `${a === 1 ? "" : a === -1 ? "-" : a}(x ${x1 >= 0 ? '-' : '+'} ${Math.abs(x1)})(x ${x2 >= 0 ? '-' : '+'} ${Math.abs(x2)})`;
+
+    return {
+        question: `Разложите на множители: $${equation}$`,
+        answer: answer,
+        metadata: { x1, x2, a, b, c }
+    };
 }
+
+// Пример использования:
+const newTask = generateQuadraticTask();
+console.log(newTask);
