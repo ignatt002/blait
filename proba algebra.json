@@ -1,0 +1,38 @@
+{
+  "topic": {
+    "id": "topic-1",
+    "title": "Урок",
+    "color": "#1CB0F6",
+    "subtopics": [
+      {
+        "title": "Урок",
+        "theory": {
+          "text": "Урок",
+          "code": "Урок",
+          "text2": "Урок"
+        },
+        "levels": [
+          "lesson-1"
+        ]
+      }
+    ]
+  },
+  "lessons": {
+    "lesson-1": {
+      "path": "Урок > Урок > Урок",
+      "title": "Урок",
+      "hasTheory": false,
+      "tasks": [
+        {
+          "isOge": false,
+          "text": "Урок",
+          "code": "Урок",
+          "correctAnswer": "Урок",
+          "explanationFields": [
+            "Урок"
+          ]
+        }
+      ]
+    }
+  }
+}
