@@ -1,52 +1,103 @@
 {
   "topic": {
-    "id": "ID",
+    "id": "2",
     "title": "9 класс",
     "color": "#1cb0f6",
     "subtopics": [
       {
         "title": "Основное",
         "levels": [
+          "4",
+          "2",
+          "3",
+          "1",
           "5"
         ]
       }
     ]
   },
   "lessons": {
-    "5": {
+    "1": {
       "tasks": [
         {
-          "id": "gen_1",
-          "text": "Разложите на множители: x² - 5x + 6 (подсказка: x₁=2, x₂=3)",
-          "answer": "(x-2)(x-3)",
-          "type": "formula_1"
-        },
-        {
-          "id": "gen_2",
-          "text": "Найдите свободный член c, если a=1, x₁=4, x₂=-2",
-          "answer": "-8",
-          "type": "formula_2"
-        },
-        {
-          "id": "gen_3",
-          "text": "Разложите на множители: 2x² - 2x - 12 (подсказка: x₁=3, x₂=-2)",
-          "answer": "2(x-3)(x+2)",
-          "type": "formula_1"
-        },
-        {
-          "id": "gen_4",
-          "text": "Найдите свободный член c, если a=3, x₁=1, x₂=5",
-          "answer": "15",
-          "type": "formula_2"
+          "type": "input",
+          "isOge": true,
+          "correctAnswer": "4",
+          "explanation": "Просто сложи числа.",
+          "text1": "Решите пример:",
+          "code1": "2+2"
         }
       ],
+      "isTest": false,
+      "isRepetition": false,
+      "isGenerator": false,
+      "title": "Урок",
+      "hasTheory": true,
+      "path": "9 класс -> Урок"
+    },
+    "2": {
+      "tasks": [
+        {
+          "type": "input",
+          "isOge": false,
+          "correctAnswer": "4",
+          "explanation": "Просто сложи числа.",
+          "code1": "2+2",
+          "text1": "Решите пример:"
+        },
+        {
+          "type": "input",
+          "isOge": true,
+          "correctAnswer": "6",
+          "explanation": "Просто сложи числа.",
+          "code1": "3+3",
+          "text1": "Решите ль пример:"
+        }
+      ],
+      "isTest": false,
+      "isRepetition": false,
+      "isGenerator": false,
+      "title": "Урок",
+      "hasTheory": false,
+      "path": "9 класс -> Урок"
+    },
+    "3": {
+      "tasks": [],
+      "isTest": false,
+      "isRepetition": true,
+      "isGenerator": false,
+      "title": "Повторение",
+      "hasTheory": true,
+      "placeAfter": 2,
+      "path": "9 класс -> Повторение"
+    },
+    "4": {
+      "tasks": [
+        {
+          "type": "input",
+          "isOge": false,
+          "correctAnswer": "4",
+          "explanation": "Просто сложи числа.",
+          "code1": "2+2",
+          "text1": "Решите пример:"
+        }
+      ],
+      "isTest": true,
+      "isRepetition": false,
+      "isGenerator": false,
+      "title": "Контрольная работа",
+      "hasTheory": false,
+      "path": "9 класс -> Контрольная работа"
+    },
+    "5": {
+      "tasks": [],
       "isTest": false,
       "isRepetition": false,
       "isGenerator": true,
       "title": "Генератор заданий",
       "hasTheory": false,
-      "generatorFormulas": "ax^2 + bx + c = a(x - x_1)(x - x_2) ИЛИ c = a * x_1 * x_2",
-      "generatorExplanation": "Формула 1: Разложение квадратного трехчлена на множители. Сюда нужно подставить найденные корни x_1 и x_2.<br><br>Формула 2: Следствие теоремы Виета. Свободный член (c) равен произведению коэффициента (a) и обоих корней.",
+      "generatorFormulas": "x + y = ИЛИ a - b =",
+      "generatorExplanation": "Сложи два числа<br><br>Вычти второе из первого",
       "path": "9 класс -> Генератор заданий"
     }
   }
