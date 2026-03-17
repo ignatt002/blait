@@ -1,38 +1,86 @@
 {
   "topic": {
-    "id": "topic-1",
-    "title": "Урок",
-    "color": "#1CB0F6",
+    "id": "topic-roots",
+    "title": "Корни",
+    "color": "#8B5CF6",
+    "theory": {
+      "text1": "<b>Квадратный корень</b> из числа $a$ — это такое неотрицательное число, квадрат которого равен $a$.",
+      "code1": "\\sqrt{a} = b \\iff b^2 = a, \\quad b \\ge 0",
+      "text2": "Основные свойства арифметического квадратного корня:",
+      "code2": "\\sqrt{a \\cdot b} = \\sqrt{a} \\cdot \\sqrt{b} \\\\ \\sqrt{\\frac{a}{b}} = \\frac{\\sqrt{a}}{\\sqrt{b}}"
+    },
     "subtopics": [
       {
-        "title": "Урок",
-        "theory": {
-          "text": "Урок",
-          "code": "Урок",
-          "text2": "Урок"
-        },
+        "title": "Свойства корней",
         "levels": [
-          "lesson-1"
+          "lesson-roots-main",
+          "lesson-roots-test",
+          "lesson-roots-gen",
+          "lesson-roots-rep"
         ]
       }
     ]
   },
   "lessons": {
-    "lesson-1": {
-      "path": "Урок > Урок > Урок",
-      "title": "Урок",
-      "hasTheory": false,
+    "lesson-roots-main": {
+      "title": "Введение в корни",
+      "path": "Корни / Введение",
       "tasks": [
         {
+          "type": "theory",
+          "text1": "Давайте познакомимся с квадратными корнями. Корень позволяет найти исходное число, которое возвели в квадрат.",
+          "code1": "\\sqrt{25} = 5",
+          "text2": "Потому что $5^2 = 25$. А вот корень из отрицательного числа извлечь нельзя (среди действительных чисел).",
+          "code2": "\\sqrt{-9} \\text{ — не существует}"
+        },
+        {
+          "type": "input",
+          "text": "Вычислите значение выражения:<br>\\[ \\sqrt{64} + \\sqrt{36} \\]",
+          "correctAnswer": "14",
+          "isOge": true,
+          "hasTheory": true,
+          "explanation": "Сначала извлекаем корни: $\\sqrt{64} = 8$, $\\sqrt{36} = 6$. Затем складываем: $8 + 6 = 14$."
+        },
+        {
+          "type": "input",
+          "text": "Найдите значение корня:<br>\\[ \\sqrt{144} \\]",
+          "correctAnswer": "12",
           "isOge": false,
-          "text": "Урок",
-          "code": "Урок",
-          "correctAnswer": "Урок",
-          "explanationFields": [
-            "Урок"
-          ]
+          "hasTheory": false,
+          "explanation": "Число, квадрат которого равен 144 — это 12."
         }
       ]
+    },
+    "lesson-roots-test": {
+      "title": "Контрольная работа",
+      "path": "Корни / Контрольная",
+      "isTest": true,
+      "tasks": [
+        {
+          "type": "input",
+          "text": "Вычислите:<br>\\[ \\sqrt{81} - \\sqrt{49} \\]",
+          "correctAnswer": "2",
+          "explanation": "$\\sqrt{81} = 9$, $\\sqrt{49} = 7$. Разность: $9 - 7 = 2$."
+        }
+      ]
+    },
+    "lesson-roots-gen": {
+      "title": "Генератор квадратов",
+      "path": "Корни / Генератор",
+      "isGenerator": true,
+      "hasTheory": true,
+      "isOge": true,
+      "generatorFormulas": "x * x = y ИЛИ x * 2 = y",
+      "generatorExplanations": [
+        "Это возведение в квадрат.; Умножаем число само на себя.",
+        "Это умножение на 2.; Увеличиваем число в два раза."
+      ]
+    },
+    "lesson-roots-rep": {
+      "title": "Повторение темы",
+      "path": "Корни / Повторение",
+      "isRepetition": true,
+      "tasksToGather": 3
     }
   }
 }
