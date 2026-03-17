@@ -1,0 +1,120 @@
+{
+  "topic": {
+    "id": "mega-algebra",
+    "title": "Уравнения",
+    "color": "#1CB0F6",
+    "subtopics": [
+      {
+        "title": "Изучение материала",
+        "levels": [
+          "lesson-1",
+          "lesson-2",
+          "lesson-3"
+        ]
+      },
+      {
+        "title": "Практика и контроль",
+        "levels": [
+          "lesson-rep",
+          "lesson-gen",
+          "lesson-test"
+        ]
+      }
+    ]
+  },
+
+  "lessons": {
+    "lesson-1": {
+      "title": "Урок 1: Введение",
+      "hasTheory": true,
+      "theory": {
+        "text1": "<b>Теория урока:</b> Переменная — это буква, заменяющая число.",
+        "code1": "x + 2 = 5",
+        "text2": "Чтобы найти неизвестное слагаемое, нужно из суммы вычесть известное слагаемое."
+      },
+      "tasks": [
+        {
+          "type": "test",
+          "question": "Что такое x?",
+          "options": ["Переменная", "Число", "Дробь"],
+          "correct": 0,
+          "explanationFields": [
+            "x — это переменная.",
+            "Она может принимать разные значения в зависимости от уравнения."
+          ]
+        }
+      ]
+    },
+
+    "lesson-2": {
+      "title": "Урок 2: Задания из ОГЭ",
+      "hasTheory": true,
+      "theory": {
+        "text1": "В этом уроке мы решаем реальные задания из ОГЭ."
+      },
+      "tasks": [
+        {
+          "type": "input",
+          "isOge": true,
+          "question": "Решите уравнение: 2x = 10",
+          "correctAnswer": "5",
+          "explanationFields": [
+            "Это линейное уравнение.",
+            "Делим обе части уравнения на 2.",
+            "Получаем x = 5."
+          ]
+        }
+      ]
+    },
+
+    "lesson-3": {
+      "title": "Урок 3: Дроби",
+      "tasks": [
+        {
+          "type": "math",
+          "isOge": true,
+          "question": "Вычислите: \\frac{1}{2} + \\frac{1}{2}",
+          "correctAnswer": "1",
+          "explanationFields": [
+            "Складываем числители, так как знаменатели одинаковые.",
+            "Получается 2/2.",
+            "Дробь 2/2 равна 1."
+          ]
+        }
+      ]
+    },
+
+    "lesson-rep": {
+      "title": "Повторение темы",
+      "isRepetition": true,
+      "tasksToGather": 3
+    },
+
+    "lesson-gen": {
+      "title": "Генератор уравнений",
+      "isGenerator": true,
+      "isOge": true,
+      "generatorFormulas": "x + 5 = y ИЛИ 2 \\cdot x = y",
+      "generatorExplanations": [
+        "Это уравнение на сложение.; Чтобы найти x, нужно из y вычесть 5.; Переносим 5 вправо с противоположным знаком.",
+        "Это уравнение на умножение.; Чтобы найти x, нужно y разделить на 2.; Делим обе части на 2."
+      ]
+    },
+
+    "lesson-test": {
+      "title": "Контрольная работа",
+      "disableCheatSheet": true,
+      "tasks": [
+        {
+          "type": "input",
+          "question": "Решите уравнение без подсказок: 5x = 25",
+          "correctAnswer": "5",
+          "explanationFields": [
+            "На контрольной нужно думать самому!",
+            "Но так и быть: делим 25 на 5."
+          ]
+        }
+      ]
+    }
+  }
+}
