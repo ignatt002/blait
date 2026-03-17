@@ -1,34 +1,37 @@
 {
   "topic": {
-    "id": "oge-math-generator",
+    "id": "tema-oge",
     "title": "Подготовка к ОГЭ",
-    "color": "#FF4B4B",
-    "theory": {
-      "text1": "<b>Теория темы:</b> Здесь собраны все основные правила для решения уравнений из ОГЭ.",
-      "code1": "x = \\frac{-b \\pm \\sqrt{D}}{2a}",
-      "text2": "Не забывайте, что дискриминант вычисляется по формуле:",
-      "code2": "D = b^2 - 4ac"
-    },
+    "color": "#1cb0f6",
     "subtopics": [
       {
-        "title": "Уравнения",
+        "title": "8 задание",
         "levels": [
-          "lesson-gen-oge"
+          "1"
         ]
       }
     ]
   },
   "lessons": {
-    "lesson-gen-oge": {
-      "title": "Генератор ОГЭ",
-      "isGenerator": true,
-      "hasTheory": true,
-      "isOge": true,
-      "generatorFormulas": "2 \\cdot x = y ИЛИ x + 5 = y",
-      "generatorExplanations": [
-        "Это уравнение на умножение.; Чтобы найти неизвестный множитель, нужно произведение разделить на известный множитель.; Делим y на 2.",
-        "Это уравнение на сложение.; Чтобы найти неизвестное слагаемое, нужно из суммы вычесть известное слагаемое.; Вычитаем 5 из y."
-      ]
+    "1": {
+      "tasks": [
+        {
+          "type": "input",
+          "isOge": false,
+          "correctAnswer": "6\\sqrt{7}",
+          "explanation": "Видишь, под корнем и там, и там стоит семерка; Значит, мы просто работаем с числами перед корнями: 10 - 4 = 6; Корень \\sqrt{7} просто дописываем рядом, как фамилию",
+          "code1": "\\sqrt{a^6 \\cdot 9}",
+          "code2": "\\frac{\\sqrt{75}}{\\sqrt{3}}",
+          "text1": "бубубв",
+          "text2": "Вычисли значение при a=2:"
+        }
+      ],
+      "isTest": false,
+      "isRepetition": false,
+      "isGenerator": false,
+      "title": "Урок",
+      "hasTheory": false,
+      "path": "Подготовка к ОГЭ -> Урок"
     }
   }
 }
