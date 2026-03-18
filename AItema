@@ -7,7 +7,12 @@
       {
         "title": "Раздел 1",
         "levels": [
-          "lesson-privetik--vvedenie"
+          "lesson-privetik--vvedenie",
+          "lesson-privetik--novyy-urok2",
+          "lesson-privetik--novyy-urok3",
+          "lesson-privetik--novyy-urok3",
+          "lesson-privetik--novyy-urok",
+          "lesson-privetik--novyy-urok"
         ]
       }
     ]
@@ -21,11 +26,11 @@
           "type": "input",
           "isOge": true,
           "hasTheory": true,
-          "text1": "Вычислите",
+          "text1": "1",
           "code1": "\\sqrt{25}",
           "correctAnswer": "5",
           "explanation": "Корень из 25 равен 5, так как 5 в квадрате это 25.",
-          "text": "Вычислите<br>\\[ \\sqrt{25} \\]"
+          "text": "1<br>\\[ \\sqrt{25} \\]"
         },
         {
           "type": "input",
@@ -44,6 +49,44 @@
           "text": "теория<br>\\[ мимишки \\]"
         }
       ]
+    },
+    "lesson-privetik--novyy-urok2": {
+      "title": "Новый урок2",
+      "path": "приветик  / Новый урок2",
+      "tasks": [
+        {
+          "type": "input",
+          "isOge": true,
+          "hasTheory": true,
+          "text1": "3",
+          "code1": "\\sqrt{25}",
+          "correctAnswer": "5",
+          "explanation": "Корень из 25 равен 5, так как 5 в квадрате это 25.",
+          "text": "3<br>\\[ \\sqrt{25} \\]"
+        }
+      ]
+    },
+    "lesson-privetik--novyy-urok3": {
+      "title": "Новый урок3",
+      "path": "приветик  / Новый урок3",
+      "tasks": [
+        {
+          "type": "input",
+          "isOge": true,
+          "hasTheory": true,
+          "text1": "4",
+          "code1": "\\sqrt{25}",
+          "correctAnswer": "5",
+          "explanation": "Корень из 25 равен 5, так как 5 в квадрате это 25.",
+          "text": "4<br>\\[ \\sqrt{25} \\]"
+        }
+      ]
+    },
+    "lesson-privetik--novyy-urok": {
+      "title": "Новый урок",
+      "path": "приветик  / Новый урок",
+      "isRepetition": true,
+      "tasksToGather": 6
     }
   }
 }
