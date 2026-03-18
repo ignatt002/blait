@@ -1,17 +1,17 @@
 {
   "topic": {
-    "id": "",
-    "title": "",
+    "id": "7",
+    "title": "привет",
     "color": "#8b5cf6",
     "subtopics": [],
     "levels": [
-      "lesson-1773865535964"
+      "lesson-1773865509462"
     ]
   },
   "lessons": {
-    "lesson-1773865535964": {
-      "title": "название",
-      "path": " / название",
+    "lesson-1773865509462": {
+      "title": "о",
+      "path": "привет / о",
       "tasks": [
         {
           "type": "input",
