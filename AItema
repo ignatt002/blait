@@ -1,21 +1,21 @@
 {
   "topic": {
-    "id": "topic-korni",
-    "title": "Корни",
+    "id": "topic-privetik-",
+    "title": "приветик ",
     "color": "#8B5CF6",
     "subtopics": [
       {
         "title": "Раздел 1",
         "levels": [
-          "lesson-korni-vvedenie"
+          "lesson-privetik--vvedenie"
         ]
       }
     ]
   },
   "lessons": {
-    "lesson-korni-vvedenie": {
+    "lesson-privetik--vvedenie": {
       "title": "Введение",
-      "path": "Корни / Введение",
+      "path": "приветик  / Введение",
       "tasks": [
         {
           "type": "input",
@@ -26,6 +26,22 @@
           "correctAnswer": "5",
           "explanation": "Корень из 25 равен 5, так как 5 в квадрате это 25.",
           "text": "Вычислите<br>\\[ \\sqrt{25} \\]"
+        },
+        {
+          "type": "input",
+          "isOge": true,
+          "hasTheory": true,
+          "text1": "Вычислите",
+          "code1": "\\sqrt{25}",
+          "correctAnswer": "5",
+          "explanation": "Корень из 25 равен 5; так как 5 в квадрате это 25.",
+          "text": "Вычислите<br>\\[ \\sqrt{25} \\]"
+        },
+        {
+          "type": "input",
+          "text1": "теория",
+          "code1": "мимишки",
+          "text": "теория<br>\\[ мимишки \\]"
         }
       ]
     }
