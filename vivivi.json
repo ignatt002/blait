@@ -1,11 +1,11 @@
 {
   "topic": {
     "id": "",
-    "title": "п",
+    "title": "ОГЭ",
     "color": "#8b5cf6",
     "subtopics": [
       {
-        "title": "п",
+        "title": "8 задание",
         "levels": [
           "lesson-1773843936536"
         ]
@@ -14,7 +14,7 @@
   },
   "lessons": {
     "lesson-1773843936536": {
-      "title": "п",
+      "title": "Укращаем корни!",
       "tasks": [
         {
           "type": "input",
