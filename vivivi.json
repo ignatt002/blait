@@ -1,24 +1,31 @@
 {
   "topic": {
-    "id": "topic-new",
-    "title": "Новая тема",
-    "color": "#8b5cf6",
-    "levels": [
-      "lesson-1773866544985"
+    "id": "3",
+    "title": "корни",
+    "color": "#000000",
+    "subtopics": [
+      {
+        "title": "подтема",
+        "levels": [
+          "lesson-1773867891784"
+        ]
+      }
     ]
   },
   "lessons": {
-    "lesson-1773866544985": {
-      "title": "урок",
-      "path": "пп",
+    "lesson-1773867891784": {
+      "title": "урок 1",
       "tasks": [
         {
           "type": "input",
-          "text": "текст задания",
+          "text1": "привет это текст 1",
+          "code1": "это код",
+          "text2": "р",
+          "code2": "р",
           "correctAnswer": "1",
-          "explanation": "объяснение; объяснение",
-          "isOge": true,
-          "hasTheory": true
+          "explanationFields": [
+            "2"
+          ]
         }
       ]
     }
