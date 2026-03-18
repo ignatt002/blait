@@ -9,11 +9,12 @@
         "levels": [
           "lesson-privetik--vvedenie",
           "lesson-privetik--novyy-urok2",
+          "lesson-privetik--novyy-urok1",
           "lesson-privetik--novyy-urok3",
-          "lesson-privetik--novyy-urok3",
-          "lesson-privetik--novyy-urok",
-          "lesson-privetik--novyy-urok",
-          "lesson-privetik--novyy-urok"
+          "lesson-privetik--novyy-urok6",
+          "lesson-privetik--novyy-urok7",
+          "lesson-privetik--novyy-urok8",
+          "lesson-privetik--novyy-urok9"
         ]
       }
     ]
@@ -67,6 +68,22 @@
         }
       ]
     },
+    "lesson-privetik--novyy-urok1": {
+      "title": "Новый урок1",
+      "path": "приветик  / Новый урок1",
+      "tasks": [
+        {
+          "type": "input",
+          "isOge": true,
+          "hasTheory": true,
+          "text1": "4",
+          "code1": "\\sqrt{25}",
+          "correctAnswer": "5",
+          "explanation": "Корень из 25 равен 5, так как 5 в квадрате это 25.",
+          "text": "4<br>\\[ \\sqrt{25} \\]"
+        }
+      ]
+    },
     "lesson-privetik--novyy-urok3": {
       "title": "Новый урок3",
       "path": "приветик  / Новый урок3",
@@ -83,9 +100,32 @@
         }
       ]
     },
-    "lesson-privetik--novyy-urok": {
-      "title": "Новый урок",
-      "path": "приветик  / Новый урок",
+    "lesson-privetik--novyy-urok6": {
+      "title": "Новый урок6",
+      "path": "приветик  / Новый урок6",
+      "isTest": true,
+      "tasks": [
+        {
+          "type": "input",
+          "isOge": true,
+          "hasTheory": true,
+          "text1": "5",
+          "code1": "\\sqrt{25}",
+          "correctAnswer": "5",
+          "explanation": "Корень из 25 равен 5, так как 5 в квадрате это 25.",
+          "text": "5<br>\\[ \\sqrt{25} \\]"
+        }
+      ]
+    },
+    "lesson-privetik--novyy-urok7": {
+      "title": "Новый урок7",
+      "path": "приветик  / Новый урок7",
+      "isRepetition": true,
+      "tasksToGather": 6
+    },
+    "lesson-privetik--novyy-urok8": {
+      "title": "Новый урок8",
+      "path": "приветик  / Новый урок8",
       "isTest": true,
       "tasks": [
         {
@@ -98,6 +138,18 @@
           "explanation": "Корень из 25 равен 5, так как 5 в квадрате это 25.",
           "text": "Вычислите<br>\\[ \\sqrt{25} \\]"
         }
+      ]
+    },
+    "lesson-privetik--novyy-urok9": {
+      "title": "Новый урок9",
+      "path": "приветик  / Новый урок9",
+      "isGenerator": true,
+      "isOge": true,
+      "hasTheory": true,
+      "generatorFormulas": "x * x = y",
+      "generatorExplanations": [
+        "Это возведение в квадрат.; Умножаем на само себя.",
+        "Квадрат числа всегда положителен."
       ]
     }
   }
