@@ -1,1 +1,44 @@
-
+{
+  "topic": {
+    "id": "",
+    "title": "",
+    "color": "#8b5cf6",
+    "subtopics": [
+      {
+        "title": "г",
+        "levels": [
+          "lesson-1773840838720"
+        ]
+      },
+      {
+        "title": "р",
+        "levels": []
+      }
+    ]
+  },
+  "lessons": {
+    "lesson-1773840838720": {
+      "title": "р",
+      "tasks": [
+        {
+          "type": "input",
+          "text1": "[символы или latex].",
+          "code1": "[символы или latex].",
+          "text2": "[символы или latex].",
+          "code2": "[символы или latex].",
+          "correctAnswer": "1.",
+          "explanation": "[текст]; [текст]; [текст]."
+        },
+        {
+          "type": "input",
+          "text1": "[символы или latex].",
+          "code1": "[символы или latex].",
+          "code2": "[символы или latex].",
+          "text2": "[символы или latex].",
+          "correctAnswer": "1.",
+          "explanation": "[текст]; [текст]; [текст]."
+        }
+      ]
+    }
+  }
+}
