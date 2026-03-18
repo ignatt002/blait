@@ -1,20 +1,17 @@
 {
   "topic": {
     "id": "",
-    "title": "Тема",
+    "title": "",
     "color": "#8b5cf6",
     "subtopics": [],
     "levels": [
-      "lesson-1773864885014",
-      "lesson-1773864946068",
-      "lesson-1773864985238",
-      "lesson-1773864997849"
+      "lesson-1773865535964"
     ]
   },
   "lessons": {
-    "lesson-1773864885014": {
+    "lesson-1773865535964": {
       "title": "название",
-      "path": "Тема / название",
+      "path": " / название",
       "tasks": [
         {
           "type": "input",
@@ -35,41 +32,6 @@
           "explanation": "..."
         }
       ]
-    },
-    "lesson-1773864946068": {
-      "title": "кр",
-      "path": "Тема / кр",
-      "tasks": [
-        {
-          "type": "input",
-          "text1": "...",
-          "code1": "...",
-          "text2": "...",
-          "code2": "...",
-          "correctAnswer": "...",
-          "explanation": "..."
-        },
-        {
-          "type": "input",
-          "text1": "...",
-          "code1": "...",
-          "text2": "...",
-          "code2": "...",
-          "correctAnswer": "...",
-          "explanation": "..."
-        }
-      ],
-      "isTest": true
-    },
-    "lesson-1773864985238": {
-      "title": "название",
-      "path": "Тема / название",
-      "isRepetition": true
-    },
-    "lesson-1773864997849": {
-      "title": "название",
-      "path": "Тема / название",
-      "isGenerator": true
     }
   }
 }
