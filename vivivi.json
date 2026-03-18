@@ -1,24 +1,20 @@
 {
   "topic": {
     "id": "",
-    "title": "",
+    "title": "п",
     "color": "#8b5cf6",
     "subtopics": [
       {
-        "title": "г",
+        "title": "п",
         "levels": [
-          "lesson-1773840838720"
+          "lesson-1773843936536"
         ]
-      },
-      {
-        "title": "р",
-        "levels": []
       }
     ]
   },
   "lessons": {
-    "lesson-1773840838720": {
-      "title": "р",
+    "lesson-1773843936536": {
+      "title": "п",
       "tasks": [
         {
           "type": "input",
