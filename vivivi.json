@@ -1,35 +1,24 @@
 {
   "topic": {
-    "id": "7",
-    "title": "привет",
+    "id": "topic-new",
+    "title": "Новая тема",
     "color": "#8b5cf6",
-    "subtopics": [],
     "levels": [
-      "lesson-1773865509462"
+      "lesson-1773866544985"
     ]
   },
   "lessons": {
-    "lesson-1773865509462": {
-      "title": "о",
-      "path": "привет / о",
+    "lesson-1773866544985": {
+      "title": "урок",
+      "path": "пп",
       "tasks": [
         {
           "type": "input",
-          "text1": "...",
-          "code1": "...",
-          "text2": "...",
-          "code2": "...",
-          "correctAnswer": "...",
-          "explanation": "..."
-        },
-        {
-          "type": "input",
-          "text1": "...",
-          "code1": "...",
-          "text2": "...",
-          "code2": "...",
-          "correctAnswer": "...",
-          "explanation": "..."
+          "text": "текст задания",
+          "correctAnswer": "1",
+          "explanation": "объяснение; объяснение",
+          "isOge": true,
+          "hasTheory": true
         }
       ]
     }
