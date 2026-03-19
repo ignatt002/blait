@@ -3,20 +3,19 @@
     "id": "topic-korni",
     "title": "Корни",
     "color": "#8B5CF6",
-    "theory": {},
     "subtopics": [
       {
         "title": "Свойства корней",
         "levels": [
           "lesson-korni-vvedenie-v-korni",
-          "lesson-korni-novyy-urok1"
+          "lesson-korni-novyy-urok"
         ]
       },
       {
         "title": "Новая подтема",
         "levels": [
-          "lesson-korni-novyy-urok2",
-          "lesson-korni-novyy-urok3"
+          "lesson-korni-novyy-urok",
+          "lesson-korni-novyy-urok"
         ]
       }
     ]
@@ -28,199 +27,18 @@
       "tasks": [
         {
           "type": "input",
-          "text1": "пп",
-          "text": "пп<br>\\[  \\]"
+          "text": "оо"
         }
       ]
     },
-    "lesson-korni-novyy-urok1": {
-      "title": "Новый урок1",
-      "path": "Корни / Новый урок1",
-      "isTest": true,
+    "lesson-korni-novyy-urok": {
+      "title": "Новый урок",
+      "path": "Корни / Новый урок",
       "tasks": [
         {
           "type": "input",
-          "text1": "оо",
-          "text": "оо<br>\\[  \\]"
+          "text": "оо"
         }
-      ]
-    },
-    "lesson-korni-novyy-urok2": {
-      "title": "Новый урок2",
-      "path": "Корни / Новый урок2",
-      "tasks": [
-        {
-          "type": "input",
-          "text1": "оо",
-          "text": "оо<br>\\[  \\]"
-        }
-      ]
-    },
-    "lesson-korni-novyy-urok3": {
-      "title": "Новый урок3",
-      "path": "Корни / Новый урок3",
-      "tasks": [
-        {
-          "type": "input",
-          "text1": "оо",
-          "text": "оо<br>\\[  \\]"
-        }
-      ]
-    }
-  }
-}
-{
-  "topic": {
-    "id": "topic-privetik-",
-    "title": "приветик ",
-    "color": "#8B5CF6",
-    "subtopics": [
-      {
-        "title": "Раздел 1",
-        "levels": [
-          "lesson-privetik--vvedenie",
-          "lesson-privetik--novyy-urok2",
-          "lesson-privetik--novyy-urok1",
-          "lesson-privetik--novyy-urok3",
-          "lesson-privetik--novyy-urok6",
-          "lesson-privetik--novyy-urok7",
-          "lesson-privetik--novyy-urok8",
-          "lesson-privetik--novyy-urok9"
-        ]
-      }
-    ]
-  },
-  "lessons": {
-    "lesson-privetik--vvedenie": {
-      "title": "Введение",
-      "path": "приветик  / Введение",
-      "tasks": [
-        {
-          "type": "input",
-          "isOge": true,
-          "hasTheory": true,
-          "text1": "1",
-          "code1": "\\sqrt{25}",
-          "correctAnswer": "5",
-          "explanation": "Корень из 25 равен 5, так как 5 в квадрате это 25.",
-          "text": "1<br>\\[ \\sqrt{25} \\]"
-        },
-        {
-          "type": "input",
-          "isOge": true,
-          "hasTheory": true,
-          "text1": "Вычислите",
-          "code1": "\\sqrt{25}",
-          "correctAnswer": "5",
-          "explanation": "Корень из 25 равен 5; так как 5 в квадрате это 25.",
-          "text": "Вычислите<br>\\[ \\sqrt{25} \\]"
-        },
-        {
-          "type": "input",
-          "text1": "теория",
-          "code1": "мимишки",
-          "text": "теория<br>\\[ мимишки \\]"
-        }
-      ]
-    },
-    "lesson-privetik--novyy-urok2": {
-      "title": "Новый урок2",
-      "path": "приветик  / Новый урок2",
-      "tasks": [
-        {
-          "type": "input",
-          "isOge": true,
-          "hasTheory": true,
-          "text1": "3",
-          "code1": "\\sqrt{25}",
-          "correctAnswer": "5",
-          "explanation": "Корень из 25 равен 5, так как 5 в квадрате это 25.",
-          "text": "3<br>\\[ \\sqrt{25} \\]"
-        }
-      ]
-    },
-    "lesson-privetik--novyy-urok1": {
-      "title": "Новый урок1",
-      "path": "приветик  / Новый урок1",
-      "tasks": [
-        {
-          "type": "input",
-          "isOge": true,
-          "hasTheory": true,
-          "text1": "4",
-          "code1": "\\sqrt{25}",
-          "correctAnswer": "5",
-          "explanation": "Корень из 25 равен 5, так как 5 в квадрате это 25.",
-          "text": "4<br>\\[ \\sqrt{25} \\]"
-        }
-      ]
-    },
-    "lesson-privetik--novyy-urok3": {
-      "title": "Новый урок3",
-      "path": "приветик  / Новый урок3",
-      "tasks": [
-        {
-          "type": "input",
-          "isOge": true,
-          "hasTheory": true,
-          "text1": "4",
-          "code1": "\\sqrt{25}",
-          "correctAnswer": "5",
-          "explanation": "Корень из 25 равен 5, так как 5 в квадрате это 25.",
-          "text": "4<br>\\[ \\sqrt{25} \\]"
-        }
-      ]
-    },
-    "lesson-privetik--novyy-urok6": {
-      "title": "Новый урок6",
-      "path": "приветик  / Новый урок6",
-      "isTest": true,
-      "tasks": [
-        {
-          "type": "input",
-          "isOge": true,
-          "hasTheory": true,
-          "text1": "5",
-          "code1": "\\sqrt{25}",
-          "correctAnswer": "5",
-          "explanation": "Корень из 25 равен 5, так как 5 в квадрате это 25.",
-          "text": "5<br>\\[ \\sqrt{25} \\]"
-        }
-      ]
-    },
-    "lesson-privetik--novyy-urok7": {
-      "title": "Новый урок7",
-      "path": "приветик  / Новый урок7",
-      "isRepetition": true,
-      "tasksToGather": 6
-    },
-    "lesson-privetik--novyy-urok8": {
-      "title": "Новый урок8",
-      "path": "приветик  / Новый урок8",
-      "isTest": true,
-      "tasks": [
-        {
-          "type": "input",
-          "isOge": true,
-          "hasTheory": true,
-          "text1": "Вычислите",
-          "code1": "\\sqrt{25}",
-          "correctAnswer": "5",
-          "explanation": "Корень из 25 равен 5, так как 5 в квадрате это 25.",
-          "text": "Вычислите<br>\\[ \\sqrt{25} \\]"
-        }
-      ]
-    },
-    "lesson-privetik--novyy-urok9": {
-      "title": "Новый урок9",
-      "path": "приветик  / Новый урок9",
-      "isGenerator": true,
-      "isOge": true,
-      "hasTheory": true,
-      "generatorFormulas": "x * x = y",
-      "generatorExplanations": [
-        "Это возведение в квадрат.; Умножаем на само себя.",
-        "Квадрат числа всегда положителен."
       ]
     }
   }
