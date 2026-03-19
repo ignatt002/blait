@@ -1,21 +1,21 @@
 {
   "topic": {
-    "id": "topic-novaya-tema",
-    "title": "Новая тема",
+    "id": "topic-8-zadanie",
+    "title": "8 задание",
     "color": "#8B5CF6",
     "subtopics": [
       {
-        "title": "Раздел 1",
+        "title": "Корни",
         "levels": [
-          "lesson-novaya-tema-novyy-urok"
+          "lesson-8-zadanie-novyy-urok"
         ]
       }
     ]
   },
   "lessons": {
-    "lesson-novaya-tema-novyy-urok": {
+    "lesson-8-zadanie-novyy-urok": {
       "title": "Новый урок",
-      "path": "Новая тема / Новый урок",
+      "path": "8 задание / Новый урок",
       "tasks": [
         {
           "type": "input",
@@ -59,7 +59,7 @@
           "explanationFields": [
             "Заносим под общий корень: $\\sqrt{\\frac{75}{3}}$",
             "Делим 75 на 3 и получаем 25",
-            "Корень из 25 — это 5, так как $\\5^2$ = 25"
+            "Корень из 25 — это 5, так как $5^2$ = 25"
           ]
         },
         {
