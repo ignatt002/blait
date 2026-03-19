@@ -1,21 +1,21 @@
 {
   "topic": {
-    "id": "topic-8-zadanie",
-    "title": "8 задание",
+    "id": "topic-8-zadaniee",
+    "title": "8 заданиее",
     "color": "#8B5CF6",
     "subtopics": [
       {
         "title": "Корни",
         "levels": [
-          "lesson-8-zadanie-novyy-urok"
+          "lesson-8-zadaniee-novyy-urok"
         ]
       }
     ]
   },
   "lessons": {
-    "lesson-8-zadanie-novyy-urok": {
+    "lesson-8-zadaniee-novyy-urok": {
       "title": "новый урок",
-      "path": "8 задание / новый урок",
+      "path": "8 заданиее / новый урок",
       "tasks": [
         {
           "type": "input",
