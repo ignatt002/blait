@@ -15,7 +15,12 @@
         "title": "Новая подтема",
         "levels": [
           "lesson-8-zadanie-novyy-urok",
-          "lesson-8-zadanie-novyy-urok",
+          "lesson-8-zadanie-novyy-urok"
+        ]
+      },
+      {
+        "title": "Новая подтема",
+        "levels": [
           "lesson-8-zadanie-novyy-urok"
         ]
       }
@@ -28,19 +33,21 @@
       "tasks": [
         {
           "type": "input",
-          "text": "777.<br>\\[ 666 \\]"
+          "text": "это текст",
+          "code": "ответ 1",
+          "correctAnswer": "1",
+          "explanationFields": [
+            "Видишь, под корнем и там, и там стоит семерка",
+            "Значит, мы просто работаем с числами перед корнями: 10 - 4 = 6",
+            "Корень \\sqrt{7} просто дописываем рядом, как фамилию"
+          ]
         }
       ]
     },
     "lesson-8-zadanie-novyy-urok": {
       "title": "Новый урок",
       "path": "8 задание / Новый урок",
-      "tasks": [
-        {
-          "type": "input",
-          "text": "оо"
-        }
-      ]
+      "tasks": []
     }
   }
 }
