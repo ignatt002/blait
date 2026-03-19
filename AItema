@@ -1,5 +1,76 @@
 {
   "topic": {
+    "id": "topic-korni",
+    "title": "Корни",
+    "color": "#8B5CF6",
+    "theory": {},
+    "subtopics": [
+      {
+        "title": "Свойства корней",
+        "levels": [
+          "lesson-korni-vvedenie-v-korni",
+          "lesson-korni-novyy-urok1"
+        ]
+      },
+      {
+        "title": "Новая подтема",
+        "levels": [
+          "lesson-korni-novyy-urok2",
+          "lesson-korni-novyy-urok3"
+        ]
+      }
+    ]
+  },
+  "lessons": {
+    "lesson-korni-vvedenie-v-korni": {
+      "title": "Введение в корни",
+      "path": "Корни / Введение в корни",
+      "tasks": [
+        {
+          "type": "input",
+          "text1": "пп",
+          "text": "пп<br>\\[  \\]"
+        }
+      ]
+    },
+    "lesson-korni-novyy-urok1": {
+      "title": "Новый урок1",
+      "path": "Корни / Новый урок1",
+      "isTest": true,
+      "tasks": [
+        {
+          "type": "input",
+          "text1": "оо",
+          "text": "оо<br>\\[  \\]"
+        }
+      ]
+    },
+    "lesson-korni-novyy-urok2": {
+      "title": "Новый урок2",
+      "path": "Корни / Новый урок2",
+      "tasks": [
+        {
+          "type": "input",
+          "text1": "оо",
+          "text": "оо<br>\\[  \\]"
+        }
+      ]
+    },
+    "lesson-korni-novyy-urok3": {
+      "title": "Новый урок3",
+      "path": "Корни / Новый урок3",
+      "tasks": [
+        {
+          "type": "input",
+          "text1": "оо",
+          "text": "оо<br>\\[  \\]"
+        }
+      ]
+    }
+  }
+}
+{
+  "topic": {
     "id": "topic-privetik-",
     "title": "приветик ",
     "color": "#8B5CF6",
