@@ -1,39 +1,40 @@
 {
   "topic": {
-    "id": "topic-korni",
-    "title": "Корни",
+    "id": "topic-8-zadanie",
+    "title": "8 задание",
     "color": "#8B5CF6",
     "subtopics": [
       {
-        "title": "Свойства корней",
+        "title": "Корни",
         "levels": [
-          "lesson-korni-vvedenie-v-korni",
-          "lesson-korni-novyy-urok"
+          "lesson-8-zadanie-vvedenie-v-korni",
+          "lesson-8-zadanie-novyy-urok"
         ]
       },
       {
         "title": "Новая подтема",
         "levels": [
-          "lesson-korni-novyy-urok",
-          "lesson-korni-novyy-urok"
+          "lesson-8-zadanie-novyy-urok",
+          "lesson-8-zadanie-novyy-urok",
+          "lesson-8-zadanie-novyy-urok"
         ]
       }
     ]
   },
   "lessons": {
-    "lesson-korni-vvedenie-v-korni": {
+    "lesson-8-zadanie-vvedenie-v-korni": {
       "title": "Введение в корни",
-      "path": "Корни / Введение в корни",
+      "path": "8 задание / Введение в корни",
       "tasks": [
         {
           "type": "input",
-          "text": "оо"
+          "text": "777.<br>\\[ 666 \\]"
         }
       ]
     },
-    "lesson-korni-novyy-urok": {
+    "lesson-8-zadanie-novyy-urok": {
       "title": "Новый урок",
-      "path": "Корни / Новый урок",
+      "path": "8 задание / Новый урок",
       "tasks": [
         {
           "type": "input",
