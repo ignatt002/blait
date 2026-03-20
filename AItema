@@ -9,8 +9,8 @@
         "levels": [
           "lesson-8-zadanie-ukrashchaem-korni--podstupaemsya",
           "lesson-8-zadanie-ukrazaem-korni--ne-otlynivaem-",
-          "lesson-8-zadanie-novyy-urok",
-          "lesson-8-zadanie-praktikuemsya-na-prostyh-primerah"
+          "lesson-8-zadanie-praktikuemsya-na-prostyh-primerah",
+          "lesson-8-zadanie-novyy-urok"
         ]
       },
       {
@@ -184,11 +184,6 @@
         }
       ]
     },
-    "lesson-8-zadanie-novyy-urok": {
-      "title": "Новый урок",
-      "path": "8 задание / Новый урок",
-      "tasks": []
-    },
     "lesson-8-zadanie-praktikuemsya-na-prostyh-primerah": {
       "title": "Практикуемся на простых примерах",
       "path": "8 задание / Практикуемся на простых примерах",
@@ -250,6 +245,11 @@
           ]
         }
       ]
+    },
+    "lesson-8-zadanie-novyy-urok": {
+      "title": "Новый урок",
+      "path": "8 задание / Новый урок",
+      "tasks": []
     }
   }
 }
