@@ -6,11 +6,16 @@
     "subtopics": [
       {
         "title": "Корни",
+        "theory": {
+          "text1": "это теория",
+          "code1": "\\sqrt{(5)^2}",
+          "text2": "этой подтемы",
+          "code2": "$\\sqrt{(5)^2}$"
+        },
         "levels": [
           "lesson-8-zadanie-ukrashchaem-korni--podstupaemsya",
           "lesson-8-zadanie--kvadratnye--chisla",
-          "lesson-8-zadanie-praktikuemsya-na-prostyh-primerah",
-          "lesson-8-zadanie-novyy-urok"
+          "lesson-8-zadanie-praktikuemsya-na-prostyh-primerah"
         ]
       },
       {
@@ -351,11 +356,6 @@
           ]
         }
       ]
-    },
-    "lesson-8-zadanie-novyy-urok": {
-      "title": "Новый урок",
-      "path": "8 задание / Новый урок",
-      "tasks": []
     }
   }
 }
