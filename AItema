@@ -16,7 +16,8 @@
           "lesson-8-zadanie-ukrashchaem-korni--podstupaemsya",
           "lesson-8-zadanie--kvadratnye--chisla",
           "lesson-8-zadanie-zakreplyaem-znaniya-na-praktike",
-          "lesson-8-zadanie-treniruemsya"
+          "lesson-8-zadanie-treniruemsya",
+          "lesson-8-zadanie-novyy-urok"
         ]
       },
       {
@@ -495,6 +496,85 @@
             "Упрощаем каждый корень: 2 \\cdot 3\\sqrt{2} + 3 \\cdot 2\\sqrt{2} - 5\\sqrt{2}",
             "Получаем: 6\\sqrt{2} + 6\\sqrt{2} - 5\\sqrt{2}",
             "Считаем коэффициенты: 6 + 6 - 5 = 7"
+          ]
+        }
+      ]
+    },
+    "lesson-8-zadanie-novyy-urok": {
+      "title": "Новый урок",
+      "path": "8 задание / Новый урок",
+      "tasks": [
+        {
+          "type": "input",
+          "hasTheory": true,
+          "text": "Найди значение выражения.",
+          "code": "\\frac{\\sqrt{21} \\cdot \\sqrt{14}}{\\sqrt{6}}",
+          "correctAnswer": "7",
+          "explanationFields": [
+            "Заносим всё под общую крышу: \\sqrt{\\frac{21 \\cdot 14}{6}}",
+            "Сокращаем дробь: \\frac{21 \\cdot 14}{6} = \\frac{7 \\cdot 14}{2} = 7 \\cdot 7 = 49",
+            "Извлекаем корень: \\sqrt{49} = 7"
+          ]
+        },
+        {
+          "type": "input",
+          "hasTheory": true,
+          "text": "Вычисли. Помни, что число перед корнем тоже возводится в степень.",
+          "code": "(3\\sqrt{2})^2 / 9",
+          "correctAnswer": "2",
+          "explanationFields": [
+            "Возводим числитель в квадрат: 3^2 \\cdot (\\sqrt{2})^2 = 9 \\cdot 2 = 18",
+            "Делим на 9: 18 / 9 = 2"
+          ]
+        },
+        {
+          "type": "input",
+          "hasTheory": true,
+          "text": "Упрости и найди ответ.",
+          "code": "\\sqrt{12} \\cdot \\sqrt{3} + \\sqrt{100}",
+          "correctAnswer": "16",
+          "explanationFields": [
+            "Перемножаем первые два корня: \\sqrt{36} = 6",
+            "Извлекаем второй корень: \\sqrt{100} = 10",
+            "Складываем результаты: 6 + 10 = 16"
+          ]
+        },
+        {
+          "type": "input",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "Найди значение выражения. Это классика из экзамена.",
+          "code": "\\sqrt{3 \\cdot 7^2} \\cdot \\sqrt{3 \\cdot 5^4}",
+          "correctAnswer": "525",
+          "explanationFields": [
+            "Объединяем: \\sqrt{3^2 \\cdot 7^2 \\cdot 5^4}",
+            "Извлекаем по частям: 3 \\cdot 7 \\cdot 5^2",
+            "Считаем: 21 \\cdot 25 = 525"
+          ]
+        },
+        {
+          "type": "input",
+          "hasTheory": true,
+          "text": "Сначала упрости каждый корень, потом вычитай.",
+          "code": "\\sqrt{125} - \\sqrt{20}",
+          "correctAnswer": "3\\sqrt{5}",
+          "explanationFields": [
+            "Разложим: \\sqrt{25 \\cdot 5} - \\sqrt{4 \\cdot 5}",
+            "Выносим множители: 5\\sqrt{5} - 2\\sqrt{5}",
+            "Получаем 3\\sqrt{5}"
+          ]
+        },
+        {
+          "type": "input",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "Вычисли значение при a=4:",
+          "code": "\\sqrt{a^2 + 24a + 144}",
+          "correctAnswer": "16",
+          "explanationFields": [
+            "Заметим формулу квадрата суммы под корнем: \\sqrt{(a+12)^2}",
+            "Извлекаем корень: |a+12|",
+            "Подставляем a=4: |4+12| = 16"
           ]
         }
       ]
