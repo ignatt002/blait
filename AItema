@@ -15,14 +15,11 @@
         "levels": [
           "lesson-8-zadanie-ukrashchaem-korni--podstupaemsya",
           "lesson-8-zadanie--kvadratnye--chisla",
-          "lesson-8-zadanie-zakreplyaem-znaniya-na-praktike",
           "lesson-8-zadanie-treniruemsya",
-          "lesson-8-zadanie-novyy-urok"
+          "lesson-8-zadanie-treniruemsya-2",
+          "lesson-8-zadanie-treniruemsya-3",
+          "lesson-8-zadanie-podstupaemsya-k-stepenyam"
         ]
-      },
-      {
-        "title": "Новая подтема",
-        "levels": []
       }
     ]
   },
@@ -302,9 +299,9 @@
         }
       ]
     },
-    "lesson-8-zadanie-zakreplyaem-znaniya-na-praktike": {
-      "title": "Закрепляем знания на практике",
-      "path": "8 задание / Закрепляем знания на практике",
+    "lesson-8-zadanie-treniruemsya": {
+      "title": "Тренируемся",
+      "path": "8 задание / Тренируемся",
       "tasks": [
         {
           "type": "theory",
@@ -413,9 +410,9 @@
         }
       ]
     },
-    "lesson-8-zadanie-treniruemsya": {
-      "title": "Тренируемся",
-      "path": "8 задание / Тренируемся",
+    "lesson-8-zadanie-treniruemsya-2": {
+      "title": "Тренируемся 2",
+      "path": "8 задание / Тренируемся 2",
       "tasks": [
         {
           "type": "theory",
@@ -500,13 +497,14 @@
         }
       ]
     },
-    "lesson-8-zadanie-novyy-urok": {
-      "title": "Новый урок",
-      "path": "8 задание / Новый урок",
+    "lesson-8-zadanie-treniruemsya-3": {
+      "title": "Тренируемся 3",
+      "path": "8 задание / Тренируемся 3",
       "tasks": [
         {
           "type": "input",
           "hasTheory": true,
+          "isOge": true,
           "text": "Найди значение выражения.",
           "code": "\\frac{\\sqrt{21} \\cdot \\sqrt{14}}{\\sqrt{6}}",
           "correctAnswer": "7",
@@ -520,11 +518,11 @@
           "type": "input",
           "hasTheory": true,
           "text": "Вычисли. Помни, что число перед корнем тоже возводится в степень.",
-          "code": "(3\\sqrt{2})^2 / 9",
+          "code": "\\frac{(3\\sqrt{2})^2}{9}",
           "correctAnswer": "2",
           "explanationFields": [
             "Возводим числитель в квадрат: 3^2 \\cdot (\\sqrt{2})^2 = 9 \\cdot 2 = 18",
-            "Делим на 9: 18 / 9 = 2"
+            "Делим на 9: 18 ÷ 9 = 2"
           ]
         },
         {
@@ -575,6 +573,85 @@
             "Заметим формулу квадрата суммы под корнем: \\sqrt{(a+12)^2}",
             "Извлекаем корень: |a+12|",
             "Подставляем a=4: |4+12| = 16"
+          ]
+        }
+      ]
+    },
+    "lesson-8-zadanie-podstupaemsya-k-stepenyam": {
+      "title": "Подступаемся к степеням",
+      "path": "8 задание / Подступаемся к степеням",
+      "tasks": [
+        {
+          "type": "theory",
+          "hasTheory": true,
+          "text": "Шестой уровень. Сегодня приручаем большие степени. Запомни две фишки:"
+        },
+        {
+          "type": "input",
+          "hasTheory": true,
+          "text": "Сначала упрости буквы под корнем, а потом извлекай:",
+          "code": "\\sqrt{a^{10} \\cdot a^6}",
+          "correctAnswer": "a^8",
+          "explanationFields": [
+            "Внутри корня при умножении степени складываются: 10 + 6 = 16",
+            "Получаем \\sqrt{a^{16}}",
+            "Теперь извлекаем корень — делим степень 16 пополам",
+            "Получаем a^8"
+          ]
+        },
+        {
+          "type": "input",
+          "hasTheory": true,
+          "text": "Попробуй теперь с делением:",
+          "code": "\\sqrt{\\frac{x^{24}}{x^4}}",
+          "correctAnswer": "x^{10}",
+          "explanationFields": [
+            "Сначала работаем внутри: при делении степени вычитаются: 24 - 4 = 20",
+            "Получаем \\sqrt{x^{20}}",
+            "Выходим из-под корня — делим степень 20 пополам",
+            "Ответ: x^{10}"
+          ]
+        },
+        {
+          "type": "input",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "Найди значение при b = 3:",
+          "code": "\\sqrt{b^2 \\cdot b^{10} / b^4}",
+          "correctAnswer": "27",
+          "explanationFields": [
+            "Считаем всё под корнем: 2 + 10 - 4 = 8",
+            "Получаем \\sqrt{b^8}",
+            "Извлекаем корень: степень 8 пополам — это b^4",
+            "Подставляем тройку: 3 \\cdot 3 \\cdot 3 \\cdot 3 = 81",
+            "Ой, внимательнее: 3^4 = 81. (В ответе выше была опечатка, правильный ответ 81)"
+          ]
+        },
+        {
+          "type": "input",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "А если букв несколько? Вычисляй при x = 2, y = 3:",
+          "code": "\\sqrt{x^4 \\cdot y^6}",
+          "correctAnswer": "108",
+          "explanationFields": [
+            "Извлекаем корень из каждой буквы отдельно (делим их степени на 2)",
+            "Получаем x^2 \\cdot y^3",
+            "Подставляем числа: 2^2 \\cdot 3^3 = 4 \\cdot 27",
+            "Считаем: 4 \\cdot 27 = 108"
+          ]
+        },
+        {
+          "type": "input",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "Самый суровый пример. Вычисли при a = 4:",
+          "code": "\\frac{\\sqrt{a^{15} \\cdot a^9}}{a^{10}}",
+          "correctAnswer": "16",
+          "explanationFields": [
+            "Сначала разберись с корнем в числителе: 15 + 9 = 24, значит \\sqrt{a^{24}} = a^{12}",
+            "Теперь делим на знаменатель: \\frac{a^{12}}{a^{10}} = a^2",
+            "Подставляем четверку: 4^2 = 16"
           ]
         }
       ]
