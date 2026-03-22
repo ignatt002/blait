@@ -15,7 +15,8 @@
         "levels": [
           "lesson-8-zadanie-ukrashchaem-korni--podstupaemsya",
           "lesson-8-zadanie--kvadratnye--chisla",
-          "lesson-8-zadanie-zakreplyaem-znaniya-na-praktike"
+          "lesson-8-zadanie-zakreplyaem-znaniya-na-praktike",
+          "lesson-8-zadanie-treniruemsya"
         ]
       },
       {
@@ -322,7 +323,6 @@
         },
         {
           "type": "input",
-          "isOge": false,
           "hasTheory": true,
           "text": "А теперь попробуй умножение.",
           "code": "\\sqrt{12} \\cdot \\sqrt{3}",
@@ -335,7 +335,6 @@
         },
         {
           "type": "input",
-          "isOge": false,
           "hasTheory": true,
           "text": "Немного усложним.",
           "code": "\\sqrt{2} \\cdot \\sqrt{32}",
@@ -348,7 +347,6 @@
         },
         {
           "type": "input",
-          "isOge": false,
           "hasTheory": true,
           "text": "Вспомним про деление.",
           "code": "\\frac{\\sqrt{80}}{\\sqrt{5}}",
@@ -361,7 +359,6 @@
         },
         {
           "type": "input",
-          "isOge": false,
           "hasTheory": true,
           "text": "Помнишь ловушку с квадратом и минусом?",
           "code": "\\sqrt{(-12)^2} + \\sqrt{2^2}",
@@ -374,7 +371,6 @@
         },
         {
           "type": "input",
-          "isOge": false,
           "hasTheory": true,
           "text": "Давай внесем число под корень.",
           "code": "3\\sqrt{5}",
@@ -388,7 +384,6 @@
         },
         {
           "type": "input",
-          "isOge": false,
           "hasTheory": true,
           "text": "А теперь комбинированная задача.",
           "code": "\\sqrt{5 \\cdot 18} \\cdot \\sqrt{10}",
@@ -412,6 +407,93 @@
             "Подставим корню из двух единицу, ведь, по сути, \\sqrt{2} — это 1 \\cdot \\sqrt{2}",
             "Получаем: 5\\sqrt{2} - 3\\sqrt{2} + 1\\sqrt{2}",
             "Считаем коэффициенты: 5 - 3 + 1 = 3. Корень \\sqrt{2} просто дописываем."
+          ]
+        }
+      ]
+    },
+    "lesson-8-zadanie-treniruemsya": {
+      "title": "Тренируемся",
+      "path": "8 задание / Тренируемся",
+      "tasks": [
+        {
+          "type": "theory",
+          "hasTheory": true,
+          "text": "Продолжаем тренировать свои нейронные связи! Помни про разложение на множители и поиск пар. Если застрянешь — объяснение в помощь. Удачи!"
+        },
+        {
+          "type": "input",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "Найди значение выражения.",
+          "code": "\\sqrt{12} \\cdot \\sqrt{15} \\cdot \\sqrt{20}",
+          "correctAnswer": "60",
+          "explanationFields": [
+            "Разложим под одним корнем: 4 \\cdot 3 \\cdot 3 \\cdot 5 \\cdot 4 \\cdot 5",
+            "Сгруппируем пары: (4 \\cdot 4) \\cdot (3 \\cdot 3) \\cdot (5 \\cdot 5)",
+            "Извлекаем: 4 \\cdot 3 \\cdot 5 = 60"
+          ]
+        },
+        {
+          "type": "input",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "Совместим умножение и деление.",
+          "code": "\\frac{\\sqrt{2} \\cdot \\sqrt{160}}{\\sqrt{8}}",
+          "correctAnswer": "2\\sqrt{10}",
+          "explanationFields": [
+            "Считаем числитель: \\sqrt{320}",
+            "Делим на знаменатель: \\sqrt{\\frac{320}{8}} = \\sqrt{40}",
+            "Выносим множитель: \\sqrt{4 \\cdot 10} = 2\\sqrt{10}"
+          ]
+        },
+        {
+          "type": "input",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "Квадрат за скобкой.",
+          "code": "(2\\sqrt{3})^2 + \\sqrt{25}",
+          "correctAnswer": "17",
+          "explanationFields": [
+            "Возводим скобку в квадрат: 2^2 \\cdot (\\sqrt{3})^2 = 4 \\cdot 3 = 12",
+            "Прибавляем корень из 25: 12 + 5 = 17"
+          ]
+        },
+        {
+          "type": "input",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "Работа с большими числами.",
+          "code": "\\sqrt{147} - \\sqrt{48}",
+          "correctAnswer": "3\\sqrt{3}",
+          "explanationFields": [
+            "Разложим: 147 = 49 \\cdot 3, а 48 = 16 \\cdot 3",
+            "Выносим: 7\\sqrt{3} - 4\\sqrt{3}",
+            "Итог: 3\\sqrt{3}"
+          ]
+        },
+        {
+          "type": "input",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "Упрости дробь.",
+          "code": "\\frac{\\sqrt{54}}{\\sqrt{6} \\cdot 3}",
+          "correctAnswer": "1",
+          "explanationFields": [
+            "Сокращаем корни: \\sqrt{\\frac{54}{6}} = \\sqrt{9} = 3",
+            "Делим результат на тройку: 3 / 3 = 1"
+          ]
+        },
+        {
+          "type": "input",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "Финальное упрощение.",
+          "code": "2\\sqrt{18} + 3\\sqrt{8} - \\sqrt{50}",
+          "correctAnswer": "7\\sqrt{2}",
+          "explanationFields": [
+            "Упрощаем каждый корень: 2 \\cdot 3\\sqrt{2} + 3 \\cdot 2\\sqrt{2} - 5\\sqrt{2}",
+            "Получаем: 6\\sqrt{2} + 6\\sqrt{2} - 5\\sqrt{2}",
+            "Считаем коэффициенты: 6 + 6 - 5 = 7"
           ]
         }
       ]
