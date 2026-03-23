@@ -10,7 +10,8 @@
           "lesson-9-zadanie-tiho--ne-pugaemsya",
           "lesson-9-zadanie-osvaivaemsya",
           "lesson-9-zadanie-treniruemsya",
-          "lesson-9-zadanie-druzya-nashi-drobno-lineynye"
+          "lesson-9-zadanie-druzya-nashi-drobno-lineynye",
+          "lesson-9-zadanie-novyy-urok"
         ]
       }
     ]
@@ -298,10 +299,10 @@
         {
           "type": "theory",
           "hasTheory": true,
-          "code": "13 + \\frac{x}{4} = x + 1",
           "text": "Видишь дробь \\frac{x}{4}? Она бесит, правда? Чтобы от неё избавиться, нужно всё уравнение (каждое слагаемое!) умножить на это число из знаменателя — на 4.",
-          "code2": "13 + \\frac{x}{4} = x + 1 \\quad | \\cdot 4",
+          "code": "13 + \\frac{x}{4} = x + 1",
           "text2": "Смотри, что происходит:",
+          "code2": "13 + \\frac{x}{4} = x + 1 \\quad | \\cdot 4",
           "text3": "13 \\cdot 4 = 52",
           "text4": "\\frac{x}{4} \\cdot 4 = x (четверки просто сократились, магия!)",
           "text5": "x \\cdot 4 = 4x",
@@ -357,6 +358,140 @@
             "-3x = 12",
             "x = 12 : (-3) = -4."
           ]
+        }
+      ]
+    },
+    "lesson-9-zadanie-novyy-urok": {
+      "title": "Новый урок",
+      "path": "9 задание / Новый урок",
+      "tasks": [
+        {
+          "type": "input",
+          "hasTheory": false,
+          "text": "Реши уравнение:",
+          "code": "\\frac{x}{3} + 9 = 1",
+          "correctAnswer": "-24",
+          "explanationFields": [
+            "Умножаем всё на 3: x + 27 = 3",
+            "Переносим 27: x = 3 - 27",
+            "Получаем x = -24."
+          ],
+          "isOge": true
+        },
+        {
+          "type": "input",
+          "hasTheory": false,
+          "text": "Найди корень уравнения:",
+          "code": "16 + \\frac{x}{2} = x + 11",
+          "correctAnswer": "10",
+          "explanationFields": [
+            "Умножаем всё на 2: 32 + x = 2x + 22",
+            "Переносим иксы вправо, числа влево: 32 - 22 = 2x - x",
+            "Получаем 10 = x."
+          ],
+          "isOge": true
+        },
+        {
+          "type": "input",
+          "hasTheory": false,
+          "text": "Реши уравнение:",
+          "code": "\\frac{x}{5} - 2 = 3x + 12",
+          "correctAnswer": "-5",
+          "explanationFields": [
+            "Умножаем всё на 5: x - 10 = 15x + 60",
+            "Переносим: x - 15x = 60 + 10",
+            "-14x = 70",
+            "x = 70 : (-14) = -5."
+          ],
+          "isOge": true
+        },
+        {
+          "type": "input",
+          "hasTheory": false,
+          "text": "Найди значение x:",
+          "code": "2x + 1 = \\frac{x}{4} + 8",
+          "correctAnswer": "4",
+          "explanationFields": [
+            "Умножаем всё на 4: 8x + 4 = x + 32",
+            "Переносим: 8x - x = 32 - 4",
+            "7x = 28",
+            "x = 4."
+          ],
+          "isOge": true
+        },
+        {
+          "type": "input",
+          "hasTheory": false,
+          "text": "Реши уравнение:",
+          "code": "\\frac{3x}{7} - 1 = x - 5",
+          "correctAnswer": "7",
+          "explanationFields": [
+            "Умножаем всё на 7: 3x - 7 = 7x - 35",
+            "Переносим: 35 - 7 = 7x - 3x",
+            "28 = 4x",
+            "x = 7."
+          ],
+          "isOge": true
+        },
+        {
+          "type": "input",
+          "hasTheory": false,
+          "text": "Найди корень:",
+          "code": "5 + \\frac{x}{6} = \\frac{x}{3} + 2",
+          "correctAnswer": "18",
+          "explanationFields": [
+            "Умножаем всё на 6 (общий знаменатель): 30 + x = 2x + 12",
+            "Переносим: 30 - 12 = 2x - x",
+            "x = 18."
+          ],
+          "isOge": true
+        },
+        {
+          "type": "input",
+          "hasTheory": false,
+          "text": "Реши уравнение:",
+          "code": "\\frac{x}{4} + \\frac{x}{2} = 15",
+          "correctAnswer": "20",
+          "explanationFields": [
+            "Умножаем всё на 4: x + 2x = 60",
+            "3x = 60",
+            "x = 20."
+          ],
+          "isOge": true
+        },
+        {
+          "type": "input",
+          "hasTheory": false,
+          "text": "Найди значение x:",
+          "code": "2 - \\frac{x}{8} = x - 7",
+          "correctAnswer": "8",
+          "explanationFields": [
+            "Умножаем всё на 8: 16 - x = 8x - 56",
+            "Переносим: 16 + 56 = 8x + x",
+            "72 = 9x",
+            "x = 8."
+          ],
+          "isOge": true
+        },
+        {
+          "type": "input",
+          "hasTheory": false,
+          "text": "Реши уравнение:",
+          "code": "\\frac{x}{10} + 5 = 1,2x",
+          "correctAnswer": "40",
+          "text2": "Давай возьмем другое, чтобы ответ был четким:",
+          "code2": "\\frac{x}{5} - 4 = 0,1x",
+          "explanationFields": [
+            "Умножаем всё на 5: x - 20 = 0,5x",
+            "Переносим: x - 0,5x = 20",
+            "0,5x = 20",
+            "x = 40."
+          ],
+          "isOge": true
+        },
+        {
+          "type": "theory",
+          "hasTheory": false
         }
       ]
     }
