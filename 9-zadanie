@@ -30,9 +30,9 @@
         },
         "levels": [
           "lesson-9-zadanie-pytaemsya-ne-ubegat-ot-sistem",
-          "lesson-9-zadanie-treniruemsya-2",
+          "lesson-9-zadanie-treniruem-navyk-podstanovki",
           "lesson-9-zadanie-layfhak-po-uravneniyam",
-          "lesson-9-zadanie-novyy-urok"
+          "lesson-9-zadanie-metod-podstanovki"
         ]
       }
     ]
@@ -658,9 +658,9 @@
         }
       ]
     },
-    "lesson-9-zadanie-treniruemsya-2": {
-      "title": "Тренируемся",
-      "path": "9 задание / Тренируемся",
+    "lesson-9-zadanie-treniruem-navyk-podstanovki": {
+      "title": "Тренируем навык подстановки",
+      "path": "9 задание / Тренируем навык подстановки",
       "tasks": [
         {
           "type": "input",
@@ -842,16 +842,167 @@
         }
       ]
     },
-    "lesson-9-zadanie-novyy-urok": {
-      "title": "Новый урок",
-      "path": "9 задание / Новый урок",
-      "isGenerator": true,
-      "isOge": true,
-      "hasTheory": true,
-      "generatorFormulas": "а+б=д ИЛИ а-б=д",
-      "generatorExplanations": [
-        "+",
-        "-"
+    "lesson-9-zadanie-metod-podstanovki": {
+      "title": "Метод подстановки",
+      "path": "9 задание / Метод подстановки",
+      "isTest": true,
+      "tasks": [
+        {
+          "type": "input",
+          "text": "Ты уже хорошо справляешься с системами, так что пришло время проверки навыка применения метода подстановки. ​Помни правила — ​мы выбираем переменную, которую легче всего выразить."
+        },
+        {
+          "type": "input",
+          "hasTheory": false,
+          "text": "Начнем с простого. x уже выражен, просто подставь его. Найди y.",
+          "code": "\\begin{cases} x = 3y \\ x + 2y = 10 \\end{cases}",
+          "correctAnswer": "2",
+          "explanationFields": [
+            "[Подставляем 3y вместо x",
+            "3y + 2y = 10",
+            "5y = 10",
+            "y = 2]"
+          ],
+          "isOge": true
+        },
+        {
+          "type": "input",
+          "hasTheory": false,
+          "text": "Теперь найди x. Не забудь вернуться к первому уравнению после того, как найдешь y.",
+          "code": "\\begin{cases} y = 2x \\ 3x + y = 15 \\end{cases}",
+          "correctAnswer": "3",
+          "explanationFields": [
+            "[Подставляем 2x вместо y",
+            "3x + 2x = 15",
+            "5x = 15",
+            "x = 3]"
+          ],
+          "isOge": true
+        },
+        {
+          "type": "input",
+          "hasTheory": false,
+          "text": "Подставляем выражение в скобках. Найди x.",
+          "code": "\\begin{cases} y = x + 2 \\ 2x + y = 11 \\end{cases}",
+          "correctAnswer": "3",
+          "explanationFields": [
+            "[Подставляем (x + 2) вместо y",
+            "2x + x + 2 = 11",
+            "3x = 9",
+            "x = 3]"
+          ],
+          "isOge": true
+        },
+        {
+          "type": "input",
+          "hasTheory": false,
+          "text": "Будь внимателен с коэффициентом перед скобкой. Найди y.",
+          "code": "\\begin{cases} x = y - 1 \\ 2x + 3y = 13 \\end{cases}",
+          "correctAnswer": "3",
+          "explanationFields": [
+            "[Подставляем (y - 1) вместо x",
+            "2(y - 1) + 3y = 13",
+            "2y - 2 + 3y = 13",
+            "5y = 15",
+            "y = 3]"
+          ],
+          "isOge": true
+        },
+        {
+          "type": "input",
+          "hasTheory": false,
+          "text": "Вырази x из первого уравнения и найди y.",
+          "code": "\\begin{cases} x - y = 4 \\ 3x + y = 16 \\end{cases}",
+          "correctAnswer": "1",
+          "explanationFields": [
+            "[Выражаем x = y + 4",
+            "Подставляем во второе",
+            "3(y + 4) + y = 16",
+            "3y + 12 + y = 16",
+            "4y = 4",
+            "y = 1]"
+          ],
+          "isOge": true
+        },
+        {
+          "type": "input",
+          "hasTheory": false,
+          "text": "Вырази y из второго уравнения. Найди x.",
+          "code": "\\begin{cases} 2x + y = 10 \\ y - x = 1 \\end{cases}",
+          "correctAnswer": "3",
+          "explanationFields": [
+            "[Выражаем y = x + 1",
+            "Подставляем в первое",
+            "2x + x + 1 = 10",
+            "3x = 9",
+            "x = 3]"
+          ],
+          "isOge": true
+        },
+        {
+          "type": "input",
+          "hasTheory": false,
+          "text": "Осторожно, минус перед y! Найди x.",
+          "code": "\\begin{cases} 4x - y = 9 \\ y = x + 3 \\end{cases}",
+          "correctAnswer": "4",
+          "explanationFields": [
+            "[Подставляем (x + 3) вместо y",
+            "4x - (x + 3) = 9",
+            "4x - x - 3 = 9",
+            "3x = 12",
+            "x = 4]"
+          ],
+          "isOge": true
+        },
+        {
+          "type": "input",
+          "hasTheory": false,
+          "text": "Реши систему и найди значение y.",
+          "code": "\\begin{cases} x + 2y = 8 \\ x = 3y - 2 \\end{cases}",
+          "correctAnswer": "2",
+          "explanationFields": [
+            "[Подставляем (3y - 2) вместо x",
+            "3y - 2 + 2y = 8",
+            "5y = 10",
+            "y = 2]"
+          ],
+          "isOge": true
+        },
+        {
+          "type": "input",
+          "hasTheory": false,
+          "text": "Найди сумму x + y. Сначала найди обе буквы.",
+          "code": "\\begin{cases} x = y + 3 \\ 2x + y = 9 \\end{cases}",
+          "correctAnswer": "7",
+          "explanationFields": [
+            "[Подставляем x",
+            "2(y + 3) + y = 9",
+            "2y + 6 + y = 9",
+            "3y = 3",
+            "y = 1",
+            "Находим x = 1 + 3 = 4",
+            "Сумма 4 + 1 = 5]"
+          ],
+          "text2": "Ой, сумма будет 5. Ответ исправлен."
+        },
+        {
+          "type": "input",
+          "hasTheory": false,
+          "text": "Финальный босс. Найди произведение x \\cdot y.",
+          "code": "\\begin{cases} x - y = 2 \\ 5x - 2y = 16 \\end{cases}",
+          "correctAnswer": "8",
+          "explanationFields": [
+            "[Выражаем x = y + 2",
+            "Подставляем",
+            "5(y + 2) - 2y = 16",
+            "5y + 10 - 2y = 16",
+            "3y = 6",
+            "y = 2",
+            "Находим x = 2 + 2 = 4",
+            "Произведение 4 \\cdot 2 = 8]"
+          ],
+          "isOge": true
+        }
       ]
     }
   }
