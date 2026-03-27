@@ -33,7 +33,7 @@
           "lesson-9-zadanie-treniruem-navyk-podstanovki",
           "lesson-9-zadanie-layfhak-po-uravneniyam",
           "lesson-9-zadanie-metod-podstanovki",
-          "lesson-9-zadanie-novyy-urok"
+          "lesson-9-zadanie-novyy-urokk"
         ]
       }
     ]
@@ -999,13 +999,13 @@
         }
       ]
     },
-    "lesson-9-zadanie-novyy-urok": {
-      "title": "Новый урок",
-      "path": "9 задание / Новый урок",
+    "lesson-9-zadanie-novyy-urokk": {
+      "title": "Новый урокк",
+      "path": "9 задание / Новый урокк",
       "isGenerator": true,
       "isOge": true,
       "hasTheory": true,
-      "generatorFormulas": "\\begin{cases} x = ay \\\\ bx + cy = d \\end{cases} ИЛИ \\begin{cases} y = ax \\\\ bx + cy = d \\end{cases} ИЛИ \\begin{cases} x = ay + b \\\\ cx + dy = e \\end{cases} ИЛИ \\begin{cases} y = ax + b \\\\ cx + dy = e \\end{cases} ИЛИ \\begin{cases} x - ay = b \\\\ cx + dy = e \\end{cases} ИЛИ \\begin{cases} ax + y = b \\\\ cx + dy = e \\end{cases}",
+      "generatorFormulas": "\\begin{cases} $x = ay \\\\ bx + cy = d \\end{cases}$ ИЛИ \\begin{cases} y = ax \\\\ bx + cy = d \\end{cases} ИЛИ \\begin{cases} x = ay + b \\\\ cx + dy = e \\end{cases} ИЛИ \\begin{cases} y = ax + b \\\\ cx + dy = e \\end{cases} ИЛИ \\begin{cases} x - ay = b \\\\ cx + dy = e \\end{cases} ИЛИ \\begin{cases} ax + y = b \\\\ cx + dy = e \\end{cases}",
       "generatorExplanations": [
         "когда x уже равен чему-то простому, мы сразу закидываем его «в гости» во второе уравнение вместо буквы.",
         "если в первой строчке стоит готовый y, то во второй строчке мы просто меняем его на этот кусок с иксом.",
