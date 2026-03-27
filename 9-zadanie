@@ -33,7 +33,8 @@
           "lesson-9-zadanie-treniruem-navyk-podstanovki",
           "lesson-9-zadanie-layfhak-po-uravneniyam",
           "lesson-9-zadanie-metod-podstanovki",
-          "lesson-9-zadanie-novyy-urokk"
+          "lesson-9-zadanie-metod-slozheniya",
+          "lesson-9-zadanie-novyy-urok"
         ]
       }
     ]
@@ -999,20 +1000,247 @@
         }
       ]
     },
-    "lesson-9-zadanie-novyy-urokk": {
-      "title": "Новый урокк",
-      "path": "9 задание / Новый урокк",
-      "isGenerator": true,
-      "isOge": true,
-      "hasTheory": true,
-      "generatorFormulas": "$\\begin{cases} x = ay \\\\ bx + cy = d \\end{cases}$ ИЛИ \\begin{cases} y = ax \\\\ bx + cy = d \\end{cases} ИЛИ \\begin{cases} x = ay + b \\\\ cx + dy = e \\end{cases} ИЛИ \\begin{cases} y = ax + b \\\\ cx + dy = e \\end{cases} ИЛИ \\begin{cases} x - ay = b \\\\ cx + dy = e \\end{cases} ИЛИ \\begin{cases} ax + y = b \\\\ cx + dy = e \\end{cases}",
-      "generatorExplanations": [
-        "когда x уже равен чему-то простому, мы сразу закидываем его «в гости» во второе уравнение вместо буквы.",
-        "если в первой строчке стоит готовый y, то во второй строчке мы просто меняем его на этот кусок с иксом.",
-        "в этом случае мы берем всё выражение целиком, берем его в скобки и вклеиваем во вторую строку вместо x.",
-        "тут мы работаем по той же схеме: заменяем «одинокий» y на всю правую часть первой строки и раскрываем скобки.",
-        "сначала нам нужно выгнать ay вправо, чтобы x остался один, а уже потом делать подстановку во вторую часть.",
-        "здесь удобнее всего оставить y слева, а ax перекинуть к числу, тогда получится готовый шаблон для замены."
+    "lesson-9-zadanie-metod-slozheniya": {
+      "title": "Метод сложения",
+      "path": "9 задание / Метод сложения",
+      "tasks": [
+        {
+          "type": "theory",
+          "hasTheory": true,
+          "text": "Метод сложения — это когда мы складываем два уравнения как в столбик. Однако это работает только в определенных случаях: если в одном уравнении есть, например, +2y, а в другом -2y, то при сложении они дадут 0. Буква просто исчезнет!",
+          "code": "\\begin{cases} 3x + 2y = 10 \\\\ 5x - 2y = 6 \\end{cases}",
+          "text2": "Видишь? Игреки так и просятся, чтобы их сократили. Складываем иксы с иксами, а числа с числами.",
+          "code2": "(3x + 5x) = 10 + 6",
+          "code3": "8x = 16",
+          "code4": "x = 2",
+          "text3": "Когда икс найден, подставляем его в любое уравнение и узнаем игрек."
+        },
+        {
+          "type": "input",
+          "hasTheory": true,
+          "text": "Давай проверим твою внимательность. Какая буква исчезнет сама собой, если мы просто сложим эти два уравнения?",
+          "code": "\\begin{cases} 4x + 3y = 12 \\\\ -4x + y = 4 \\end{cases}",
+          "correctAnswer": "x",
+          "explanationFields": [
+            "У первого икса плюс, у второго минус",
+            "При сложении 4x + (-4x) = 0",
+            "Останется только буква y"
+          ],
+          "isOge": false
+        },
+        {
+          "type": "input",
+          "hasTheory": true,
+          "text": "Теперь реши это уравнение до конца. Сложи строки, найди y.",
+          "code": "\\begin{cases} 4x + 3y = 12 \\\\ -4x + y = 4 \\end{cases}",
+          "correctAnswer": "4",
+          "explanationFields": [
+            "Здесь исчезают иксы",
+            "Складываем игреки: 3y + y = 4y",
+            "Складываем числа: 12 + 4 = 16",
+            "4y = 16",
+            "y = 4"
+          ],
+          "isOge": true
+        },
+        {
+          "type": "theory",
+          "hasTheory": true,
+          "text": "А что делать, если буквы не хотят сокращаться? Например, тут везде плюсы:",
+          "code": "\\begin{cases} x + y = 5 \\\\ x - y = 1 \\end{cases}",
+          "text2": "Здесь тоже всё красиво: +y и -y уйдут. Но если бы было два плюса, мы бы просто вычли одну строку из другой.",
+          "text3": "Запомни: разные знаки — складываем, одинаковые знаки — вычитаем."
+        },
+        {
+          "type": "input",
+          "hasTheory": false,
+          "text": "Попробуй решить систему вычитанием. Найди y.",
+          "code": "\\begin{cases} 2x + 3y = 13 \\\\ 2x + y = 7 \\end{cases}",
+          "correctAnswer": "3",
+          "explanationFields": [
+            "Вычитаем из первой строки вторую",
+            "2x - 2x = 0",
+            "3y - y = 2y",
+            "13 - 7 = 6",
+            "2y = 6",
+            "y = 3"
+          ],
+          "isOge": true
+        },
+        {
+          "type": "theory",
+          "hasTheory": true,
+          "text": "Лайфхак для профи: если цифры совсем разные, мы сами «подкручиваем» уравнение.",
+          "code": "\\begin{cases} x + 2y = 8 \\\\ 3x - y = 3 \\end{cases}",
+          "text2": "Умножим вторую строку на 2, чтобы внизу стало -2y.",
+          "code2": "\\begin{cases} x + 2y = 8 \\\\ 6x - 2y = 6 \\end{cases}",
+          "text3": "Теперь у нас всё как раз: вверху 2y, а внизу -2y. Бахаем сложение и получаем 7x = 14. Красота!"
+        },
+        {
+          "type": "input",
+          "hasTheory": false,
+          "text": "Закрепляем магию умножения. Умножь вторую строку на 3 и найди x.",
+          "code": "\\begin{cases} 2x + 3y = 13 \\\\ x - y = 4 \\end{cases}",
+          "correctAnswer": "5",
+          "explanationFields": [
+            "Вторая строка станет 3x - 3y = 12",
+            "Складываем с первой: 2x + 3x = 5x",
+            "13 + 12 = 25",
+            "5x = 25",
+            "x = 5"
+          ],
+          "isOge": true
+        }
+      ]
+    },
+    "lesson-9-zadanie-novyy-urok": {
+      "title": "Новый урок",
+      "path": "9 задание / Новый урок",
+      "tasks": [
+        {
+          "type": "input",
+          "hasTheory": false,
+          "text": "Начнем с подарка. Игреки уже с разными знаками. Найди x.",
+          "code": "\\begin{cases} 2x + y = 10 \\\\ 3x - y = 5 \\end{cases}",
+          "correctAnswer": "3",
+          "explanationFields": [
+            "Складываем два уравнения",
+            "5x = 15",
+            "x = 3"
+          ],
+          "isOge": true
+        },
+        {
+          "type": "input",
+          "hasTheory": false,
+          "text": "Теперь найди y. Сложи строки и узнай x.",
+          "code": "\\begin{cases} x + 2y = 8 \\\\ -x + y = 1 \\end{cases}",
+          "correctAnswer": "3",
+          "explanationFields": [
+            "Складываем уравнения",
+            "3y = 9",
+            "y = 3"
+          ],
+          "isOge": true
+        },
+        {
+          "type": "input",
+          "hasTheory": false,
+          "text": "Тут одинаковые знаки, так что нужно вычесть нижнее из верхнего. Найди y.",
+          "code": "\\begin{cases} 3x + 5y = 21 \\\\ 3x + 2y = 12 \\end{cases}",
+          "correctAnswer": "3",
+          "explanationFields": [
+            "Вычитаем из первой строки вторую",
+            "3y = 9",
+            "y = 3"
+          ],
+          "isOge": true
+        },
+        {
+          "type": "input",
+          "hasTheory": false,
+          "text": "Тут нужно что? Правильно, вычитание. Найди значение x.",
+          "code": "\\begin{cases} x + 4y = 18 \\\\ x + y = 6 \\end{cases}",
+          "correctAnswer": "2",
+          "explanationFields": [
+            "Вычитаем второе из первого",
+            "3y = 12",
+            "y = 4",
+            "Подставляем во второе",
+            "x + 4 = 6",
+            "x = 2"
+          ],
+          "isOge": true
+        },
+        {
+          "type": "input",
+          "hasTheory": false,
+          "text": "Нужно немного «подкрутить». Умножь вторую строку на 2 и найди x.",
+          "code": "\\begin{cases} 5x + 2y = 12 \\\\ x - y = 1 \\end{cases}",
+          "correctAnswer": "2",
+          "explanationFields": [
+            "Умножаем второе на 2",
+            "2x - 2y = 2",
+            "Складываем с первым",
+            "7x = 14",
+            "x = 2"
+          ],
+          "isOge": true
+        },
+        {
+          "type": "input",
+          "hasTheory": false,
+          "text": "Умножь первую строку на 3, чтобы убрать игреки. Найди x.",
+          "code": "\\begin{cases} x - y = 2 \\\\ 4x + 3y = 22 \\end{cases}",
+          "correctAnswer": "4",
+          "explanationFields": [
+            "Умножаем первое на 3",
+            "3x - 3y = 6",
+            "Складываем со вторым",
+            "7x = 28",
+            "x = 4"
+          ],
+          "isOge": true
+        },
+        {
+          "type": "input",
+          "hasTheory": false,
+          "text": "Внимательно! Умножь вторую строку на -2, чтобы знаки стали разными. Найди y.",
+          "code": "\\begin{cases} 2x + 3y = 13 \\\\ x + y = 5 \\end{cases}",
+          "correctAnswer": "3",
+          "explanationFields": [
+            "умножаем второе на -2",
+            "-2x - 2y = -10",
+            "Складываем с первым",
+            "y = 3"
+          ],
+          "isOge": true
+        },
+        {
+          "type": "input",
+          "hasTheory": false,
+          "text": "Реши систему любым удобным способом сложения. Найди x.",
+          "code": "\\begin{cases} 3x - 2y = 1 \\\\ 2x + 2y = 9 \\end{cases}",
+          "correctAnswer": "2",
+          "explanationFields": [
+            "Складываем строки",
+            "5x = 10",
+            "x = 2"
+          ],
+          "isOge": true
+        },
+        {
+          "type": "input",
+          "hasTheory": false,
+          "text": "Найди сумму x + y. Придется найти обе буквы.",
+          "code": "\\begin{cases} x + y = 7 \\\\ x - y = 1 \\end{cases}",
+          "correctAnswer": "7",
+          "explanationFields": [
+            "Складываем",
+            "2x = 8",
+            "x = 4",
+            "Подставляем",
+            "4 + y = 7",
+            "y = 3",
+            "Сумма 4 + 3 = 7"
+          ],
+          "isOge": true
+        },
+        {
+          "type": "input",
+          "hasTheory": false,
+          "text": "Реши систему уравнений и найди значение y.",
+          "code": "\\begin{cases} 3x + 2y = 12 \\\\ 2x - y = 1 \\end{cases}",
+          "correctAnswer": "3",
+          "explanationFields": [
+            "Умножаем второе уравнение на 2, чтобы получить коэффициенты 2y и -2y",
+            "Складываем левые и правые части уравнений",
+            "получаем простое уравнение 7x = 14 и находим x = 2",
+            "Подставляем полученную двойку в любое исходное уравнение, например 2 \\cdot 2 - y = 1",
+            "вычисляем y = 3."
+          ],
+          "isOge": true
+        }
       ]
     }
   }
