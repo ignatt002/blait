@@ -1005,7 +1005,7 @@
       "isGenerator": true,
       "isOge": true,
       "hasTheory": true,
-      "generatorFormulas": "\\begin{cases} $x = ay \\\\ bx + cy = d \\end{cases}$ ИЛИ \\begin{cases} y = ax \\\\ bx + cy = d \\end{cases} ИЛИ \\begin{cases} x = ay + b \\\\ cx + dy = e \\end{cases} ИЛИ \\begin{cases} y = ax + b \\\\ cx + dy = e \\end{cases} ИЛИ \\begin{cases} x - ay = b \\\\ cx + dy = e \\end{cases} ИЛИ \\begin{cases} ax + y = b \\\\ cx + dy = e \\end{cases}",
+      "generatorFormulas": "$\\begin{cases} x = ay \\\\ bx + cy = d \\end{cases}$ ИЛИ \\begin{cases} y = ax \\\\ bx + cy = d \\end{cases} ИЛИ \\begin{cases} x = ay + b \\\\ cx + dy = e \\end{cases} ИЛИ \\begin{cases} y = ax + b \\\\ cx + dy = e \\end{cases} ИЛИ \\begin{cases} x - ay = b \\\\ cx + dy = e \\end{cases} ИЛИ \\begin{cases} ax + y = b \\\\ cx + dy = e \\end{cases}",
       "generatorExplanations": [
         "когда x уже равен чему-то простому, мы сразу закидываем его «в гости» во второе уравнение вместо буквы.",
         "если в первой строчке стоит готовый y, то во второй строчке мы просто меняем его на этот кусок с иксом.",
