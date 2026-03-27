@@ -32,7 +32,8 @@
           "lesson-9-zadanie-pytaemsya-ne-ubegat-ot-sistem",
           "lesson-9-zadanie-treniruem-navyk-podstanovki",
           "lesson-9-zadanie-layfhak-po-uravneniyam",
-          "lesson-9-zadanie-metod-podstanovki"
+          "lesson-9-zadanie-metod-podstanovki",
+          "lesson-9-zadanie-novyy-urok"
         ]
       }
     ]
@@ -996,6 +997,22 @@
           "type": "input",
           "text": "Огонь! Теперь ты готов к методу сложения, где мы будем просто \"сталкивать\" уравнения лбами, чтобы буквы уничтожались сами."
         }
+      ]
+    },
+    "lesson-9-zadanie-novyy-urok": {
+      "title": "Новый урок",
+      "path": "9 задание / Новый урок",
+      "isGenerator": true,
+      "isOge": true,
+      "hasTheory": true,
+      "generatorFormulas": "\\begin{cases} x = ay \\\\ bx + cy = d \\end{cases} ИЛИ \\begin{cases} y = ax \\\\ bx + cy = d \\end{cases} ИЛИ \\begin{cases} x = ay + b \\\\ cx + dy = e \\end{cases} ИЛИ \\begin{cases} y = ax + b \\\\ cx + dy = e \\end{cases} ИЛИ \\begin{cases} x - ay = b \\\\ cx + dy = e \\end{cases} ИЛИ \\begin{cases} ax + y = b \\\\ cx + dy = e \\end{cases}",
+      "generatorExplanations": [
+        "когда x уже равен чему-то простому, мы сразу закидываем его «в гости» во второе уравнение вместо буквы.",
+        "если в первой строчке стоит готовый y, то во второй строчке мы просто меняем его на этот кусок с иксом.",
+        "в этом случае мы берем всё выражение целиком, берем его в скобки и вклеиваем во вторую строку вместо x.",
+        "тут мы работаем по той же схеме: заменяем «одинокий» y на всю правую часть первой строки и раскрываем скобки.",
+        "сначала нам нужно выгнать ay вправо, чтобы x остался один, а уже потом делать подстановку во вторую часть.",
+        "здесь удобнее всего оставить y слева, а ax перекинуть к числу, тогда получится готовый шаблон для замены."
       ]
     }
   }
