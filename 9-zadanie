@@ -36,6 +36,7 @@
           "lesson-9-zadanie-metod-slozheniya",
           "lesson-9-zadanie-treniruemsya-2",
           "lesson-9-zadanie-zhim-na-metod-slozheniya",
+          "lesson-9-zadanie-treniruem-metod-slozheniya",
           "lesson-9-zadanie-novyy-urok"
         ]
       }
@@ -1238,20 +1239,93 @@
         }
       ]
     },
+    "lesson-9-zadanie-treniruem-metod-slozheniya": {
+      "title": "Тренируем метод сложения",
+      "path": "9 задание / Тренируем метод сложения",
+      "tasks": [
+        {
+          "type": "input",
+          "isOge": true,
+          "text": "Найди значение x.",
+          "code": "\\begin{cases} 4x + 3y = 22 \\\\ 2x - 3y = 2 \\end{cases}",
+          "correctAnswer": "4",
+          "explanationFields": [
+            "Складываем левые части: (4x + 3y) + (2x - 3y) = 6x.",
+            "Складываем правые части: 22 + 2 = 24.",
+            "​Получаем новое уравнение: 6x = 24.",
+            "​Находим x: делим 24 на 6."
+          ]
+        },
+        {
+          "type": "input",
+          "isOge": true,
+          "text": "Найди значение y.",
+          "code": "\\begin{cases} 5x + 2y = 12 \\\\ 5x + y = 11 \\end{cases}",
+          "correctAnswer": "1",
+          "explanationFields": [
+            "Просто вычитаем второе из первого",
+            "y = 1"
+          ]
+        },
+        {
+          "type": "input",
+          "isOge": true,
+          "text": "Найди значение x.",
+          "code": "\\begin{cases} x - 2y = 3 \\\\ 3x + 2y = 17 \\end{cases}",
+          "correctAnswer": "5",
+          "explanationFields": [
+            "Складываем уравнения",
+            "4x = 20",
+            "x = 5"
+          ]
+        },
+        {
+          "type": "input",
+          "isOge": true,
+          "text": "Найди значение y.",
+          "code": "\\begin{cases} 3x + y = 7 \\\\ x + y = 3 \\end{cases}",
+          "correctAnswer": "1",
+          "explanationFields": [
+            "Вычитаем второе из первого",
+            "2x = 4",
+            "x = 2",
+            "Подставляем",
+            "2 + y = 3",
+            "y = 1"
+          ]
+        },
+        {
+          "type": "input",
+          "isOge": true,
+          "text": "Найди значение x.",
+          "code": "\\begin{cases} 2x + 3y = 13 \\\\ x - y = 4 \\end{cases}",
+          "correctAnswer": "5",
+          "explanationFields": [
+            "Умножаем второе на 3",
+            "3x - 3y = 12",
+            "Складываем с первым",
+            "5x = 25",
+            "x = 5"
+          ]
+        }
+      ]
+    },
     "lesson-9-zadanie-novyy-urok": {
       "title": "Новый урок",
       "path": "9 задание / Новый урок",
+      "isTest": true,
       "tasks": [
         {
           "type": "input",
           "hasTheory": false,
           "text": "Найди значение x.",
-          "code": "\\begin{cases} 4x + 3y = 22 \\\\ 2x - 3y = 2 \\end{cases}",
-          "correctAnswer": "4",
+          "code": "\\begin{cases} 6x + y = 20 \\\\ 4x - y = 10 \\end{cases}",
+          "correctAnswer": "3",
           "explanationFields": [
-            "складываем два уравнения",
-            "6x = 24",
-            "x = 4"
+            "Складываем два уравнения",
+            "Получаем 10x = 30",
+            "Делим 30 на 10",
+            "x = 3."
           ],
           "isOge": true
         },
@@ -1259,11 +1333,13 @@
           "type": "input",
           "hasTheory": false,
           "text": "Найди значение y.",
-          "code": "\\begin{cases} 5x + 2y = 12 \\\\ 5x + y = 11 \\end{cases}",
-          "correctAnswer": "1",
+          "code": "\\begin{cases} x + 5y = 27 \\\\ x + 2y = 12 \\end{cases}",
+          "correctAnswer": "5",
           "explanationFields": [
-            "вычитаем второе из первого",
-            "y = 1"
+            "Вычитаем из первой строки вторую",
+            "Получаем 3y = 15",
+            "Делим 15 на 3",
+            "y = 5."
           ],
           "isOge": true
         },
@@ -1271,12 +1347,13 @@
           "type": "input",
           "hasTheory": false,
           "text": "Найди значение x.",
-          "code": "\\begin{cases} x - 2y = 3 \\\\ 3x + 2y = 17 \\end{cases}",
+          "code": "\\begin{cases} 2x - 3y = 1 \\\\ 5x + 3y = 34 \\end{cases}",
           "correctAnswer": "5",
           "explanationFields": [
-            "складываем уравнения",
-            "4x = 20",
-            "x = 5"
+            "Складываем уравнения",
+            "Получаем 7x = 35",
+            "Делим 35 на 7",
+            "x = 5."
           ],
           "isOge": true
         },
@@ -1284,15 +1361,13 @@
           "type": "input",
           "hasTheory": false,
           "text": "Найди значение y.",
-          "code": "\\begin{cases} 3x + y = 7 \\\\ x + y = 3 \\end{cases}",
-          "correctAnswer": "1",
+          "code": "\\begin{cases} 7x + 4y = 36 \\\\ 7x + y = 18 \\end{cases}",
+          "correctAnswer": "6",
           "explanationFields": [
-            "вычитаем второе из первого",
-            "2x = 4",
-            "x = 2",
-            "подставляем",
-            "2 + y = 3",
-            "y = 1"
+            "Вычитаем из первой строки вторую",
+            "Получаем 3y = 18",
+            "Делим 18 на 3",
+            "y = 6."
           ],
           "isOge": true
         },
@@ -1300,14 +1375,13 @@
           "type": "input",
           "hasTheory": false,
           "text": "Найди значение x.",
-          "code": "\\begin{cases} 2x + 3y = 13 \\\\ x - y = 4 \\end{cases}",
-          "correctAnswer": "5",
+          "code": "\\begin{cases} 4x - y = 9 \\\\ x + y = 6 \\end{cases}",
+          "correctAnswer": "3",
           "explanationFields": [
-            "умножаем второе на 3",
-            "3x - 3y = 12",
-            "складываем с первым",
-            "5x = 25",
-            "x = 5"
+            "Складываем два уравнения",
+            "Получаем 5x = 15",
+            "Делим 15 на 5",
+            "x = 3."
           ],
           "isOge": true
         }
