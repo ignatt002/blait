@@ -37,7 +37,8 @@
           "lesson-9-zadanie-treniruemsya-2",
           "lesson-9-zadanie-zhim-na-metod-slozheniya",
           "lesson-9-zadanie-treniruem-metod-slozheniya",
-          "lesson-9-zadanie-novyy-urok"
+          "lesson-9-zadanie-zakreplyaem-metod-slozheniya",
+          "lesson-9-zadanie-povtorenie"
         ]
       }
     ]
@@ -1310,9 +1311,9 @@
         }
       ]
     },
-    "lesson-9-zadanie-novyy-urok": {
-      "title": "Новый урок",
-      "path": "9 задание / Новый урок",
+    "lesson-9-zadanie-zakreplyaem-metod-slozheniya": {
+      "title": "Закрепляем метод сложения",
+      "path": "9 задание / Закрепляем метод сложения",
       "isTest": true,
       "tasks": [
         {
@@ -1386,6 +1387,12 @@
           "isOge": true
         }
       ]
+    },
+    "lesson-9-zadanie-povtorenie": {
+      "title": "Повторение",
+      "path": "9 задание / Повторение",
+      "isRepetition": true,
+      "tasksToGather": 7
     }
   }
 }
