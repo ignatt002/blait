@@ -8,12 +8,13 @@
         "title": "Математическая прогрессия",
         "levels": [
           "lesson-14-zadanie-chto-eto-za-takoe-",
-          "lesson-14-zadanie-praktikum-progressii",
           "lesson-14-zadanie-otrabotka--zakreplyaem-navyki",
           "lesson-14-zadanie-otrabotka--zakreplyaem-navyki-1",
           "lesson-14-zadanie-otrabotka--zakreplyaem-navyki-2",
           "lesson-14-zadanie-otrabotka--zakreplyaem-navyki-3",
-          "lesson-14-zadanie-otrabotka--zakreplyaem-navyki-4"
+          "lesson-14-zadanie-otrabotka--zakreplyaem-navyki-4",
+          "lesson-14-zadanie-otrabotka--zakreplyaem-navyki-5",
+          "lesson-14-zadanie-praktikum-po-arifmeticheskoy-progressii"
         ]
       }
     ]
@@ -127,9 +128,9 @@
         }
       ]
     },
-    "lesson-14-zadanie-praktikum-progressii": {
-      "title": "Практикум прогрессии",
-      "path": "14 задание / Практикум прогрессии",
+    "lesson-14-zadanie-otrabotka--zakreplyaem-navyki": {
+      "title": "Отработка: закрепляем навыки",
+      "path": "14 задание / Отработка: закрепляем навыки",
       "tasks": [
         {
           "type": "theory",
@@ -279,7 +280,7 @@
         }
       ]
     },
-    "lesson-14-zadanie-otrabotka--zakreplyaem-navyki": {
+    "lesson-14-zadanie-otrabotka--zakreplyaem-navyki-1": {
       "title": "Отработка: закрепляем навыки",
       "path": "14 задание / Отработка: закрепляем навыки",
       "tasks": [
@@ -335,7 +336,7 @@
         }
       ]
     },
-    "lesson-14-zadanie-otrabotka--zakreplyaem-navyki-1": {
+    "lesson-14-zadanie-otrabotka--zakreplyaem-navyki-2": {
       "title": "Отработка: закрепляем навыки",
       "path": "14 задание / Отработка: закрепляем навыки",
       "tasks": [
@@ -422,7 +423,7 @@
         }
       ]
     },
-    "lesson-14-zadanie-otrabotka--zakreplyaem-navyki-2": {
+    "lesson-14-zadanie-otrabotka--zakreplyaem-navyki-3": {
       "title": "Отработка: закрепляем навыки",
       "path": "14 задание / Отработка: закрепляем навыки",
       "tasks": [
@@ -502,7 +503,7 @@
         }
       ]
     },
-    "lesson-14-zadanie-otrabotka--zakreplyaem-navyki-3": {
+    "lesson-14-zadanie-otrabotka--zakreplyaem-navyki-4": {
       "title": "Отработка: закрепляем навыки",
       "path": "14 задание / Отработка: закрепляем навыки",
       "tasks": [
@@ -582,7 +583,7 @@
         }
       ]
     },
-    "lesson-14-zadanie-otrabotka--zakreplyaem-navyki-4": {
+    "lesson-14-zadanie-otrabotka--zakreplyaem-navyki-5": {
       "title": "Отработка: закрепляем навыки",
       "path": "14 задание / Отработка: закрепляем навыки",
       "tasks": [
@@ -655,6 +656,158 @@
             "Умножаем полтора на девять",
             "К минус десяти прибавляем тринадцать с половиной",
             "$a_{10} = 3,5$."
+          ]
+        }
+      ]
+    },
+    "lesson-14-zadanie-praktikum-po-arifmeticheskoy-progressii": {
+      "title": "Практикум по арифметической прогрессии",
+      "path": "14 задание / Практикум по арифметической прогрессии",
+      "isTest": true,
+      "tasks": [
+        {
+          "type": "input",
+          "text": "Добро пожаловать на полный практикум по арифметической прогрессии. Эти задачи очень приближенны к тем, что встретятся на ОГЭ. Если ты уверенно справляешься с ними — значит, 14-е задание экзамена уже у тебя в кармане!"
+        },
+        {
+          "type": "input",
+          "isOge": true,
+          "hasTheory": false,
+          "text": "В первый день отпуска турист прошел $10$ км. Каждый следующий день он увеличивал дистанцию на $3$ км. Сколько километров он пройдет на восьмой день?",
+          "code": "$a_n = a_1 + d \\cdot (n - 1)$",
+          "correctAnswer": "31",
+          "explanationFields": [
+            "$a_1 = 10$",
+            "$d = 3$",
+            "$a_8 = 10 + 3 \\cdot (8 - 1)$",
+            "$a_8 = 10 + 21$",
+            "$a_8 = 31$."
+          ]
+        },
+        {
+          "type": "input",
+          "isOge": true,
+          "hasTheory": false,
+          "text": "В кафе в первом ряду стоит $4$ столика. В каждом следующем ряду на $2$ столика больше. Сколько столиков в пятнадцатом ряду?",
+          "correctAnswer": "32",
+          "explanationFields": [
+            "$a_1 = 4$",
+            "$d = 2$",
+            "$a_{15} = 4 + 2 \\cdot (15 - 1)$",
+            "$a_{15} = 4 + 28$",
+            "$a_{15} = 32$."
+          ]
+        },
+        {
+          "type": "input",
+          "isOge": true,
+          "hasTheory": false,
+          "text": "Ученик в первый день выучил $5$ иностранных слов. В каждый следующий день он учил на $3$ слова больше, чем в предыдущий. Сколько слов он выучит в десятый день?",
+          "correctAnswer": "32",
+          "explanationFields": [
+            "$a_1 = 5$",
+            "$d = 3$",
+            "$a_{10} = 5 + 3 \\cdot (10 - 1)$",
+            "$a_{10} = 5 + 27$",
+            "$a_{10} = 32$."
+          ]
+        },
+        {
+          "type": "input",
+          "isOge": true,
+          "hasTheory": false,
+          "text": "Мастер в первый час изготовил $12$ деталей. Каждый следующий час он делал на $4$ детали меньше из-за усталости. Сколько деталей он сделает в четвертый час?",
+          "correctAnswer": "0",
+          "explanationFields": [
+            "$a_1 = 12$",
+            "$d = -4$",
+            "$a_4 = 12 + (-4) \\cdot (4 - 1)$",
+            "$a_4 = 12 - 12$",
+            "$a_4 = 0$."
+          ]
+        },
+        {
+          "type": "input",
+          "isOge": true,
+          "hasTheory": false,
+          "text": "В первый год работы завод выпустил $500$ машин. Каждый год объем производства увеличивался на $50$ штук. Сколько машин завод выпустит в шестой год?",
+          "correctAnswer": "750",
+          "explanationFields": [
+            "$a_1 = 500$",
+            "$d = 50$",
+            "$a_6 = 500 + 50 \\cdot (6 - 1)$",
+            "$a_6 = 500 + 250$",
+            "$a_6 = 750$."
+          ]
+        },
+        {
+          "type": "input",
+          "isOge": true,
+          "hasTheory": false,
+          "text": "Свободно падающее тело в первую секунду пролетает $5$ метров. Каждую следующую секунду оно пролетает на $10$ метров больше. Какое расстояние оно пролетит за пятую секунду?",
+          "correctAnswer": "45",
+          "explanationFields": [
+            "$a_1 = 5$",
+            "$d = 10$",
+            "$a_5 = 5 + 10 \\cdot (5 - 1)$",
+            "$a_5 = 5 + 40$",
+            "$a_5 = 45$."
+          ]
+        },
+        {
+          "type": "input",
+          "isOge": true,
+          "hasTheory": false,
+          "text": "В первый день продажи билетов было куплено $150$ штук. Каждый следующий день продавали на $20$ билетов больше. Сколько билетов купят в девятый день?",
+          "correctAnswer": "310",
+          "explanationFields": [
+            "$a_1 = 150$",
+            "$d = 20$",
+            "$a_9 = 150 + 20 \\cdot (9 - 1)$",
+            "$a_9 = 150 + 160$",
+            "$a_9 = 310$."
+          ]
+        },
+        {
+          "type": "input",
+          "isOge": true,
+          "hasTheory": false,
+          "text": "В первый месяц подписки на канал подписалось $1200$ человек. Каждый месяц прирост составлял на $100$ человек больше, чем в предыдущем. Сколько человек подпишется в седьмой месяц?",
+          "correctAnswer": "1800",
+          "explanationFields": [
+            "$a_1 = 1200$",
+            "$d = 100$",
+            "$a_7 = 1200 + 100 \\cdot (7 - 1)$",
+            "$a_7 = 1200 + 600$",
+            "$a_7 = 1800$."
+          ]
+        },
+        {
+          "type": "input",
+          "isOge": true,
+          "hasTheory": false,
+          "text": "Температура в печи в начале процесса была $20$ градусов. Каждую минуту она повышалась на $15$ градусов. Какой будет температура через $11$ минут (в двенадцатой точке замера)?",
+          "correctAnswer": "185",
+          "explanationFields": [
+            "$a_1 = 20$",
+            "$d = 15$",
+            "$a_{12} = 20 + 15 \\cdot (12 - 1)$",
+            "$a_{12} = 20 + 165$",
+            "$a_{12} = 185$."
+          ]
+        },
+        {
+          "type": "input",
+          "isOge": true,
+          "hasTheory": false,
+          "text": "В первый день после посадки саженец вырос на $2$ см. Каждый следующий день прирост увеличивался на $0,5$ см. На сколько сантиметров вырастет саженец в восьмой день?",
+          "correctAnswer": "5.5",
+          "explanationFields": [
+            "$a_1 = 2$",
+            "$d = 0,5$",
+            "$a_8 = 2 + 0,5 \\cdot (8 - 1)$",
+            "$a_8 = 2 + 3,5$",
+            "$a_8 = 5,5$."
           ]
         }
       ]
