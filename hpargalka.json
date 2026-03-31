@@ -19,10 +19,6 @@
         {
           "type": "text",
           "content": "<b>Разность прогрессии (d):</b><br>\\[ d = a_{n+1} - a_n \\]"
-        },
-        {
-          "type": "text",
-          "content": "<b>Сумма первых n членов (S_n):</b><br>\\[ S_n = \\frac{a_1 + a_n}{2} \\cdot n \\]"
         }
       ]
     }
