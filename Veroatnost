@@ -1,7 +1,7 @@
 {
   "cheatSheets": [
     {
-      "id": "arithmetic-progression-full",
+      "id": "probability-base",
       "title": "Вероятность",
       "items": [
         {
@@ -10,7 +10,7 @@
         },
         {
           "type": "text",
-          "content": "<b>Формула нахождения вероятности: </b>\frac{\text{благополучные варианты}}{\text{всего}}<br>"
+          "content": "<b>Формула нахождения вероятности:</b><br>\\[ P = \\frac{\\text{благоприятные исходы}}{\\text{всего исходов}} \\]"
         }
       ]
     }
