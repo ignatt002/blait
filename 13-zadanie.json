@@ -86,8 +86,8 @@
           "type": "input",
           "isOge": false,
           "hasTheory": true,
-          "text": "Реши неравенство: $x + 12 < 20$.",
-          "correctAnswer": "$8$",
+          "text": "Реши неравенство: $x + 12 < 20.$",
+          "correctAnswer": "8",
           "explanationFields": [
             "Переносим $12$ в правую часть с противоположным знаком: $x < 20 - 12$",
             "Получаем $x < 8$."
@@ -98,7 +98,7 @@
           "isOge": true,
           "hasTheory": true,
           "text": "Реши неравенство: $4x - 5 \\ge 15$.",
-          "correctAnswer": "$5$",
+          "correctAnswer": "5",
           "explanationFields": [
             "Переносим $-5$ вправо: $4x \\ge 15 + 5$",
             "Получаем $4x \\ge 20$",
@@ -110,7 +110,7 @@
           "isOge": true,
           "hasTheory": true,
           "text": "Реши неравенство: $7x - 9 \\le 5x + 1$.",
-          "correctAnswer": "$5$",
+          "correctAnswer": "5",
           "explanationFields": [
             "Группируем слагаемые: $7x - 5x \\le 1 + 9$",
             "Получаем $2x \\le 10$",
@@ -122,7 +122,7 @@
           "isOge": true,
           "hasTheory": true,
           "text": "Реши неравенство: $11x + 4 > 6x + 24$.",
-          "correctAnswer": "$4$",
+          "correctAnswer": "4",
           "explanationFields": [
             "Переносим иксы влево, числа вправо: $11x - 6x > 24 - 4$",
             "Получаем $5x > 20$",
@@ -134,7 +134,7 @@
           "isOge": true,
           "hasTheory": true,
           "text": "Реши неравенство: $3x + 17 < 47$.",
-          "correctAnswer": "$10$",
+          "correctAnswer": "10",
           "explanationFields": [
             "Переносим $17$ в правую часть: $3x < 47 - 17$",
             "Получаем $3x < 30$",
@@ -160,7 +160,7 @@
           "isOge": false,
           "hasTheory": true,
           "text": "Реши неравенство: $-5x < 25$. Запиши полностью неравенство, которое у тебя получилось. Не забудь про знаки!",
-          "correctAnswer": "$-5$",
+          "correctAnswer": "-5",
           "explanationFields": [
             "Делим $25$ на $-5$",
             "Получаем $-5$",
@@ -173,7 +173,7 @@
           "isOge": false,
           "hasTheory": true,
           "text": "Реши неравенство: $10 - x \\ge 14$. Запиши в ответ неравенство.",
-          "correctAnswer": "$-4$",
+          "correctAnswer": "-4",
           "explanationFields": [
             "Переносим $10$ вправо: $-x \\ge 14 - 10$",
             "Получаем $-x \\ge 4$",
@@ -185,7 +185,7 @@
           "isOge": false,
           "hasTheory": false,
           "text": "Реши неравенство $4 - 2x \\le 10$ и напиши оконченный вариант в ответ.",
-          "correctAnswer": "$-3$",
+          "correctAnswer": "-3",
           "explanationFields": [
             "Переносим $4$ вправо: $-2x \\le 6$",
             "Делим $6$ на $-2$, знак разворачивается: $x \\ge -3$."
@@ -196,7 +196,7 @@
           "isOge": true,
           "hasTheory": true,
           "text": "Реши неравенство: $-6x + 5 > -7$. В ответ запиши решённое неравенство.",
-          "correctAnswer": "$2$",
+          "correctAnswer": "2",
           "explanationFields": [
             "Переносим $5$ вправо: $-6x > -12$",
             "Делим $-12$ на $-6$",
@@ -211,4 +211,4 @@
       "tasks": []
     }
   }
-        }
+}
