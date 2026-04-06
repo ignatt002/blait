@@ -1075,7 +1075,7 @@
         {
           "type": "input",
           "isOge": true,
-          "text": "Иксы с плеч!:",
+          "text": "Иксы с плеч!",
           "code": "8x - 5 \\ge 2x - 29",
           "correctAnswer": "x \\in [-4; +\\infty)",
           "explanationFields": [
