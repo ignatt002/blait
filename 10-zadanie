@@ -18,8 +18,10 @@
           "lesson-10-zadanie-treniruemsya",
           "lesson-10-zadanie-dumaem",
           "lesson-10-zadanie-praktikuemsya",
-          "lesson-10-zadanie-ispolzuem-mozg"
-        ]
+          "lesson-10-zadanie-ispolzuem-mozg",
+          "10-zadanie-povtorenie"
+        ],
+        "id": "subtopic-0-9v2632yht"
       }
     ]
   },
@@ -393,6 +395,13 @@
           ]
         }
       ]
+    },
+    "10-zadanie-povtorenie": {
+      "title": "Повторение",
+      "path": "10 задание / Повторение",
+      "tasks": [],
+      "isRepetition": true,
+      "tasksToGather": 7
     }
   }
 }
