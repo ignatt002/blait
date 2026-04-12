@@ -52,7 +52,8 @@
           "13-zadanie-lya-lya-lya",
           "13-zadanie-a-my-i-tak-vse-znaem",
           "13-zadanie-v-poiskah-x",
-          "13-zadanie-reshenie-s-pomoschyu-mozga"
+          "13-zadanie-reshenie-s-pomoschyu-mozga",
+          "13-zadanie-povtorenie-neravenstv"
         ],
         "id": "subtopic-1-jceotj47y"
       }
@@ -2329,6 +2330,13 @@
         }
       ],
       "isTest": true
+    },
+    "13-zadanie-povtorenie-neravenstv": {
+      "title": "Повторение неравенств",
+      "path": "13 задание / Повторение неравенств",
+      "tasks": [],
+      "isRepetition": true,
+      "tasksToGather": 7
     }
   }
-          }
+        }
