@@ -2649,7 +2649,7 @@
           "isOge": true,
           "hasTheory": true,
           "type": "input",
-          "text1": "Финальное задание сорокового урока.",
+          "text1": "Финальное задание этого урока.",
           "code1": "6x^2 + 2x = 0",
           "correctAnswer": "-0,33; 0",
           "explanationFields": [
