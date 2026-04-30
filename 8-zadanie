@@ -27,9 +27,10 @@
           "8-zadanie-gotovimsya-zarabatyvat-pyaterki",
           "8-zadanie-raznost-kvadratov",
           "8-zadanie-zakreplyaem",
-          "8-zadanie-stepeni-i-korni",
-          "8-zadanie-na-arene-stepeni-i-korni",
-          "8-zadanie-povtorenie"
+          "8-zadanie-raznost-kvadratov-1",
+          "8-zadanie-raznost-kvadratov-2",
+          "8-zadanie-raznost-kvadratov-3",
+          "8-zadanie-raznost-kvadratov-4"
         ],
         "id": "subtopic-0-iny93wvij"
       }
@@ -588,80 +589,68 @@
       "path": "8 задание / Функционируем головой",
       "tasks": [
         {
-          "type": "input",
           "isOge": true,
           "hasTheory": true,
-          "text": "Найди значение выражения.",
-          "code": "\\frac{\\sqrt{21} \\cdot \\sqrt{14}}{\\sqrt{6}}",
+          "text1": "Найди значение выражения.",
+          "code1": "\\frac{\\sqrt{21} \\cdot \\sqrt{14}}{\\sqrt{6}}",
           "correctAnswer": "7",
           "explanationFields": [
             "Заносим всё под общую крышу: \\sqrt{\\frac{21 \\cdot 14}{6}}",
             "Сокращаем дробь: \\frac{21 \\cdot 14}{6} = \\frac{7 \\cdot 14}{2} = 7 \\cdot 7 = 49",
             "Извлекаем корень: \\sqrt{49} = 7"
-          ]
+          ],
+          "type": "input"
         },
         {
-          "type": "input",
           "hasTheory": true,
-          "text": "Вычисли. Помни, что число перед корнем тоже возводится в степень.",
-          "code": "\\frac{(3\\sqrt{2})^2}{9}",
+          "text1": "Вычисли. Помни, что число перед корнем тоже возводится в степень.",
+          "code1": "\\frac{(3\\sqrt{2})^2}{9}",
           "correctAnswer": "2",
           "explanationFields": [
             "Возводим числитель в квадрат: 3^2 \\cdot (\\sqrt{2})^2 = 9 \\cdot 2 = 18",
             "Делим на 9: 18 ÷ 9 = 2"
-          ]
+          ],
+          "type": "input"
         },
         {
-          "type": "input",
           "hasTheory": true,
-          "text": "Упрости и найди ответ.",
-          "code": "\\sqrt{12} \\cdot \\sqrt{3} + \\sqrt{100}",
+          "text1": "Упрости и найди ответ.",
+          "code1": "\\sqrt{12} \\cdot \\sqrt{3} + \\sqrt{100}",
           "correctAnswer": "16",
           "explanationFields": [
             "Перемножаем первые два корня: \\sqrt{36} = 6",
             "Извлекаем второй корень: \\sqrt{100} = 10",
             "Складываем результаты: 6 + 10 = 16"
-          ]
+          ],
+          "type": "input"
         },
         {
-          "type": "input",
           "isOge": true,
           "hasTheory": true,
-          "text": "Найди значение выражения. Это классика из экзамена.",
-          "code": "\\sqrt{3 \\cdot 7^2} \\cdot \\sqrt{3 \\cdot 5^4}",
+          "text1": "Найди значение выражения. Это классика из экзамена.",
+          "code1": "\\sqrt{3 \\cdot 7^2} \\cdot \\sqrt{3 \\cdot 5^4}",
           "correctAnswer": "525",
           "explanationFields": [
             "Объединяем: \\sqrt{3^2 \\cdot 7^2 \\cdot 5^4}",
             "Извлекаем по частям: 3 \\cdot 7 \\cdot 5^2",
             "Считаем: 21 \\cdot 25 = 525"
-          ]
+          ],
+          "type": "input"
         },
         {
-          "type": "input",
           "hasTheory": true,
-          "text": "Сначала упрости каждый корень, потом вычитай.",
-          "code": "\\sqrt{125} - \\sqrt{20}",
+          "text1": "Сначала упрости каждый корень, потом вычитай.",
+          "code1": "\\sqrt{125} - \\sqrt{20}",
           "correctAnswer": "3\\sqrt{5}",
           "explanationFields": [
             "Разложим: \\sqrt{25 \\cdot 5} - \\sqrt{4 \\cdot 5}",
             "Выносим множители: 5\\sqrt{5} - 2\\sqrt{5}",
             "Получаем 3\\sqrt{5}"
-          ]
-        },
-        {
-          "type": "input",
-          "isOge": true,
-          "hasTheory": true,
-          "text": "Вычисли значение при a=4:",
-          "code": "\\sqrt{a^2 + 24a + 144}",
-          "correctAnswer": "16",
-          "explanationFields": [
-            "Заметим формулу квадрата суммы под корнем: \\sqrt{(a+12)^2}",
-            "Извлекаем корень: |a+12|",
-            "Подставляем a=4: |4+12| = 16"
-          ]
+          ],
+          "type": "input"
         }
-      ]
+      ],
+      "isTest": true
     },
     "8-zadanie-delaem-delo": {
       "title": "Делаем дело",
@@ -851,7 +840,8 @@
           ],
           "type": "input"
         }
-      ]
+      ],
+      "isTest": true
     },
     "8-zadanie-matreshki-i-perevertyshi": {
       "title": "Матрёшки и перевёртыши",
@@ -1191,7 +1181,8 @@
           ],
           "type": "input"
         }
-      ]
+      ],
+      "isTest": true
     },
     "8-zadanie-raznost-kvadratov": {
       "title": "Разность квадратов",
@@ -1364,9 +1355,9 @@
         }
       ]
     },
-    "8-zadanie-stepeni-i-korni": {
-      "title": "Степени и корни",
-      "path": "8 задание / Степени и корни",
+    "8-zadanie-raznost-kvadratov-1": {
+      "title": "Разность квадратов",
+      "path": "8 задание / Разность квадратов",
       "tasks": [
         {
           "isOge": true,
@@ -1454,9 +1445,9 @@
         }
       ]
     },
-    "8-zadanie-na-arene-stepeni-i-korni": {
-      "title": "На арене степени и корни",
-      "path": "8 задание / На арене степени и корни",
+    "8-zadanie-raznost-kvadratov-2": {
+      "title": "Разность квадратов 2",
+      "path": "8 задание / Разность квадратов 2",
       "tasks": [
         {
           "isOge": true,
@@ -1544,12 +1535,179 @@
         }
       ]
     },
-    "8-zadanie-povtorenie": {
-      "title": "Повторение",
-      "path": "8 задание / Повторение",
-      "tasks": [],
-      "isRepetition": true,
-      "tasksToGather": 7
+    "8-zadanie-raznost-kvadratov-3": {
+      "title": "Разность квадратов 3",
+      "path": "8 задание / Разность квадратов 3",
+      "tasks": [
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "input",
+          "text1": "Найди значение выражения:",
+          "code1": "(\\sqrt{17} + 2)^2 - 4\\sqrt{17}",
+          "correctAnswer": "21",
+          "explanationFields": [
+            "Сначала вспомни формулу: $(a + b)^2 = a^2 + 2ab + b^2$",
+            "Примени её к нашей скобке:",
+            "$(\\sqrt{17})^2 + 2 \\cdot \\sqrt{17} \\cdot 2 + 2^2 - 4\\sqrt{17}$",
+            "Теперь посчитай числа:",
+            "$17 + 4\\sqrt{17} + 4 - 4\\sqrt{17}$",
+            "Заметим, что $+4\\sqrt{17}$ и $-4\\sqrt{17}$ имеют разные знаки, поэтому они взаимно уничтожаются. Остаётся только $17 + 4 = 21.$"
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "input",
+          "text1": "Найди значение выражения:",
+          "code1": "(\\sqrt{13} - 3)(\\sqrt{13} + 3)",
+          "correctAnswer": "4",
+          "explanationFields": [
+            "Здесь подходит формула: $(a - b)(a + b) = a^2 - b^2$",
+            "Подставь наши числа в эту формулу:",
+            "$(\\sqrt{13})^2 - 3^2$",
+            "Посчитай результат: $13 - 9 = 4.$"
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "input",
+          "text1": "Вычисли значение выражения:",
+          "code1": "(\\sqrt{5} + 9)^2 - 18\\sqrt{5}",
+          "correctAnswer": "81",
+          "explanationFields": [
+            "Раскрой скобки по формуле:",
+            "$(a + b)^2 = a^2 + 2ab + b^2$",
+            "Получается:",
+            "$(\\sqrt{5})^2 + 2 \\cdot \\sqrt{5} \\cdot 9 + 9^2 - 18\\sqrt{5}$",
+            "Упрости запись:",
+            "$5 + 18\\sqrt{5} + 81 - 18\\sqrt{5}$",
+            "Убери части с корнями, так как у них разные знаки, и сложи числа самостоятельно:",
+            "$5 + 81 = 86.$"
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "input",
+          "text1": "Найди значение выражения:",
+          "code1": "(\\sqrt{19} - \\sqrt{2})(\\sqrt{19} + \\sqrt{2})",
+          "correctAnswer": "17",
+          "explanationFields": [
+            "Используем формулу для разности квадратов:",
+            "$(a - b)(a + b) = a^2 - b^2$",
+            "Запишем это для нашего примера:",
+            "$(\\sqrt{19})^2 - (\\sqrt{2})^2$",
+            "Вспомним, что корень в квадрате — это просто само число под корнем:",
+            "$19 - 2 = 17.$"
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "input",
+          "text1": "Найди значение выражения:",
+          "code1": "(\\sqrt{11} - 7)^2 + 14\\sqrt{11}",
+          "correctAnswer": "60",
+          "explanationFields": [
+            "Воспользуйся формулой: $(a - b)^2 = a^2 - 2ab + b^2$",
+            "Подставь числа:",
+            "$(\\sqrt{11})^2 - 2 \\cdot \\sqrt{11} \\cdot 7 + 7^2 + 14\\sqrt{11}$",
+            "Посчитай, что получилось:",
+            "$11 - 14\\sqrt{11} + 49 + 14\\sqrt{11}$",
+            "Числа с корнями уничтожаются из-за разных знаков, остаётся:",
+            "$11 + 49 = 60.$"
+          ]
+        }
+      ]
+    },
+    "8-zadanie-raznost-kvadratov-4": {
+      "title": "Разность квадратов 4",
+      "path": "8 задание / Разность квадратов 4",
+      "tasks": [
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "input",
+          "text1": "Найди значение выражения:",
+          "code1": "(\\sqrt{11} + 3)^2 - 6\\sqrt{11}",
+          "correctAnswer": "20",
+          "explanationFields": [
+            "Вспомни формулу квадрата суммы: $(a + b)^2 = a^2 + 2ab + b^2$",
+            "Примени её к нашей скобке:",
+            "$(\\sqrt{11})^2 + 2 \\cdot \\sqrt{11} \\cdot 3 + 3^2 - 6\\sqrt{11}$",
+            "Теперь посчитай числа и упрости запись:",
+            "$11 + 6\\sqrt{11} + 9 - 6\\sqrt{11}$",
+            "Части с корнями уничтожаются, так как у них разные знаки, остаётся сложить самостоятельно:",
+            "$11 + 9 = 20.$"
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "input",
+          "text1": "Вычисли значение выражения:",
+          "code1": "(\\sqrt{17} - 3)(\\sqrt{17} + 3)",
+          "correctAnswer": "8",
+          "explanationFields": [
+            "Здесь удобно использовать формулу разности квадратов: $(a - b)(a + b) = a^2 - b^2$",
+            "Подставь числа из задания в формулу:",
+            "$(\\sqrt{17})^2 - 3^2$",
+            "Выполни возведение в квадрат:",
+            "$17 - 9 = 8.$"
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "input",
+          "text1": "Найди значение выражения:",
+          "code1": "(\\sqrt{15} - 2)^2 + 4\\sqrt{15}",
+          "correctAnswer": "19",
+          "explanationFields": [
+            "Раскрой скобки по формуле квадрата разности: $(a - b)^2 = a^2 - 2ab + b^2$",
+            "Запиши это с нашими числами:",
+            "$(\\sqrt{15})^2 - 2 \\cdot \\sqrt{15} \\cdot 2 + 2^2 + 4\\sqrt{15}$",
+            "Упрости выражение, перемножив числа:",
+            "$15 - 4\\sqrt{15} + 4 + 4\\sqrt{15}$",
+            "Убери части с корнями, так как у них разные знаки, и посчитай результат:",
+            "$15 + 4 = 19.$"
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "input",
+          "text1": "Вычисли:",
+          "code1": "(\\sqrt{13} - \\sqrt{2})(\\sqrt{13} + \\sqrt{2})",
+          "correctAnswer": "11",
+          "explanationFields": [
+            "Воспользуйся формулой разности квадратов: $(a - b)(a + b) = a^2 - b^2$",
+            "Запиши это для наших корней:",
+            "$(\\sqrt{13})^2 - (\\sqrt{2})^2$",
+            "Помни, что при возведении корня в квадрат получается просто число под ним:",
+            "$13 - 2 = 11.$"
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "input",
+          "text1": "Найди значение выражения:",
+          "code1": "(\\sqrt{19} - 7)^2 + 14\\sqrt{19}",
+          "correctAnswer": "68",
+          "explanationFields": [
+            "Примени формулу: $(a - b)^2 = a^2 - 2ab + b^2$",
+            "Подставь значения в формулу:",
+            "$(\\sqrt{19})^2 - 2 \\cdot \\sqrt{19} \\cdot 7 + 7^2 + 14\\sqrt{19}$",
+            "Посчитай промежуточные результаты:",
+            "$19 - 14\\sqrt{19} + 49 + 14\\sqrt{19}$",
+            "Части с корнями имеют разные знаки, поэтому они уничтожаются, остаётся:",
+            "$19 + 49 = 68.$"
+          ]
+        }
+      ]
     }
   }
 }
