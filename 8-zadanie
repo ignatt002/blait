@@ -2128,7 +2128,7 @@
           "hasTheory": false,
           "type": "input",
           "text1": "Найди значение выражения:",
-          "code1": "\\sqrt{\\frac{16a^{14}}{a^8}} при a = 3",
+          "code1": "\\sqrt{\\frac{16a^{14}}{a^8}} \ при \ a = 3",
           "correctAnswer": "108",
           "explanationFields": [
             "Сначала упростим выражение под корнем, вычтя показатели степеней:",
