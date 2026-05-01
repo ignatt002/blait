@@ -3741,7 +3741,7 @@
           "hasTheory": true,
           "type": "theory",
           "text1": "Ещё в ОГЭ квадрат суммы или разности любят засунуть под корень, например:",
-          "code1": "\sqrt{a^2 - 4ab + 4b^2} \text{ \\ при } a = 3, b = 4",
+          "code1": "\begin{matrix} \sqrt{a^2 - 4ab + 4b^2} \\ \text{при } a = 3, \ b = 4 \end{matrix}",
           "text2": "Тут, в общем, всё просто, но тут вылазят модули. Сначала мы как обычно",
           "correctAnswer": "5",
           "explanationFields": [
