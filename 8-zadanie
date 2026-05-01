@@ -2144,7 +2144,7 @@
           "hasTheory": false,
           "type": "input",
           "text1": "Найди значение выражения:",
-          "code1": "\\sqrt{\\frac{36x^4}{y^2}} при x = 6, y = 9",
+          "code1": "\\sqrt{\\frac{36x^4}{y^2}} \\ при \\ x = 6, \\ y = 9",
           "correctAnswer": "24",
           "explanationFields": [
             "Извлечем корень из каждого множителя в дроби самостоятельно:",
@@ -2160,7 +2160,7 @@
           "hasTheory": false,
           "type": "input",
           "text1": "Найди значение выражения:",
-          "code1": "\\sqrt{\\frac{25a^{19}}{a^{11}}} при a = 2",
+          "code1": "\\sqrt{\\frac{25a^{19}}{a^{11}}} \\ при \\ a = 2",
           "correctAnswer": "80",
           "explanationFields": [
             "Упростим подкоренное выражение, используя свойство степеней:",
@@ -2176,7 +2176,7 @@
           "hasTheory": false,
           "type": "input",
           "text1": "Вычисли значение выражения:",
-          "code1": "\\sqrt{\\frac{4x^2}{y^6}} при x = 8, y = 2",
+          "code1": "\\sqrt{\\frac{4x^2}{y^6}} \\ при \\ x = 8, \\ y = 2",
           "correctAnswer": "2",
           "explanationFields": [
             "Извлечем квадратный корень из числителя и знаменателя:",
@@ -2192,7 +2192,7 @@
           "hasTheory": false,
           "type": "input",
           "text1": "Найди значение выражения:",
-          "code1": "\\sqrt{\\frac{64a^{17}}{a^{15}}} при a = 7",
+          "code1": "\\sqrt{\\frac{64a^{17}}{a^{15}}} \\ при \\ a = 7",
           "correctAnswer": "56",
           "explanationFields": [
             "Сократим степени под корнем:",
@@ -2208,7 +2208,7 @@
           "hasTheory": false,
           "type": "input",
           "text1": "Найди значение выражения:",
-          "code1": "\\sqrt{\\frac{9a^{14}}{a^8}} при a = 2",
+          "code1": "\\sqrt{\\frac{9a^{14}}{a^8}} \\ при \\ a = 2",
           "correctAnswer": "24",
           "explanationFields": [
             "Сделаем упрощение степеней под знаком корня:",
@@ -2224,7 +2224,7 @@
           "hasTheory": false,
           "type": "input",
           "text1": "Вычисли:",
-          "code1": "\\sqrt{\\frac{16x^8}{y^6}} при x = 2, y = 4",
+          "code1": "\\sqrt{\\frac{16x^8}{y^6}} \\ при \\ x = 2, \\ y = 4",
           "correctAnswer": "4",
           "explanationFields": [
             "Извлечем корень из числителя и знаменателя по отдельности:",
@@ -2246,7 +2246,7 @@
           "hasTheory": true,
           "type": "input",
           "text1": "Найди значение выражения:",
-          "code1": "\\sqrt{\\frac{16a^{14}}{a^8}} при a = 2",
+          "code1": "\\sqrt{\\frac{16a^{14}}{a^8}} \\ при \\ a = 2",
           "correctAnswer": "64",
           "explanationFields": [
             "Сначала упростим выражение под корнем, вычтя показатели степеней:",
@@ -2262,7 +2262,7 @@
           "hasTheory": true,
           "type": "input",
           "text1": "Вычисли значение выражения:",
-          "code1": "\\sqrt{\\frac{25x^4}{y^6}} при x = 10, y = 5",
+          "code1": "\\sqrt{\\frac{25x^4}{y^6}} \\ при \\ x = 10, \\ y = 5",
           "correctAnswer": "4",
           "explanationFields": [
             "Сделаем извлечение корня из числителя и знаменателя по отдельности:",
@@ -2278,7 +2278,7 @@
           "hasTheory": true,
           "type": "input",
           "text1": "Найди значение выражения:",
-          "code1": "\\sqrt{\\frac{36a^{17}}{a^{15}}} при a = 5",
+          "code1": "\\sqrt{\\frac{36a^{17}}{a^{15}}} \\ при \\ a = 5",
           "correctAnswer": "30",
           "explanationFields": [
             "Упростим подкоренное выражение, используя свойство степеней:",
@@ -2294,7 +2294,7 @@
           "hasTheory": true,
           "type": "input",
           "text1": "Вычисли:",
-          "code1": "\\sqrt{\\frac{9x^2}{y^4}} при x = 12, y = 3",
+          "code1": "\\sqrt{\\frac{9x^2}{y^4}} \\ при \\ x = 12, \\ y = 3",
           "correctAnswer": "4",
           "explanationFields": [
             "Извлечем квадратный корень из каждого элемента дроби:",
@@ -2310,7 +2310,7 @@
           "hasTheory": true,
           "type": "input",
           "text1": "Найди значение выражения:",
-          "code1": "\\sqrt{\\frac{49a^{12}}{a^8}} при a = 2",
+          "code1": "\\sqrt{\\frac{49a^{12}}{a^8}} \\ при \\ a = 2",
           "correctAnswer": "28",
           "explanationFields": [
             "Сделаем упрощение степеней под знаком корня:",
