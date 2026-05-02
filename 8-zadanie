@@ -3861,7 +3861,7 @@
           "hasTheory": true,
           "type": "input",
           "text1": "Найди значение выражения:",
-          "code1": "\\begin{matrix} \\sqrt{a^2 - 8ab + 16b^2} \\ \\text{при } a = 4, \\ b = 3 \\end{matrix}",
+          "code1": "\\begin{matrix} \\sqrt{a^2 - 8ab + 16b^2} \\\\ \\text{при } a = 4, \\ b = 3 \\end{matrix}",
           "correctAnswer": "8",
           "explanationFields": [
             "Сделаем сворачивание подкоренного выражения в квадрат разности:",
