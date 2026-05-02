@@ -3978,22 +3978,6 @@
           "isOge": true,
           "hasTheory": true,
           "type": "input",
-          "text1": "Вычисли значение выражения:",
-          "code1": "\\begin{matrix} \\sqrt{9a^2 - 6ab + b^2} \\\\ \\text{при } a = \\frac{5}{13}, \\ b = 6\\frac{11}{13} \\end{matrix}",
-          "correctAnswer": "5.69",
-          "explanationFields": [
-            "Заметим формулу квадрата разности под знаком корня:",
-            "\\sqrt{(3a - b)^2} = |3a - b|",
-            "Подставим значения в модуль:",
-            "|3 \\cdot \\frac{5}{13} - \\frac{89}{13}| = |\\frac{15}{13} - \\frac{89}{13}|",
-            "Сделаем вычитание дробей и найдем результат:",
-            "|-\\frac{74}{13}| \\approx 5,69."
-          ]
-        },
-        {
-          "isOge": true,
-          "hasTheory": true,
-          "type": "input",
           "text1": "Найди значение выражения:",
           "code1": "\\begin{matrix} \\sqrt{a^2 - 4ab + 4b^2} \\\\ \\text{при } a = 2, \\ b = -4 \\end{matrix}",
           "correctAnswer": "10",
