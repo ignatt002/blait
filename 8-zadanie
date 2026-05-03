@@ -69,11 +69,15 @@
       },
       {
         "id": "subtopic-1777721839644",
-        "title": "Повторение всевозможных заданий 8",
+        "title": "Повторение темы",
         "levels": [
-          "8-zadanie-povtorenie-vseh-zadaniy",
-          "8-zadanie-2-povtorenie-vseh-zadaniy",
-          "8-zadanie-3-povtorenie-vseh-zadaniy"
+          "8-zadanie-povtorenie-korney",
+          "8-zadanie-povtorenie-korney-i-stepeney",
+          "8-zadanie-povtorenie-korney-i-stepeney-1",
+          "8-zadanie-povtorenie-fsu",
+          "8-zadanie-povtorenie-fsu-2",
+          "8-zadanie-povtorenie-fsu-3",
+          "8-zadanie-povtorenie"
         ]
       }
     ]
@@ -4465,13 +4469,19 @@
       ],
       "isTest": true
     },
-    "8-zadanie-povtorenie-vseh-zadaniy": {
-      "title": "Повторение всех заданий",
-      "path": "8 задание / Повторение всех заданий",
+    "8-zadanie-povtorenie-korney": {
+      "title": "Повторение корней",
+      "path": "8 задание / Повторение корней",
       "tasks": [
         {
-          "isOge": true,
+          "isOge": false,
+          "hasTheory": false,
+          "type": "theory",
+          "text1": "Все эти степени, корни и формулы сокращённого умножения — это довольно большая тема, поэтому в этом разделе мы повторим всё изученное."
+        },
+        {
           "hasTheory": true,
+          "isOge": true,
           "text1": "Реши пример на вычитание корней:",
           "code1": "10\\sqrt{7} - 4\\sqrt{7}",
           "correctAnswer": "6\\sqrt{7}",
@@ -4534,9 +4544,9 @@
         }
       ]
     },
-    "8-zadanie-2-povtorenie-vseh-zadaniy": {
-      "title": "2 Повторение всех заданий",
-      "path": "8 задание / 2 Повторение всех заданий",
+    "8-zadanie-povtorenie-korney-i-stepeney": {
+      "title": "Повторение корней и степеней",
+      "path": "8 задание / Повторение корней и степеней",
       "tasks": [
         {
           "isOge": true,
@@ -4603,9 +4613,9 @@
         }
       ]
     },
-    "8-zadanie-3-povtorenie-vseh-zadaniy": {
-      "title": "3 Повторение всех заданий",
-      "path": "8 задание / 3 Повторение всех заданий",
+    "8-zadanie-povtorenie-korney-i-stepeney-1": {
+      "title": "Повторение корней и степеней",
+      "path": "8 задание / Повторение корней и степеней",
       "tasks": [
         {
           "isOge": true,
@@ -4700,6 +4710,258 @@
           ]
         }
       ]
+    },
+    "8-zadanie-povtorenie-fsu": {
+      "title": "Повторение ФСУ",
+      "path": "8 задание / Повторение ФСУ",
+      "tasks": [
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "text1": "Найди значение выражения:",
+          "code1": "\\begin{matrix} \\frac{\\sqrt{25a^9} \\cdot \\sqrt{16b^8}}{\\sqrt{a^5b^8}} \\\\ \\text{при } a = 4, \\ b = 7 \\end{matrix}",
+          "correctAnswer": "320",
+          "explanationFields": [
+            "Сделаем объединение всех корней в один: $\\sqrt{\\frac{25a^9 \\cdot 16b^8}{a^5b^8}}$",
+            "Сократим степени переменных: $b^8$ уходит совсем, а $a^9 / a^5$ дает $a^4.$ Получаем: $\\sqrt{25 \\cdot 16 \\cdot a^4}$",
+            "Извлекаем корень из каждого множителя: $5 \\cdot 4 \\cdot a^2 = 20a^2$",
+            "Подставим $a = 4$: $20 \\cdot 4^2 = 20 \\cdot 16 = 320.$"
+          ],
+          "type": "input"
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "text1": "Вычисли значение выражения:",
+          "code1": "\\begin{matrix} \\frac{\\sqrt{36a^{11}} \\cdot \\sqrt{4b^6}}{\\sqrt{a^7b^6}} \\\\ \\text{при } a = 3, \\ b = 9 \\end{matrix}",
+          "correctAnswer": "108",
+          "explanationFields": [
+            "Сделаем упрощение под общим корнем: $\\sqrt{\\frac{36 \\cdot 4 \\cdot a^{11} \\cdot b^6}{a^7 \\cdot b^6}}$",
+            "После сокращения $b^6$ и степеней $a$ остается: $\\sqrt{144 \\cdot a^4}$",
+            "Извлекаем корень: $12a^2.$ Подставим значение $a = 3$: $12 \\cdot 3^2 = 12 \\cdot 9 = 108.$"
+          ],
+          "type": "input"
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "text1": "Найди значение выражения:",
+          "code1": "\\begin{matrix} \\frac{\\sqrt{9a^5 \\cdot b^4} \\cdot \\sqrt{a^3}}{\\sqrt{b^4}} \\\\ \\text{при } a = 5 \\end{matrix}",
+          "correctAnswer": "75",
+          "explanationFields": [
+            "Сделаем перемножение корней в числителе: $\\sqrt{9a^8b^4}.$ Теперь разделим на знаменатель под общим корнем: $\\sqrt{\\frac{9a^8b^4}{b^4}}$",
+            "Сокращаем $b^4$ и получаем $\\sqrt{9a^8}$",
+            "Извлекаем корень: $3a^4.$ При $a = 5$ получаем: $3 \\cdot 5^2 = 75 ($подожди$, a^4$ при извлечении из-под корня это $a^4$ только если было $a^8,$ всё верно$).$ $3 \\cdot 5^2 = 75.$"
+          ],
+          "type": "input"
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "text1": "Вычисли значение выражения:",
+          "code1": "\\begin{matrix} \\frac{\\sqrt{49a^3} \\cdot \\sqrt{a^5 \\cdot b^6}}{\\sqrt{b^6}} \\\\ \\text{при } a = 2 \\end{matrix}",
+          "correctAnswer": "112",
+          "explanationFields": [
+            "Сделаем упрощение под корнем: $\\sqrt{\\frac{49 \\cdot a^3 \\cdot a^5 \\cdot b^6}{b^6}} = \\sqrt{49a^8}$",
+            "Извлекаем корень: $7a^4$",
+            "Подставим $a = 2$: $7 \\cdot 2^4 = 7 \\cdot 16 = 112.$"
+          ],
+          "type": "input"
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "text1": "Найди значение выражения:",
+          "code1": "\\begin{matrix} \\frac{\\sqrt{64a^7b^{10}}}{\\sqrt{a^3b^{10}}} \\\\ \\text{при } a = 10 \\end{matrix}",
+          "correctAnswer": "800",
+          "explanationFields": [
+            "Сделаем деление под корнем: $\\sqrt{\\frac{64a^7b^{10}}{a^3b^{10}}} = \\sqrt{64a^4}$",
+            "Извлекаем корень: $8a^2$",
+            "Подставим $a = 10$: $8 \\cdot 10^2 = 8 \\cdot 100 = 800.$"
+          ],
+          "type": "input"
+        }
+      ]
+    },
+    "8-zadanie-povtorenie-fsu-2": {
+      "title": "Повторение ФСУ 2",
+      "path": "8 задание / Повторение ФСУ 2",
+      "tasks": [
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "text1": "Найди значение выражения:",
+          "code1": "\\begin{matrix} \\sqrt{\\frac{1}{16}x^6y^4} \\\\ \\text{при } x = 2, \\ y = 5 \\end{matrix}",
+          "correctAnswer": "50",
+          "explanationFields": [
+            "Сделаем извлечение корня из каждого множителя: $\\frac{1}{4} \\cdot x^3 \\cdot y^2$",
+            "Подставим значения переменных: $\\frac{1}{4} \\cdot 2^3 \\cdot 5^2$",
+            "Считаем степени: $\\frac{1}{4} \\cdot 8 \\cdot 25$",
+            "Сократим $8$ и $4,$ останется $2.$ Итог: $2 \\cdot 25 = 50.$"
+          ],
+          "type": "input"
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "text1": "Найди значение выражения:",
+          "code1": "\\begin{matrix} \\sqrt{a^2 + 8ab + 16b^2} \\\\ \\text{при } a = 3\\frac{3}{7}, \\ b = \\frac{1}{7} \\end{matrix}",
+          "correctAnswer": "4",
+          "explanationFields": [
+            "Сделаем сворачивание под корнем по формуле квадрата суммы: $\\sqrt{(a + 4b)^2} =$ |$a + 4b$|",
+            "Подставим числа: |$3\\frac{3}{7} + 4 \\cdot \\frac{1}{7}$|",
+            "Складываем дроби: $3\\frac{3}{7} + \\frac{4}{7} = 3\\frac{7}{7} = 4$",
+            "Результат: $4.$"
+          ],
+          "type": "input"
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "text1": "Вычисли значение выражения:",
+          "code1": "\\begin{matrix} \\sqrt{\\frac{1}{25}a^4b^8} \\\\ \\text{при } a = 10, \\ b = 2 \\end{matrix}",
+          "correctAnswer": "320",
+          "explanationFields": [
+            "Сделаем извлечение корня: $\\frac{1}{5} \\cdot a^2 \\cdot b^4$",
+            "Подставим переменные: $\\frac{1}{5} \\cdot 10^2 \\cdot 2^4$",
+            "Выполним расчет: $\\frac{1}{5} \\cdot 100 \\cdot 16$",
+            "Сократим $100$ и $5,$ получим $20.$ Итог: $20 \\cdot 16 = 320.$"
+          ],
+          "type": "input"
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "text1": "Найди значение выражения:",
+          "code1": "\\begin{matrix} \\sqrt{4a^2 - 12ab + 9b^2} \\\\ \\text{при } a = 2\\frac{1}{4}, \\ b = \\frac{1}{2} \\end{matrix}",
+          "correctAnswer": "3",
+          "explanationFields": [
+            "Сделаем сворачивание в квадрат разности: $\\sqrt{(2a - 3b)^2} =$ |$2a - 3b$|",
+            "Подставим значения: |$2 \\cdot 2\\frac{1}{4} - 3 \\cdot \\frac{1}{2}$|",
+            "Переведем в неправильные дроби: |$2 \\cdot \\frac{9}{4} - \\frac{3}{2}$| = |$\\frac{9}{2} - \\frac{3}{2}$|",
+            "Считаем разность: $\\frac{6}{2} = 3.$"
+          ],
+          "type": "input"
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "text1": "Вычисли:",
+          "code1": "\\begin{matrix} \\sqrt{0,04x^2y^{10}} \\\\ \\text{при } x = 15, \\ y = 1 \\end{matrix}",
+          "correctAnswer": "3",
+          "explanationFields": [
+            "Сделаем извлечение корня из множителей: $0,2 \\cdot$ |$x$| $\\cdot y^5$",
+            "Подставим числа: $0,2 \\cdot 15 \\cdot 1^5$",
+            "Выполним умножение: $0,2 \\cdot 15 = 3.$"
+          ],
+          "type": "input"
+        }
+      ]
+    },
+    "8-zadanie-povtorenie-fsu-3": {
+      "title": "Повторение ФСУ 3",
+      "path": "8 задание / Повторение ФСУ 3",
+      "tasks": [
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "text1": "Найди значение выражения:",
+          "code1": "\\begin{matrix} \\sqrt{9a^2 + 6ab + b^2} \\\\ \\text{при } a = \\frac{5}{13}, \\ b = 6\\frac{11}{13} \\end{matrix}",
+          "correctAnswer": "8",
+          "explanationFields": [
+            "Сделаем сворачивание под корнем в квадрат суммы: $\\sqrt{(3a + b)^2} =$ |$3a + b$|",
+            "Подставим значения: |$3 \\cdot \\frac{5}{13} + 6\\frac{11}{13}$|",
+            "Выполним сложение: |$\\frac{15}{13} + \\frac{89}{13}$| $= \\frac{104}{13}$",
+            "Результат: $8.$"
+          ],
+          "type": "input"
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "text1": "Вычисли значение выражения:",
+          "code1": "\\begin{matrix} (\\sqrt{11} + 3)^2 - 6\\sqrt{11} \\end{matrix}",
+          "correctAnswer": "20",
+          "explanationFields": [
+            "Сделаем раскрытие скобок по формуле квадрата суммы: $(\\sqrt{11})^2 + 2 \\cdot 3 \\cdot \\sqrt{11} + 3^2 - 6\\sqrt{11}$",
+            "Получаем: $11 + 6\\sqrt{11} + 9 - 6\\sqrt{11}$",
+            "Корни $6\\sqrt{11}$ и $-6\\sqrt{11}$ взаимно уничтожаются. Остается $11 + 9 = 20.$"
+          ],
+          "type": "input"
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "text1": "Найди значение выражения:",
+          "code1": "\\begin{matrix} (\\sqrt{37} - 5)(\\sqrt{37} + 5) \\end{matrix}",
+          "correctAnswer": "12",
+          "explanationFields": [
+            "Сделаем сворачивание по формуле разности квадратов: $(\\sqrt{37})^2 - 5^2$",
+            "Возведем в степень: $37 - 25$",
+            "Результат вычисления: $12.$"
+          ],
+          "type": "input"
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "text1": "Найди значение выражения:",
+          "code1": "\\begin{matrix} \\sqrt{a^2 - 6ab + 9b^2} \\\\ \\text{при } a = 3, \\ b = 6 \\end{matrix}",
+          "correctAnswer": "15",
+          "explanationFields": [
+            "Сделаем упрощение под корнем через квадрат разности: $\\sqrt{(a - 3b)^2} =$ |$a - 3b$|",
+            "Подставим переменные: |$3 - 3 \\cdot 6$| = |$3 - 18$|",
+            "Найдем значение по модулю: |$-15$| $= 15.$"
+          ],
+          "type": "input"
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "text1": "Вычисли значение выражения:",
+          "code1": "\\begin{matrix} (\\sqrt{5} + 9)^2 - 18\\sqrt{5} \\end{matrix}",
+          "correctAnswer": "86",
+          "explanationFields": [
+            "Сделаем раскрытие квадрата суммы: $(\\sqrt{5})^2 + 2 \\cdot 9 \\cdot \\sqrt{5} + 9^2 - 18\\sqrt{5}$",
+            "Упростим: $5 + 18\\sqrt{5} + 81 - 18\\sqrt{5}$",
+            "Лишние корни уходят, остается $5 + 81 = 86.$"
+          ],
+          "type": "input"
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "text1": "Найди значение выражения:",
+          "code1": "\\begin{matrix} (\\sqrt{19} - \\sqrt{2})(\\sqrt{19} + \\sqrt{2}) \\end{matrix}",
+          "correctAnswer": "17",
+          "explanationFields": [
+            "Сделаем применение формулы разности квадратов: $(\\sqrt{19})^2 - (\\sqrt{2})^2$",
+            "Квадраты «съедают» корни: $19 - 2$",
+            "Итог: $17.$"
+          ],
+          "type": "input"
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "text1": "Найди значение выражения:",
+          "code1": "\\begin{matrix} \\sqrt{a^2 + 12ab + 36b^2} \\\\ \\text{при } a = 7, \\ b = -3 \\end{matrix}",
+          "correctAnswer": "11",
+          "explanationFields": [
+            "Сделаем сворачивание в квадрат суммы: $\\sqrt{(a + 6b)^2} =$ |$a + 6b$|",
+            "Подставим числа: |$7 + 6 \\cdot (-3)$| = |$7 - 18$|",
+            "Вычислим модуль разности: |$-11$| $= 11.$"
+          ],
+          "type": "input"
+        }
+      ]
+    },
+    "8-zadanie-povtorenie": {
+      "title": "Повторение",
+      "path": "8 задание / Повторение",
+      "tasks": [],
+      "isRepetition": true,
+      "tasksToGather": 6
     }
   }
 }
