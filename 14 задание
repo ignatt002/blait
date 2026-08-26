@@ -1,11 +1,21 @@
 {
   "topic": {
-    "id": "topic-14-zadanie",
+    "id": "14-zadanie",
     "title": "14 задание",
     "color": "#8B5CF6",
     "subtopics": [
       {
         "title": "Математическая прогрессия",
+        "levels": [
+          "14-zadanie-chto-eto-za-takoe",
+          "14-zadanie-otrabotka-zakreplyaem-navyki",
+          "14-zadanie-otrabotka-zakreplyaem-navyki-1",
+          "14-zadanie-otrabotka-zakreplyaem-navyki-2",
+          "14-zadanie-otrabotka-zakreplyaem-navyki-3",
+          "14-zadanie-otrabotka-zakreplyaem-navyki-4",
+          "14-zadanie-otrabotka-zakreplyaem-navyki-5",
+          "14-zadanie-praktikum-po-arifmeticheskoy-progressii"
+        ],
         "theory": {
           "text1": "Арифметическая прогрессия — это такой ряд чисел, в котором мы каждый раз прибавляем одно и то же число, чтобы получить следующее.",
           "text2": "Формула n-го члена:",
@@ -19,21 +29,12 @@
           "text9": "Суть: количество «прыжков» между объектами всегда на один меньше, чем самих объектов. Поэтому в формуле $(n - 1)$.",
           "text10": "Мы можем не знать разность, но знать другие члены. Чтобы узнать разность, достаточно от любого члена прогрессии вычесть предыдущий, например, из $a_9$ вычесть $a_8$, или из $a_2$ вычесть $a_1$."
         },
-        "levels": [
-          "lesson-14-zadanie-chto-eto-za-takoe-",
-          "lesson-14-zadanie-otrabotka--zakreplyaem-navyki",
-          "lesson-14-zadanie-otrabotka--zakreplyaem-navyki-1",
-          "lesson-14-zadanie-otrabotka--zakreplyaem-navyki-2",
-          "lesson-14-zadanie-otrabotka--zakreplyaem-navyki-3",
-          "lesson-14-zadanie-otrabotka--zakreplyaem-navyki-4",
-          "lesson-14-zadanie-otrabotka--zakreplyaem-navyki-5",
-          "lesson-14-zadanie-praktikum-po-arifmeticheskoy-progressii"
-        ]
+        "id": "subtopic-0-1787753474817"
       }
     ]
   },
   "lessons": {
-    "lesson-14-zadanie-chto-eto-za-takoe-": {
+    "14-zadanie-chto-eto-za-takoe": {
       "title": "Что это за такое?",
       "path": "14 задание / Что это за такое?",
       "tasks": [
@@ -141,7 +142,7 @@
         }
       ]
     },
-    "lesson-14-zadanie-otrabotka--zakreplyaem-navyki": {
+    "14-zadanie-otrabotka-zakreplyaem-navyki": {
       "title": "Отработка: закрепляем навыки",
       "path": "14 задание / Отработка: закрепляем навыки",
       "tasks": [
@@ -293,7 +294,7 @@
         }
       ]
     },
-    "lesson-14-zadanie-otrabotka--zakreplyaem-navyki-1": {
+    "14-zadanie-otrabotka-zakreplyaem-navyki-1": {
       "title": "Отработка: закрепляем навыки",
       "path": "14 задание / Отработка: закрепляем навыки",
       "tasks": [
@@ -349,7 +350,7 @@
         }
       ]
     },
-    "lesson-14-zadanie-otrabotka--zakreplyaem-navyki-2": {
+    "14-zadanie-otrabotka-zakreplyaem-navyki-2": {
       "title": "Отработка: закрепляем навыки",
       "path": "14 задание / Отработка: закрепляем навыки",
       "tasks": [
@@ -431,7 +432,7 @@
         }
       ]
     },
-    "lesson-14-zadanie-otrabotka--zakreplyaem-navyki-3": {
+    "14-zadanie-otrabotka-zakreplyaem-navyki-3": {
       "title": "Отработка: закрепляем навыки",
       "path": "14 задание / Отработка: закрепляем навыки",
       "tasks": [
@@ -506,7 +507,7 @@
         }
       ]
     },
-    "lesson-14-zadanie-otrabotka--zakreplyaem-navyki-4": {
+    "14-zadanie-otrabotka-zakreplyaem-navyki-4": {
       "title": "Отработка: закрепляем навыки",
       "path": "14 задание / Отработка: закрепляем навыки",
       "tasks": [
@@ -581,7 +582,7 @@
         }
       ]
     },
-    "lesson-14-zadanie-otrabotka--zakreplyaem-navyki-5": {
+    "14-zadanie-otrabotka-zakreplyaem-navyki-5": {
       "title": "Отработка: закрепляем навыки",
       "path": "14 задание / Отработка: закрепляем навыки",
       "tasks": [
@@ -653,10 +654,9 @@
         }
       ]
     },
-    "lesson-14-zadanie-praktikum-po-arifmeticheskoy-progressii": {
+    "14-zadanie-praktikum-po-arifmeticheskoy-progressii": {
       "title": "Практикум по арифметической прогрессии",
       "path": "14 задание / Практикум по арифметической прогрессии",
-      "isTest": true,
       "tasks": [
         {
           "type": "input",
@@ -793,7 +793,8 @@
             "$a_8 = 5,5$."
           ]
         }
-      ]
+      ],
+      "isTest": true
     }
   }
 }
