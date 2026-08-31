@@ -56,7 +56,14 @@
           "15-zadanie-sinus-kosinus-tangens-3",
           "15-zadanie-sinus-kosinus-tangens-4",
           "15-zadanie-sinus-kosinus-tangens-5",
-          "15-zadanie-storona-cherez-sin-cos-ili-tg"
+          "15-zadanie-storona-cherez-sin-cos-ili-tg",
+          "15-zadanie-storona-cherez-sin-cos-ili-tg-2",
+          "15-zadanie-storona-cherez-sin-cos-ili-tg-3",
+          "15-zadanie-storona-cherez-sin-cos-ili-tg-4",
+          "15-zadanie-ploshchad-s-sin",
+          "15-zadanie-ploshchad-s-sin-2",
+          "15-zadanie-ploshchad-s-sin-3",
+          "15-zadanie-ravnostoronniy-treugolnik"
         ],
         "id": "subtopic-1787931702177"
       }
@@ -4513,7 +4520,8 @@
             "$\\sqrt{2704} = 52$"
           ]
         }
-      ]
+      ],
+      "isTest": true
     },
     "15-zadanie-opisannaya-okruzhnost": {
       "title": "Описанная окружность",
@@ -4523,7 +4531,7 @@
           "type": "theory",
           "hasTheory": true,
           "text": "А вот тут можно расслабиться, очередная лёгкая тема пятнадцатого задания — описанная окружность!",
-          "text2": "Описанная окружность — это окружность, которую описа́ли вокруг фигуры.",
+          "text2": "Описанная окружность — это окружность, которую описа́ли вокруг фигуры. Она касается всех её вершин и проходит как бы снаружи фигуры.",
           "graph": [
             "grid: false",
             "point A: 0;0",
@@ -4533,9 +4541,8 @@
             "angle_inner BCA з: 90",
             "circle_circumscribed: true"
           ],
-          "text3": "Почему так? Дело в том, что гипотенуза прямоугольного треугольника всегда является диаметром описанной окружности. А диаметр пополам — вот и радиус!",
-          "text4": "Значит, всё решение сводится к двум простым шагам:",
-          "code": "R = c ÷ 2",
+          "text3": "Обычно нас будут просить найти радиус описанной вокруг прямоугольного треугольника окружности. Но проблем с этим мало, и вот почему:",
+          "text4": "Дело в том, что гипотенуза прямоугольного треугольника всегда является диаметром описанной окружности. А диаметр пополам — вот и радиус!",
           "graph2": [
             "point A: -2;0",
             "point B: 2;0",
@@ -4558,8 +4565,10 @@
             "main_line: true",
             "angle_inner ACB з: 90"
           ],
-          "text5": "$1.$ Находим гипотенузу по теореме Пифагора: $c^2 = a^2 + b^2$",
-          "text6": "$2.$ Делим полученную гипотенузу на 2!"
+          "text5": "Значит, всё решение сводится к двум простым шагам:",
+          "text6": "$1.$ Находим гипотенузу по теореме Пифагора: $c^2 = a^2 + b^2$",
+          "text7": "$2.$ Делим полученную гипотенузу на 2!",
+          "code": "R = c ÷ 2"
         },
         {
           "type": "input",
@@ -5028,9 +5037,9 @@
           "text11": "Вроде бы уже не очень сложно, да?"
         },
         {
+          "type": "input",
           "isOge": true,
           "hasTheory": true,
-          "type": "input",
           "text": "Теперь давай самостоятельно.",
           "text2": "В треугольнике $ABC$ угол $C$ равен $90^\\circ, BC = 16, AB = 20.$ Найди $\\cos B.$",
           "text3": "Синус, косинус, тангенс — пог, пиг, попи.",
@@ -5056,9 +5065,9 @@
           ]
         },
         {
+          "type": "input",
           "isOge": true,
           "hasTheory": true,
-          "type": "input",
           "text": "Давай попробуем найти тангенс!",
           "text2": "В треугольнике $ABC$ угол $C$ равен $90^\\circ, AC = 12, BC = 16.$ Найди $\\operatorname{tg} B.$",
           "graph": [
@@ -5083,9 +5092,9 @@
           ]
         },
         {
+          "type": "input",
           "isOge": true,
           "hasTheory": true,
-          "type": "input",
           "text": "Внимательно! Теперь сместим фокус на угол $A.$ В треугольнике $ABC$ угол $C$ равен $90^\\circ, BC = 14, AB = 25.$ Найди $\\sin A.$",
           "graph": [
             "grid: false",
@@ -5109,9 +5118,9 @@
           ]
         },
         {
+          "type": "input",
           "isOge": true,
           "hasTheory": true,
-          "type": "input",
           "text": "Давай найдём косинус угла $A.$ В треугольнике $ABC$ угол $C$ равен $90^\\circ, AC = 21, AB = 50.$ Найди $\\cos A.$",
           "graph": [
             "grid: false",
@@ -5135,9 +5144,9 @@
           ]
         },
         {
+          "type": "input",
           "isOge": true,
           "hasTheory": true,
-          "type": "input",
           "text": "Последнее задание! В треугольнике $ABC$ угол $C$ равен $90^\\circ, BC = 15, AC = 12.$ Найди $\\operatorname{tg} A.$",
           "graph": [
             "grid: false",
@@ -5167,9 +5176,9 @@
       "path": "15 задание / Синус, косинус, тангенс 2",
       "tasks": [
         {
+          "type": "input",
           "isOge": true,
           "hasTheory": true,
-          "type": "input",
           "text": "Тренируемся искать синус, косинус и тангенс! Начнём с синуса. В треугольнике $ABC$ угол $C$ равен $90^\\circ, AC = 15, AB = 30.$ Найди $\\sin B.$",
           "graph": [
             "grid: false",
@@ -5193,9 +5202,9 @@
           ]
         },
         {
+          "type": "input",
           "isOge": true,
           "hasTheory": true,
-          "type": "input",
           "text": "Теперь найдём косинус. В треугольнике $ABC$ угол $C$ равен $90^\\circ, BC = 12, AB = 20.$ Найди $\\cos B.$",
           "graph": [
             "grid: false",
@@ -5219,9 +5228,9 @@
           ]
         },
         {
+          "type": "input",
           "isOge": true,
           "hasTheory": true,
-          "type": "input",
           "text": "А теперь попробуем найти тангенс! В треугольнике $ABC$ угол $C$ равен $90^\\circ, AC = 12, BC = 3.$ Найди $\\operatorname{tg} B.$",
           "graph": [
             "grid: false",
@@ -5245,9 +5254,9 @@
           ]
         },
         {
+          "type": "input",
           "isOge": true,
           "hasTheory": true,
-          "type": "input",
           "text": "Переходим к углу $A!$ В треугольнике $ABC$ угол $C$ равен $90^\\circ, BC = 16, AB = 20.$ Найди $\\sin A.$",
           "graph": [
             "grid: false",
@@ -5271,9 +5280,9 @@
           ]
         },
         {
+          "type": "input",
           "isOge": true,
           "hasTheory": true,
-          "type": "input",
           "text": "Двигаемся дальше! Найдем тангенс угла $A.$ В треугольнике $ABC$ угол $C$ равен $90^\\circ, BC = 15, AC = 5.$ Найди $\\operatorname{tg} A.$",
           "graph": [
             "grid: false",
@@ -5297,9 +5306,9 @@
           ]
         },
         {
+          "type": "input",
           "isOge": true,
           "hasTheory": true,
-          "type": "input",
           "text": "В треугольнике $ABC$ угол $C$ равен $90^\\circ, AC = 10, BC = 2.$ Найди $\\operatorname{tg} B.$",
           "graph": [
             "grid: false",
@@ -5328,9 +5337,9 @@
       "path": "15 задание / Синус, косинус, тангенс 3",
       "tasks": [
         {
+          "type": "input",
           "isOge": true,
           "hasTheory": true,
-          "type": "input",
           "text": "Продолжаем отрабатывать тригонометрию! Никуда без нашей напоминалки: синус, косинус, тангенс — пог, пиг, попи.",
           "text2": "В треугольнике $ABC$ угол $C$ равен $90^\\circ, AC = 18, AB = 25.$ Найди $\\cos A.$",
           "graph": [
@@ -5355,9 +5364,9 @@
           ]
         },
         {
+          "type": "input",
           "isOge": true,
           "hasTheory": true,
-          "type": "input",
           "text": "Теперь переходим к тангенсу. В треугольнике $ABC$ угол $C$ равен $90^\\circ, AC = 21, BC = 7.$ Найди $\\operatorname{tg} B.$",
           "graph": [
             "grid: false",
@@ -5381,9 +5390,9 @@
           ]
         },
         {
+          "type": "input",
           "isOge": true,
           "hasTheory": true,
-          "type": "input",
           "text": "Двигаемся дальше! В треугольнике $ABC$ угол $C$ равен $90^\\circ, AC = 13, AB = 20.$ Найди $\\sin B.$",
           "graph": [
             "grid: false",
@@ -5407,9 +5416,9 @@
           ]
         },
         {
+          "type": "input",
           "isOge": true,
           "hasTheory": true,
-          "type": "input",
           "text": "В треугольнике $ABC$ угол $C$ равен $90^\\circ, BC = 9, AB = 20.$ Найди $\\cos B.$",
           "graph": [
             "grid: false",
@@ -5433,9 +5442,9 @@
           ]
         },
         {
+          "type": "input",
           "isOge": true,
           "hasTheory": true,
-          "type": "input",
           "text": "Теперь найдём тангенс угла $A.$ В треугольнике $ABC$ угол $C$ равен $90^\\circ, BC = 24, AC = 6.$ Найди $\\operatorname{tg} A.$",
           "graph": [
             "grid: false",
@@ -5459,9 +5468,9 @@
           ]
         },
         {
+          "type": "input",
           "isOge": true,
           "hasTheory": true,
-          "type": "input",
           "text": "В треугольнике $ABC$ угол $C$ равен $90^\\circ, BC = 17, AB = 20.$ Найди $\\sin A.$",
           "graph": [
             "grid: false",
@@ -5490,9 +5499,9 @@
       "path": "15 задание / Синус, косинус, тангенс 4",
       "tasks": [
         {
+          "type": "input",
           "isOge": true,
           "hasTheory": true,
-          "type": "input",
           "text": "Отрабатываем синусы, косинусы и тангенсы! В треугольнике $ABC$ угол $C$ равен $90^\\circ, AC = 7, AB = 20.$ Найди $\\sin B.$",
           "graph": [
             "grid: false",
@@ -5516,9 +5525,9 @@
           ]
         },
         {
+          "type": "input",
           "isOge": true,
           "hasTheory": true,
-          "type": "input",
           "text": "Теперь найдём косинус. В треугольнике $ABC$ угол $C$ равен $90^\\circ, AC = 14, AB = 20.$ Найди $\\cos A.$",
           "graph": [
             "grid: false",
@@ -5542,9 +5551,9 @@
           ]
         },
         {
+          "type": "input",
           "isOge": true,
           "hasTheory": true,
-          "type": "input",
           "text": "Ещё задача! Попробуем найти тангенс. В треугольнике $ABC$ угол $C$ равен $90^\\circ, AC = 18, BC = 24.$ Найди $\\operatorname{tg} B.$",
           "graph": [
             "grid: false",
@@ -5568,9 +5577,9 @@
           ]
         },
         {
+          "type": "input",
           "isOge": true,
           "hasTheory": true,
-          "type": "input",
           "text": "Переходим к тангенсу угла $A.$ В треугольнике $ABC$ угол $C$ равен $90^\\circ, BC = 27, AC = 12.$ Найди $\\operatorname{tg} A.$",
           "graph": [
             "grid: false",
@@ -5594,9 +5603,9 @@
           ]
         },
         {
+          "type": "input",
           "isOge": true,
           "hasTheory": true,
-          "type": "input",
           "text": "В треугольнике $ABC$ угол $C$ равен $90^\\circ, BC = 21, AB = 25.$ Найди $\\cos B.$",
           "graph": [
             "grid: false",
@@ -5620,9 +5629,9 @@
           ]
         },
         {
+          "type": "input",
           "isOge": true,
           "hasTheory": true,
-          "type": "input",
           "text": "В треугольнике $ABC$ угол $C$ равен $90^\\circ, BC = 12, AB = 25.$ Найди $\\sin A.$",
           "graph": [
             "grid: false",
@@ -5651,9 +5660,9 @@
       "path": "15 задание / Синус, косинус, тангенс 5",
       "tasks": [
         {
+          "type": "input",
           "isOge": true,
           "hasTheory": true,
-          "type": "input",
           "text": "Закрепляем тригонометрию! Запоминалка всё так же с нами. В треугольнике $ABC$ угол $C$ равен $90^\\circ, BC = 18, AB = 25.$ Найди $\\sin A.$",
           "graph": [
             "grid: false",
@@ -5677,9 +5686,9 @@
           ]
         },
         {
+          "type": "input",
           "isOge": true,
           "hasTheory": true,
-          "type": "input",
           "text": "Теперь найдем косинус угла $B.$ В треугольнике $ABC$ угол $C$ равен $90^\\circ, BC = 11, AB = 20.$ Найди $\\cos B.$",
           "graph": [
             "grid: false",
@@ -5703,9 +5712,9 @@
           ]
         },
         {
+          "type": "input",
           "isOge": true,
           "hasTheory": true,
-          "type": "input",
           "text": "Найдем тангенс угла $A.$ В треугольнике $ABC$ угол $C$ равен $90^\\circ, BC = 28, AC = 8.$ Найди $\\operatorname{tg} A.$",
           "graph": [
             "grid: false",
@@ -5729,9 +5738,9 @@
           ]
         },
         {
+          "type": "input",
           "isOge": true,
           "hasTheory": true,
-          "type": "input",
           "text": "В треугольнике $ABC$ угол $C$ равен $90^\\circ, AC = 16, AB = 25.$ Найди $\\sin B.$",
           "graph": [
             "grid: false",
@@ -5755,9 +5764,9 @@
           ]
         },
         {
+          "type": "input",
           "isOge": true,
           "hasTheory": true,
-          "type": "input",
           "text": "В треугольнике $ABC$ угол $C$ равен $90^\\circ, AC = 9, AB = 50.$ Найди $\\cos A.$",
           "graph": [
             "grid: false",
@@ -5781,9 +5790,9 @@
           ]
         },
         {
+          "type": "input",
           "isOge": true,
           "hasTheory": true,
-          "type": "input",
           "text": "В треугольнике $ABC$ угол $C$ равен $90^\\circ, AC = 32, BC = 8.$ Найди $\\operatorname{tg} B.$",
           "graph": [
             "grid: false",
@@ -5812,12 +5821,12 @@
       "path": "15 задание / Сторона через sin, cos или tg",
       "tasks": [
         {
+          "type": "theory",
           "isOge": true,
           "hasTheory": true,
-          "type": "theory",
           "text": "Ещё в ОГЭ будут попадаться перевёрнутые задачи: нужно найти сторону треугольника с уже данным синусом, косинусом или тангенсом.",
           "text2": "Однако всё работает по той же запоминалке! Попробуем найти неизвестную сторону.",
-          "text3": "«В треугольнике $ABC$ угол $C$ равен $90^\\circ, \\sin B = \\frac{7}{12}, AB = 48.$ Найдите $AC».$",
+          "text3": "«В треугольнике $ABC$ угол $C$ равен $90^\\circ,$ $\\sin B = \\frac{7}{12},$ $AB = 48.$ Найдите $AC».$",
           "graph": [
             "grid: false",
             "point A: 0;0",
@@ -5838,9 +5847,9 @@
           "text12": "Да, тут придётся заморочиться. Но, на самом деле, такие задачи попадаются на ОГЭ довольно редко, однако всё равно лучше их отточить, чтобы не пролететь."
         },
         {
+          "type": "input",
           "isOge": true,
           "hasTheory": true,
-          "type": "input",
           "text": "Теперь попробуй найти прилежащий катет через косинус.",
           "text2": "В треугольнике $ABC$ угол $C$ равен $90^\\circ,$ $\\cos B = \\frac{4}{5},$ $AB = 40.$ Найди $BC.$",
           "graph": [
@@ -5863,9 +5872,9 @@
           ]
         },
         {
+          "type": "input",
           "isOge": true,
           "hasTheory": true,
-          "type": "input",
           "text": "А теперь на очереди тангенс! В треугольнике $ABC$ угол $C$ равен $90^\\circ, \\operatorname{tg} B = \\frac{3}{4}, BC = 24.$ Найди $AC.$",
           "graph": [
             "grid: false",
@@ -5887,9 +5896,9 @@
           ]
         },
         {
+          "type": "input",
           "isOge": true,
           "hasTheory": true,
-          "type": "input",
           "text": "А теперь давай найдём гипотенузу! В треугольнике $ABC$ угол $C$ равен $90^\\circ, \\sin A = \\frac{5}{13}, BC = 25.$ Найди $AB.$",
           "graph": [
             "grid: false",
@@ -5911,9 +5920,9 @@
           ]
         },
         {
+          "type": "input",
           "isOge": true,
           "hasTheory": true,
-          "type": "input",
           "text": "Ещё задача! Найдем прилежащий катет для угла $A.$ В треугольнике $ABC$ угол $C$ равен $90^\\circ, \\operatorname{tg} A = \\frac{4}{3}, BC = 32.$ Найди $AC.$",
           "graph": [
             "grid: false",
@@ -5935,9 +5944,9 @@
           ]
         },
         {
+          "type": "input",
           "isOge": true,
           "hasTheory": true,
-          "type": "input",
           "text": "Найдем гипотенузу через косинус. В треугольнике $ABC$ угол $C$ равен $90^\\circ, \\cos A = \\frac{3}{8}, AC = 18.$ Найди $AB.$",
           "graph": [
             "grid: false",
@@ -5958,6 +5967,1101 @@
           ]
         }
       ]
+    },
+    "15-zadanie-storona-cherez-sin-cos-ili-tg-2": {
+      "title": "Сторона через sin, cos или tg 2",
+      "path": "15 задание / Сторона через sin, cos или tg 2",
+      "tasks": [
+        {
+          "type": "input",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "В треугольнике $ABC$ угол $C$ равен $90^\\circ, \\sin B = \\frac{3}{5}, AB = 35.$ Найди $AC.$",
+          "graph": [
+            "grid: false",
+            "point A: 0;0",
+            "point B: 3;4",
+            "point C: 3;0",
+            "main_line: true",
+            "angle_inner BCA г: 90",
+            "angle_inner ABC к: ⠀"
+          ],
+          "correctAnswer": "21",
+          "explanationFields": [
+            "Вспоминаем запоминалку:",
+            "Синус, косинус, тангенс — пог, пиг, попи.",
+            "Синус — это «пог» (ПрОтиволежащую сторону делим на Гипотенузу$): \\sin B = \\frac{AC}{AB}.$",
+            "Подставляем известные данные: $\\frac{3}{5} = \\frac{AC}{35}.$",
+            "Выражаем катет $AC:$",
+            "$AC = \\frac{35 \\times 3}{5} = 7 \\times 3 = 21$"
+          ]
+        },
+        {
+          "type": "input",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "В треугольнике $ABC$ угол $C$ равен $90^\\circ, \\cos A = \\frac{4}{5}, AB = 45.$ Найди $AC.$",
+          "graph": [
+            "grid: false",
+            "point A: 0;0",
+            "point B: 4;3",
+            "point C: 4;0",
+            "main_line: true",
+            "angle_inner BCA г: 90",
+            "angle_inner BAC к: ⠀"
+          ],
+          "correctAnswer": "36",
+          "explanationFields": [
+            "Применяем правило:",
+            "Синус, косинус, тангенс — пог, пиг, попи.",
+            "Косинус — это «пиг» (ПрИлежащую сторону делим на Гипотенузу$): \\cos A = \\frac{AC}{AB}.$",
+            "Подставляем данные в уравнение: $\\frac{4}{5} = \\frac{AC}{45}.$",
+            "Находим катет $AC:$",
+            "$AC = \\frac{45 \\times 4}{5} = 9 \\times 4 = 36$"
+          ]
+        },
+        {
+          "type": "input",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "В треугольнике $ABC$ угол $C$ равен $90^\\circ, \\operatorname{tg} A = \\frac{5}{12}, AC = 36.$ Найди $BC.$",
+          "graph": [
+            "grid: false",
+            "point A: 0;0",
+            "point B: 2;4",
+            "point C: 2;0",
+            "main_line: true",
+            "angle_inner BCA г: 90",
+            "angle_inner BAC к: ⠀"
+          ],
+          "correctAnswer": "15",
+          "explanationFields": [
+            "Включаем запоминалку:",
+            "Синус, косинус, тангенс — пог, пиг, попи.",
+            "Тангенс — это «попи» (ПрОтиволежащую сторону делим на ПрИлежащую$): \\operatorname{tg} A = \\frac{BC}{AC}.$",
+            "Подставляем известное: $\\frac{5}{12} = \\frac{BC}{36}.$",
+            "Находим катет $BC:$",
+            "$BC = \\frac{36 \\times 5}{12} = 3 \\times 5 = 15$"
+          ]
+        },
+        {
+          "type": "input",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "В треугольнике $ABC$ угол $C$ равен $90^\\circ, \\cos B = \\frac{7}{10}, BC = 28.$ Найди $AB.$",
+          "graph": [
+            "grid: false",
+            "point A: 0;0",
+            "point B: 3;4",
+            "point C: 3;0",
+            "main_line: true",
+            "angle_inner BCA г: 90",
+            "angle_inner ABC к: ⠀"
+          ],
+          "correctAnswer": "40",
+          "explanationFields": [
+            "Повторяем запоминалку:",
+            "Синус, косинус, тангенс — пог, пиг, попи.",
+            "Косинус — это «пиг» (ПрИлежащую сторону делим на Гипотенузу$): \\cos B = \\frac{BC}{AB}.$",
+            "Подставляем значения: $\\frac{7}{10} = \\frac{28}{AB}.$",
+            "Выражаем гипотенузу $AB:$",
+            "$AB = \\frac{28 \\times 10}{7} = 4 \\times 10 = 40$"
+          ]
+        },
+        {
+          "type": "input",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "В треугольнике $ABC$ угол $C$ равен $90^\\circ, \\sin A = \\frac{8}{15}, BC = 32.$ Найди $AB.$",
+          "graph": [
+            "grid: false",
+            "point A: 0;0",
+            "point B: 3;4",
+            "point C: 3;0",
+            "main_line: true",
+            "angle_inner BCA г: 90",
+            "angle_inner BAC к: ⠀"
+          ],
+          "correctAnswer": "60",
+          "explanationFields": [
+            "Схема решения:",
+            "Синус, косинус, тангенс — пог, пиг, попи.",
+            "Синус — это «пог» (ПрОтиволежащую сторону делим на Гипотенузу$): \\sin A = \\frac{BC}{AB}.$",
+            "Подставляем числа: $\\frac{8}{15} = \\frac{32}{AB}.$",
+            "Находим гипотенузу $AB:$",
+            "$AB = \\frac{32 \\times 15}{8} = 4 \\times 15 = 60$"
+          ]
+        },
+        {
+          "type": "input",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "В треугольнике $ABC$ угол $C$ равен $90^\\circ, \\operatorname{tg} B = \\frac{9}{4}, AC = 36.$ Найди $BC.$",
+          "graph": [
+            "grid: false",
+            "point A: 0;0",
+            "point B: 3;4",
+            "point C: 3;0",
+            "main_line: true",
+            "angle_inner BCA г: 90",
+            "angle_inner ABC к: ⠀"
+          ],
+          "correctAnswer": "16",
+          "explanationFields": [
+            "Работаем по алгоритму:",
+            "Синус, косинус, тангенс — пог, пиг, попи.",
+            "Тангенс — это «попи» (ПрОтиволежащую сторону делим на ПрИлежащую$): \\operatorname{tg} B = \\frac{AC}{BC}.$",
+            "Подставляем данные: $\\frac{9}{4} = \\frac{36}{BC}.$",
+            "Находим катет $BC:$",
+            "$BC = \\frac{36 \\times 4}{9} = 4 \\times 4 = 16$"
+          ]
+        }
+      ]
+    },
+    "15-zadanie-storona-cherez-sin-cos-ili-tg-3": {
+      "title": "Сторона через sin, cos или tg 3",
+      "path": "15 задание / Сторона через sin, cos или tg 3",
+      "tasks": [
+        {
+          "type": "input",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "Тренируемся находить неизвестные стороны с помощью нашей запоминалки! В треугольнике $ABC$ угол $C$ равен $90^\\circ, \\cos B = \\frac{3}{5}, AB = 25.$ Найди $BC.$",
+          "graph": [
+            "grid: false",
+            "point A: 0;0",
+            "point B: 3;4",
+            "point C: 3;0",
+            "main_line: true",
+            "angle_inner BCA г: 90",
+            "angle_inner ABC к: ⠀"
+          ],
+          "correctAnswer": "15",
+          "explanationFields": [
+            "Вспоминаем правило:",
+            "Синус, косинус, тангенс — пог, пиг, попи.",
+            "Косинус — это «пиг» (ПрИлежащую сторону делим на Гипотенузу$): \\cos B = \\frac{BC}{AB}.$",
+            "Подставляем наши числа: $\\frac{3}{5} = \\frac{BC}{25}.$",
+            "Находим катет $BC:$",
+            "$BC = \\frac{25 \\times 3}{5} = 5 \\times 3 = 15$"
+          ]
+        },
+        {
+          "type": "input",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "Давай найдём противолежащий катет! В треугольнике $ABC$ угол $C$ равен $90^\\circ, \\operatorname{tg} A = \\frac{3}{4}, AC = 20.$ Найди $BC.$",
+          "graph": [
+            "grid: false",
+            "point A: 0;0",
+            "point B: 2;4",
+            "point C: 2;0",
+            "main_line: true",
+            "angle_inner BCA г: 90",
+            "angle_inner BAC к: ⠀"
+          ],
+          "correctAnswer": "15",
+          "explanationFields": [
+            "Подключаем запоминалку:",
+            "Синус, косинус, тангенс — пог, пиг, попи.",
+            "Тангенс угла $A$ — это «попи» (ПрОтиволежащую сторону делим на ПрИлежащую$): \\operatorname{tg} A = \\frac{BC}{AC}.$",
+            "Подставляем значения из условия: $\\frac{3}{4} = \\frac{BC}{20}.$",
+            "Вычисляем катет $BC:$",
+            "$BC = \\frac{20 \\times 3}{4} = 5 \\times 3 = 15$"
+          ]
+        },
+        {
+          "type": "input",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "Смотри на угол $B$ и определяй стороны. В треугольнике $ABC$ угол $C$ равен $90^\\circ, \\sin B = \\frac{4}{9}, AB = 45.$ Найди $AC.$",
+          "graph": [
+            "grid: false",
+            "point A: 0;0",
+            "point B: 3;4",
+            "point C: 3;0",
+            "main_line: true",
+            "angle_inner BCA г: 90",
+            "angle_inner ABC к: ⠀"
+          ],
+          "correctAnswer": "20",
+          "explanationFields": [
+            "Работаем по алгоритму:",
+            "Синус, косинус, тангенс — пог, пиг, попи.",
+            "Синус угла $B$ — это «пог» (ПрОтиволежащую сторону делим на Гипотенузу$): \\sin B = \\frac{AC}{AB}.$",
+            "Подставляем данные: $\\frac{4}{9} = \\frac{AC}{45}.$",
+            "Находим катет $AC:$",
+            "$AC = \\frac{45 \\times 4}{9} = 5 \\times 4 = 20$"
+          ]
+        },
+        {
+          "type": "input",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "А теперь попробуй найти гипотенузу! В треугольнике $ABC$ угол $C$ равен $90^\\circ, \\cos A = \\frac{5}{13}, AC = 15.$ Найди $AB.$",
+          "graph": [
+            "grid: false",
+            "point A: 0;0",
+            "point B: 4;2",
+            "point C: 4;0",
+            "main_line: true",
+            "angle_inner BCA г: 90",
+            "angle_inner BAC к: ⠀"
+          ],
+          "correctAnswer": "39",
+          "explanationFields": [
+            "Вспомним правило:",
+            "Синус, косинус, тангенс — пог, пиг, попи.",
+            "Косинус угла $A$ — это «пиг» (ПрИлежащую сторону делим на Гипотенузу$): \\cos A = \\frac{AC}{AB}.$",
+            "Подставляем известное: $\\frac{5}{13} = \\frac{15}{AB}.$",
+            "Выражаем гипотенузу $AB:$",
+            "$AB = \\frac{15 \\times 13}{5} = 3 \\times 13 = 39$"
+          ]
+        },
+        {
+          "type": "input",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "Внимательно посмотри на стороны относительно угла $A.$ В треугольнике $ABC$ угол $C$ равен $90^\\circ, \\sin A = \\frac{7}{20}, BC = 14.$ Найди $AB.$",
+          "graph": [
+            "grid: false",
+            "point A: 0;0",
+            "point B: 3;4",
+            "point C: 3;0",
+            "main_line: true",
+            "angle_inner BCA г: 90",
+            "angle_inner BAC к: ⠀"
+          ],
+          "correctAnswer": "40",
+          "explanationFields": [
+            "Наша схема решения:",
+            "Синус, косинус, тангенс — пог, пиг, попи.",
+            "Синус угла $A$ — это «пог» (ПрОтиволежащую сторону делим на Гипотенузу$): \\sin A = \\frac{BC}{AB}.$",
+            "Подставляем числа в пропорцию: $\\frac{7}{20} = \\frac{14}{AB}.$",
+            "Находим гипотенузу $AB:$",
+            "$AB = \\frac{14 \\times 20}{7} = 2 \\times 20 = 40$"
+          ]
+        },
+        {
+          "type": "input",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "Обрати внимание на тангенс угла $B!$ В треугольнике $ABC$ угол $C$ равен $90^\\circ, \\operatorname{tg} B = \\frac{5}{6}, BC = 30.$ Найди $AC.$",
+          "graph": [
+            "grid: false",
+            "point A: 0;0",
+            "point B: 3;4",
+            "point C: 3;0",
+            "main_line: true",
+            "angle_inner BCA г: 90",
+            "angle_inner ABC к: ⠀"
+          ],
+          "correctAnswer": "25",
+          "explanationFields": [
+            "Синус, косинус, тангенс — пог, пиг, попи.",
+            "Тангенс угла $B$ — это «попи» (ПрОтиволежащую сторону делим на ПрИлежащую$): \\operatorname{tg} B = \\frac{AC}{BC}.$",
+            "Подставляем значения: $\\frac{5}{6} = \\frac{AC}{30}.$",
+            "Находим катет $AC:$",
+            "$AC = \\frac{30 \\times 5}{6} = 5 \\times 5 = 25$"
+          ]
+        }
+      ]
+    },
+    "15-zadanie-storona-cherez-sin-cos-ili-tg-4": {
+      "title": "Сторона через sin, cos или tg 4",
+      "path": "15 задание / Сторона через sin, cos или tg 4",
+      "tasks": [
+        {
+          "type": "input",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "Тренируемся искать стороны треугольника по значению синуса, косинуса или тангенса! В треугольнике $ABC$ угол $C$ равен $90^\\circ, \\sin A = \\frac{3}{5}, AB = 40.$ Найди $BC.$",
+          "graph": [
+            "grid: false",
+            "point A: 0;0",
+            "point B: 3;4",
+            "point C: 3;0",
+            "main_line: true",
+            "angle_inner BCA г: 90",
+            "angle_inner BAC к: ⠀"
+          ],
+          "correctAnswer": "24",
+          "explanationFields": [
+            "Впоминаем нашу запоминалку:",
+            "Синус, косинус, тангенс — пог, пиг, попи.",
+            "Синус угла $A$ — это «пог» (ПрОтиволежащую сторону делим на Гипотенузу$): \\sin A = \\frac{BC}{AB}.$",
+            "Подставляем всё, что знаем из условия: $\\frac{3}{5} = \\frac{BC}{40}.$",
+            "Находим противолежащий катет $BC:$",
+            "$BC = \\frac{40 \\times 3}{5} = 8 \\times 3 = 24$"
+          ]
+        },
+        {
+          "type": "input",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "Теперь посмотрим на косинус угла $B.$ В треугольнике $ABC$ угол $C$ равен $90^\\circ, \\cos B = \\frac{12}{13}, AB = 26.$ Найди $BC.$",
+          "graph": [
+            "grid: false",
+            "point A: 0;0",
+            "point B: 3;4",
+            "point C: 3;0",
+            "main_line: true",
+            "angle_inner BCA г: 90",
+            "angle_inner ABC к: ⠀"
+          ],
+          "correctAnswer": "24",
+          "explanationFields": [
+            "Подключаем правило:",
+            "Синус, косинус, тангенс — пог, пиг, попи.",
+            "Косинус угла $B$ — это «пиг» (ПрИлежащую сторону делим на Гипотенузу$): \\cos B = \\frac{BC}{AB}.$",
+            "Составляем пропорцию: $\\frac{12}{13} = \\frac{BC}{26}.$",
+            "Вычисляем прилежащий катет $BC:$",
+            "$BC = \\frac{26 \\times 12}{13} = 2 \\times 12 = 24$"
+          ]
+        },
+        {
+          "type": "input",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "Будь внимателен при поиске прилежащего катета через тангенс! В треугольнике $ABC$ угол $C$ равен $90^\\circ, \\operatorname{tg} B = \\frac{4}{3}, AC = 28.$ Найди $BC.$",
+          "graph": [
+            "grid: false",
+            "point A: 0;0",
+            "point B: 3;4",
+            "point C: 3;0",
+            "main_line: true",
+            "angle_inner BCA г: 90",
+            "angle_inner ABC к: ⠀"
+          ],
+          "correctAnswer": "21",
+          "explanationFields": [
+            "Вспоминаем правило для тангенса:",
+            "Синус, косинус, тангенс — пог, пиг, попи.",
+            "Тангенс угла $B$ — это «попи» (ПрОтиволежащую сторону делим на ПрИлежащую$): \\operatorname{tg} B = \\frac{AC}{BC}.$",
+            "Подставляем данные из условия: $\\frac{4}{3} = \\frac{28}{BC}.$",
+            "Выражаем и находим $BC:$",
+            "$BC = \\frac{28 \\times 3}{4} = 7 \\times 3 = 21$"
+          ]
+        },
+        {
+          "type": "input",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "Попробуй найти гипотенузу! В треугольнике $ABC$ угол $C$ равен $90^\\circ, \\sin B = \\frac{5}{8}, AC = 20.$ Найди $AB.$",
+          "graph": [
+            "grid: false",
+            "point A: 0;0",
+            "point B: 3;4",
+            "point C: 3;0",
+            "main_line: true",
+            "angle_inner BCA г: 90",
+            "angle_inner ABC к: ⠀"
+          ],
+          "correctAnswer": "32",
+          "explanationFields": [
+            "Применяем алгоритм:",
+            "Синус, косинус, тангенс — пог, пиг, попи.",
+            "Синус угла $B$ — это «пог» (ПрОтиволежащую сторону делим на Гипотенузу$): \\sin B = \\frac{AC}{AB}.$",
+            "Подставляем числа в пропорцию: $\\frac{5}{8} = \\frac{20}{AB}.$",
+            "Вычисляем гипотенузу $AB:$",
+            "$AB = \\frac{20 \\times 8}{5} = 4 \\times 8 = 32$"
+          ]
+        },
+        {
+          "type": "input",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "Смотри на угол $A$ и его прилежащий катет. В треугольнике $ABC$ угол $C$ равен $90^\\circ, \\cos A = \\frac{9}{10}, AB = 50.$ Найди $AC.$",
+          "graph": [
+            "grid: false",
+            "point A: 0;0",
+            "point B: 4;2",
+            "point C: 4;0",
+            "main_line: true",
+            "angle_inner BCA г: 90",
+            "angle_inner BAC к: ⠀"
+          ],
+          "correctAnswer": "45",
+          "explanationFields": [
+            "Наша известная схема:",
+            "Синус, косинус, тангенс — пог, пиг, попи.",
+            "Косинус угла $A$ — это «пиг» (ПрИлежащую сторону делим на Гипотенузу$): \\cos A = \\frac{AC}{AB}.$",
+            "Подставляем значения: $\\frac{9}{10} = \\frac{AC}{50}.$",
+            "Находим катет $AC:$",
+            "$AC = \\frac{50 \\times 9}{10} = 5 \\times 9 = 45$"
+          ]
+        },
+        {
+          "type": "input",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "Определи, какую сторону нужно найти для угла $A.$ В треугольнике $ABC$ угол $C$ равен $90^\\circ, \\operatorname{tg} A = \\frac{7}{4}, AC = 16.$ Найди $BC.$",
+          "graph": [
+            "grid: false",
+            "point A: 0;0",
+            "point B: 2;4",
+            "point C: 2;0",
+            "main_line: true",
+            "angle_inner BCA г: 90",
+            "angle_inner BAC к: ⠀"
+          ],
+          "correctAnswer": "28",
+          "explanationFields": [
+            "Работаем по запоминалке:",
+            "Синус, косинус, тангенс — пог, пиг, попи.",
+            "Тангенс угла $A$ — это «попи» (ПрОтиволежащую сторону делим на ПрИлежащую$): \\operatorname{tg} A = \\frac{BC}{AC}.$",
+            "Подставляем известное: $\\frac{7}{4} = \\frac{BC}{16}.$",
+            "Вычисляем катет $BC:$",
+            "$BC = \\frac{16 \\times 7}{4} = 4 \\times 7 = 28$"
+          ]
+        }
+      ],
+      "isTest": true
+    },
+    "15-zadanie-ploshchad-s-sin": {
+      "title": "Площадь с sin",
+      "path": "15 задание / Площадь с sin",
+      "tasks": [
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "theory",
+          "text": "Снова встретимся с площадью — научимся находить площадь треугольника, когда известны две его стороны и синус угла между ними!",
+          "text2": "Формула площади выглядит на самом деле просто:",
+          "code": "$S = \\frac{1}{2} \\cdot a \\cdot b \\cdot \\sin C$",
+          "text3": "То есть чтобы найти площадь, мы перемножаем две стороны на синус угла между ними и делим пополам (ну, или умножаем на $\\frac{1}{2}).$"
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "input",
+          "text": "Разберём задачу:",
+          "text2": "В треугольнике $ABC$ известно, что $AB = 20,$ $BC = 7,$ $\\sin \\angle ABC = \\frac{2}{5}.$ Найди площадь треугольника $ABC.$",
+          "text3": "Просто перемножь эти стороны, умножь ещё и на синус между этими сторонами и раздели пополам.",
+          "graph": [
+            "grid: false",
+            "point A: 0;0",
+            "point B: 2;4",
+            "point C: 5;0",
+            "main_line: true",
+            "angle_inner ABC г: ⠀"
+          ],
+          "correctAnswer": "28",
+          "explanationFields": [
+            "Применяем формулу площади через синус:",
+            "$S = \\frac{1}{2} \\cdot AB \\cdot BC \\cdot \\sin \\angle ABC$",
+            "Подставляем значения из условия:",
+            "$S = \\frac{1}{2} \\times 20 \\times 7 \\times \\frac{2}{5}$",
+            "Сокращаем и вычисляем:",
+            "$S = 10 \\times 7 \\times \\frac{2}{5} = 70 \\times \\frac{2}{5} = 28$"
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "input",
+          "text": "В треугольнике $ABC$ известно, что $AB = 12, BC = 10, \\sin \\angle ABC = \\frac{8}{15}.$ Найди площадь треугольника $ABC.$",
+          "graph": [
+            "grid: false",
+            "point A: 0;0",
+            "point B: 2;4",
+            "point C: 5;0",
+            "main_line: true",
+            "angle_inner ABC г: ⠀"
+          ],
+          "correctAnswer": "32",
+          "explanationFields": [
+            "Используем формулу площади треугольника:",
+            "$S = \\frac{1}{2} \\cdot AB \\cdot BC \\cdot \\sin \\angle ABC$",
+            "Подставляем данные в выражение:",
+            "$S = \\frac{1}{2} \\times 12 \\times 10 \\times \\frac{8}{15}$",
+            "Считаем по шагам:",
+            "$S = 6 \\times 10 \\times \\frac{8}{15} = 60 \\times \\frac{8}{15} = 4 \\times 8 = 32$"
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "input",
+          "text": "В треугольнике $ABC$ известно, что $AB = 14, BC = 15, \\sin \\angle ABC = \\frac{4}{7}.$ Найди площадь треугольника $ABC.$",
+          "graph": [
+            "grid: false",
+            "point A: 0;0",
+            "point B: 2;4",
+            "point C: 5;0",
+            "main_line: true",
+            "angle_inner ABC г: ⠀"
+          ],
+          "correctAnswer": "60",
+          "explanationFields": [
+            "Наша схема решения:",
+            "$S = \\frac{1}{2} \\cdot AB \\cdot BC \\cdot \\sin \\angle ABC$",
+            "Перемножаем стороны и синус угла:",
+            "$S = \\frac{1}{2} \\times 14 \\times 15 \\times \\frac{4}{7}$",
+            "Выполняем сокращение:",
+            "$S = 7 \\times 15 \\times \\frac{4}{7} = 15 \\times 4 = 60$"
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "input",
+          "text": "В треугольнике $ABC$ известно, что $AB = 18, BC = 25, \\sin \\angle ABC = \\frac{2}{9}.$ Найди площадь треугольника $ABC.$",
+          "graph": [
+            "grid: false",
+            "point A: 0;0",
+            "point B: 2;4",
+            "point C: 5;0",
+            "main_line: true",
+            "angle_inner ABC г: ⠀"
+          ],
+          "correctAnswer": "50",
+          "explanationFields": [
+            "Подставляем данные в формулу площади:",
+            "$S = \\frac{1}{2} \\cdot AB \\cdot BC \\cdot \\sin \\angle ABC$",
+            "Записываем выражение для вычисления:",
+            "$S = \\frac{1}{2} \\times 18 \\times 25 \\times \\frac{2}{9}$",
+            "Находим ответ:",
+            "$S = 9 \\times 25 \\times \\frac{2}{9} = 25 \\times 2 = 50$"
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "input",
+          "text": "В треугольнике $ABC$ известно, что $AB = 16, BC = 9, \\sin \\angle ABC = \\frac{5}{12}.$ Найди площадь треугольника $ABC.$",
+          "graph": [
+            "grid: false",
+            "point A: 0;0",
+            "point B: 2;4",
+            "point C: 5;0",
+            "main_line: true",
+            "angle_inner ABC г: ⠀"
+          ],
+          "correctAnswer": "30",
+          "explanationFields": [
+            "Работаем по алгоритму:",
+            "$S = \\frac{1}{2} \\cdot AB \\cdot BC \\cdot \\sin \\angle ABC$",
+            "Подставляем числа:",
+            "$S = \\frac{1}{2} \\times 16 \\times 9 \\times \\frac{5}{12}$",
+            "Вычисляем результат:",
+            "$S = 8 \\times 9 \\times \\frac{5}{12} = 72 \\times \\frac{5}{12} = 6 \\times 5 = 30$"
+          ]
+        }
+      ]
+    },
+    "15-zadanie-ploshchad-s-sin-2": {
+      "title": "Площадь с sin 2",
+      "path": "15 задание / Площадь с sin 2",
+      "tasks": [
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "input",
+          "text": "Тренируем формулу площади треугольника через синус угла! В треугольнике $ABC$ известно, что $AB = 16, BC = 9, \\sin \\angle ABC = \\frac{1}{6}.$ Найди площадь треугольника $ABC.$",
+          "graph": [
+            "grid: false",
+            "point A: 0;0",
+            "point B: 2;4",
+            "point C: 5;0",
+            "main_line: true",
+            "angle_inner ABC г: ⠀"
+          ],
+          "correctAnswer": "12",
+          "explanationFields": [
+            "Применяем формулу площади через синус:",
+            "$S = \\frac{1}{2} \\cdot AB \\cdot BC \\cdot \\sin \\angle ABC$",
+            "Подставляем значения из условия:",
+            "$S = \\frac{1}{2} \\times 16 \\times 9 \\times \\frac{1}{6}$",
+            "Вычисляем:",
+            "$S = 8 \\times 9 \\times \\frac{1}{6} = 72 \\times \\frac{1}{6} = 12$"
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "input",
+          "text": "Смотри внимательно на стороны и угол между ними! В треугольнике $ABC$ известно, что $AB = 22, BC = 15, \\sin \\angle ABC = \\frac{4}{11}.$ Найди площадь треугольника $ABC.$",
+          "graph": [
+            "grid: false",
+            "point A: 0;0",
+            "point B: 2;4",
+            "point C: 5;0",
+            "main_line: true",
+            "angle_inner ABC г: ⠀"
+          ],
+          "correctAnswer": "60",
+          "explanationFields": [
+            "Используем формулу площади:",
+            "$S = \\frac{1}{2} \\cdot AB \\cdot BC \\cdot \\sin \\angle ABC$",
+            "Подставляем данные в выражение:",
+            "$S = \\frac{1}{2} \\times 22 \\times 15 \\times \\frac{4}{11}$",
+            "Считаем по шагам:",
+            "$S = 11 \\times 15 \\times \\frac{4}{11} = 15 \\times 4 = 60$"
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "input",
+          "text": "В треугольнике $ABC$ известно, что $AB = 14, BC = 20, \\sin \\angle ABC = \\frac{2}{7}.$ Найди площадь треугольника $ABC.$",
+          "graph": [
+            "grid: false",
+            "point A: 0;0",
+            "point B: 2;4",
+            "point C: 5;0",
+            "main_line: true",
+            "angle_inner ABC г: ⠀"
+          ],
+          "correctAnswer": "40",
+          "explanationFields": [
+            "Наша схема решения:",
+            "$S = \\frac{1}{2} \\cdot AB \\cdot BC \\cdot \\sin \\angle ABC$",
+            "Перемножаем стороны и синус угла:",
+            "$S = \\frac{1}{2} \\times 14 \\times 20 \\times \\frac{2}{7}$",
+            "Выполняем сокращение:",
+            "$S = 7 \\times 20 \\times \\frac{2}{7} = 20 \\times 2 = 40$"
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "input",
+          "text": "Не забывай умножить на половину! В треугольнике $ABC$ известно, что $AB = 24, BC = 10, \\sin \\angle ABC = \\frac{7}{12}.$ Найди площадь треугольника $ABC.$",
+          "graph": [
+            "grid: false",
+            "point A: 0;0",
+            "point B: 2;4",
+            "point C: 5;0",
+            "main_line: true",
+            "angle_inner ABC г: ⠀"
+          ],
+          "correctAnswer": "70",
+          "explanationFields": [
+            "Подставляем данные в формулу площади:",
+            "$S = \\frac{1}{2} \\cdot AB \\cdot BC \\cdot \\sin \\angle ABC$",
+            "Записываем выражение для вычисления:",
+            "$S = \\frac{1}{2} \\times 24 \\times 10 \\times \\frac{7}{12}$",
+            "Находим ответ:",
+            "$S = 12 \\times 10 \\times \\frac{7}{12} = 10 \\times 7 = 70$"
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "input",
+          "text": "В треугольнике $ABC$ известно, что $AB = 15, BC = 16, \\sin \\angle ABC = \\frac{3}{10}.$ Найди площадь треугольника $ABC.$",
+          "graph": [
+            "grid: false",
+            "point A: 0;0",
+            "point B: 2;4",
+            "point C: 5;0",
+            "main_line: true",
+            "angle_inner ABC г: ⠀"
+          ],
+          "correctAnswer": "36",
+          "explanationFields": [
+            "Работаем по алгоритму:",
+            "$S = \\frac{1}{2} \\cdot AB \\cdot BC \\cdot \\sin \\angle ABC$",
+            "Подставляем числа:",
+            "$S = \\frac{1}{2} \\times 15 \\times 16 \\times \\frac{3}{10}$",
+            "Вычисляем результат:",
+            "$S = 15 \\times 8 \\times \\frac{3}{10} = 120 \\times \\frac{3}{10} = 36$"
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "input",
+          "text": "В треугольнике $ABC$ известно, что $AB = 21, BC = 8, \\sin \\angle ABC = \\frac{4}{7}.$ Найди площадь треугольника $ABC.$",
+          "graph": [
+            "grid: false",
+            "point A: 0;0",
+            "point B: 2;4",
+            "point C: 5;0",
+            "main_line: true",
+            "angle_inner ABC г: ⠀"
+          ],
+          "correctAnswer": "48",
+          "explanationFields": [
+            "Находим площадь по формуле:",
+            "$S = \\frac{1}{2} \\cdot AB \\cdot BC \\cdot \\sin \\angle ABC$",
+            "Перемножаем все известные элементы:",
+            "$S = \\frac{1}{2} \\times 21 \\times 8 \\times \\frac{4}{7}$",
+            "Упрощаем выражение:",
+            "$S = 21 \\times 4 \\times \\frac{4}{7} = 3 \\times 4 \\times 4 = 48$"
+          ]
+        }
+      ]
+    },
+    "15-zadanie-ploshchad-s-sin-3": {
+      "title": "Площадь с sin 3",
+      "path": "15 задание / Площадь с sin 3",
+      "tasks": [
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "input",
+          "text": "Продолжаем тренироваться ради хороших оценок :D",
+          "text2": "В треугольнике $ABC$ известно, что $AB = 10, BC = 18, \\sin \\angle ABC = \\frac{4}{9}.$ Найди площадь треугольника $ABC.$",
+          "graph": [
+            "grid: false",
+            "point A: 0;0",
+            "point B: 2;4",
+            "point C: 5;0",
+            "main_line: true",
+            "angle_inner ABC г: ⠀"
+          ],
+          "correctAnswer": "40",
+          "explanationFields": [
+            "Применяем формулу площади треугольника:",
+            "$S = \\frac{1}{2} \\cdot AB \\cdot BC \\cdot \\sin \\angle ABC$",
+            "Подставляем значения из условия:",
+            "$S = \\frac{1}{2} \\times 10 \\times 18 \\times \\frac{4}{9}$",
+            "Считаем по шагам:",
+            "$S = 5 \\times 18 \\times \\frac{4}{9} = 90 \\times \\frac{4}{9} = 40$"
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "input",
+          "text": "Внимательно при сокращении дробей! В треугольнике $ABC$ известно, что $AB = 27, BC = 16, \\sin \\angle ABC = \\frac{5}{18}.$ Найди площадь треугольника $ABC.$",
+          "graph": [
+            "grid: false",
+            "point A: 0;0",
+            "point B: 2;4",
+            "point C: 5;0",
+            "main_line: true",
+            "angle_inner ABC г: ⠀"
+          ],
+          "correctAnswer": "60",
+          "explanationFields": [
+            "Наша известная формула площади:",
+            "$S = \\frac{1}{2} \\cdot AB \\cdot BC \\cdot \\sin \\angle ABC$",
+            "Подставляем известные данные:",
+            "$S = \\frac{1}{2} \\times 27 \\times 16 \\times \\frac{5}{18}$",
+            "Выполняем удобное сокращение:",
+            "$S = 27 \\times 8 \\times \\frac{5}{18} = \\frac{27}{18} \\times 40 = \\frac{3}{2} \\times 40 = 60$"
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "input",
+          "text": "Главное — аккуратно перемножить все стороны и синус. В треугольнике $ABC$ известно, что $AB = 14, BC = 22, \\sin \\angle ABC = \\frac{3}{11}.$ Найди площадь треугольника $ABC.$",
+          "graph": [
+            "grid: false",
+            "point A: 0;0",
+            "point B: 2;4",
+            "point C: 5;0",
+            "main_line: true",
+            "angle_inner ABC г: ⠀"
+          ],
+          "correctAnswer": "42",
+          "explanationFields": [
+            "Работаем по алгоритму:",
+            "$S = \\frac{1}{2} \\cdot AB \\cdot BC \\cdot \\sin \\angle ABC$",
+            "Подставляем числа в формулу:",
+            "$S = \\frac{1}{2} \\times 14 \\times 22 \\times \\frac{3}{11}$",
+            "Вычисляем результат:",
+            "$S = 7 \\times 22 \\times \\frac{3}{11} = 7 \\times 2 \\times 3 = 42$"
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "input",
+          "text": "В треугольнике $ABC$ известно, что $AB = 30, BC = 14, \\sin \\angle ABC = \\frac{4}{15}.$ Найди площадь треугольника $ABC.$",
+          "graph": [
+            "grid: false",
+            "point A: 0;0",
+            "point B: 2;4",
+            "point C: 5;0",
+            "main_line: true",
+            "angle_inner ABC г: ⠀"
+          ],
+          "correctAnswer": "56",
+          "explanationFields": [
+            "Используем формулу площади треугольника:",
+            "$S = \\frac{1}{2} \\cdot AB \\cdot BC \\cdot \\sin \\angle ABC$",
+            "Записываем выражение для вычисления:",
+            "$S = \\frac{1}{2} \\times 30 \\times 14 \\times \\frac{4}{15}$",
+            "Считаем произведение:",
+            "$S = 15 \\times 14 \\times \\frac{4}{15} = 14 \\times 4 = 56$"
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "input",
+          "text": "В треугольнике $ABC$ известно, что $AB = 25, BC = 12, \\sin \\angle ABC = \\frac{7}{10}.$ Найди площадь треугольника $ABC.$",
+          "graph": [
+            "grid: false",
+            "point A: 0;0",
+            "point B: 2;4",
+            "point C: 5;0",
+            "main_line: true",
+            "angle_inner ABC г: ⠀"
+          ],
+          "correctAnswer": "105",
+          "explanationFields": [
+            "Наша схема решения:",
+            "$S = \\frac{1}{2} \\cdot AB \\cdot BC \\cdot \\sin \\angle ABC$",
+            "Подставляем все значения:",
+            "$S = \\frac{1}{2} \\times 25 \\times 12 \\times \\frac{7}{10}$",
+            "Сокращаем и находим ответ:",
+            "$S = 25 \\times 6 \\times \\frac{7}{10} = 150 \\times \\frac{7}{10} = 15 \\times 7 = 105$"
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "input",
+          "text": "Сокращаем дроби и получаем готовый результат! В треугольнике $ABC$ известно, что $AB = 32, BC = 15, \\sin \\angle ABC = \\frac{3}{16}.$ Найди площадь треугольника $ABC.$",
+          "graph": [
+            "grid: false",
+            "point A: 0;0",
+            "point B: 2;4",
+            "point C: 5;0",
+            "main_line: true",
+            "angle_inner ABC г: ⠀"
+          ],
+          "correctAnswer": "45",
+          "explanationFields": [
+            "Применяем формулу площади:",
+            "$S = \\frac{1}{2} \\cdot AB \\cdot BC \\cdot \\sin \\angle ABC$",
+            "Вычисляем:",
+            "$S = \\frac{1}{2} \\times 32 \\times 15 \\times \\frac{3}{16}$",
+            "Сокращаем $numbers:$",
+            "$S = 16 \\times 15 \\times \\frac{3}{16} = 15 \\times 3 = 45$"
+          ]
+        }
+      ]
+    },
+    "15-zadanie-ravnostoronniy-treugolnik": {
+      "title": "Равносторонний треугольник",
+      "path": "15 задание / Равносторонний треугольник",
+      "tasks": [
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "theory",
+          "text": "Привет, и это последний тип задач в пятнадцатом задании! Здесь нас попытаются напугать корнями и дробями, но если мы хоть немножко разберёмся, то поймём, что весь этот страх — надуманный.",
+          "text2": "Посмотри на высоту в равностороннем треугольнике:",
+          "graph": [
+            "grid: false",
+            "point A: 0;0",
+            "point B: 2;4",
+            "point C: 4;0",
+            "point_extra D: 2;0",
+            "main_line: true",
+            "line_extra BD",
+            "equal_segments: AD DC"
+          ],
+          "text3": "И на биссектрису в равностороннем треугольнике:",
+          "graph2": [
+            "grid: false",
+            "point A: 0;0",
+            "point B: 2;4",
+            "point C: 4;0",
+            "point_extra D: 2;0",
+            "main_line: true",
+            "line_extra BD",
+            "equal_segments: AD DC"
+          ],
+          "text4": "А теперь на медиану всё того же равностороннего треугольника:",
+          "graph3": [
+            "grid: false",
+            "point A: 0;0",
+            "point B: 2;4",
+            "point C: 4;0",
+            "point_extra D: 2;0",
+            "main_line: true",
+            "line_extra BD",
+            "equal_segments: AD DC"
+          ],
+          "text5": "...",
+          "text6": "Прикинь! В равностороннем треугольнике высота, медиана и биссектриса — это одно и то же!",
+          "text7": "Поэтому для них есть одна единая формула через сторону $a:$",
+          "code": "$h = \\frac{a\\sqrt{3}}{2}$",
+          "text8": "И здесь нас явно пытаются напугать корнем в дроби, но! Само условие задачи в таком типе всегда построено так, что этот корень просто сокращается сам собой! Посмотри:",
+          "text9": "Например, нам нужно найти высоту $h$, если сторона $a$ равна $16\\sqrt{3}.$",
+          "text10": "Подставляем значение стороны в формулу:",
+          "code2": "$h = \\frac{16\\sqrt{3} \\cdot \\sqrt{3}}{2}",
+          "text11": "$\\sqrt{3} \\cdot \\sqrt{3} = 3!$ Корни исчезли и превратились в обычное число!",
+          "code3": "\\frac{16 \\cdot 3}{2}",
+          "code4": "\\frac{8 \\cdot 3}{1}",
+          "code5": "8 \\cdot 3 = 24",
+          "text12": "Смело записываем ответ: $h=24.$",
+          "text13": "Главное здесь — просто не напортачить в вычислениях и дробях."
+        },
+        {
+          "type": "theory",
+          "text": "Но могут попросить найти не высоту, а:",
+          "text2": "Так... Это самое настоящее равенство. И слева, и справа есть корень из трёх. Получается, если мы уберём его с обеих сторон, то стороны останутся равны! Просто вычёркиваем корни!",
+          "тогда 3": "Тогда мы снова прилетаем сюда формулу:",
+          "code": "12\\sqrt{3} = \\frac{a\\sqrt{3}}{2}",
+          "code2": "12 = \\frac{a}{2}",
+          "text3": "Переносим за $=$",
+          "code3": "a = 12 \\cdot 2 = 24",
+          "text4": "Вот и всё! Видишь? Вся задача сводится к простейшим действиям без корней!"
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "input",
+          "text": "А теперь попробуй самостоятельно.",
+          "text2": "Нам нужно найти высоту:",
+          "text3": "В равностороннем треугольнике сторона равна $16\\sqrt{3}.$ Найди высоту этого треугольника.",
+          "graph": [
+            "grid: false",
+            "point A: 0;0",
+            "point B: 2;4",
+            "point C: 4;0",
+            "point_extra D: 2;0",
+            "main_line: true",
+            "line_extra BD",
+            "equal_segments: AD DC"
+          ],
+          "text4": "Формула:",
+          "code": "h = \\frac{a\\sqrt{3}}{2}$",
+          "correctAnswer": "24",
+          "explanationFields": [
+            "Применяем формулу высоты:",
+            "$h = \\frac{a\\sqrt{3}}{2}$",
+            "Подставляем сторону $a = 16\\sqrt{3}:$",
+            "$h = \\frac{16\\sqrt{3} \\cdot \\sqrt{3}}{2}$",
+            "Перемножаем корни $(\\sqrt{3} \\cdot \\sqrt{3} = 3):$",
+            "$h = \\frac{16 \\cdot 3}{2} = 8 \\times 3 = 24$"
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "input",
+          "text": "Помни, что медиана равна высоте! В равностороннем треугольнике сторона равна $10\\sqrt{3}.$ Найди медиану этого треугольника.",
+          "graph": [
+            "grid: false",
+            "point A: 0;0",
+            "point B: 2;4",
+            "point C: 4;0",
+            "point_extra D: 2;0",
+            "main_line: true",
+            "line_extra BD",
+            "equal_segments: AD DC"
+          ],
+          "correctAnswer": "15",
+          "explanationFields": [
+            "Медиана в равностороннем треугольнике ищется по той же формуле:",
+            "$h = \\frac{a\\sqrt{3}}{2}$",
+            "Подставляем сторону $a = 10\\sqrt{3}:$",
+            "$h = \\frac{10\\sqrt{3} \\cdot \\sqrt{3}}{2}$",
+            "Убираем корни и вычисляем:",
+            "$h = \\frac{10 \\cdot 3}{2} = 5 \\times 3 = 15$"
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "input",
+          "text": "А теперь давай найдем сторону по медиане! Медиана равностороннего треугольника равна $12\\sqrt{3}.$ Найди сторону этого треугольника.",
+          "graph": [
+            "grid: false",
+            "point A: 0;0",
+            "point B: 2;4",
+            "point C: 4;0",
+            "point_extra D: 2;0",
+            "main_line: true",
+            "line_extra BD",
+            "equal_segments: AD DC"
+          ],
+          "correctAnswer": "24",
+          "explanationFields": [
+            "Записываем формулу медианы:",
+            "$h = \\frac{a\\sqrt{3}}{2}$",
+            "Подставляем значение $h = 12\\sqrt{3}:$",
+            "$12\\sqrt{3} = \\frac{a\\sqrt{3}}{2}$",
+            "Сокращаем $\\sqrt{3}$ с обеих сторон:",
+            "$12 = \\frac{a}{2} \\implies a = 12 \\times 2 = 24$"
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "input",
+          "text": "Находим медиану через известную сторону. В равностороннем треугольнике сторона равна $14\\sqrt{3}.$ Найди медиану этого треугольника.",
+          "graph": [
+            "grid: false",
+            "point A: 0;0",
+            "point B: 2;4",
+            "point C: 4;0",
+            "point_extra D: 2;0",
+            "main_line: true",
+            "line_extra BD",
+            "equal_segments: AD DC"
+          ],
+          "correctAnswer": "21",
+          "explanationFields": [
+            "Подставляем сторону в формулу:",
+            "$h = \\frac{a\\sqrt{3}}{2}$",
+            "Вместо $a$ подставляем $14\\sqrt{3}:$",
+            "$h = \\frac{14\\sqrt{3} \\cdot \\sqrt{3}}{2}$",
+            "Убираем корни и считаем:",
+            "$h = \\frac{14 \\cdot 3}{2} = 7 \\times 3 = 21$"
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "input",
+          "text": "Будь внимателен к тому, что именно дано в условии! Медиана равностороннего треугольника равна $11\\sqrt{3}.$ Найди сторону этого треугольника.",
+          "graph": [
+            "grid: false",
+            "point A: 0;0",
+            "point B: 2;4",
+            "point C: 4;0",
+            "point_extra D: 2;0",
+            "main_line: true",
+            "line_extra BD",
+            "equal_segments: AD DC"
+          ],
+          "correctAnswer": "22",
+          "explanationFields": [
+            "Записываем связь медианы и стороны:",
+            "$h = \\frac{a\\sqrt{3}}{2}$",
+            "Подставляем медиану $11\\sqrt{3}:$",
+            "$11\\sqrt{3} = \\frac{a\\sqrt{3}}{2}$",
+            "Корни сокращаются:",
+            "$11 = \\frac{a}{2} \\implies a = 11 \\times 2 = 22$"
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "input",
+          "text": "Закрепляем нахождение стороны по медиане! Медиана равностороннего треугольника равна $13\\sqrt{3}.$ Найди сторону этого треугольника.",
+          "graph": [
+            "grid: false",
+            "point A: 0;0",
+            "point B: 2;4",
+            "point C: 4;0",
+            "point_extra D: 2;0",
+            "main_line: true",
+            "line_extra BD",
+            "equal_segments: AD DC"
+          ],
+          "correctAnswer": "26",
+          "explanationFields": [
+            "Наша формула для медианы:",
+            "$h = \\frac{a\\sqrt{3}}{2}$",
+            "Подставляем значение $h = 13\\sqrt{3}:$",
+            "$13\\sqrt{3} = \\frac{a\\sqrt{3}}{2}$",
+            "Убираем корни и находим сторону $a:$",
+            "$13 = \\frac{a}{2} \\implies a = 13 \\times 2 = 26$"
+          ]
+        }
+      ]
     }
   }
-            }
+        }
