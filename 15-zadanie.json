@@ -74,7 +74,11 @@
           "15-zadanie-ploshchad-s-sin-2",
           "15-zadanie-ploshchad-s-sin-3",
           "###Равносторонний треугольник",
-          "15-zadanie-ravnostoronniy-treugolnik"
+          "15-zadanie-ravnostoronniy-treugolnik",
+          "15-zadanie-ravnostoronniy-treugolnik-2",
+          "15-zadanie-ravnostoronniy-treugolnik-3",
+          "15-zadanie-ravnostoronniy-treugolnik-4",
+          "15-zadanie-ravnostoronniy-treugolnik-5"
         ],
         "id": "subtopic-1787931702177"
       }
@@ -5026,7 +5030,7 @@
         {
           "type": "theory",
           "text": "Давай решим реальную задачу из ОГЭ с помощью этой запоминалки.",
-          "text2": "«В треугольнике $АВС$ угол $С$ равен $90°,$ $AC = 11,$ $AB = 20.$ Найдите $sin В.$",
+          "text2": "«В треугольнике $АВС$ угол $С$ равен $90°,$ $AC = 11,$ $AB = 20.$ Найдите $sin В».$",
           "graph": [
             "point A: 0;0",
             "point B: 3;4",
@@ -7073,6 +7077,635 @@
           ]
         }
       ]
+    },
+    "15-zadanie-ravnostoronniy-treugolnik-2": {
+      "title": "Равносторонний треугольник 2",
+      "path": "15 задание / Равносторонний треугольник 2",
+      "tasks": [
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "input",
+          "text": "Закрепляем работу с равносторонним треугольником!",
+          "text2": "В равностороннем треугольнике сторона равна $18\\sqrt{3}.$ Найди высоту этого треугольника.",
+          "graph": [
+            "grid: false",
+            "point A: 0;0",
+            "point B: 2;4",
+            "point C: 4;0",
+            "point_extra D: 2;0",
+            "main_line: true",
+            "line_extra BD",
+            "equal_segments: AD DC"
+          ],
+          "correctAnswer": "27",
+          "explanationFields": [
+            "Применяем формулу высоты:",
+            "$h = \\frac{a\\sqrt{3}}{2}$",
+            "Подставляем известную сторону $a = 18\\sqrt{3}:$",
+            "$h = \\frac{18\\sqrt{3} \\cdot \\sqrt{3}}{2}$",
+            "Напоминаю, что $\\sqrt{3} \\cdot \\sqrt{3} = 3:$",
+            "$h = \\frac{18 \\cdot 3}{2} = 9 \\times 3 = 27$"
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "input",
+          "text": "А теперь попробуй найти сторону по медиане. Медиана равностороннего треугольника равна $15\\sqrt{3}.$ Найди сторону этого треугольника.",
+          "graph": [
+            "grid: false",
+            "point A: 0;0",
+            "point B: 2;4",
+            "point C: 4;0",
+            "point_extra D: 2;0",
+            "main_line: true",
+            "line_extra BD",
+            "equal_segments: AD DC"
+          ],
+          "correctAnswer": "30",
+          "explanationFields": [
+            "Используем формулу медианы:",
+            "$h = \\frac{a\\sqrt{3}}{2}$",
+            "Подставляем значение медианы $15\\sqrt{3}:$",
+            "$15\\sqrt{3} = \\frac{a\\sqrt{3}}{2}$",
+            "Корни $\\sqrt{3}$ с обеих сторон сокращаются:",
+            "$15 = \\frac{a}{2} \\implies a = 15 \\times 2 = 30$"
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "input",
+          "text": "В равностороннем треугольнике сторона равна $8\\sqrt{3}.$ Найди медиану этого треугольника.",
+          "graph": [
+            "grid: false",
+            "point A: 0;0",
+            "point B: 2;4",
+            "point C: 4;0",
+            "point_extra D: 2;0",
+            "main_line: true",
+            "line_extra BD",
+            "equal_segments: AD DC"
+          ],
+          "correctAnswer": "12",
+          "explanationFields": [
+            "Наша известная формула:",
+            "$h = \\frac{a\\sqrt{3}}{2}$",
+            "Подставляем сторону $a = 8\\sqrt{3}:$",
+            "$h = \\frac{8\\sqrt{3} \\cdot \\sqrt{3}}{2}$",
+            "Вычисляем без корней:",
+            "$h = \\frac{8 \\cdot 3}{2} = 4 \\times 3 = 12$"
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "input",
+          "text": "Не забудь, что при поиске стороны нужно просто сократить корни!",
+          "text2": "Высота равностороннего треугольника равна $9\\sqrt{3}.$ Найди сторону этого треугольника.",
+          "graph": [
+            "grid: false",
+            "point A: 0;0",
+            "point B: 2;4",
+            "point C: 4;0",
+            "point_extra D: 2;0",
+            "main_line: true",
+            "line_extra BD",
+            "equal_segments: AD DC"
+          ],
+          "correctAnswer": "18",
+          "explanationFields": [
+            "Записываем формулу для высоты:",
+            "$h = \\frac{a\\sqrt{3}}{2}$",
+            "Подставляем значение высоты:",
+            "$9\\sqrt{3} = \\frac{a\\sqrt{3}}{2}$",
+            "Сокращаем корни $\\sqrt{3}:$",
+            "$9 = \\frac{a}{2} \\implies a = 9 \\times 2 = 18$"
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "input",
+          "text": "В равностороннем треугольнике сторона равна $22\\sqrt{3}.$ Найди высоту этого треугольника.",
+          "graph": [
+            "grid: false",
+            "point A: 0;0",
+            "point B: 2;4",
+            "point C: 4;0",
+            "point_extra D: 2;0",
+            "main_line: true",
+            "line_extra BD",
+            "equal_segments: AD DC"
+          ],
+          "correctAnswer": "33",
+          "explanationFields": [
+            "Работаем по алгоритму:",
+            "$h = \\frac{a\\sqrt{3}}{2}$",
+            "Вместо $a$ подставляем $22\\sqrt{3}:$",
+            "$h = \\frac{22\\sqrt{3} \\cdot \\sqrt{3}}{2}$",
+            "Убираем корни и находим результат:",
+            "$h = \\frac{22 \\cdot 3}{2} = 11 \\times 3 = 33$"
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "input",
+          "text": "Медиана равностороннего треугольника равна $17\\sqrt{3}.$ Найди сторону этого треугольника.",
+          "graph": [
+            "grid: false",
+            "point A: 0;0",
+            "point B: 2;4",
+            "point C: 4;0",
+            "point_extra D: 2;0",
+            "main_line: true",
+            "line_extra BD",
+            "equal_segments: AD DC"
+          ],
+          "correctAnswer": "34",
+          "explanationFields": [
+            "Связываем медиану и сторону:",
+            "$h = \\frac{a\\sqrt{3}}{2}$",
+            "Подставляем медиану $17\\sqrt{3}:$",
+            "$17\\sqrt{3} = \\frac{a\\sqrt{3}}{2}$",
+            "Убираем корни с обеих сторон и вычисляем $a:$",
+            "$17 = \\frac{a}{2} \\implies a = 17 \\times 2 = 34$"
+          ]
+        }
+      ]
+    },
+    "15-zadanie-ravnostoronniy-treugolnik-3": {
+      "title": "Равносторонний треугольник 3",
+      "path": "15 задание / Равносторонний треугольник 3",
+      "tasks": [
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "input",
+          "text": "В равностороннем треугольнике сторона равна $12\\sqrt{3}.$ Найди высоту этого треугольника.",
+          "graph": [
+            "grid: false",
+            "point A: 0;0",
+            "point B: 2;4",
+            "point C: 4;0",
+            "point_extra D: 2;0",
+            "main_line: true",
+            "line_extra BD",
+            "equal_segments: AD DC"
+          ],
+          "correctAnswer": "18",
+          "explanationFields": [
+            "Применяем формулу высоты:",
+            "$h = \\frac{a\\sqrt{3}}{2}$",
+            "Подставляем известную сторону $a = 12\\sqrt{3}:$",
+            "$h = \\frac{12\\sqrt{3} \\cdot \\sqrt{3}}{2}$",
+            "Перемножаем корни $(\\sqrt{3} \\cdot \\sqrt{3} = 3):$",
+            "$h = \\frac{12 \\cdot 3}{2} = 6 \\times 3 = 18$"
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "input",
+          "text": "А теперь обратная задача — ищем сторону по медиане. Медиана равностороннего треугольника равна $16\\sqrt{3}.$ Найди сторону этого треугольника.",
+          "graph": [
+            "grid: false",
+            "point A: 0;0",
+            "point B: 2;4",
+            "point C: 4;0",
+            "point_extra D: 2;0",
+            "main_line: true",
+            "line_extra BD",
+            "equal_segments: AD DC"
+          ],
+          "correctAnswer": "32",
+          "explanationFields": [
+            "Записываем формулу медианы:",
+            "$h = \\frac{a\\sqrt{3}}{2}$",
+            "Подставляем медиану $16\\sqrt{3}:$",
+            "$16\\sqrt{3} = \\frac{a\\sqrt{3}}{2}$",
+            "Сокращаем корни $\\sqrt{3}$ с обеих сторон:",
+            "$16 = \\frac{a}{2} \\implies a = 16 \\times 2 = 32$"
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "input",
+          "text": "В равностороннем треугольнике сторона равна $20\\sqrt{3}.$ Найди медиану этого треугольника.",
+          "graph": [
+            "grid: false",
+            "point A: 0;0",
+            "point B: 2;4",
+            "point C: 4;0",
+            "point_extra D: 2;0",
+            "main_line: true",
+            "line_extra BD",
+            "equal_segments: AD DC"
+          ],
+          "correctAnswer": "30",
+          "explanationFields": [
+            "В равностороннем треугольнике медиана и высота равны:",
+            "$h = \\frac{a\\sqrt{3}}{2}$",
+            "Подставляем сторону $a = 20\\sqrt{3}:$",
+            "$h = \\frac{20\\sqrt{3} \\cdot \\sqrt{3}}{2}$",
+            "Убираем корни и вычисляем:",
+            "$h = \\frac{20 \\cdot 3}{2} = 10 \\times 3 = 30$"
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "input",
+          "text": "Высота равностороннего треугольника равна $7\\sqrt{3}.$ Найди сторону этого треугольника.",
+          "graph": [
+            "grid: false",
+            "point A: 0;0",
+            "point B: 2;4",
+            "point C: 4;0",
+            "point_extra D: 2;0",
+            "main_line: true",
+            "line_extra BD",
+            "equal_segments: AD DC"
+          ],
+          "correctAnswer": "14",
+          "explanationFields": [
+            "Подставляем высоту в формулу:",
+            "$h = \\frac{a\\sqrt{3}}{2}$",
+            "Записываем уравнение с известной высотой:",
+            "$7\\sqrt{3} = \\frac{a\\sqrt{3}}{2}$",
+            "Корни сокращаются, остаётся умножить на $2:$",
+            "$7 = \\frac{a}{2} \\implies a = 7 \\times 2 = 14$"
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "input",
+          "text": "Главное — не спешить и выполнять действия по шагам. В равностороннем треугольнике сторона равна $24\\sqrt{3}.$ Найди высоту этого треугольника.",
+          "graph": [
+            "grid: false",
+            "point A: 0;0",
+            "point B: 2;4",
+            "point C: 4;0",
+            "point_extra D: 2;0",
+            "main_line: true",
+            "line_extra BD",
+            "equal_segments: AD DC"
+          ],
+          "correctAnswer": "36",
+          "explanationFields": [
+            "Работаем по нашей известной схеме:",
+            "$h = \\frac{a\\sqrt{3}}{2}$",
+            "Вместо стороны $a$ подставляем $24\\sqrt{3}:$",
+            "$h = \\frac{24\\sqrt{3} \\cdot \\sqrt{3}}{2}$",
+            "Находим ответ:",
+            "$h = \\frac{24 \\cdot 3}{2} = 12 \\times 3 = 36$"
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "input",
+          "text": "Медиана равностороннего треугольника равна $21\\sqrt{3}.$ Найди сторону этого треугольника.",
+          "graph": [
+            "grid: false",
+            "point A: 0;0",
+            "point B: 2;4",
+            "point C: 4;0",
+            "point_extra D: 2;0",
+            "main_line: true",
+            "line_extra BD",
+            "equal_segments: AD DC"
+          ],
+          "correctAnswer": "42",
+          "explanationFields": [
+            "Связываем медиану и сторону:",
+            "$h = \\frac{a\\sqrt{3}}{2}$",
+            "Подставляем значение медианы:",
+            "$21\\sqrt{3} = \\frac{a\\sqrt{3}}{2}$",
+            "Сокращаем корни $\\sqrt{3}$ и находим сторону:",
+            "$21 = \\frac{a}{2} \\implies a = 21 \\times 2 = 42$"
+          ]
+        }
+      ]
+    },
+    "15-zadanie-ravnostoronniy-treugolnik-4": {
+      "title": "Равносторонний треугольник 4",
+      "path": "15 задание / Равносторонний треугольник 4",
+      "tasks": [
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "input",
+          "text": "В равностороннем треугольнике сторона равна $26\\sqrt{3}.$ Найди высоту этого треугольника.",
+          "graph": [
+            "grid: false",
+            "point A: 0;0",
+            "point B: 2;4",
+            "point C: 4;0",
+            "point_extra D: 2;0",
+            "main_line: true",
+            "line_extra BD",
+            "equal_segments: AD DC"
+          ],
+          "correctAnswer": "39",
+          "explanationFields": [
+            "Применяем формулу высоты:",
+            "$h = \\frac{a\\sqrt{3}}{2}$",
+            "Подставляем известную сторону $a = 26\\sqrt{3}:$",
+            "$h = \\frac{26\\sqrt{3} \\cdot \\sqrt{3}}{2}$",
+            "Убираем корни $(\\sqrt{3} \\cdot \\sqrt{3} = 3)$ и считаем:",
+            "$h = \\frac{26 \\cdot 3}{2} = 13 \\times 3 = 39$"
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "input",
+          "text": "Медиана равностороннего треугольника равна $18\\sqrt{3}.$ Найди сторону этого треугольника.",
+          "graph": [
+            "grid: false",
+            "point A: 0;0",
+            "point B: 2;4",
+            "point C: 4;0",
+            "point_extra D: 2;0",
+            "main_line: true",
+            "line_extra BD",
+            "equal_segments: AD DC"
+          ],
+          "correctAnswer": "36",
+          "explanationFields": [
+            "Записываем связь медианы и стороны:",
+            "$h = \\frac{a\\sqrt{3}}{2}$",
+            "Подставляем значение медианы $18\\sqrt{3}:$",
+            "$18\\sqrt{3} = \\frac{a\\sqrt{3}}{2}$",
+            "Корни сокращаются:",
+            "$18 = \\frac{a}{2} \\implies a = 18 \\times 2 = 36$"
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "input",
+          "text": "Помнишь, что медиана равна высоте?",
+          "text2": "В равностороннем треугольнике сторона равна $30\\sqrt{3}.$ Найди медиану этого треугольника.",
+          "graph": [
+            "grid: false",
+            "point A: 0;0",
+            "point B: 2;4",
+            "point C: 4;0",
+            "point_extra D: 2;0",
+            "main_line: true",
+            "line_extra BD",
+            "equal_segments: AD DC"
+          ],
+          "correctAnswer": "45",
+          "explanationFields": [
+            "Используем формулу высоты и медианы:",
+            "$h = \\frac{a\\sqrt{3}}{2}$",
+            "Подставляем сторону $a = 30\\sqrt{3}:$",
+            "$h = \\frac{30\\sqrt{3} \\cdot \\sqrt{3}}{2}$",
+            "Вычисляем результат:",
+            "$h = \\frac{30 \\cdot 3}{2} = 15 \\times 3 = 45$"
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "input",
+          "text": "Не спеши и аккуратно сокращай корни. Высота равностороннего треугольника равна $25\\sqrt{3}.$ Найди сторону этого треугольника.",
+          "graph": [
+            "grid: false",
+            "point A: 0;0",
+            "point B: 2;4",
+            "point C: 4;0",
+            "point_extra D: 2;0",
+            "main_line: true",
+            "line_extra BD",
+            "equal_segments: AD DC"
+          ],
+          "correctAnswer": "50",
+          "explanationFields": [
+            "Подставляем известную высоту в формулу:",
+            "$h = \\frac{a\\sqrt{3}}{2}$",
+            "Получаем равенство:",
+            "$25\\sqrt{3} = \\frac{a\\sqrt{3}}{2}$",
+            "Сокращаем корни $\\sqrt{3}$ и находим сторону:",
+            "$25 = \\frac{a}{2} \\implies a = 25 \\times 2 = 50$"
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "input",
+          "text": "В равностороннем треугольнике сторона равна $6\\sqrt{3}.$ Найди высоту этого треугольника.",
+          "graph": [
+            "grid: false",
+            "point A: 0;0",
+            "point B: 2;4",
+            "point C: 4;0",
+            "point_extra D: 2;0",
+            "main_line: true",
+            "line_extra BD",
+            "equal_segments: AD DC"
+          ],
+          "correctAnswer": "9",
+          "explanationFields": [
+            "Наша формула для вычислений:",
+            "$h = \\frac{a\\sqrt{3}}{2}$",
+            "Вместо $a$ подставляем $6\\sqrt{3}:$",
+            "$h = \\frac{6\\sqrt{3} \\cdot \\sqrt{3}}{2}$",
+            "Находим ответ:",
+            "$h = \\frac{6 \\cdot 3}{2} = 3 \\times 3 = 9$"
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "input",
+          "text": "Медиана равностороннего треугольника равна $19\\sqrt{3}.$ Найди сторону этого треугольника.",
+          "graph": [
+            "grid: false",
+            "point A: 0;0",
+            "point B: 2;4",
+            "point C: 4;0",
+            "point_extra D: 2;0",
+            "main_line: true",
+            "line_extra BD",
+            "equal_segments: AD DC"
+          ],
+          "correctAnswer": "38",
+          "explanationFields": [
+            "Подставляем медиану $19\\sqrt{3}$ в формулу:",
+            "$19\\sqrt{3} = \\frac{a\\sqrt{3}}{2}$",
+            "Сокращаем одинаковые корни с двух сторон:",
+            "$19 = \\frac{a}{2}$",
+            "Умножаем на $2$ и получаем сторону:",
+            "$a = 19 \\times 2 = 38$"
+          ]
+        }
+      ]
+    },
+    "15-zadanie-ravnostoronniy-treugolnik-5": {
+      "title": "Равносторонний треугольник 5",
+      "path": "15 задание / Равносторонний треугольник 5",
+      "tasks": [
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "input",
+          "text": "Закрепляем тему с равносторонним треугольником!",
+          "text2": "В равностороннем треугольнике сторона равна 28\\sqrt{3}. Найди высоту этого треугольника.",
+          "graph": [
+            "grid: false",
+            "point A: 0;0",
+            "point B: 2;4",
+            "point C: 4;0",
+            "point_extra D: 2;0",
+            "main_line: true",
+            "line_extra BD",
+            "equal_segments: AD DC"
+          ],
+          "correctAnswer": "42",
+          "explanationFields": [
+            "Применяем формулу высоты:",
+            "h = \\frac{a\\sqrt{3}}{2}",
+            "Подставляем известную сторону a = 28\\sqrt{3}:",
+            "h = \\frac{28\\sqrt{3} \\cdot \\sqrt{3}}{2}",
+            "Убираем корни (\\sqrt{3} \\cdot \\sqrt{3} = 3) и считаем:",
+            "h = \\frac{28 \\cdot 3}{2} = 14 \\times 3 = 42"
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "input",
+          "text": "Медиана равностороннего треугольника равна 23\\sqrt{3}. Найди сторону этого треугольника.",
+          "graph": [
+            "grid: false",
+            "point A: 0;0",
+            "point B: 2;4",
+            "point C: 4;0",
+            "point_extra D: 2;0",
+            "main_line: true",
+            "line_extra BD",
+            "equal_segments: AD DC"
+          ],
+          "correctAnswer": "46",
+          "explanationFields": [
+            "Записываем формулу для медианы:",
+            "h = \\frac{a\\sqrt{3}}{2}",
+            "Подставляем медиану 23\\sqrt{3}:",
+            "23\\sqrt{3} = \\frac{a\\sqrt{3}}{2}",
+            "Корни сокращаются:",
+            "23 = \\frac{a}{2} \\implies a = 23 \\times 2 = 46"
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "input",
+          "text": "В равностороннем треугольнике сторона равна 14\\sqrt{3}. Найди медиану этого треугольника.",
+          "graph": [
+            "grid: false",
+            "point A: 0;0",
+            "point B: 2;4",
+            "point C: 4;0",
+            "point_extra D: 2;0",
+            "main_line: true",
+            "line_extra BD",
+            "equal_segments: AD DC"
+          ],
+          "correctAnswer": "21",
+          "explanationFields": [
+            "В равностороннем треугольнике медиана и высота совпадают:",
+            "h = \\frac{a\\sqrt{3}}{2}",
+            "Подставляем сторону a = 14\\sqrt{3}:",
+            "h = \\frac{14\\sqrt{3} \\cdot \\sqrt{3}}{2}",
+            "Находим ответ:",
+            "h = \\frac{14 \\cdot 3}{2} = 7 \\times 3 = 21"
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "input",
+          "text": "Высота равностороннего треугольника равна 20\\sqrt{3}. Найди сторону этого треугольника.",
+          "graph": [
+            "grid: false",
+            "point A: 0;0",
+            "point B: 2;4",
+            "point C: 4;0",
+            "point_extra D: 2;0",
+            "main_line: true",
+            "line_extra BD",
+            "equal_segments: AD DC"
+          ],
+          "correctAnswer": "40",
+          "explanationFields": [
+            "Записываем формулу высоты:",
+            "h = \\frac{a\\sqrt{3}}{2}",
+            "Подставляем 20\\sqrt{3}:",
+            "20\\sqrt{3} = \\frac{a\\sqrt{3}}{2}",
+            "Сокращаем корни \\sqrt{3} и получаем:",
+            "20 = \\frac{a}{2} \\implies a = 20 \\times 2 = 40"
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "input",
+          "text": "В равностороннем треугольнике сторона равна 32\\sqrt{3}. Найди высоту этого треугольника.",
+          "graph": [
+            "grid: false",
+            "point A: 0;0",
+            "point B: 2;4",
+            "point C: 4;0",
+            "point_extra D: 2;0",
+            "main_line: true",
+            "line_extra BD",
+            "equal_segments: AD DC"
+          ],
+          "correctAnswer": "48",
+          "explanationFields": [
+            "Работаем по знакомому алгоритму:",
+            "h = \\frac{a\\sqrt{3}}{2}",
+            "Подставляем известное значение стороны:",
+            "h = \\frac{32\\sqrt{3} \\cdot \\sqrt{3}}{2}",
+            "Считаем без корней:",
+            "h = \\frac{32 \\cdot 3}{2} = 16 \\times 3 = 48"
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "input",
+          "text": "Медиана равностороннего треугольника равна 22\\sqrt{3}. Найди сторону этого треугольника.",
+          "graph": [
+            "grid: false",
+            "point A: 0;0",
+            "point B: 2;4",
+            "point C: 4;0",
+            "point_extra D: 2;0",
+            "main_line: true",
+            "line_extra BD",
+            "equal_segments: AD DC"
+          ],
+          "correctAnswer": "44",
+          "explanationFields": [
+            "Подставляем медиану в формулу:",
+            "h = \\frac{a\\sqrt{3}}{2}",
+            "Получаем равенство:",
+            "22\\sqrt{3} = \\frac{a\\sqrt{3}}{2}",
+            "Сокращаем корни и находим сторону:",
+            "22 = \\frac{a}{2} \\implies a = 22 \\times 2 = 44"
+          ]
+        }
+      ],
+      "isTest": true
     }
   }
-        }
+            }
