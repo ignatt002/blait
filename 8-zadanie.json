@@ -7,11 +7,13 @@
       {
         "title": "Корни и степени",
         "levels": [
+          "###Знакомство с корнями",
           "8-zadanie-ukrashchaem-korni-podstupaemsya",
           "8-zadanie-kvadratnye-chisla",
           "8-zadanie-praktikuemsya",
           "8-zadanie-treniruemsya",
           "8-zadanie-funktsioniruem-golovoy",
+          "###Знакомство со степенями",
           "8-zadanie-podstupaemsya-k-stepenyam",
           "8-zadanie-delaem-delo",
           "8-zadanie-myslim",
@@ -19,6 +21,7 @@
           "8-zadanie-legkie-stepeni",
           "8-zadanie-legkie-stepeni-1",
           "8-zadanie-legkie-stepeni-2",
+          "###Корни и степени",
           "8-zadanie-korni-so-stepenyami",
           "8-zadanie-korni-so-stepenyami-2",
           "8-zadanie-korni-so-stepenyami-3",
@@ -30,6 +33,7 @@
           "8-zadanie-korni-so-stepenyami-8",
           "8-zadanie-korni-so-stepenyami-9",
           "8-zadanie-zakreplenie-korney-so-stepenyami",
+          "###Степени и знаменатели",
           "8-zadanie-stepeni-i-znamenateli",
           "8-zadanie-stepeni-i-znamenateli-2",
           "8-zadanie-stepeni-i-znamenateli-3"
@@ -56,21 +60,25 @@
       {
         "title": "Формулы сокращённого умножения",
         "levels": [
+          "###Разность квадратов",
           "8-zadanie-raznost-kvadratov",
           "8-zadanie-raznost-kvadratov-2",
           "8-zadanie-raznost-kvadratov-3",
           "8-zadanie-raznost-kvadratov-4",
           "8-zadanie-zakreplyaem-raznost-kvadratov",
+          "###Квадрат суммы",
           "8-zadanie-kvadrat-summy",
           "8-zadanie-kvadrat-summy-2",
           "8-zadanie-kvadrat-summy-3",
           "8-zadanie-kvadrat-summy-4",
           "8-zadanie-kvadrat-summy-5",
+          "###Квадрат разности",
           "8-zadanie-kvadrat-raznosti",
           "8-zadanie-kvadrat-raznosti-2",
           "8-zadanie-kvadrat-raznosti-3",
           "8-zadanie-kvadraty-summy-i-raznosti",
           "8-zadanie-kvadraty-summy-i-raznosti-2",
+          "###Модули",
           "8-zadanie-interesnye-moduli",
           "8-zadanie-fsu-i-moduli",
           "8-zadanie-fsu-i-moduli-2",
@@ -96,9 +104,11 @@
       {
         "title": "Повторение темы",
         "levels": [
+          "###Корни и степени",
           "8-zadanie-povtorenie-korney",
           "8-zadanie-povtorenie-korney-i-stepeney",
           "8-zadanie-povtorenie-korney-i-stepeney-1",
+          "###ФСУ",
           "8-zadanie-povtorenie-fsu",
           "8-zadanie-povtorenie-fsu-2",
           "8-zadanie-povtorenie-fsu-3",
@@ -5241,4 +5251,4 @@
       "tasksToGather": 6
     }
   }
-        }
+}
