@@ -278,7 +278,7 @@
           "type": "2 options",
           "text": "1. Загадочный вопрос:",
           "1 option": "1",
-          "2 options": "2",
+          "2 option": "2",
           "correctAnswer": "1",
           "explanationFields": [
             "нету"
@@ -288,7 +288,7 @@
           "type": "2 options",
           "text": "2. второе задание",
           "1 option": "Интерференция",
-          "2 options": "деструктивная интерференция",
+          "2 option": "деструктивная интерференция",
           "correctAnswer": "2",
           "объединение": "нет объяснения второго задания"
         },
@@ -296,7 +296,7 @@
           "type": "4 options",
           "text": "3. нет текста",
           "1 option": "да",
-          "2 options": "нет",
+          "2 option": "нет",
           "3 option": "может быть",
           "4 option": "не знаю",
           "correctAnswer": "2",
