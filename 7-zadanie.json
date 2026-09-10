@@ -319,7 +319,6 @@
 "2 option": "",
 "graph2": ["grid: true", "point A: -2;-4", "point B: 0;0", "point C: 2;-4", "line: A B C"],
 "correctAnswer": "1"
-          ]
         },
         {
           "type": "4 options",
