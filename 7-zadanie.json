@@ -312,6 +312,16 @@
       "path": "7 задание / четвёртый",
       "tasks": [
         {
+        "type": "2 options",
+"text": "На каком из графиков изображена функция y = x²?",
+"1 option": "",
+"graph": ["grid: true", "point A: -2;4", "point B: 0;0", "point C: 2;4", "line: A B C"],
+"2 option": "",
+"graph2": ["grid: true", "point A: -2;-4", "point B: 0;0", "point C: 2;-4", "line: A B C"],
+"correctAnswer": "1"
+          ]
+        },
+        {
           "type": "4 options",
           "text": "правильный ответ 1",
           "1 option": "1",
