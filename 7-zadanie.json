@@ -312,7 +312,7 @@
       "path": "7 задание / четвёртый",
       "tasks": [
         {
-          "type": "2 options",
+          "type": "3 options",
           "text": "На каком из графиков изображена функция y = x²?",
           "1 option": "",
           "graph": [
@@ -330,7 +330,43 @@
             "point C: 2;-4",
             "segment line: A B C"
           ],
+          "3 option": "",
+          "graph3": [
+            "grid: true",
+            "point A: 2;0",
+            "point B: 3;0",
+            "main_line: true"
+          ],
           "correctAnswer": "1"
+        },
+        {
+          "type": "4 options",
+          "text": "На каком из графиков изображена функция y = x²?",
+          "1 option": "",
+          "graph": [
+            "grid: true",
+            "point A: -2;4",
+            "point B: 0;0",
+            "point C: 2;4",
+            "segment line: A B C"
+          ],
+          "2 option": "",
+          "graph2": [
+            "grid: true",
+            "point A: -2;-4",
+            "point B: 0;0",
+            "point C: 2;-4",
+            "segment line: A B C"
+          ],
+          "3 option": "",
+          "graph3": [
+            "point A: 3;0"
+          ],
+          "4 option": "",
+          "graph4": [
+            "point B: 4;0"
+          ],
+          "correctAnswer": "2"
         },
         {
           "type": "4 options",
