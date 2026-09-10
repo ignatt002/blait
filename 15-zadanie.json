@@ -7713,6 +7713,18 @@
       "path": "15 задание / Равносторонний треугольник 5",
       "tasks": [
         {
+          "type": "3 options",
+          "isOge": "true",
+          "text": "Сумма углов любого треугольника равна:",
+          "1 option": "90°",
+          "2 option": "180°",
+          "3 option": "360°",
+          "correctAnswer": "2",
+          "explanationFields": [
+            "Сумма углов любого треугольника всегда равна $180°$, независимо от его вида."
+          ]
+        },
+        {
           "type": "input",
           "isOge": true,
           "hasTheory": true,
