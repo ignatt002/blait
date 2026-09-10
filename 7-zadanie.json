@@ -9,7 +9,8 @@
         "levels": [
           "7-zadanie-nachalo",
           "7-zadanie-treniruemsya",
-          "7-zadanie-tretiy-urok"
+          "7-zadanie-tretiy-urok",
+          "7-zadanie-chetvertyy"
         ],
         "id": "subtopic-1788543784479"
       }
@@ -303,6 +304,21 @@
           "explanationFields": [
             "нет"
           ]
+        }
+      ]
+    },
+    "7-zadanie-chetvertyy": {
+      "title": "четвёртый",
+      "path": "7 задание / четвёртый",
+      "tasks": [
+        {
+          "type": "4 options",
+          "text": "правильный ответ 1",
+          "1 option": "1",
+          "2 option": "2",
+          "3 option": "3",
+          "4 option": "4",
+          "correctAnswer": "1"
         }
       ]
     }
