@@ -340,7 +340,7 @@
           "correctAnswer": "1"
         },
         {
-          "type": "options",
+          "type": "multiple options",
           "text": "На каком из графиков изображена функция y = x²?",
           "1 option": "",
           "graph": [
@@ -366,7 +366,7 @@
           "graph4": [
             "point B: 4;0"
           ],
-          "correctAnswer": "2"
+          "correctAnswer": "12"
         },
         {
           "type": "options",
