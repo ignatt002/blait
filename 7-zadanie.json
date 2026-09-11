@@ -10,7 +10,8 @@
           "7-zadanie-nachalo",
           "7-zadanie-treniruemsya",
           "7-zadanie-tretiy-urok",
-          "7-zadanie-chetvertyy"
+          "7-zadanie-chetvertyy",
+          "7-zadanie-detali"
         ],
         "id": "subtopic-1788543784479"
       }
@@ -276,7 +277,7 @@
       "path": "7 задание / Третий урок",
       "tasks": [
         {
-          "type": "2 options",
+          "type": "options",
           "text": "1. Загадочный вопрос:",
           "1 option": "1",
           "2 option": "2",
@@ -286,7 +287,7 @@
           ]
         },
         {
-          "type": "2 options",
+          "type": "options",
           "text": "2. второе задание",
           "1 option": "Интерференция",
           "2 option": "деструктивная интерференция",
@@ -294,7 +295,7 @@
           "объединение": "нет объяснения второго задания"
         },
         {
-          "type": "4 options",
+          "type": "options",
           "text": "3. нет текста",
           "1 option": "да",
           "2 option": "нет",
@@ -340,7 +341,7 @@
           "correctAnswer": "1"
         },
         {
-          "type": "multiple options",
+          "type": "options",
           "text": "На каком из графиков изображена функция y = x²?",
           "1 option": "",
           "graph": [
@@ -366,7 +367,7 @@
           "graph4": [
             "point B: 4;0"
           ],
-          "correctAnswer": "12"
+          "correctAnswer": "2"
         },
         {
           "type": "options",
@@ -376,6 +377,22 @@
           "3 option": "3",
           "4 option": "4",
           "correctAnswer": "1"
+        }
+      ]
+    },
+    "7-zadanie-detali": {
+      "title": "детали",
+      "path": "7 задание / детали",
+      "tasks": [
+        {
+          "type": "details",
+"text": "Собери формулу площади прямоугольника. Правильный ответ 1324.",
+"1 detail": "S",
+"2 detail": "=",
+"3 detail": "a",
+"4 detail": "\\cdot b",
+"correctAnswer": "1324",
+"explanationFields": ["Площадь прямоугольника — произведение его сторон."]
         }
       ]
     }
