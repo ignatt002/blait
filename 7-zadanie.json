@@ -387,13 +387,21 @@
       "tasks": [
         {
           "type": "details",
-"text": "Собери формулу площади прямоугольника. Правильный ответ 1324.",
-"1 detail": "S",
-"2 detail": "=",
-"3 detail": "a",
-"4 detail": "\\cdot b",
-"correctAnswer": "1324",
-"explanationFields": ["Площадь прямоугольника — произведение его сторон."]
+          "text": "Собери формулу площади прямоугольника. Правильный ответ 1324.",
+          "1 detail": "S",
+          "2 detail": "=",
+          "3 detail": "a",
+          "4 detail": "\\cdot",
+          "5 detail": "b",
+          "6 detail": "5",
+          "7 detail": "D",
+          "8 detail": "1",
+          "9 detail": "-",
+          "10 detail": "+",
+          "correctAnswer": "1324",
+          "explanationFields": [
+            "Площадь прямоугольника — произведение его сторон."
+          ]
         }
       ]
     }
