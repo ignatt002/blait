@@ -1202,7 +1202,7 @@
             "equal_segments: AB BC",
             "angle_inner BCD з: 120"
           ],
-          "correctAnswer": "66",
+          "correctAnswer": "60",
           "explanationFields": [
             "Сначала найдём внутренний угол $BCA,$ вычтя внешний угол из $180$°:",
             "$180° - 120° = 60°$",
