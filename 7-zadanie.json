@@ -1330,7 +1330,7 @@
         {
           "isOge": true,
           "hasTheory": true,
-          "type": "input",
+          "type": "notinput",
           "text": "Закрепляем корни!",
           "text2": "Между какими целыми числами заключено число $\\sqrt{31}?$",
           "correctAnswer": "5 и 6",
@@ -1346,7 +1346,7 @@
         {
           "isOge": true,
           "hasTheory": true,
-          "type": "input",
+          "type": "notinput",
           "text": "Определи, между какими целыми числами заключено число $\\sqrt{79}.$",
           "correctAnswer": "8 и 9",
           "explanationFields": [
@@ -1361,7 +1361,7 @@
         {
           "isOge": true,
           "hasTheory": true,
-          "type": "input",
+          "type": "notinput",
           "text": "Попробуем ещё одно! Между какими целыми числами находится число $\\sqrt{18}?$",
           "correctAnswer": "4 и 5",
           "explanationFields": [
@@ -1376,7 +1376,7 @@
         {
           "isOge": true,
           "hasTheory": true,
-          "type": "input",
+          "type": "notinput",
           "text": "Между какими целыми числами находится число $\\sqrt{61}?$",
           "correctAnswer": "7 и 8",
           "explanationFields": [
@@ -1391,7 +1391,7 @@
         {
           "isOge": true,
           "hasTheory": true,
-          "type": "input",
+          "type": "notinput",
           "text": "Выясни, между какими целыми числами заключено число $\\sqrt{105}.$",
           "correctAnswer": "10 и 11",
           "explanationFields": [
@@ -1406,7 +1406,7 @@
         {
           "isOge": true,
           "hasTheory": true,
-          "type": "input",
+          "type": "notinput",
           "text": "Заключительное задание!",
           "text2": "Определи, между какими целыми числами находится число $\\sqrt{46}.$",
           "correctAnswer": "6 и 7",
