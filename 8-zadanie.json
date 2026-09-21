@@ -1489,7 +1489,7 @@
           "hasTheory": true,
           "text": "Найди значение выражения:",
           "code": "\\sqrt{\\frac{16a^{12}}{a^8}} \\ при \\ a = 5",
-          "correctAnswer": "150",
+          "correctAnswer": "100",
           "explanationFields": [
             "Сделаем упрощение степеней под корнем, вычтя показатели:",
             "$\\sqrt{16a^{12-8}} = \\sqrt{16a^4}$",
