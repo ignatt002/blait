@@ -1381,7 +1381,7 @@
           "isOge": true,
           "text": "Вычисли:",
           "code": "\\sqrt{\\frac{16x^8}{y^6}} \\ при \\ x = 2, \\ y = 4",
-          "correctAnswer": "4",
+          "correctAnswer": "1",
           "explanationFields": [
             "Извлечем корень из числителя и знаменателя по отдельности:",
             "$\\frac{4x^4}{y^3}$",
