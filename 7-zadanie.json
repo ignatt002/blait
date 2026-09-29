@@ -23,7 +23,8 @@
           "7-zadanie-trudimsya",
           "7-zadanie-opyat-eti-korni",
           "7-zadanie-treniruemsya-1",
-          "7-zadanie-otbivaem-korni"
+          "7-zadanie-otbivaem-korni",
+          "7-zadanie-povtoryaem"
         ],
         "id": "subtopic-1788543784479"
       },
@@ -44,9 +45,33 @@
           "7-zadanie-zakreplyaem-2",
           "7-zadanie-uchimsya-1",
           "7-zadanie-zakreplenie-1",
-          "7-zadanie-posledniy-urok-temy"
+          "7-zadanie-posledniy-urok-temy",
+          "7-zadanie-otrabotka-navykov-1"
         ],
         "id": "subtopic-1789669612881"
+      },
+      {
+        "title": "Утверждения",
+        "levels": [
+          "7-zadanie-samoe-interesnoe",
+          "7-zadanie-prodolzhaem-uchenie",
+          "7-zadanie-otrabatyvaem-navyki",
+          "7-zadanie-kachaem-mozg-1",
+          "7-zadanie-zaklyuchaem-tip-zadach",
+          "7-zadanie-ne-ostanavlivaemsya",
+          "7-zadanie-treniruemsya-2",
+          "7-zadanie-rabotaem",
+          "7-zadanie-otrabatyvaem",
+          "7-zadanie-zakreplyaem-3",
+          "7-zadanie-izuchim-novoe",
+          "7-zadanie-ottachivaem-1",
+          "7-zadanie-sovershenstvuemsya",
+          "7-zadanie-razvivaemsya",
+          "7-zadanie-narashchivaem-mozg",
+          "7-zadanie-kontroliruem-znaniya",
+          "7-zadanie-zakreplyaem-temu"
+        ],
+        "id": "subtopic-1789981068938"
       }
     ]
   },
@@ -1805,6 +1830,13 @@
       ],
       "isTest": true
     },
+    "7-zadanie-povtoryaem": {
+      "title": "Повторяем",
+      "path": "7 задание / Повторяем",
+      "tasks": [],
+      "isRepetition": true,
+      "tasksToGather": 6
+    },
     "7-zadanie-otsenivaem-drobi": {
       "title": "Оцениваем дроби",
       "path": "7 задание / Оцениваем дроби",
@@ -3196,7 +3228,6 @@
           "code": "\\dfrac{71}{15} \\quad \\dfrac{79}{15} \\quad \\dfrac{86}{15} \\quad \\dfrac{92}{15}",
           "graph": [
             "grid: false",
-            "grid: false",
             "axis_x: true",
             "tick_mark 0: 0;0",
             "tick_mark 1: 1;0",
@@ -3217,7 +3248,6 @@
           "text9": "Теперь считаем и смотрим, какие координаты больше всего похожи на точку $A:$",
           "graph2": [
             "grid: false",
-            "grid: false",
             "axis_x: true",
             "tick_mark 0: 0;0",
             "tick_mark 1: 1;0",
@@ -3234,13 +3264,12 @@
           "text11": "Смело выбираем этот вариант и получаем балл за это задание!"
         },
         {
+          "type": "options",
           "isOge": true,
           "hasTheory": true,
-          "type": "options",
           "text": "Теперь попробуй ты.",
           "text2": "Одно из чисел отмечено на прямой точкой $A.$ Какое это число?",
           "graph": [
-            "grid: false",
             "grid: false",
             "axis_x: true",
             "tick_mark 0: 0;0",
@@ -3270,12 +3299,11 @@
           ]
         },
         {
+          "type": "options",
           "isOge": true,
           "hasTheory": true,
-          "type": "options",
           "text": "Одно из чисел отмечено на прямой точкой $A.$ Какое это число?",
           "graph": [
-            "grid: false",
             "grid: false",
             "axis_x: true",
             "tick_mark 0: 0;0",
@@ -3305,12 +3333,11 @@
           ]
         },
         {
+          "type": "options",
           "isOge": true,
           "hasTheory": true,
-          "type": "options",
           "text": "Разберём четвёртое задание. Одно из чисел отмечено на прямой точкой $A.$ Какое это число?",
           "graph": [
-            "grid: false",
             "grid: false",
             "axis_x: true",
             "tick_mark 0: 0;0",
@@ -3340,12 +3367,11 @@
           ]
         },
         {
+          "type": "options",
           "isOge": true,
           "hasTheory": true,
-          "type": "options",
           "text": "Одно из чисел отмечено на прямой точкой $A.$ Какое это число?",
           "graph": [
-            "grid: false",
             "grid: false",
             "axis_x: true",
             "tick_mark 0: 0;0",
@@ -3375,12 +3401,11 @@
           ]
         },
         {
+          "type": "options",
           "isOge": true,
           "hasTheory": true,
-          "type": "options",
           "text": "Последнее задание! Одно из чисел отмечено на прямой точкой $A.$ Какое это число?",
           "graph": [
-            "grid: false",
             "grid: false",
             "axis_x: true",
             "tick_mark 0: 0;0",
@@ -3416,13 +3441,12 @@
       "path": "7 задание / Оттачиваем",
       "tasks": [
         {
+          "type": "options",
           "isOge": true,
           "hasTheory": true,
-          "type": "options",
           "text": "Начнём нашу тренировку!",
           "text2": "Одно из чисел отмечено на прямой точкой $A.$ Какое это число?",
           "graph": [
-            "grid: false",
             "grid: false",
             "axis_x: true",
             "tick_mark 0: 0;0",
@@ -3452,12 +3476,11 @@
           ]
         },
         {
+          "type": "options",
           "isOge": true,
           "hasTheory": true,
-          "type": "options",
           "text": "Вторая задача. Одно из чисел отмечено на прямой точкой $A.$ Какое это число?",
           "graph": [
-            "grid: false",
             "grid: false",
             "axis_x: true",
             "tick_mark 0: 0;0",
@@ -3487,12 +3510,11 @@
           ]
         },
         {
+          "type": "options",
           "isOge": true,
           "hasTheory": true,
-          "type": "options",
           "text": "Одно из чисел отмечено на прямой точкой $A.$ Какое это число?",
           "graph": [
-            "grid: false",
             "grid: false",
             "axis_x: true",
             "tick_mark 0: 0;0",
@@ -3522,12 +3544,11 @@
           ]
         },
         {
+          "type": "options",
           "isOge": true,
           "hasTheory": true,
-          "type": "options",
           "text": "Одно из чисел отмечено на прямой точкой $A.$ Какое это число?",
           "graph": [
-            "grid: false",
             "grid: false",
             "axis_x: true",
             "tick_mark 0: 0;0",
@@ -3557,12 +3578,11 @@
           ]
         },
         {
+          "type": "options",
           "isOge": true,
           "hasTheory": true,
-          "type": "options",
           "text": "Пятый пример. Одно из чисел отмечено на прямой точкой $A.$ Какое это число?",
           "graph": [
-            "grid: false",
             "grid: false",
             "axis_x: true",
             "tick_mark 0: 0;0",
@@ -3592,12 +3612,11 @@
           ]
         },
         {
+          "type": "options",
           "isOge": true,
           "hasTheory": true,
-          "type": "options",
           "text": "Одно из чисел отмечено на прямой точкой $A.$ Какое это число?",
           "graph": [
-            "grid: false",
             "grid: false",
             "axis_x: true",
             "tick_mark 0: 0;0",
@@ -3633,12 +3652,11 @@
       "path": "7 задание / Проявляем интеллект!",
       "tasks": [
         {
+          "type": "options",
           "isOge": true,
           "hasTheory": true,
-          "type": "options",
           "text": "Привет! Начнём новый урок. Одно из чисел отмечено на прямой точкой A. Какое это число?",
           "graph": [
-            "grid: false",
             "grid: false",
             "axis_x: true",
             "tick_mark 0: 0;0",
@@ -3668,12 +3686,11 @@
           ]
         },
         {
+          "type": "options",
           "isOge": true,
           "hasTheory": true,
-          "type": "options",
           "text": "Одно из чисел отмечено на прямой точкой A. Какое это число?",
           "graph": [
-            "grid: false",
             "grid: false",
             "axis_x: true",
             "tick_mark 0: 0;0",
@@ -3703,12 +3720,11 @@
           ]
         },
         {
+          "type": "options",
           "isOge": true,
           "hasTheory": true,
-          "type": "options",
           "text": "Ещё задача! Одно из чисел отмечено на прямой точкой A. Какое это число?",
           "graph": [
-            "grid: false",
             "grid: false",
             "axis_x: true",
             "tick_mark 0: 0;0",
@@ -3738,12 +3754,11 @@
           ]
         },
         {
+          "type": "options",
           "isOge": true,
           "hasTheory": true,
-          "type": "options",
           "text": "Одно из чисел отмечено на прямой точкой A. Какое это число?",
           "graph": [
-            "grid: false",
             "grid: false",
             "axis_x: true",
             "tick_mark 0: 0;0",
@@ -3773,13 +3788,12 @@
           ]
         },
         {
+          "type": "options",
           "isOge": true,
           "hasTheory": true,
-          "type": "options",
           "text": "Разберись с этой задачей!",
           "text2": "Одно из чисел отмечено на прямой точкой A. Какое это число?",
           "graph": [
-            "grid: false",
             "grid: false",
             "axis_x: true",
             "tick_mark 0: 0;0",
@@ -3809,12 +3823,11 @@
           ]
         },
         {
+          "type": "options",
           "isOge": true,
           "hasTheory": true,
-          "type": "options",
           "text": "Одно из чисел отмечено на прямой точкой A. Какое это число?",
           "graph": [
-            "grid: false",
             "grid: false",
             "axis_x: true",
             "tick_mark 0: 0;0",
@@ -3850,12 +3863,11 @@
       "path": "7 задание / Закрепляем",
       "tasks": [
         {
+          "type": "options",
           "isOge": true,
           "hasTheory": true,
-          "type": "options",
           "text": "Последняя подборка таких задач! Одно из чисел отмечено на прямой точкой $A.$ Какое это число?",
           "graph": [
-            "grid: false",
             "grid: false",
             "axis_x: true",
             "tick_mark 0: 0;0",
@@ -3885,12 +3897,11 @@
           ]
         },
         {
+          "type": "options",
           "isOge": true,
           "hasTheory": true,
-          "type": "options",
           "text": "Одно из чисел отмечено на прямой точкой $A.$ Какое это число?",
           "graph": [
-            "grid: false",
             "grid: false",
             "axis_x: true",
             "tick_mark 0: 0;0",
@@ -3920,12 +3931,11 @@
           ]
         },
         {
+          "type": "options",
           "isOge": true,
           "hasTheory": true,
-          "type": "options",
           "text": "Одно из чисел отмечено на прямой точкой $A.$ Какое это число?",
           "graph": [
-            "grid: false",
             "grid: false",
             "axis_x: true",
             "tick_mark 0: 0;0",
@@ -3955,12 +3965,11 @@
           ]
         },
         {
+          "type": "options",
           "isOge": true,
           "hasTheory": true,
-          "type": "options",
           "text": "Скоро конец урока! Одно из чисел отмечено на прямой точкой $A.$ Какое это число?",
           "graph": [
-            "grid: false",
             "grid: false",
             "axis_x: true",
             "tick_mark 0: 0;0",
@@ -3990,12 +3999,11 @@
           ]
         },
         {
+          "type": "options",
           "isOge": true,
           "hasTheory": true,
-          "type": "options",
           "text": "Одно из чисел отмечено на прямой точкой $A.$ Какое это число?",
           "graph": [
-            "grid: false",
             "grid: false",
             "axis_x: true",
             "tick_mark 0: 0;0",
@@ -4025,12 +4033,11 @@
           ]
         },
         {
+          "type": "options",
           "isOge": true,
           "hasTheory": true,
-          "type": "options",
           "text": "Последняя задача такого типа! Одно из чисел отмечено на прямой точкой $A.$ Какое это число?",
           "graph": [
-            "grid: false",
             "grid: false",
             "axis_x: true",
             "tick_mark 0: 0;0",
@@ -4067,14 +4074,14 @@
       "path": "7 задание / Учимся",
       "tasks": [
         {
+          "type": "options",
           "isOge": true,
           "hasTheory": true,
-          "type": "options",
           "text": "Привет! По идее, это новый тип задач, но, честно говоря, объяснять здесь нечего. Попробуй решить это задание:",
           "text2": "Одно из чисел отмечено на прямой точкой $A.$ Какое это число?",
           "graph": [
-            "axis_x: true",
             "grid: false",
+            "axis_x: true",
             "tick_mark 0: 0;0",
             "tick_mark 0,1: 1;0",
             "tick_mark 0,2: 2;0",
@@ -4104,13 +4111,13 @@
           ]
         },
         {
+          "type": "options",
           "isOge": true,
           "hasTheory": true,
-          "type": "options",
           "text": "Вторая задача. Одно из чисел отмечено на прямой точкой $A.$ Какое это число?",
           "graph": [
-            "axis_x: true",
             "grid: false",
+            "axis_x: true",
             "tick_mark 0: 0;0",
             "tick_mark 0,1: 1;0",
             "tick_mark 0,2: 2;0",
@@ -4139,13 +4146,13 @@
           ]
         },
         {
+          "type": "options",
           "isOge": true,
           "hasTheory": true,
-          "type": "options",
           "text": "Третье задание. Одно из чисел отмечено на прямой точкой $A.$ Какое это число?",
           "graph": [
-            "axis_x: true",
             "grid: false",
+            "axis_x: true",
             "tick_mark 0: 0;0",
             "tick_mark 0,1: 1;0",
             "tick_mark 0,2: 2;0",
@@ -4174,13 +4181,13 @@
           ]
         },
         {
+          "type": "options",
           "isOge": true,
           "hasTheory": true,
-          "type": "options",
           "text": "Идем дальше. Одно из чисел отмечено на прямой точкой $A.$ Какое это число?",
           "graph": [
-            "axis_x: true",
             "grid: false",
+            "axis_x: true",
             "tick_mark 0: 0;0",
             "tick_mark 0,1: 1;0",
             "tick_mark 0,2: 2;0",
@@ -4209,13 +4216,13 @@
           ]
         },
         {
+          "type": "options",
           "isOge": true,
           "hasTheory": true,
-          "type": "options",
           "text": "Пятый пример. Одно из чисел отмечено на прямой точкой $A.$ Какое это число?",
           "graph": [
-            "axis_x: true",
             "grid: false",
+            "axis_x: true",
             "tick_mark 0: 0;0",
             "tick_mark 0,1: 1;0",
             "tick_mark 0,2: 2;0",
@@ -4244,13 +4251,13 @@
           ]
         },
         {
+          "type": "options",
           "isOge": true,
           "hasTheory": true,
-          "type": "options",
           "text": "Финальная задача нашего урока! Одно из чисел отмечено на прямой точкой $A.$ Какое это число?",
           "graph": [
-            "axis_x: true",
             "grid: false",
+            "axis_x: true",
             "tick_mark 0: 0;0",
             "tick_mark 0,1: 1;0",
             "tick_mark 0,2: 2;0",
@@ -4285,14 +4292,14 @@
       "path": "7 задание / Закрепление",
       "tasks": [
         {
+          "type": "options",
           "isOge": true,
           "hasTheory": true,
-          "type": "options",
           "text": "Совсем скоро мы приступим к самым интересным заданиям! А сейчас:",
           "text2": "На координатной прямой отмечена точка $A.$ Какому из чисел она соответствует?",
           "graph": [
-            "axis_x: true",
             "grid: false",
+            "axis_x: true",
             "tick_mark 0: 0;0",
             "tick_mark 0,1: 1;0",
             "tick_mark 0,2: 2;0",
@@ -4321,13 +4328,13 @@
           ]
         },
         {
+          "type": "options",
           "isOge": true,
           "hasTheory": true,
-          "type": "options",
           "text": "Одно из чисел отмечено точкой $A.$ Найдёшь его?",
           "graph": [
-            "axis_x: true",
             "grid: false",
+            "axis_x: true",
             "tick_mark 0: 0;0",
             "tick_mark 0,1: 1;0",
             "tick_mark 0,2: 2;0",
@@ -4356,13 +4363,13 @@
           ]
         },
         {
+          "type": "options",
           "isOge": true,
           "hasTheory": true,
-          "type": "options",
           "text": "Справишься с этой задачей? Где точка $A$ на этот раз?",
           "graph": [
-            "axis_x: true",
             "grid: false",
+            "axis_x: true",
             "tick_mark 0: 0;0",
             "tick_mark 0,1: 1;0",
             "tick_mark 0,2: 2;0",
@@ -4391,13 +4398,13 @@
           ]
         },
         {
+          "type": "options",
           "isOge": true,
           "hasTheory": true,
-          "type": "options",
           "text": "Щёлкай следующий пример. Одно из чисел отмечено точкой $A.$ Какое это число?",
           "graph": [
-            "axis_x: true",
             "grid: false",
+            "axis_x: true",
             "tick_mark 0: 0;0",
             "tick_mark 0,1: 1;0",
             "tick_mark 0,2: 2;0",
@@ -4426,13 +4433,13 @@
           ]
         },
         {
+          "type": "options",
           "isOge": true,
           "hasTheory": true,
-          "type": "options",
           "text": "Сможешь определить, где спряталась точка $A?$",
           "graph": [
-            "axis_x: true",
             "grid: false",
+            "axis_x: true",
             "tick_mark 0: 0;0",
             "tick_mark 0,1: 1;0",
             "tick_mark 0,2: 2;0",
@@ -4461,14 +4468,14 @@
           ]
         },
         {
+          "type": "options",
           "isOge": true,
           "hasTheory": true,
-          "type": "options",
           "text": "Закроем этот урок последней задачей!",
           "text2": "Какое число отмечено точкой $A?$",
           "graph": [
-            "axis_x: true",
             "grid: false",
+            "axis_x: true",
             "tick_mark 0: 0;0",
             "tick_mark 0,1: 1;0",
             "tick_mark 0,2: 2;0",
@@ -4503,13 +4510,13 @@
       "path": "7 задание / Последний урок темы!",
       "tasks": [
         {
-          "isOge": true,
           "type": "options",
+          "isOge": true,
           "text": "Заканчиваем набивать руку на этих заданиях!",
           "text2": "Посмотри на координатную прямую. Какое число спрятала точка $A?$",
           "graph": [
-            "axis_x: true",
             "grid: false",
+            "axis_x: true",
             "tick_mark 0: 0;0",
             "tick_mark 0,1: 1;0",
             "tick_mark 0,2: 2;0",
@@ -4538,13 +4545,13 @@
           ]
         },
         {
-          "isOge": true,
           "type": "options",
+          "isOge": true,
           "text": "Лови следующую задачку!",
           "text2": "Здесь точка $A$ перебралась почти в самый конец отрезка. Где она находится?",
           "graph": [
-            "axis_x: true",
             "grid: false",
+            "axis_x: true",
             "tick_mark 0: 0;0",
             "tick_mark 0,1: 1;0",
             "tick_mark 0,2: 2;0",
@@ -4573,12 +4580,12 @@
           ]
         },
         {
-          "isOge": true,
           "type": "options",
+          "isOge": true,
           "text": "На координатной прямой отмечена точка A. Какому из чисел она соответствует?",
           "graph": [
-            "axis_x: true",
             "grid: false",
+            "axis_x: true",
             "tick_mark 0: 0;0",
             "tick_mark 0,1: 1;0",
             "tick_mark 0,2: 2;0",
@@ -4607,12 +4614,12 @@
           ]
         },
         {
-          "isOge": true,
           "type": "options",
+          "isOge": true,
           "text": "На координатной прямой отмечена точка A. Какому из чисел она соответствует?",
           "graph": [
-            "axis_x: true",
             "grid: false",
+            "axis_x: true",
             "tick_mark 0: 0;0",
             "tick_mark 0,1: 1;0",
             "tick_mark 0,2: 2;0",
@@ -4641,13 +4648,13 @@
           ]
         },
         {
-          "isOge": true,
           "type": "options",
+          "isOge": true,
           "text": "Найди решение этой задачи!",
           "text2": "На координатной прямой отмечена точка A. Какому из чисел она соответствует?",
           "graph": [
-            "axis_x: true",
             "grid: false",
+            "axis_x: true",
             "tick_mark 0: 0;0",
             "tick_mark 0,1: 1;0",
             "tick_mark 0,2: 2;0",
@@ -4676,13 +4683,13 @@
           ]
         },
         {
-          "isOge": true,
           "type": "options",
+          "isOge": true,
           "text": "Финальная задача этой темы! Закрепляем результат и получаем заветный балл.",
           "text2": "На координатной прямой отмечена точка A. Какому из чисел она соответствует?",
           "graph": [
-            "axis_x: true",
             "grid: false",
+            "axis_x: true",
             "tick_mark 0: 0;0",
             "tick_mark 0,1: 1;0",
             "tick_mark 0,2: 2;0",
@@ -4712,6 +4719,2847 @@
         }
       ],
       "isTest": true
+    },
+    "7-zadanie-otrabotka-navykov-1": {
+      "title": "Отработка навыков",
+      "path": "7 задание / Отработка навыков",
+      "tasks": [],
+      "isRepetition": true,
+      "tasksToGather": 6
+    },
+    "7-zadanie-samoe-interesnoe": {
+      "title": "Самое интересное!",
+      "path": "7 задание / Самое интересное!",
+      "tasks": [
+        {
+          "type": "options",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "А вот теперь начинаются самые интересные задачи этой темы — утверждения!",
+          "text2": "Нам будет дана точка A на координатной прямой и несколько утверждений о ней. Нам нужно будет решить, какое утверждение верное, а какие — нет.",
+          "text3": "Давай разберём одну задачу вместе!",
+          "text4": "«На координатной прямой отмечено число $А.$ Какое из утверждений является верным?»",
+          "graph": [
+            "grid: false",
+            "axis_x: true",
+            "tick_mark 0: 0;0",
+            "tick_mark 1: 1;0",
+            "tick_mark  : 2;0",
+            "tick_mark  : 3;0",
+            "tick_mark  : 4;0",
+            "tick_mark  : 5;0",
+            "tick_mark  : 6;0",
+            "tick_mark  : 7;0",
+            "tick_mark  : 8;0",
+            "tick_mark  : 9;0",
+            "point A: 6.3;0"
+          ],
+          "code": "a - 6 < 0",
+          "code2": "6 - a > 0",
+          "code3": "a - 7 > 0",
+          "code4": "a - 5 > 0",
+          "text5": "Отсчитаем штрихи от нуля и примерно прикидываем, где точка A:",
+          "graph2": [
+            "grid: false",
+            "axis_x: true",
+            "tick_mark 0: 0;0",
+            "tick_mark 1: 1;0",
+            "tick_mark 2: 2;0",
+            "tick_mark 3: 3;0",
+            "tick_mark 4: 4;0",
+            "tick_mark 5: 5;0",
+            "tick_mark 6: 6;0",
+            "tick_mark 7: 7;0",
+            "tick_mark 8: 8;0",
+            "tick_mark 9: 9;0",
+            "point 6,3: 6.3;0"
+          ],
+          "text6": "Точка $A$ находится между 6 и 7, примерно на отметке $6,3.$",
+          "text7": "А теперь просто подставляем $6,3$ в каждый вариант:",
+          "text8": "$1)$  $6,3 - 6 = 0,3 < 0$ — неверно",
+          "text9": "$2)$  $6 - 6,3 = -0,3 > 0$ — неверно",
+          "text10": "$3)$  $6,3 - 7 = -0,7 > 0$ — неверно",
+          "text11": "$4)$  $6,3 - 5 = 1,3 > 0$ — верно!",
+          "text12": "Правильный вариант под номером $4,$ вот и записываем его в ответ!"
+        },
+        {
+          "type": "options",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "Давай закрепим такой метод подстановки!",
+          "text2": "На координатной прямой отмечено число $a.$ Какое из утверждений является верным?",
+          "graph": [
+            "grid: false",
+            "axis_x: true",
+            "tick_mark 0: 0;0",
+            "tick_mark 1: 1;0",
+            "tick_mark  : 2;0",
+            "tick_mark  : 3;0",
+            "tick_mark  : 4;0",
+            "tick_mark  : 5;0",
+            "tick_mark  : 6;0",
+            "point a: 2.7;0"
+          ],
+          "1 option": "4-a > 0",
+          "2 option": "a-4 > 0",
+          "3 option": "5-a < 0",
+          "4 option": "a-5 > 0",
+          "correctAnswer": "1",
+          "explanationFields": [
+            "Точка $a$ располагается в интервале $(2; 3),$ пусть $a \\approx 2{,}7$",
+            "Проверим все варианты с этим числом:",
+            "$1) 4 - 2{,}7 = 1{,}3 > 0$ — верное неравенство!",
+            "$2) 2{,}7 - 4 = -1{,}3 > 0$ — неверно",
+            "$3) 5 - 2{,}7 = 2{,}3 < 0$ — неверно",
+            "$4) 2{,}7 - 5 = -2{,}3 > 0$ — неверно."
+          ]
+        },
+        {
+          "type": "options",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "На координатной прямой отмечено число $a.$ Какое из утверждений является верным?",
+          "graph": [
+            "grid: false",
+            "axis_x: true",
+            "tick_mark 0: 0;0",
+            "tick_mark 1: 1;0",
+            "tick_mark  : 2;0",
+            "tick_mark  : 3;0",
+            "tick_mark  : 4;0",
+            "tick_mark  : 5;0",
+            "tick_mark  : 6;0",
+            "tick_mark  : 7;0",
+            "point a: 3.7;0"
+          ],
+          "1 option": "a-3 < 0",
+          "2 option": "a-5 > 0",
+          "3 option": "4-a > 0",
+          "4 option": "a-7 > 0",
+          "correctAnswer": "3",
+          "explanationFields": [
+            "Точка $a$ находится в промежутке $(3; 4),$ возьмём $a \\approx 3{,}7$",
+            "Проверяем неравенства:",
+            "$1) 3{,}7 - 3 = 0{,}7 < 0$ — неверно",
+            "$2) 3{,}7 - 5 = -1{,}3 > 0$ — неверно",
+            "$3) 4 - 3{,}7 = 0{,}3 > 0$ — абсолютно верно!",
+            "$4) 3{,}7 - 7 = -3{,}3 > 0$ — неверно."
+          ]
+        },
+        {
+          "type": "options",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "Ещё практикк: на координатной прямой отмечено число $a.$ Какое из утверждений является верным?",
+          "graph": [
+            "grid: false",
+            "axis_x: true",
+            "tick_mark 0: 0;0",
+            "tick_mark 1: 1;0",
+            "tick_mark  : 2;0",
+            "tick_mark  : 3;0",
+            "tick_mark  : 4;0",
+            "tick_mark  : 5;0",
+            "tick_mark  : 6;0",
+            "tick_mark  : 7;0",
+            "tick_mark  : 8;0",
+            "point a: 4.6;0"
+          ],
+          "1 option": "a-4 < 0",
+          "2 option": "8-a < 0",
+          "3 option": "a-7 > 0",
+          "4 option": "8-a > 0",
+          "correctAnswer": "4",
+          "explanationFields": [
+            "На графике точка $a$ попала на отрезок $(4; 5),$ пусть $a \\approx 4{,}6$",
+            "Выполним подстановку:",
+            "$1) 4{,}6 - 4 = 0{,}6 < 0$ — неверно",
+            "$2) 8 - 4{,}6 = 3{,}4 < 0$ — неверно",
+            "$3) 4{,}6 - 7 = -2{,}4 > 0$ — неверно",
+            "$4) 8 - 4{,}6 = 3{,}4 > 0$ — верно!"
+          ]
+        },
+        {
+          "type": "options",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "На координатной прямой отмечено число $a.$ Какое из утверждений является верным?",
+          "graph": [
+            "grid: false",
+            "axis_x: true",
+            "tick_mark 0: 0;0",
+            "tick_mark 1: 1;0",
+            "tick_mark  : 2;0",
+            "tick_mark  : 3;0",
+            "tick_mark  : 4;0",
+            "tick_mark  : 5;0",
+            "tick_mark  : 6;0",
+            "point a: 3.2;0"
+          ],
+          "1 option": "5-a < 0",
+          "2 option": "a-6 > 0",
+          "3 option": "a-5 < 0",
+          "4 option": "4-a < 0",
+          "correctAnswer": "3",
+          "explanationFields": [
+            "Точка $a$ притаилась в интервале $(3; 4),$ примем $a \\approx 3{,}2$",
+            "Подставляем значение в варианты:",
+            "$1) 5 - 3{,}2 = 1{,}8 < 0$ — неверно",
+            "$2) 3{,}2 - 6 = -2{,}8 > 0$ — неверно",
+            "$3) 3{,}2 - 5 = -1{,}8 < 0$ — верно!",
+            "$4) 4 - 3{,}2 = 0{,}8 < 0$ — неверно."
+          ]
+        },
+        {
+          "type": "options",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "Конец урока! На координатной прямой отмечено число $a.$ Какое из утверждений является верным?",
+          "graph": [
+            "grid: false",
+            "axis_x: true",
+            "tick_mark 0: 0;0",
+            "tick_mark 1: 1;0",
+            "tick_mark  : 2;0",
+            "tick_mark  : 3;0",
+            "tick_mark  : 4;0",
+            "tick_mark  : 5;0",
+            "tick_mark  : 6;0",
+            "tick_mark  : 7;0",
+            "tick_mark  : 8;0",
+            "point a: 5.8;0"
+          ],
+          "1 option": "7-a < 0",
+          "2 option": "a-7 > 0",
+          "3 option": "8-a < 0",
+          "4 option": "a-5 > 0",
+          "correctAnswer": "4",
+          "explanationFields": [
+            "На координатной прямой точка $a$ расположена между $5$ и $6,$ то есть в промежутке $(5; 6),$ возьмём $a \\approx 5{,}8$",
+            "Проверим каждое неравенство:",
+            "$1) 7 - 5{,}8 = 1{,}2 < 0$ — неверно",
+            "$2) 5{,}8 - 7 = -1{,}2 > 0$ — неверно",
+            "$3) 8 - 5{,}8 = 2{,}2 < 0$ — неверно",
+            "$4) 5{,}8 - 5 = 0{,}8 > 0$ — верно!"
+          ]
+        }
+      ]
+    },
+    "7-zadanie-prodolzhaem-uchenie": {
+      "title": "Продолжаем учение",
+      "path": "7 задание / Продолжаем учение",
+      "tasks": [
+        {
+          "type": "options",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "Ну-ка давай разомнёмся!",
+          "text2": "На координатной прямой отмечено число $a.$ Какое из утверждений является верным?",
+          "graph": [
+            "grid: false",
+            "axis_x: true",
+            "tick_mark 0: 0;0",
+            "tick_mark 1: 1;0",
+            "tick_mark  : 2;0",
+            "tick_mark  : 3;0",
+            "tick_mark  : 4;0",
+            "tick_mark  : 5;0",
+            "tick_mark  : 6;0",
+            "tick_mark  : 7;0",
+            "point a: 4.8;0"
+          ],
+          "1 option": "a-4 < 0",
+          "2 option": "a-7 > 0",
+          "3 option": "6-a > 0",
+          "4 option": "a-5 > 0",
+          "explanationFields": [
+            "Точка $a$ расположена в интервале $(4; 5),$ ближе к пятёрке. Возьмём примерное значение $a \\approx 4{,}8$",
+            "Подставим $a = 4{,}8$ в каждый вариант:",
+            "$1) 4{,}8 - 4 = 0{,}8 < 0$ — неверно",
+            "$2) 4{,}8 - 7 = -2{,}2 > 0$ — неверно",
+            "$3) 6 - 4{,}8 = 1{,}2 > 0$ — абсолютно верно!",
+            "$4) 4{,}8 - 5 = -0{,}2 > 0$ — неверно."
+          ],
+          "correctAnswer": "3"
+        },
+        {
+          "type": "options",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "На координатной прямой отмечено число $a.$ Какое из утверждений является верным?",
+          "graph": [
+            "grid: false",
+            "axis_x: true",
+            "tick_mark 0: 0;0",
+            "tick_mark 1: 1;0",
+            "tick_mark  : 2;0",
+            "tick_mark  : 3;0",
+            "tick_mark  : 4;0",
+            "tick_mark  : 5;0",
+            "tick_mark  : 6;0",
+            "point a: 1.4;0"
+          ],
+          "1 option": "a-1 < 0",
+          "2 option": "3-a > 0",
+          "3 option": "a-2 > 0",
+          "4 option": "1-a > 0",
+          "explanationFields": [
+            "Точка $a$ притаилась в промежутке $(1; 2),$ возьмём $a \\approx 1{,}4$",
+            "Проверим все варианты с этим числом:",
+            "$1) 1{,}4 - 1 = 0{,}4 < 0$ — неверно",
+            "$2) 3 - 1{,}4 = 1{,}6 > 0$ — верное неравенство!",
+            "$3) 1{,}4 - 2 = -0{,}6 > 0$ — неверно",
+            "$4) 1 - 1{,}4 = -0{,}4 > 0$ — неверно."
+          ],
+          "correctAnswer": "2"
+        },
+        {
+          "type": "options",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "Эта задача ждёт твоего решения!",
+          "text2": "На координатной прямой отмечено число $a.$ Какое из утверждений является верным?",
+          "graph": [
+            "grid: false",
+            "axis_x: true",
+            "tick_mark 0: 0;0",
+            "tick_mark 1: 1;0",
+            "tick_mark  : 2;0",
+            "tick_mark  : 3;0",
+            "tick_mark  : 4;0",
+            "tick_mark  : 5;0",
+            "tick_mark  : 6;0",
+            "tick_mark  : 7;0",
+            "tick_mark  : 8;0",
+            "point a: 7.2;0"
+          ],
+          "1 option": "7-a > 0",
+          "2 option": "a-8 < 0",
+          "3 option": "a-9 > 0",
+          "4 option": "8-a < 0",
+          "explanationFields": [
+            "Точка $a$ расположилась на отрезке $(7; 8),$ пусть $a \\approx 7{,}2$",
+            "Выполним подстановку:",
+            "$1) 7 - 7{,}2 = -0{,}2 > 0$ — неверно",
+            "$2) 7{,}2 - 8 = -0{,}8 < 0$ — верно!",
+            "$3) 7{,}2 - 9 = -1{,}8 > 0$ — неверно",
+            "$4) 8 - 7{,}2 = 0{,}8 < 0$ — неверно."
+          ],
+          "correctAnswer": "2"
+        },
+        {
+          "type": "options",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "На координатной прямой отмечено число $a.$ Какое из утверждений является верным?",
+          "graph": [
+            "grid: false",
+            "axis_x: true",
+            "tick_mark 0: 0;0",
+            "tick_mark 1: 1;0",
+            "tick_mark  : 2;0",
+            "tick_mark  : 3;0",
+            "tick_mark  : 4;0",
+            "tick_mark  : 5;0",
+            "tick_mark  : 6;0",
+            "point a: 5.1;0"
+          ],
+          "1 option": "a-5 < 0",
+          "2 option": "a-6 > 0",
+          "3 option": "5-a < 0",
+          "4 option": "7-a < 0",
+          "explanationFields": [
+            "Смотрим на чертёж: точка $a$ находится в интервале $(5; 6),$ сразу за пятёркой. Пусть $a \\approx 5{,}1$",
+            "Проверим варианты:",
+            "$1) 5{,}1 - 5 = 0{,}1 < 0$ — неверно",
+            "$2) 5{,}1 - 6 = -0{,}9 > 0$ — неверно",
+            "$3) 5 - 5{,}1 = -0{,}1 < 0$ — верно!",
+            "$4) 7 - 5{,}1 = 1{,}9 < 0$ — неверно."
+          ],
+          "correctAnswer": "3"
+        },
+        {
+          "type": "options",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "На координатной прямой отмечено число $a.$ Какое из утверждений является верным?",
+          "graph": [
+            "grid: false",
+            "axis_x: true",
+            "tick_mark 0: 0;0",
+            "tick_mark 1: 1;0",
+            "tick_mark  : 2;0",
+            "tick_mark  : 3;0",
+            "tick_mark  : 4;0",
+            "tick_mark  : 5;0",
+            "point a: 3.6;0"
+          ],
+          "1 option": "a-3 < 0",
+          "2 option": "4-a < 0",
+          "3 option": "a-4 > 0",
+          "4 option": "a-3 > 0",
+          "explanationFields": [
+            "Точка $a$ стоит на промежутке $(3; 4),$ возьмём примерное значение $a \\approx 3{,}6$",
+            "Подставим его:",
+            "$1) 3{,}6 - 3 = 0{,}6 < 0$ — неверно",
+            "$2) 4 - 3{,}6 = 0{,}4 < 0$ — неверно",
+            "$3) 3{,}6 - 4 = -0{,}4 > 0$ — неверно",
+            "$4) 3{,}6 - 3 = 0{,}6 > 0$ — верно!"
+          ],
+          "correctAnswer": "4"
+        },
+        {
+          "type": "options",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "Закрепим результат!",
+          "text2": "На координатной прямой отмечено число $a.$ Какое из утверждений является верным?",
+          "graph": [
+            "grid: false",
+            "axis_x: true",
+            "tick_mark 0: 0;0",
+            "tick_mark 1: 1;0",
+            "tick_mark  : 2;0",
+            "tick_mark  : 3;0",
+            "tick_mark  : 4;0",
+            "tick_mark  : 5;0",
+            "tick_mark  : 6;0",
+            "tick_mark  : 7;0",
+            "point a: 2.8;0"
+          ],
+          "1 option": "3-a > 0",
+          "2 option": "a-3 > 0",
+          "3 option": "a-2 < 0",
+          "4 option": "2-a > 0",
+          "explanationFields": [
+            "Точка $a$ находится в интервале $(2; 3),$ возьмём $a \\approx 2{,}8$",
+            "Проверим варианты:",
+            "$1) 3 - 2{,}8 = 0{,}2 > 0$ — истинное утверждение!",
+            "$2) 2{,}8 - 3 = -0{,}2 > 0$ — неверно",
+            "$3) 2{,}8 - 2 = 0{,}8 < 0$ — неверно",
+            "$4) 2 - 2{,}8 = -0{,}8 > 0$ — неверно."
+          ],
+          "correctAnswer": "1"
+        }
+      ]
+    },
+    "7-zadanie-otrabatyvaem-navyki": {
+      "title": "Отрабатываем навыки",
+      "path": "7 задание / Отрабатываем навыки",
+      "tasks": [
+        {
+          "type": "options",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "На координатной прямой отмечено число $a.$ Какое из утверждений является верным?",
+          "graph": [
+            "grid: false",
+            "axis_x: true",
+            "tick_mark 0: 0;0",
+            "tick_mark 1: 1;0",
+            "tick_mark  : 2;0",
+            "tick_mark  : 3;0",
+            "tick_mark  : 4;0",
+            "tick_mark  : 5;0",
+            "tick_mark  : 6;0",
+            "tick_mark  : 7;0",
+            "tick_mark  : 8;0",
+            "point a: 7.4;0"
+          ],
+          "1 option": "5-a > 0",
+          "2 option": "a-8 > 0",
+          "3 option": "8-a > 0",
+          "4 option": "a-7 < 0",
+          "explanationFields": [
+            "Точка $a$ расположилась на отрезке $(7; 8),$ ближе к семёрке. Для проверки подставим примерное значение $a \\approx 7{,}4$",
+            "Проверим все варианты:",
+            "$1) 5 - 7{,}4 = -2{,}4 > 0$ — неверно",
+            "$2) 7{,}4 - 8 = -0{,}6 > 0$ — неверно",
+            "$3) 8 - 7{,}4 = 0{,}6 > 0$ — верное неравенство!",
+            "$4) 7{,}4 - 7 = 0{,}4 < 0$ — неверно."
+          ],
+          "correctAnswer": "3"
+        },
+        {
+          "type": "options",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "Разгоняемся дальше! На координатной прямой отмечено число $a.$ Какое из утверждений является верным?",
+          "graph": [
+            "grid: false",
+            "axis_x: true",
+            "tick_mark 0: 0;0",
+            "tick_mark 1: 1;0",
+            "tick_mark  : 2;0",
+            "tick_mark  : 3;0",
+            "tick_mark  : 4;0",
+            "tick_mark  : 5;0",
+            "point a: 3.3;0"
+          ],
+          "1 option": "3-a > 0",
+          "2 option": "a-3 < 0",
+          "3 option": "a-4 < 0",
+          "4 option": "a-5 > 0",
+          "explanationFields": [
+            "Точка $a$ стоит на интервале $(3; 4),$ неподалёку от тройки. Возьмём $a \\approx 3{,}3$",
+            "Подставим его в каждое выражение:",
+            "$1) 3 - 3{,}3 = -0{,}3 > 0$ — неверно",
+            "$2) 3{,}3 - 3 = 0{,}3 < 0$ — неверно",
+            "$3) 3{,}3 - 4 = -0{,}7 < 0$ — абсолютно верно!",
+            "$4) 3{,}3 - 5 = -1{,}7 > 0$ — неверно."
+          ],
+          "correctAnswer": "3"
+        },
+        {
+          "type": "options",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "На координатной прямой отмечено число $a.$ Какое из утверждений является верным?",
+          "graph": [
+            "grid: false",
+            "axis_x: true",
+            "tick_mark 0: 0;0",
+            "tick_mark 1: 1;0",
+            "tick_mark  : 2;0",
+            "tick_mark  : 3;0",
+            "tick_mark  : 4;0",
+            "tick_mark  : 5;0",
+            "tick_mark  : 6;0",
+            "tick_mark  : 7;0",
+            "point a: 5.7;0"
+          ],
+          "1 option": "a-5 > 0",
+          "2 option": "a-6 > 0",
+          "3 option": "6-a < 0",
+          "4 option": "a-7 > 0",
+          "explanationFields": [
+            "Точка $a$ затаилась в промежутке $(5; 6),$ подберём $a \\approx 5{,}7$",
+            "Считаем и сравниваем:",
+            "$1) 5{,}7 - 5 = 0{,}7 > 0$ — истинное утверждение!",
+            "$2) 5{,}7 - 6 = -0{,}3 > 0$ — неверно",
+            "$3) 6 - 5{,}7 = 0{,}3 < 0$ — неверно",
+            "$4) 5{,}7 - 7 = -1{,}3 > 0$ — неверно."
+          ],
+          "correctAnswer": "1"
+        },
+        {
+          "type": "options",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "Давай расправимся с этим примером. На координатной прямой отмечено число $a.$ Какое из утверждений является верным?",
+          "graph": [
+            "grid: false",
+            "axis_x: true",
+            "tick_mark 0: 0;0",
+            "tick_mark 1: 1;0",
+            "tick_mark  : 2;0",
+            "tick_mark  : 3;0",
+            "tick_mark  : 4;0",
+            "point a: 2.6;0"
+          ],
+          "1 option": "2-a > 0",
+          "2 option": "a-3 > 0",
+          "3 option": "3-a > 0",
+          "4 option": "a-2 < 0",
+          "explanationFields": [
+            "На графике точка $a$ лежит между $2$ и $3,$ то есть в интервале $(2; 3).$ Пусть $a \\approx 2{,}6$",
+            "Проверим варианты делением и подстановкой:",
+            "$1) 2 - 2{,}6 = -0{,}6 > 0$ — неверно",
+            "$2) 2{,}6 - 3 = -0{,}4 > 0$ — неверно",
+            "$3) 3 - 2{,}6 = 0{,}4 > 0$ — верно!",
+            "$4) 2{,}6 - 2 = 0{,}6 < 0$ — неверно."
+          ],
+          "correctAnswer": "3"
+        },
+        {
+          "type": "options",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "Внимательно с этим заданием! На координатной прямой отмечено число $a.$ Какое из утверждений является верным?",
+          "graph": [
+            "grid: false",
+            "axis_x: true",
+            "tick_mark 0: 0;0",
+            "tick_mark 1: 1;0",
+            "tick_mark  : 2;0",
+            "tick_mark  : 3;0",
+            "tick_mark  : 4;0",
+            "tick_mark  : 5;0",
+            "tick_mark  : 6;0",
+            "tick_mark  : 7;0",
+            "point a: 6.2;0"
+          ],
+          "1 option": "6-a > 0",
+          "2 option": "a-7 < 0",
+          "3 option": "a-6 < 0",
+          "4 option": "7-a < 0",
+          "explanationFields": [
+            "Точка $a$ зафиксирована на отрезке $(6; 7),$ сразу после шестёрки. Возьмём $a \\approx 6{,}2$",
+            "Проверяем варианты:",
+            "$1) 6 - 6{,}2 = -0{,}2 > 0$ — неверно",
+            "$2) 6{,}2 - 7 = -0{,}8 < 0$ — верно!",
+            "$3) 6{,}2 - 6 = 0{,}2 < 0$ — неверно",
+            "$4) 7 - 6{,}2 = 0{,}8 < 0$ — неверно."
+          ],
+          "correctAnswer": "2"
+        },
+        {
+          "type": "options",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "Последняя задача урока! На координатной прямой отмечено число $a.$ Какое из утверждений является верным?",
+          "graph": [
+            "grid: false",
+            "axis_x: true",
+            "tick_mark 0: 0;0",
+            "tick_mark 1: 1;0",
+            "tick_mark  : 2;0",
+            "tick_mark  : 3;0",
+            "tick_mark  : 4;0",
+            "tick_mark  : 5;0",
+            "tick_mark  : 6;0",
+            "point a: 4.1;0"
+          ],
+          "1 option": "a-4 < 0",
+          "2 option": "5-a < 0",
+          "3 option": "a-5 < 0",
+          "4 option": "a-6 > 0",
+          "explanationFields": [
+            "Точка $a$ стоит на промежутке $(4; 5),$ чуть правее четвёрки. Примем $a \\approx 4{,}1$",
+            "Подставим $a = 4{,}1$ во все выражения:",
+            "$1) 4{,}1 - 4 = 0{,}1 < 0$ — неверно",
+            "$2) 5 - 4{,}1 = 0{,}9 < 0$ — неверно",
+            "$3) 4{,}1 - 5 = -0{,}9 < 0$ — верно!",
+            "$4) 4{,}1 - 6 = -1{,}9 > 0$ — неверно."
+          ],
+          "correctAnswer": "3"
+        }
+      ]
+    },
+    "7-zadanie-kachaem-mozg-1": {
+      "title": "Качаем мозг",
+      "path": "7 задание / Качаем мозг",
+      "tasks": [
+        {
+          "type": "options",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "Привет! Начнём ещё один урок.",
+          "text2": "На координатной прямой отмечено число $a.$ Какое из утверждений является верным?",
+          "graph": [
+            "grid: false",
+            "axis_x: true",
+            "tick_mark 0: 0;0",
+            "tick_mark 1: 1;0",
+            "tick_mark  : 2;0",
+            "tick_mark  : 3;0",
+            "tick_mark  : 4;0",
+            "tick_mark  : 5;0",
+            "tick_mark  : 6;0",
+            "tick_mark  : 7;0",
+            "tick_mark  : 8;0",
+            "point a: 6.8;0"
+          ],
+          "1 option": "a-6 < 0",
+          "2 option": "7-a > 0",
+          "3 option": "a-8 > 0",
+          "4 option": "6-a > 0",
+          "correctAnswer": "2",
+          "explanationFields": [
+            "Смотрим на чертёж: точка $a$ лежит на отрезке $(6; 7),$ ближе к семёрке. Возьмём для проверки примерное значение $a \\approx 6{,}8$",
+            "Подставим $a = 6{,}8$ во все варианты:",
+            "$1) 6{,}8 - 6 = 0{,}8 < 0$ — неверно",
+            "$2) 7 - 6{,}8 = 0{,}2 > 0$ — верное неравенство!",
+            "$3) 6{,}8 - 8 = -1{,}2 > 0$ — неверно",
+            "$4) 6 - 6{,}8 = -0{,}8 > 0$ — неверно."
+          ]
+        },
+        {
+          "type": "options",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "Следующая задача! На координатной прямой отмечено число $a.$ Какое из утверждений является верным?",
+          "graph": [
+            "grid: false",
+            "axis_x: true",
+            "tick_mark 0: 0;0",
+            "tick_mark 1: 1;0",
+            "tick_mark  : 2;0",
+            "tick_mark  : 3;0",
+            "tick_mark  : 4;0",
+            "tick_mark  : 5;0",
+            "point a: 3.2;0"
+          ],
+          "1 option": "a-3 < 0",
+          "2 option": "a-4 > 0",
+          "3 option": "a-3 > 0",
+          "4 option": "4-a < 0",
+          "correctAnswer": "3",
+          "explanationFields": [
+            "Точка $a$ притаилась в интервале $(3; 4),$ неподалёку от тройки. Пусть $a \\approx 3{,}2$",
+            "Проверим все неравенства подстановкой:",
+            "$1) 3{,}2 - 3 = 0{,}2 < 0$ — неверно",
+            "$2) 3{,}2 - 4 = -0{,}8 > 0$ — неверно",
+            "$3) 3{,}2 - 3 = 0{,}2 > 0$ — абсолютно верно!",
+            "$4) 4 - 3{,}2 = 0{,}8 < 0$ — неверно."
+          ]
+        },
+        {
+          "type": "options",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "На координатной прямой отмечено число $a.$ Какое из утверждений является верным?",
+          "graph": [
+            "grid: false",
+            "axis_x: true",
+            "tick_mark 0: 0;0",
+            "tick_mark 1: 1;0",
+            "tick_mark  : 2;0",
+            "tick_mark  : 3;0",
+            "tick_mark  : 4;0",
+            "tick_mark  : 5;0",
+            "tick_mark  : 6;0",
+            "tick_mark  : 7;0",
+            "point a: 5.6;0"
+          ],
+          "1 option": "5-a > 0",
+          "2 option": "6-a > 0",
+          "3 option": "a-6 > 0",
+          "4 option": "a-7 > 0",
+          "correctAnswer": "2",
+          "explanationFields": [
+            "Точка $a$ располагается в промежутке $(5; 6),$ подберём значение $a \\approx 5{,}6$",
+            "Выполним подстановку:",
+            "$1) 5 - 5{,}6 = -0{,}6 > 0$ — неверно",
+            "$2) 6 - 5{,}6 = 0{,}4 > 0$ — верно!",
+            "$3) 5{,}6 - 6 = -0{,}4 > 0$ — неверно",
+            "$4) 5{,}6 - 7 = -1{,}4 > 0$ — неверно."
+          ]
+        },
+        {
+          "type": "options",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "Идём дальше! На координатной прямой отмечено число $a.$ Какое из утверждений является верным?",
+          "graph": [
+            "grid: false",
+            "axis_x: true",
+            "tick_mark 0: 0;0",
+            "tick_mark 1: 1;0",
+            "tick_mark  : 2;0",
+            "tick_mark  : 3;0",
+            "tick_mark  : 4;0",
+            "tick_mark  : 5;0",
+            "point a: 2.4;0"
+          ],
+          "1 option": "a-2 < 0",
+          "2 option": "a-3 < 0",
+          "3 option": "3-a < 0",
+          "4 option": "a-4 > 0",
+          "correctAnswer": "2",
+          "explanationFields": [
+            "На графике точка $a$ находится в интервале $(2; 3),$ сразу за двойкой. Возьмём $a \\approx 2{,}4$",
+            "Подставим его в выражения:",
+            "$1) 2{,}4 - 2 = 0{,}4 < 0$ — неверно",
+            "$2) 2{,}4 - 3 = -0{,}6 < 0$ — верное неравенство!",
+            "$3) 3 - 2{,}4 = 0{,}6 < 0$ — неверно",
+            "$4) 2{,}4 - 4 = -1{,}6 > 0$ — неверно."
+          ]
+        },
+        {
+          "type": "options",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "Предпоследнее задание! На координатной прямой отмечено число $a.$ Какое из утверждений является верным?",
+          "graph": [
+            "grid: false",
+            "axis_x: true",
+            "tick_mark 0: 0;0",
+            "tick_mark 1: 1;0",
+            "tick_mark  : 2;0",
+            "tick_mark  : 3;0",
+            "tick_mark  : 4;0",
+            "tick_mark  : 5;0",
+            "tick_mark  : 6;0",
+            "point a: 4.1;0"
+          ],
+          "1 option": "4-a > 0",
+          "2 option": "a-5 < 0",
+          "3 option": "a-4 < 0",
+          "4 option": "5-a < 0",
+          "correctAnswer": "2",
+          "explanationFields": [
+            "Точка $a$ зафиксирована в промежутке $(4; 5),$ близко к четвёрке. Возьмём $a \\approx 4{,}1$",
+            "Проверим каждый вариант:",
+            "$1) 4 - 4{,}1 = -0{,}1 > 0$ — неверно",
+            "$2) 4{,}1 - 5 = -0{,}9 < 0$ — истинное утверждение!",
+            "$3) 4{,}1 - 4 = 0{,}1 < 0$ — неверно",
+            "$4) 5 - 4{,}1 = 0{,}9 < 0$ — неверно."
+          ]
+        },
+        {
+          "type": "options",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "На координатной прямой отмечено число $a.$ Какое из утверждений является верным?",
+          "graph": [
+            "grid: false",
+            "axis_x: true",
+            "tick_mark 0: 0;0",
+            "tick_mark 1: 1;0",
+            "tick_mark  : 2;0",
+            "tick_mark  : 3;0",
+            "tick_mark  : 4;0",
+            "tick_mark  : 5;0",
+            "tick_mark  : 6;0",
+            "tick_mark  : 7;0",
+            "tick_mark  : 8;0",
+            "point a: 7.7;0"
+          ],
+          "1 option": "a-7 > 0",
+          "2 option": "8-a < 0",
+          "3 option": "a-8 > 0",
+          "4 option": "7-a > 0",
+          "correctAnswer": "1",
+          "explanationFields": [
+            "Смотрим на прямую: точка $a$ находится на отрезке $(7; 8),$ перед самой семёркой ближе к восьмёрке. Возьмём $a \\approx 7{,}7$",
+            "Проверим неравенства:",
+            "$1) 7{,}7 - 7 = 0{,}7 > 0$ — абсолютно верно!",
+            "$2) 8 - 7{,}7 = 0{,}3 < 0$ — неверно",
+            "$3) 7{,}7 - 8 = -0{,}3 > 0$ — неверно",
+            "$4) 7 - 7{,}7 = -0{,}7 > 0$ — неверно."
+          ]
+        }
+      ]
+    },
+    "7-zadanie-zaklyuchaem-tip-zadach": {
+      "title": "Заключаем тип задач",
+      "path": "7 задание / Заключаем тип задач",
+      "tasks": [
+        {
+          "type": "options",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "Заканчиваем с этим типом заданий!",
+          "text2": "На координатной прямой отмечено число $a.$ Какое из утверждений является верным?",
+          "graph": [
+            "grid: false",
+            "axis_x: true",
+            "tick_mark 0: 0;0",
+            "tick_mark 1: 1;0",
+            "tick_mark  : 2;0",
+            "tick_mark  : 3;0",
+            "tick_mark  : 4;0",
+            "tick_mark  : 5;0",
+            "tick_mark  : 6;0",
+            "tick_mark  : 7;0",
+            "point a: 5.3;0"
+          ],
+          "1 option": "5-a > 0",
+          "2 option": "a-5 < 0",
+          "3 option": "6-a > 0",
+          "4 option": "a-6 > 0",
+          "correctAnswer": "3",
+          "explanationFields": [
+            "Точка $a$ расположена в интервале $(5$​$",
+            "6),$ возьмём примерное значение $a \\approx 5{,}3$",
+            "Подставим $a = 5{,}3$ во все варианты:",
+            "$1) 5 - 5{,}3 = -0{,}3 > 0$ — неверно",
+            "$2) 5{,}3 - 5 = 0{,}3 < 0$ — неверно",
+            "$3) 6 - 5{,}3 = 0{,}7 > 0$ — абсолютно верно!",
+            "$4) 5{,}3 - 6 = -0{,}7 > 0$ — неверно",
+            "Правильное утверждение находится под номером $3.$"
+          ]
+        },
+        {
+          "type": "options",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "На координатной прямой отмечено число $a.$ Какое из утверждений является верным?",
+          "graph": [
+            "grid: false",
+            "axis_x: true",
+            "tick_mark 0: 0;0",
+            "tick_mark 1: 1;0",
+            "tick_mark  : 2;0",
+            "tick_mark  : 3;0",
+            "tick_mark  : 4;0",
+            "tick_mark  : 5;0",
+            "point a: 3.7;0"
+          ],
+          "1 option": "a-3 < 0",
+          "2 option": "a-4 > 0",
+          "3 option": "4-a > 0",
+          "4 option": "a-5 > 0",
+          "correctAnswer": "3",
+          "explanationFields": [
+            "Точка $a$ стоит в промежутке $(3$​$",
+            "4),$ возьмём $a \\approx 3{,}7$",
+            "Подставим это значение в неравенства:",
+            "$1) 3{,}7 - 3 = 0{,}7 < 0$ — неверно",
+            "$2) 3{,}7 - 4 = -0{,}3 > 0$ — неверно",
+            "$3) 4 - 3{,}7 = 0{,}3 > 0$ — верно!",
+            "$4) 3{,}7 - 5 = -1{,}3 > 0$ — неверно",
+            "Наш ответ под номером $3.$"
+          ]
+        },
+        {
+          "type": "options",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "Подставь подходящее число и проверь все варианты.",
+          "text2": "На координатной прямой отмечено число $a.$ Какое из утверждений является верным?",
+          "graph": [
+            "grid: false",
+            "axis_x: true",
+            "tick_mark 0: 0;0",
+            "tick_mark 1: 1;0",
+            "tick_mark  : 2;0",
+            "tick_mark  : 3;0",
+            "tick_mark  : 4;0",
+            "tick_mark  : 5;0",
+            "tick_mark  : 6;0",
+            "tick_mark  : 7;0",
+            "tick_mark  : 8;0",
+            "point a: 7.2;0"
+          ],
+          "1 option": "a-7 > 0",
+          "2 option": "8-a < 0",
+          "3 option": "a-8 > 0",
+          "4 option": "7-a > 0",
+          "correctAnswer": "1",
+          "explanationFields": [
+            "На координатной прямой точка $a$ находится в интервале $(7",
+            "8),$ чуть правее семёрки. Примем $a \\approx 7{,}2$",
+            "Проверим варианты:",
+            "$1) 7{,}2 - 7 = 0{,}2 > 0$ — истинное утверждение!",
+            "$2) 8 - 7{,}2 = 0{,}8 < 0$ — неверно",
+            "$3) 7{,}2 - 8 = -0{,}8 > 0$ — неверно",
+            "$4) 7 - 7{,}2 = -0{,}2 > 0$ — неверно",
+            "Верный вариант — $1.$"
+          ]
+        },
+        {
+          "type": "options",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "Уже половина урока позади! На координатной прямой отмечено число $a.$ Какое из утверждений является верным?",
+          "graph": [
+            "grid: false",
+            "axis_x: true",
+            "tick_mark 0: 0;0",
+            "tick_mark 1: 1;0",
+            "tick_mark  : 2;0",
+            "tick_mark  : 3;0",
+            "tick_mark  : 4;0",
+            "point a: 2.8;0"
+          ],
+          "1 option": "2-a > 0",
+          "2 option": "3-a < 0",
+          "3 option": "a-3 < 0",
+          "4 option": "a-2 < 0",
+          "correctAnswer": "3",
+          "explanationFields": [
+            "Точка $a$ зафиксирована в промежутке $(2",
+            "3),$ ближе к тройке. Возьмём $a \\approx 2{,}8$",
+            "Выполним подстановку:",
+            "$1) 2 - 2{,}8 = -0{,}8 > 0$ — неверно",
+            "$2) 3 - 2{,}8 = 0{,}2 < 0$ — неверно",
+            "$3) 2{,}8 - 3 = -0{,}2 < 0$ — верно!",
+            "$4) 2{,}8 - 2 = 0{,}8 < 0$ — неверно",
+            "Правильное неравенство — $3.$"
+          ]
+        },
+        {
+          "type": "options",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "На координатной прямой отмечено число $a.$ Какое из утверждений является верным?",
+          "graph": [
+            "grid: false",
+            "axis_x: true",
+            "tick_mark 0: 0;0",
+            "tick_mark 1: 1;0",
+            "tick_mark  : 2;0",
+            "tick_mark  : 3;0",
+            "tick_mark  : 4;0",
+            "tick_mark  : 5;0",
+            "tick_mark  : 6;0",
+            "point a: 4.4;0"
+          ],
+          "1 option": "a-4 < 0",
+          "2 option": "5-a > 0",
+          "3 option": "a-5 > 0",
+          "4 option": "4-a > 0",
+          "correctAnswer": "2",
+          "explanationFields": [
+            "Смотрим на рисунок: точка $a$ притаилась на отрезке $(4",
+            "5),$ возьмём $a \\approx 4{,}4$",
+            "Поделим и подставим значения:",
+            "$1) 4{,}4 - 4 = 0{,}4 < 0$ — неверно",
+            "$2) 5 - 4{,}4 = 0{,}6 > 0$ — верно!",
+            "$3) 4{,}4 - 5 = -0{,}6 > 0$ — неверно",
+            "$4) 4 - 4{,}4 = -0{,}4 > 0$ — неверно",
+            "Выбираем $2$ вариант."
+          ]
+        },
+        {
+          "type": "options",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "Заключительное задание этого блока!",
+          "text2": "На координатной прямой отмечено число $a.$ Какое из утверждений является верным?",
+          "graph": [
+            "grid: false",
+            "axis_x: true",
+            "tick_mark 0: 0;0",
+            "tick_mark 1: 1;0",
+            "tick_mark  : 2;0",
+            "tick_mark  : 3;0",
+            "tick_mark  : 4;0",
+            "tick_mark  : 5;0",
+            "tick_mark  : 6;0",
+            "tick_mark  : 7;0",
+            "point a: 6.6;0"
+          ],
+          "1 option": "6-a > 0",
+          "2 option": "a-7 > 0",
+          "3 option": "7-a < 0",
+          "4 option": "a-6 > 0",
+          "correctAnswer": "4",
+          "explanationFields": [
+            "Точка $a$ стоит в интервале $(6",
+            "7),$ неподалёку от шестёрки. Пусть $a \\approx 6{,}6$",
+            "Проверим все варианты:",
+            "$1) 6 - 6{,}6 = -0{,}6 > 0$ — неверно",
+            "$2) 6{,}6 - 7 = -0{,}4 > 0$ — неверно",
+            "$3) 7 - 6{,}6 = 0{,}4 < 0$ — неверно",
+            "$4) 6{,}6 - 6 = 0{,}6 > 0$ — абсолютно верно!"
+          ]
+        }
+      ],
+      "isTest": true
+    },
+    "7-zadanie-ne-ostanavlivaemsya": {
+      "title": "Не останавливаемся",
+      "path": "7 задание / Не останавливаемся",
+      "tasks": [
+        {
+          "type": "options",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "Привет! Начнём новый тип задач. Здесь на прямой отмечены сразу две точки, но ничего нового, особо, не появляется. Мы также берём эти точки за какие-нибудь числа и подставляем их в утверждения.",
+          "text2": "Давай попробуем решить вместе!",
+          "text3": "«На координатной прямой отмечены числа $x$ и $y.$ Какое из приведенных утверждений для этих чисел верно?»",
+          "graph": [
+            "grid: false",
+            "axis_x: true",
+            "tick_mark 0: 0;0",
+            "point y: -1;0",
+            "point x: 3;0"
+          ],
+          "1 option": "x+y > 0",
+          "2 option": "x^2 y > 0",
+          "3 option": "x-y < 0",
+          "4 option": "xy^2 < 0",
+          "text4": "Смотрим на координатную прямую: точка $y$ лежит левее нуля, значит $y$ отрицательный, возьмём $y \\approx -1.$",
+          "text5": "Число $x$ находится правее нуля и дальше от него, возьмём $x \\approx 3.$",
+          "text6": "Теперь просто подставим эти значения во все варианты!",
+          "text7": "$1) x + y = 3 + (-1) = 2 > 0$ — верно!",
+          "text8": "$2) x^2 y = 3^2 \\times (-1) = 9 \\times (-1) =$ $-9 > 0$ — неверно.",
+          "text9": "$3) x - y = 3 - (-1) = 3 + 1 = 4 < 0$ — неверно.",
+          "text10": "$4) x y^2 = 3 \\times (-1)^2 = 3 \\times 1 =$ $3 < 0$ — неверно.",
+          "text11": "Наш правильный ответ под номером $1!$"
+        },
+        {
+          "type": "options",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "Отличное начало! Попробуем подставить числа в следующем примере.",
+          "text2": "На координатной прямой отмечены числа $x$ и $y.$ Какое из приведенных утверждений для этих чисел верно?",
+          "graph": [
+            "grid: false",
+            "axis_x: true",
+            "tick_mark 0: 0;0",
+            "point x: -1;0",
+            "point y: 4;0"
+          ],
+          "1 option": "x+y < 0",
+          "2 option": "x^2 y < 0",
+          "3 option": "y-x > 0",
+          "4 option": "xy > 0",
+          "correctAnswer": "3",
+          "explanationFields": [
+            "Число $x$ отрицательное и близко к нулю, пусть $x \\approx -1$",
+            "Число $y$ положительное и находится гораздо дальше от нуля, возьмём $y \\approx 4$",
+            "Подставим $x = -1$ и $y = 4$ в варианты:",
+            "$1) x + y = -1 + 4 = 3 < 0$ — неверно",
+            "$2) x^2 y = (-1)^2 \\times 4 = 1 \\times 4 = 4 < 0$ — неверно",
+            "$3) y - x = 4 - (-1) = 4 + 1 = 5 > 0$ — истинное неравенство!",
+            "$4) x y = -1 \\times 4 = -4 > 0$ — неверно."
+          ]
+        },
+        {
+          "type": "options",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "Идём дальше.",
+          "text2": "На координатной прямой отмечены числа $x$ и $y.$ Какое из приведенных утверждений для этих чисел верно?",
+          "graph": [
+            "grid: false",
+            "axis_x: true",
+            "tick_mark 0: 0;0",
+            "point y: -4;0",
+            "point x: 1;0"
+          ],
+          "1 option": "x+y < 0",
+          "2 option": "x^2 y > 0",
+          "3 option": "y-x > 0",
+          "4 option": "xy^2 < 0",
+          "correctAnswer": "1",
+          "explanationFields": [
+            "Число $y$ отрицательное и находится далеко от нуля, возьмём $y \\approx -4$",
+            "Число $x$ положительное и стоит совсем рядом с нулём, возьмём $x \\approx 1$",
+            "Проверим все неравенства:",
+            "$1) x + y = 1 + (-4) = -3 < 0$ — верно!",
+            "$2) x^2 y = 1^2 \\times (-4) = -4 > 0$ — неверно",
+            "$3) y - x = -4 - 1 = -5 > 0$ — неверно",
+            "$4) x y^2 = 1 \\times (-4)^2 = 1 \\times 16 = 16 < 0$ — неверно."
+          ]
+        },
+        {
+          "type": "options",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "На координатной прямой отмечены числа $x$ и $y.$ Какое из приведенных утверждений для этих чисел верно?",
+          "graph": [
+            "grid: false",
+            "axis_x: true",
+            "tick_mark 0: 0;0",
+            "point x: -3;0",
+            "point y: 1;0"
+          ],
+          "1 option": "x+y < 0",
+          "2 option": "x^2 y < 0",
+          "3 option": "x-y > 0",
+          "4 option": "xy > 0",
+          "correctAnswer": "1",
+          "explanationFields": [
+            "Число $x$ лежит левее нуля дальше, чем $y$ правее. Примем $x \\approx -3,$ а $y \\approx 1$",
+            "Подставляем значения:",
+            "$1) x + y = -3 + 1 = -2 < 0$ — абсолютная правда!",
+            "$2) x^2 y = (-3)^2 \\times 1 = 9 \\times 1 = 9 < 0$ — неверно",
+            "$3) x - y = -3 - 1 = -4 > 0$ — неверно",
+            "$4) x y = -3 \\times 1 = -3 > 0$ — неверно."
+          ]
+        },
+        {
+          "type": "options",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "Аккуратно с минусами при умножении и вычитании!",
+          "text2": "На координатной прямой отмечены числа $x$ и $y.$ Какое из приведенных утверждений для этих чисел верно?",
+          "graph": [
+            "grid: false",
+            "axis_x: true",
+            "tick_mark 0: 0;0",
+            "point x: -4;0",
+            "point y: 1;0"
+          ],
+          "1 option": "x+y > 0",
+          "2 option": "x^2 y < 0",
+          "3 option": "x-y < 0",
+          "4 option": "xy > 0",
+          "correctAnswer": "3",
+          "explanationFields": [
+            "На графике $x$ лежит глубоко в отрицательной области, пусть $x \\approx -4$",
+            "Точка $y$ находится правее нуля, возьмём $y \\approx 1$",
+            "Выполним подстановку:",
+            "$1) x + y = -4 + 1 = -3 > 0$ — неверно",
+            "$2) x^2 y = (-4)^2 \\times 1 = 16 \\times 1 = 16 < 0$ — неверно",
+            "$3) x - y = -4 - 1 = -5 < 0$ — верно!",
+            "$4) x y = -4 \\times 1 = -4 > 0$ — неверно."
+          ]
+        },
+        {
+          "type": "options",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "Последнее задание урока! На координатной прямой отмечены числа $x$ и $y.$ Какое из приведенных утверждений для этих чисел верно?",
+          "graph": [
+            "grid: false",
+            "axis_x: true",
+            "tick_mark 0: 0;0",
+            "point y: -1;0",
+            "point x: 4;0"
+          ],
+          "1 option": "x+y < 0",
+          "2 option": "x^2 y > 0",
+          "3 option": "y-x > 0",
+          "4 option": "xy < 0",
+          "correctAnswer": "4",
+          "explanationFields": [
+            "Точка $y$ отрицательная и совсем близко к нулю, примем $y \\approx -1$",
+            "Точка $x$ положительная и ушла далеко вправо, пусть $x \\approx 4$",
+            "Подставим эти числа в каждый пункт:",
+            "$1) x + y = 4 + (-1) = 3 < 0$ — неверно",
+            "$2) x^2 y = 4^2 \\times (-1) = 16 \\times (-1) = -16 > 0$ — неверно",
+            "$3) y - x = -1 - 4 = -5 > 0$ — неверно",
+            "$4) x y = 4 \\times (-1) = -4 < 0$ — верно (произведение положительного и отрицательного числа всегда меньше нуля)!"
+          ]
+        }
+      ]
+    },
+    "7-zadanie-treniruemsya-2": {
+      "title": "Тренируемся",
+      "path": "7 задание / Тренируемся",
+      "tasks": [
+        {
+          "type": "options",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "Давай разберём первую задачу с двумя точками.",
+          "text2": "На координатной прямой отмечены числа $a$ и $b.$ Какое из приведенных утверждений для этих чисел верно?",
+          "graph": [
+            "grid: false",
+            "axis_x: true",
+            "tick_mark 0: 0;0",
+            "point a: -3;0",
+            "point b: 1;0"
+          ],
+          "1 option": "ab^2 > 0",
+          "2 option": "ab < 0",
+          "3 option": "a+b > 0",
+          "4 option": "b-a < 0",
+          "correctAnswer": "2",
+          "explanationFields": [
+            "Точка $a$ отрицательная и стоит далеко от нуля, возьмём $a \\approx -3$",
+            "Точка $b$ положительная и стоит близко к нулю, пусть $b \\approx 1$",
+            "Подставим эти числа во все варианты:",
+            "$1) a b^2 = -3 \\times 1^2 = -3 > 0$ — неверно",
+            "$2) a b = -3 \\times 1 = -3 < 0$ — верное неравенство!",
+            "$3) a + b = -3 + 1 = -2 > 0$ — неверно",
+            "$4) b - a = 1 - (-3) = 4 < 0$ — неверно."
+          ]
+        },
+        {
+          "type": "options",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "Переходим ко второй задаче. На координатной прямой отмечены числа $x$ и $y.$ Какое из приведенных утверждений для этих чисел верно?",
+          "graph": [
+            "grid: false",
+            "axis_x: true",
+            "tick_mark 0: 0;0",
+            "point x: -1;0",
+            "point y: 4;0"
+          ],
+          "1 option": "x+y < 0",
+          "2 option": "x^2 y < 0",
+          "3 option": "xy < 0",
+          "4 option": "x-y > 0",
+          "correctAnswer": "3",
+          "explanationFields": [
+            "Смотрим на прямую: $x$ отрицательный и близко к нулю, пусть $x \\approx -1$",
+            "Точка $y$ положительная и ушла далеко вправо, пусть $y \\approx 4$",
+            "Проверим варианты подстановкой:",
+            "$1) x + y = -1 + 4 = 3 < 0$ — неверно",
+            "$2) x^2 y = (-1)^2 \\times 4 = 4 < 0$ — неверно",
+            "$3) x y = -1 \\times 4 = -4 < 0$ — совершенно верно!",
+            "$4) x - y = -1 - 4 = -5 > 0$ — неверно."
+          ]
+        },
+        {
+          "type": "options",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "На координатной прямой отмечены числа $a$ и $b.$ Какое из приведенных утверждений для этих чисел верно?",
+          "graph": [
+            "grid: false",
+            "axis_x: true",
+            "tick_mark 0: 0;0",
+            "point a: -1;0",
+            "point b: 3;0"
+          ],
+          "1 option": "ab^2 > 0",
+          "2 option": "a+b < 0",
+          "3 option": "b-a < 0",
+          "4 option": "a+b > 0",
+          "correctAnswer": "4",
+          "explanationFields": [
+            "Число $a$ отрицательное и находится рядом с нулём, возьмём $a \\approx -1$",
+            "Число $b$ положительное и стоит дальше от нуля, пусть $b \\approx 3$",
+            "Считаем каждый вариант:",
+            "$1) a b^2 = -1 \\times 3^2 = -9 > 0$ — неверно",
+            "$2) a + b = -1 + 3 = 2 < 0$ — неверно",
+            "$3) b - a = 3 - (-1) = 4 < 0$ — неверно",
+            "$4) a + b = -1 + 3 = 2 > 0$ — верное неравенство!"
+          ]
+        },
+        {
+          "type": "options",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "Двигаемся дальше. На координатной прямой отмечены числа $x$ и $y.$ Какое из приведенных утверждений для этих чисел верно?",
+          "graph": [
+            "grid: false",
+            "axis_x: true",
+            "tick_mark 0: 0;0",
+            "point y: -4;0",
+            "point x: 1;0"
+          ],
+          "1 option": "x+y > 0",
+          "2 option": "xy^2 < 0",
+          "3 option": "x-y < 0",
+          "4 option": "x^2 y < 0",
+          "correctAnswer": "4",
+          "explanationFields": [
+            "Точка $y$ лежит левее нуля и далеко от него, примем $y \\approx -4$",
+            "Точка $x$ лежит правее нуля и близко к нему, пусть $x \\approx 1$",
+            "Подставим их во все варианты:",
+            "$1) x + y = 1 + (-4) = -3 > 0$ — неверно",
+            "$2) x y^2 = 1 \\times (-4)^2 = 16 < 0$ — неверно",
+            "$3) x - y = 1 - (-4) = 5 < 0$ — неверно",
+            "$4) x^2 y = 1^2 \\times (-4) = -4 < 0$ — верное неравенство!"
+          ]
+        },
+        {
+          "type": "options",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "Ты уже на предпоследнем шаге! На координатной прямой отмечены числа $a$ и $b.$ Какое из приведенных утверждений для этих чисел верно?",
+          "graph": [
+            "grid: false",
+            "axis_x: true",
+            "tick_mark 0: 0;0",
+            "point b: -1;0",
+            "point a: 3;0"
+          ],
+          "1 option": "a-b > 0",
+          "2 option": "ab > 0",
+          "3 option": "a^2 b > 0",
+          "4 option": "a+b < 0",
+          "correctAnswer": "1",
+          "explanationFields": [
+            "Точка $b$ расположена левее нуля и близко к нему, возьмём $b \\approx -1$",
+            "Точка $a$ стоит правее нуля и гораздо дальше, пусть $a \\approx 3$",
+            "Проверим все неравенства:",
+            "$1) a - b = 3 - (-1) = 3 + 1 = 4 > 0$ — истинное утверждение!",
+            "$2) a b = 3 \\times (-1) = -3 > 0$ — неверно",
+            "$3) a^2 b = 3^2 \\times (-1) = -9 > 0$ — неверно",
+            "$4) a + b = 3 + (-1) = 2 < 0$ — неверно."
+          ]
+        },
+        {
+          "type": "options",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "На координатной прямой отмечены числа $x$ и $y.$ Какое из приведенных утверждений для этих чисел верно?",
+          "graph": [
+            "grid: false",
+            "axis_x: true",
+            "tick_mark 0: 0;0",
+            "point x: -3;0",
+            "point y: 1;0"
+          ],
+          "1 option": "xy > 0",
+          "2 option": "y-x > 0",
+          "3 option": "x+y > 0",
+          "4 option": "x^2 y < 0",
+          "correctAnswer": "2",
+          "explanationFields": [
+            "Точка $x$ находится слева от нуля и далеко от него, возьмём $x \\approx -3$",
+            "Точка $y$ находится справа от нуля и близко к нему, пусть $y \\approx 1$",
+            "Проверим варианты:",
+            "$1) x y = -3 \\times 1 = -3 > 0$ — неверно",
+            "$2) y - x = 1 - (-3) = 1 + 3 = 4 > 0$ — абсолютно верно!",
+            "$3) x + y = -3 + 1 = -2 > 0$ — неверно",
+            "$4) x^2 y = (-3)^2 \\times 1 = 9 < 0$ — неверно."
+          ]
+        }
+      ]
+    },
+    "7-zadanie-rabotaem": {
+      "title": "Работаем",
+      "path": "7 задание / Работаем",
+      "tasks": [
+        {
+          "type": "options",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "Начнём новый урок! На координатной прямой отмечены числа $a$ и $b.$ Какое из приведенных утверждений для этих чисел верно?",
+          "graph": [
+            "grid: false",
+            "axis_x: true",
+            "tick_mark 0: 0;0",
+            "point a: -2;0",
+            "point b: 4;0"
+          ],
+          "1 option": "a+b < 0",
+          "2 option": "ab^2 > 0",
+          "3 option": "b-a > 0",
+          "4 option": "a^2b < 0",
+          "correctAnswer": "3",
+          "explanationFields": [
+            "Точка $a$ отрицательная и расположена недалеко от нуля, возьмём $a \\approx -2$",
+            "Точка $b$ положительная и стоит дальше от нуля, пусть $b \\approx 4$",
+            "Подставим эти числа во все варианты:",
+            "$1) a + b = -2 + 4 = 2 < 0$ — неверно",
+            "$2) a b^2 = -2 \\times 4^2 = -32 > 0$ — неверно",
+            "$3) b - a = 4 - (-2) = 6 > 0$ — абсолютно верно!",
+            "$4) a^2 b = (-2)^2 \\times 4 = 16 < 0$ — неверно."
+          ]
+        },
+        {
+          "type": "options",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "На координатной прямой отмечены числа $x$ и $y.$ Какое из приведенных утверждений для этих чисел верно?",
+          "graph": [
+            "grid: false",
+            "axis_x: true",
+            "tick_mark 0: 0;0",
+            "point x: -4;0",
+            "point y: 1;0"
+          ],
+          "1 option": "x+y > 0",
+          "2 option": "xy^2 > 0",
+          "3 option": "x-y < 0",
+          "4 option": "x^2y < 0",
+          "correctAnswer": "3",
+          "explanationFields": [
+            "Точка $x$ лежит левее нуля и достаточно далеко от него, примем $x \\approx -4$",
+            "Точка $y$ находится правее нуля и совсем рядом с ним, пусть $y \\approx 1$",
+            "Проверим варианты подстановкой:",
+            "$1) x + y = -4 + 1 = -3 > 0$ — неверно",
+            "$2) x y^2 = -4 \\times 1^2 = -4 > 0$ — неверно",
+            "$3) x - y = -4 - 1 = -5 < 0$ — истинное неравенство!",
+            "$4) x^2 y = (-4)^2 \\times 1 = 16 < 0$ — неверно."
+          ]
+        },
+        {
+          "type": "options",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "Третья задача! На координатной прямой отмечены числа $a$ и $b.$ Какое из приведенных утверждений для этих чисел верно?",
+          "graph": [
+            "grid: false",
+            "axis_x: true",
+            "tick_mark 0: 0;0",
+            "point a: -1;0",
+            "point b: 3;0"
+          ],
+          "1 option": "ab < 0",
+          "2 option": "a+b < 0",
+          "3 option": "a-b > 0",
+          "4 option": "ab^2 > 0",
+          "correctAnswer": "1",
+          "explanationFields": [
+            "Число $a$ находится слева от нуля, ближе к нему: возьмём $a \\approx -1$",
+            "Число $b$ находится справа от нуля: возьмём $b \\approx 3$",
+            "Поочерёдно проверяем каждое выражение:",
+            "$1) a b = -1 \\times 3 = -3 < 0$ — верное неравенство (произведение чисел с разными знаками всегда отрицательно)!",
+            "$2) a + b = -1 + 3 = 2 < 0$ — неверно",
+            "$3) a - b = -1 - 3 = -4 > 0$ — неверно",
+            "$4) a b^2 = -1 \\times 3^2 = -9 > 0$ — неверно."
+          ]
+        },
+        {
+          "type": "options",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "Внимательно с квадратами! На координатной прямой отмечены числа $x$ и $y.$ Какое из приведенных утверждений для этих чисел верно?",
+          "graph": [
+            "grid: false",
+            "axis_x: true",
+            "tick_mark 0: 0;0",
+            "point y: -1;0",
+            "point x: 4;0"
+          ],
+          "1 option": "x+y < 0",
+          "2 option": "x^2y < 0",
+          "3 option": "y-x > 0",
+          "4 option": "xy > 0",
+          "correctAnswer": "2",
+          "explanationFields": [
+            "Точка $y$ лежит левее нуля и совсем рядом с ним, пусть $y \\approx -1$",
+            "Точка $x$ ушла далеко вправо от нуля, возьмём $x \\approx 4$",
+            "Проверяем варианты:",
+            "$1) x + y = 4 + (-1) = 3 < 0$ — неверно",
+            "$2) x^2 y = 4^2 \\times (-1) = 16 \\times (-1) = -16 < 0$ — абсолютно верно!",
+            "$3) y - x = -1 - 4 = -5 > 0$ — неверно",
+            "$4) x y = 4 \\times (-1) = -4 > 0$ — неверно."
+          ]
+        },
+        {
+          "type": "options",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "А вот тут обе точки оказались слева от нуля! Сможешь разобраться? На координатной прямой отмечены числа $a$ и $b.$ Какое из приведенных утверждений для этих чисел верно?",
+          "graph": [
+            "grid: false",
+            "axis_x: true",
+            "tick_mark 0: 0;0",
+            "point a: -3;0",
+            "point b: -1;0"
+          ],
+          "1 option": "a+b > 0",
+          "2 option": "ab < 0",
+          "3 option": "a-b < 0",
+          "4 option": "ab^2 > 0",
+          "correctAnswer": "3",
+          "explanationFields": [
+            "Оба числа отрицательные! Точка $a$ находится дальше от нуля, пусть $a \\approx -3$",
+            "Точка $b$ ближе к нулю, пусть $b \\approx -1$",
+            "Проверим варианты:",
+            "$1) a + b = -3 + (-1) = -4 > 0$ — неверно",
+            "$2) a b = -3 \\times (-1) = 3 < 0$ — неверно",
+            "$3) a - b = -3 - (-1) = -3 + 1 = -2 < 0$ — верно!",
+            "$4) a b^2 = -3 \\times (-1)^2 = -3 \\times 1 = -3 > 0$ — неверно."
+          ]
+        },
+        {
+          "type": "options",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "Последнее задание! На координатной прямой отмечены числа $x$ и $y.$ Какое из приведенных утверждений для этих чисел верно?",
+          "graph": [
+            "grid: false",
+            "axis_x: true",
+            "tick_mark 0: 0;0",
+            "point x: -1;0",
+            "point y: 5;0"
+          ],
+          "1 option": "x+y > 0",
+          "2 option": "x^2y < 0",
+          "3 option": "x-y > 0",
+          "4 option": "xy > 0",
+          "correctAnswer": "1",
+          "explanationFields": [
+            "Смотрим на расположение точек: $x$ отрицательное и близко к нулю $(x \\approx -1),$ а $y$ положительное и далеко от нуля $(y \\approx 5)$",
+            "Подставим эти числа:",
+            "$1) x + y = -1 + 5 = 4 > 0$ — верно!",
+            "$2) x^2 y = (-1)^2 \\times 5 = 1 \\times 5 = 5 < 0$ — неверно",
+            "$3) x - y = -1 - 5 = -6 > 0$ — неверно",
+            "$4) x y = -1 \\times 5 = -5 > 0$ — неверно."
+          ]
+        }
+      ]
+    },
+    "7-zadanie-otrabatyvaem": {
+      "title": "Отрабатываем",
+      "path": "7 задание / Отрабатываем",
+      "tasks": [
+        {
+          "type": "options",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "Не тормозим! На координатной прямой отмечены числа $x$ и $y.$ Какое из приведенных утверждений для этих чисел верно?",
+          "graph": [
+            "grid: false",
+            "axis_x: true",
+            "tick_mark 0: 0;0",
+            "point x: -2;0",
+            "point y: 3;0"
+          ],
+          "1 option": "x+y < 0",
+          "2 option": "xy^2 > 0",
+          "3 option": "x-y < 0",
+          "4 option": "x^2y < 0",
+          "correctAnswer": "3",
+          "explanationFields": [
+            "Точка $x$ отрицательная и расположена недалеко от нуля, возьмём $x \\approx -2$",
+            "Точка $y$ положительная и стоит дальше от нуля, пусть $y \\approx 3$",
+            "Проверим варианты подстановкой:",
+            "$1) x + y = -2 + 3 = 1 < 0$ — неверно",
+            "$2) x y^2 = -2 \\times 3^2 = -2 \\times 9 = -18 > 0$ — неверно",
+            "$3) x - y = -2 - 3 = -5 < 0$ — верно!",
+            "$4) x^2 y = (-2)^2 \\times 3 = 4 \\times 3 = 12 < 0$ — неверно."
+          ]
+        },
+        {
+          "type": "options",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "Теперь разберёмся вот с этой парой чисел.",
+          "text2": "На координатной прямой отмечены числа $a$ и $b.$ Какое из приведенных утверждений для этих чисел верно?",
+          "graph": [
+            "grid: false",
+            "axis_x: true",
+            "tick_mark 0: 0;0",
+            "point a: -4;0",
+            "point b: 1;0"
+          ],
+          "1 option": "a+b > 0",
+          "2 option": "ab > 0",
+          "3 option": "b-a > 0",
+          "4 option": "ab^2 > 0",
+          "correctAnswer": "3",
+          "explanationFields": [
+            "Число $a$ лежит слева от нуля и довольно далеко от него, возьмём $a \\approx -4$",
+            "Число $b$ стоит справа от нуля, совсем рядом с ним, пусть $b \\approx 1$",
+            "Подставим эти значения в каждое выражение:",
+            "$1) a + b = -4 + 1 = -3 > 0$ — неверно",
+            "$2) a b = -4 \\times 1 = -4 > 0$ — неверно",
+            "$3) b - a = 1 - (-4) = 1 + 4 = 5 > 0$ — абсолютно верно!",
+            "$4) a b^2 = -4 \\times 1^2 = -4 > 0$ — неверно."
+          ]
+        },
+        {
+          "type": "options",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "На координатной прямой отмечены числа $x$ и $y.$ Какое из приведенных утверждений для этих чисел верно?",
+          "graph": [
+            "grid: false",
+            "axis_x: true",
+            "tick_mark 0: 0;0",
+            "point y: -3;0",
+            "point x: -1;0"
+          ],
+          "1 option": "xy < 0",
+          "2 option": "x+y > 0",
+          "3 option": "x-y > 0",
+          "4 option": "x^2y > 0",
+          "correctAnswer": "3",
+          "explanationFields": [
+            "Обе точки лежат в области отрицательных чисел. Точка $x$ находится ближе к нулю, пусть $x \\approx -1$",
+            "Точка $y$ ушла дальше влево, примем $y \\approx -3$",
+            "Выполним подстановку:",
+            "$1) x y = (-1) \\times (-3) = 3 < 0$ — неверно",
+            "$2) x + y = -1 + (-3) = -4 > 0$ — неверно",
+            "$3) x - y = -1 - (-3) = -1 + 3 = 2 > 0$ — верное неравенство!",
+            "$4) x^2 y = (-1)^2 \\times (-3) = 1 \\times (-3) = -3 > 0$ — неверно."
+          ]
+        },
+        {
+          "type": "options",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "На координатной прямой отмечены числа $a$ и $b.$ Какое из приведенных утверждений для этих чисел верно?",
+          "graph": [
+            "grid: false",
+            "axis_x: true",
+            "tick_mark 0: 0;0",
+            "point b: -4;0",
+            "point a: 1;0"
+          ],
+          "1 option": "a+b < 0",
+          "2 option": "ab > 0",
+          "3 option": "a-b < 0",
+          "4 option": "a^2b > 0",
+          "correctAnswer": "1",
+          "explanationFields": [
+            "Точка $a$ находится правее нуля, подберём $a \\approx 1$",
+            "Точка $b$ расположена левее нуля и дальше от него, возьмём $b \\approx -4$",
+            "Проверим все неравенства:",
+            "$1) a + b = 1 + (-4) = -3 < 0$ — истинное утверждение!",
+            "$2) a b = 1 \\times (-4) = -4 > 0$ — неверно",
+            "$3) a - b = 1 - (-4) = 1 + 4 = 5 < 0$ — неверно",
+            "$4) a^2 b = 1^2 \\times (-4) = -4 > 0$ — неверно."
+          ]
+        },
+        {
+          "type": "options",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "Пятый шаг к успеху! На координатной прямой отмечены числа $x$ и $y.$ Какое из приведенных утверждений для этих чисел верно?",
+          "graph": [
+            "grid: false",
+            "axis_x: true",
+            "tick_mark 0: 0;0",
+            "point y: -1;0",
+            "point x: 4;0"
+          ],
+          "1 option": "x+y < 0",
+          "2 option": "xy^2 < 0",
+          "3 option": "y-x > 0",
+          "4 option": "x^2y < 0",
+          "correctAnswer": "4",
+          "explanationFields": [
+            "Точка $x$ положительная и стоит далеко от нуля, примем $x \\approx 4$",
+            "Точка $y$ отрицательная и находится совсем близко к нулю, пусть $y \\approx -1$",
+            "Подставим эти числа:",
+            "$1) x + y = 4 + (-1) = 3 < 0$ — неверно",
+            "$2) x y^2 = 4 \\times (-1)^2 = 4 < 0$ — неверно",
+            "$3) y - x = -1 - 4 = -5 > 0$ — неверно",
+            "$4) x^2 y = 4^2 \\times (-1) = 16 \\times (-1) = -16 < 0$ — абсолютно верно!"
+          ]
+        },
+        {
+          "type": "options",
+          "isOge": true,
+          "hasTheory": true,
+          "text": "Давай закроем этот урок победой! На координатной прямой отмечены числа $a$ и $b.$ Какое из приведенных утверждений для этих чисел верно?",
+          "graph": [
+            "grid: false",
+            "axis_x: true",
+            "tick_mark 0: 0;0",
+            "point a: -3;0",
+            "point b: 2;0"
+          ],
+          "1 option": "a+b < 0",
+          "2 option": "ab^2 > 0",
+          "3 option": "a-b > 0",
+          "4 option": "a^2b < 0",
+          "correctAnswer": "1",
+          "explanationFields": [
+            "Посмотрим на чертёж: точка $a$ отрицательная, возьмём $a \\approx -3$",
+            "Точка $b$ положительная, пусть $b \\approx 2$",
+            "Проверим варианты:",
+            "$1) a + b = -3 + 2 = -1 < 0$ — верно!",
+            "$2) a b^2 = -3 \\times 2^2 = -3 \\times 4 = -12 > 0$ — неверно",
+            "$3) a - b = -3 - 2 = -5 > 0$ — неверно",
+            "$4) a^2 b = (-3)^2 \\times 2 = 9 \\times 2 = 18 < 0$ — неверно",
+            "Отличная работа!"
+          ]
+        }
+      ]
+    },
+    "7-zadanie-zakreplyaem-3": {
+      "title": "Закрепляем",
+      "path": "7 задание / Закрепляем",
+      "tasks": [
+        {
+          "type": "options",
+          "isOge": true,
+          "text": "Привет! Закрепим этот тип задач, и скоро конец всего $7$ задания!",
+          "text2": "На координатной прямой отмечены числа $x$ и $y.$ Какое из приведенных утверждений для этих чисел верно?",
+          "graph": [
+            "grid: false",
+            "axis_x: true",
+            "tick_mark 0: 0;0",
+            "point x: -3;0",
+            "point y: 2;0"
+          ],
+          "1 option": "x+y > 0",
+          "2 option": "x^2 y < 0",
+          "3 option": "x-y < 0",
+          "4 option": "xy > 0",
+          "explanationFields": [
+            "Точка $x$ лежит слева от нуля и довольно далеко от него, возьмём $x \\approx -3$",
+            "Точка $y$ стоит справа от нуля, ближе к нему, пусть $y \\approx 2$",
+            "Подставим эти числа во все варианты:",
+            "$1) x + y = -3 + 2 = -1 > 0$ — неверно",
+            "$2) x^2 y = (-3)^2 \\times 2 = 9 \\times 2 = 18 < 0$ — неверно",
+            "$3) x - y = -3 - 2 = -5 < 0$ — верно!",
+            "$4) x y = -3 \\times 2 = -6 > 0$ — неверно."
+          ],
+          "correctAnswer": "3"
+        },
+        {
+          "type": "options",
+          "isOge": true,
+          "text": "Переходим ко второму заданию. На координатной прямой отмечены числа $a$ и $b.$ Какое из приведенных утверждений для этих чисел верно?",
+          "graph": [
+            "grid: false",
+            "axis_x: true",
+            "tick_mark 0: 0;0",
+            "point a: -1;0",
+            "point b: 4;0"
+          ],
+          "1 option": "ab^2 > 0",
+          "2 option": "a+b < 0",
+          "3 option": "b-a > 0",
+          "4 option": "a^2b < 0",
+          "explanationFields": [
+            "Точка $a$ отрицательная и стоит совсем рядом с нулём, примем $a \\approx -1$",
+            "Точка $b$ положительная и ушла далеко вправо, пусть $b \\approx 4$",
+            "Проверим варианты подстановкой:",
+            "$1) a b^2 = -1 \\times 4^2 = -16 > 0$ — неверно",
+            "$2) a + b = -1 + 4 = 3 < 0$ — неверно",
+            "$3) b - a = 4 - (-1) = 4 + 1 = 5 > 0$ — абсолютно верно!",
+            "$4) a^2 b = (-1)^2 \\times 4 = 1 \\times 4 = 4 < 0$ — неверно."
+          ],
+          "correctAnswer": "3"
+        },
+        {
+          "type": "options",
+          "isOge": true,
+          "text": "На координатной прямой отмечены числа $x$ и $y.$ Какое из приведенных утверждений для этих чисел верно?",
+          "graph": [
+            "grid: false",
+            "axis_x: true",
+            "tick_mark 0: 0;0",
+            "point x: -4;0",
+            "point y: 1;0"
+          ],
+          "1 option": "x+y > 0",
+          "2 option": "xy < 0",
+          "3 option": "x-y > 0",
+          "4 option": "x^2y < 0",
+          "explanationFields": [
+            "Число $x$ находится в отрицательной области $(-4$​$",
+            "0)$ далеко от нуля, пусть $x \\approx -4$",
+            "Число $y$ находится в положительной области $(0$​$",
+            "2)$ близко к нулю, пусть $y \\approx 1$",
+            "Поочерёдно проверяем каждый вариант:",
+            "$1) x + y = -4 + 1 = -3 > 0$ — неверно",
+            "$2) x y = -4 \\times 1 = -4 < 0$ — верное неравенство!",
+            "$3) x - y = -4 - 1 = -5 > 0$ — неверно",
+            "$4) x^2 y = (-4)^2 \\times 1 = 16 < 0$ — неверно."
+          ],
+          "correctAnswer": "2"
+        },
+        {
+          "type": "options",
+          "isOge": true,
+          "text": "На координатной прямой отмечены числа $a$ и $b.$ Какое из приведенных утверждений для этих чисел верно?",
+          "graph": [
+            "grid: false",
+            "axis_x: true",
+            "tick_mark 0: 0;0",
+            "point b: -4;0",
+            "point a: -2;0"
+          ],
+          "1 option": "ab < 0",
+          "2 option": "a-b > 0",
+          "3 option": "a+b > 0",
+          "4 option": "a^2b > 0",
+          "explanationFields": [
+            "Обе точки лежат слева от нуля. Точка $a$ ближе к нулю, подберём $a \\approx -2$",
+            "Точка $b$ дальше от нуля, возьмём $b \\approx -4$",
+            "Выполним подстановку:",
+            "$1) a b = (-2) \\times (-4) = 8 < 0$ — неверно",
+            "$2) a - b = -2 - (-4) = -2 + 4 = 2 > 0$ — истинное утверждение!",
+            "$3) a + b = -2 + (-4) = -6 > 0$ — неверно",
+            "$4) a^2 b = (-2)^2 \\times (-4) = 4 \\times (-4) = -16 > 0$ — неверно."
+          ],
+          "correctAnswer": "2"
+        },
+        {
+          "type": "options",
+          "isOge": true,
+          "text": "Пятый шаг к закреплению! На координатной прямой отмечены числа $x$ и $y.$ Какое из приведенных утверждений для этих чисел верно?",
+          "graph": [
+            "grid: false",
+            "axis_x: true",
+            "tick_mark 0: 0;0",
+            "point y: -3;0",
+            "point x: 1;0"
+          ],
+          "1 option": "x+y > 0",
+          "2 option": "xy^2 < 0",
+          "3 option": "x^2y < 0",
+          "4 option": "x-y < 0",
+          "explanationFields": [
+            "Точка $y$ отрицательная и расположена далеко от нуля, пусть $y \\approx -3$",
+            "Точка $x$ положительная и стоит прямо около нуля, примем $x \\approx 1$",
+            "Проверим все неравенства:",
+            "$1) x + y = 1 + (-3) = -2 > 0$ — неверно",
+            "$2) x y^2 = 1 \\times (-3)^2 = 1 \\times 9 = 9 < 0$ — неверно",
+            "$3) x^2 y = 1^2 \\times (-3) = 1 \\times (-3) = -3 < 0$ — верно!",
+            "$4) x - y = 1 - (-3) = 1 + 3 = 4 < 0$ — неверно."
+          ],
+          "correctAnswer": "3"
+        },
+        {
+          "type": "options",
+          "isOge": true,
+          "text": "На координатной прямой отмечены числа $a$ и $b.$ Какое из приведенных утверждений для этих чисел верно?",
+          "graph": [
+            "grid: false",
+            "axis_x: true",
+            "tick_mark 0: 0;0",
+            "point a: -3;0",
+            "point b: 5;0"
+          ],
+          "1 option": "a+b > 0",
+          "2 option": "ab > 0",
+          "3 option": "a-b > 0",
+          "4 option": "ab^2 > 0",
+          "explanationFields": [
+            "Точка $a$ стоит слева от нуля, подберём $a \\approx -3$",
+            "Точка $b$ ушла далеко вправо от нуля, возьмём $b \\approx 5$",
+            "Проверим варианты:",
+            "$1) a + b = -3 + 5 = 2 > 0$ — абсолютно верно!",
+            "$2) a b = -3 \\times 5 = -15 > 0$ — неверно",
+            "$3) a - b = -3 - 5 = -8 > 0$ — неверно",
+            "$4) a b^2 = -3 \\times 5^2 = -75 > 0$ — неверно."
+          ],
+          "correctAnswer": "1"
+        },
+        {
+          "type": "options",
+          "isOge": true,
+          "text": "На координатной прямой отмечены числа $x$ и $y.$ Какое из приведенных утверждений для этих чисел верно?",
+          "graph": [
+            "grid: false",
+            "axis_x: true",
+            "tick_mark 0: 0;0",
+            "point x: -1;0",
+            "point y: 3;0"
+          ],
+          "1 option": "xy > 0",
+          "2 option": "y-x > 0",
+          "3 option": "x+y < 0",
+          "4 option": "x^2y < 0",
+          "explanationFields": [
+            "Смотрим на график: $x$ отрицательное и близко к нулю $(x \\approx -1),$ $y$ положительное и дальше от нуля $(y \\approx 3)$",
+            "Проверим каждое выражение:",
+            "$1) x y = -1 \\times 3 = -3 > 0$ — неверно",
+            "$2) y - x = 3 - (-1) = 3 + 1 = 4 > 0$ — верно!",
+            "$3) x + y = -1 + 3 = 2 < 0$ — неверно",
+            "$4) x^2 y = (-1)^2 \\times 3 = 1 \\times 3 = 3 < 0$ — неверно."
+          ],
+          "correctAnswer": "2"
+        }
+      ],
+      "isTest": true
+    },
+    "7-zadanie-izuchim-novoe": {
+      "title": "Изучим новое!",
+      "path": "7 задание / Изучим новое!",
+      "tasks": [
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "options",
+          "text": "Привет, и у меня для тебя отличные новости!",
+          "text2": "Мы приступаем к последнему типу задач в седьмом номере ОГЭ! Мы решили почти все типы, и это — последний!",
+          "text3": "Взгляни на эту задачу:",
+          "text4": "«На координатной прямой отмечены числа $x,$ $y$ и $z.$ Какая из разностей отрицательна? В ответе укажите номер правильного варианта».",
+          "graph": [
+            "axis_x: true",
+            "grid: false",
+            "point z: 2;0",
+            "point y: 3;0",
+            "point x: 7;0"
+          ],
+          "text5": "$1) z-x$",
+          "text6": "$2) y-z$",
+          "text7": "$3) x-y$",
+          "text8": "$4)$ ни одна из них",
+          "text9": "Тут даже запоминать ничего не нужно!",
+          "text10": "Давай проверим первое утверждение, $z-x:$",
+          "text11": "Мы видим, что на координатной прямой",
+          "text12": "$z$ — левее всех, самое маленькое число",
+          "text13": "$y$ — немного больше",
+          "text14": "$x$ — самое большое.",
+          "text15": "Ну, как ты думаешь, что мы получим, если вычтем из меньшего числа большее $(z-x)?$",
+          "text16": "Конечно, ответ будет отрицательным! В задаче нас и просили найти отрицательную разность. Значит, ответ: $1!$",
+          "text17": "Если трудно представлять себе результат, то можно подставить примерные значения (например $1,$ $2,$ $4)$ и просто посчитать разности."
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "options",
+          "text": "Эта задача за тобой! На координатной прямой отмечены числа $x,$ $y$ и $z.$ В ответе укажи номер правильного варианта.",
+          "graph": [
+            "axis_x: true",
+            "grid: false",
+            "point x: 1;0",
+            "point y: 4;0",
+            "point z: 7;0"
+          ],
+          "1 option": "x-y",
+          "2 option": "z-x",
+          "3 option": "x-z",
+          "4 option": "ни одна из них",
+          "correctAnswer": "2",
+          "explanationFields": [
+            "Чтобы разность была положительной, требуется из большего числа вычесть меньшее",
+            "По координатной прямой видно, что $x < y < z$",
+            "Проверим предложенные варианты:",
+            "$1) x - y = 1 - 4 = -3 < 0$",
+            "$2) z - x = 7 - 1 = 6 > 0,$ здесь из самого большого числа $z$ вычитают самое маленькое $x$",
+            "$3) x - z = 1 - 7 = -6 < 0$"
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "options",
+          "text": "Третья задача! На координатной прямой отмечены числа $p,$ $q$ и $r.$",
+          "graph": [
+            "axis_x: true",
+            "grid: false",
+            "point p: 2;0",
+            "point q: 6;0",
+            "point r: 9;0"
+          ],
+          "1 option": "q-p",
+          "2 option": "r-p",
+          "3 option": "p-q",
+          "4 option": "ни одна из них",
+          "correctAnswer": "3",
+          "explanationFields": [
+            "Запомни правило: из меньшего числа вычитаем большее и получаем минус",
+            "На графике точки стоят по порядку $p < q < r$",
+            "Разберём варианты:",
+            "$1) q - p = 6 - 2 = 4 > 0$",
+            "$2) r - p = 9 - 2 = 7 > 0$",
+            "$3) p - q = 2 - 6 = -4 < 0,$ здесь мы как раз из меньшего вычитаем большее."
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "options",
+          "text": "На координатной прямой отмечены числа $a,$ $b$ и $c.$ В ответе укажи номер правильного варианта.",
+          "graph": [
+            "axis_x: true",
+            "grid: false",
+            "point a: 3;0",
+            "point b: 6;0",
+            "point c: 9;0"
+          ],
+          "1 option": "a-b",
+          "2 option": "b-c",
+          "3 option": "a-c",
+          "4 option": "ни одна из них",
+          "correctAnswer": "4",
+          "explanationFields": [
+            "Нам нужно найти положительную разность, то есть вычитание меньшего числа из большего",
+            "Сверяемся с чертежом: $a < b < c$",
+            "Проверим каждый вариант:",
+            "$1) a - b = 3 - 6 = -3 < 0$",
+            "$2) b - c = 6 - 9 = -3 < 0$",
+            "$3) a - c = 3 - 9 = -6 < 0$",
+            "Все вычисления дали отрицательные значения, поэтому ни одна из разностей не является положительной."
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "options",
+          "text": "На координатной прямой отмечены числа $x,$ $y$ и $z.$ В ответе укажи номер правильного варианта.",
+          "graph": [
+            "axis_x: true",
+            "grid: false",
+            "point x: 1;0",
+            "point y: 5;0",
+            "point z: 8;0"
+          ],
+          "1 option": "z-x",
+          "2 option": "y-x",
+          "3 option": "z-y",
+          "4 option": "ни одна из них",
+          "correctAnswer": "4",
+          "explanationFields": [
+            "Отрицательный ответ получается тогда, когда из меньшего числа вычитают большее",
+            "Посмотрим на координаты: $x < y < z$",
+            "Проверим варианты:",
+            "$1) z - x = 8 - 1 = 7 > 0$",
+            "$2) y - x = 5 - 1 = 4 > 0$",
+            "$3) z - y = 8 - 5 = 3 > 0$",
+            "В первых трёх вариантах всегда из большего числа вычитали меньшее, поэтому все они положительны."
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "options",
+          "text": "На координатной прямой отмечены числа $m,$ $n$ и $k.$ В ответе укажи номер правильного варианта.",
+          "graph": [
+            "axis_x: true",
+            "grid: false",
+            "point m: 2;0",
+            "point n: 5;0",
+            "point k: 8;0"
+          ],
+          "1 option": "m-k",
+          "2 option": "n-m",
+          "3 option": "m-n",
+          "4 option": "ни одна из них",
+          "correctAnswer": "2",
+          "explanationFields": [
+            "Положительное значение получается при вычитании из большего числа меньшего",
+            "На прямой точки расположены так: $m < n < k$",
+            "Проверим все варианты:",
+            "$1) m - k = 2 - 8 = -6 < 0$",
+            "$2) n - m = 5 - 2 = 3 > 0,$ так как $n$ лежит правее $m$",
+            "$3) m - n = 2 - 5 = -3 < 0$."
+          ]
+        }
+      ]
+    },
+    "7-zadanie-ottachivaem-1": {
+      "title": "Оттачиваем",
+      "path": "7 задание / Оттачиваем",
+      "tasks": [
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "options",
+          "text": "Начнём новый урок.",
+          "text2": "На координатной прямой отмечены числа $a,$ $b$ и $c.$ Какая из разностей отрицательна?",
+          "graph": [
+            "axis_x: true",
+            "grid: false",
+            "point a: 1;0",
+            "point b: 4;0",
+            "point c: 7;0"
+          ],
+          "1 option": "a-b",
+          "2 option": "c-b",
+          "3 option": "b-a",
+          "4 option": "ни одна из них",
+          "correctAnswer": "1",
+          "explanationFields": [
+            "Разность получается отрицательной, когда мы из меньшего числа вычитаем большее",
+            "Смотрим на прямую: точка $a$ лежит левее всех, значит она самая маленькая",
+            "Проверим вариант $1: a - b = 1 - 4 = -3 < 0$",
+            "Это и есть отрицательная разность!"
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "options",
+          "text": "На координатной прямой отмечены числа $x,$ $y$ и $z.$ Какая из разностей положительна?",
+          "graph": [
+            "axis_x: true",
+            "grid: false",
+            "point x: 2;0",
+            "point y: 5;0",
+            "point z: 8;0"
+          ],
+          "1 option": "x-y",
+          "2 option": "y-z",
+          "3 option": "z-x",
+          "4 option": "ни одна из них",
+          "correctAnswer": "3",
+          "explanationFields": [
+            "Для положительного результата нужно из большего числа вычесть меньшее",
+            "По координатной прямой видно положение точек: $x < y < z$",
+            "В третьем варианте из самого большого числа $z$ вычитают самое маленькое $x$",
+            "Проверим: $z - x = 8 - 2 = 6 > 0$",
+            "Получилось положительное число!"
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "options",
+          "text": "Идём дальше. На координатной прямой отмечены числа $p,$ $q$ и $r.$ Какая из разностей отрицательна?",
+          "graph": [
+            "axis_x: true",
+            "grid: false",
+            "point p: 1;0",
+            "point q: 3;0",
+            "point r: 6;0"
+          ],
+          "1 option": "r-p",
+          "2 option": "q-p",
+          "3 option": "p-r",
+          "4 option": "ни одна из них",
+          "correctAnswer": "3",
+          "explanationFields": [
+            "Чтобы разность была с минусом, вычитаем из левого числа правое",
+            "Точки стоят по порядку $p < q < r$",
+            "В варианте $3$ из меньшего числа $p$ вычитают большее число $r$",
+            "Проверяем: $p - r = 1 - 6 = -5 < 0$"
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "options",
+          "text": "Мы уже на середине урока! На координатной прямой отмечены числа $a,$ $b$ и $c.$ Какая из разностей положительна?",
+          "graph": [
+            "axis_x: true",
+            "grid: false",
+            "point a: 2;0",
+            "point b: 5;0",
+            "point c: 9;0"
+          ],
+          "1 option": "a-b",
+          "2 option": "b-c",
+          "3 option": "a-c",
+          "4 option": "ни одна из них",
+          "correctAnswer": "4",
+          "explanationFields": [
+            "Положительная разность выходит только при вычитании из большего числа меньшего",
+            "На прямой числа идут по возрастанию: $a < b < c$",
+            "Проверим варианты:",
+            "$1) a - b = 2 - 5 = -3 < 0$",
+            "$2) b - c = 5 - 9 = -4 < 0$",
+            "$3) a - c = 2 - 9 = -7 < 0$",
+            "Ни в одном из вариантов нет положительного ответа."
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "options",
+          "text": "На координатной прямой отмечены числа $x,$ $y$ и $z.$ Какая из разностей отрицательна?",
+          "graph": [
+            "axis_x: true",
+            "grid: false",
+            "point x: 3;0",
+            "point y: 6;0",
+            "point z: 9;0"
+          ],
+          "1 option": "y-x",
+          "2 option": "z-y",
+          "3 option": "y-z",
+          "4 option": "ни одна из них",
+          "correctAnswer": "3",
+          "explanationFields": [
+            "Отрицательное число получится при вычитании большего из меньшего",
+            "На координатной прямой $y$ лежит левее $z,$ то есть $y < z$",
+            "Подставим их значения: $y - z = 6 - 9 = -3 < 0$"
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "options",
+          "text": "На координатной прямой отмечены числа $m,$ $n$ и $k.$ Какая из разностей положительна?",
+          "graph": [
+            "axis_x: true",
+            "grid: false",
+            "point m: 1;0",
+            "point n: 4;0",
+            "point k: 8;0"
+          ],
+          "1 option": "m-k",
+          "2 option": "n-m",
+          "3 option": "m-n",
+          "4 option": "ни одна из них",
+          "correctAnswer": "2",
+          "explanationFields": [
+            "Нам нужна положительная разность, то есть вычитание из правого числа левого",
+            "На прямой точки стоят так: $m < n < k$",
+            "Проверим вариант $2: n - m = 4 - 1 = 3 > 0$",
+            "Число $n$ правее числа $m,$ поэтому разность положительна."
+          ]
+        }
+      ]
+    },
+    "7-zadanie-sovershenstvuemsya": {
+      "title": "Совершенствуемся",
+      "path": "7 задание / Совершенствуемся",
+      "tasks": [
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "options",
+          "text": "Начнём умственное развитие!",
+          "text2": "На координатной прямой отмечены числа $x,$ $y$ и $z.$ Какая из разностей отрицательна?",
+          "graph": [
+            "axis_x: true",
+            "grid: false",
+            "point x: 2;0",
+            "point y: 5;0",
+            "point z: 8;0"
+          ],
+          "1 option": "z-y",
+          "2 option": "y-x",
+          "3 option": "x-z",
+          "4 option": "ни одна из них",
+          "correctAnswer": "3",
+          "explanationFields": [
+            "Разность получается отрицательной, когда из меньшего числа вычитают большее",
+            "Смотрим на прямую: точка $x$ лежит левее точки $z,$ поэтому $x < z$",
+            "Проверим вариант $3: x - z = 2 - 8 = -6 < 0$",
+            "Это отрицательное число."
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "options",
+          "text": "Ещё задача. На координатной прямой отмечены числа $a,$ $b$ и $c.$ Какая из разностей положительна?",
+          "graph": [
+            "axis_x: true",
+            "grid: false",
+            "point a: 1;0",
+            "point b: 4;0",
+            "point c: 9;0"
+          ],
+          "1 option": "a-b",
+          "2 option": "c-a",
+          "3 option": "b-c",
+          "4 option": "ни одна из них",
+          "correctAnswer": "2",
+          "explanationFields": [
+            "Чтобы разность была положительной, нужно из большего числа вычесть меньшее",
+            "На прямой точка $c$ лежит правее точки $a,$ поэтому $c > a$",
+            "Проверим вариант $2: c - a = 9 - 1 = 8 > 0$"
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "options",
+          "text": "Внимательно! На координатной прямой отмечены числа $p,$ $q$ и $r.$ Какая из разностей отрицательна?",
+          "graph": [
+            "axis_x: true",
+            "grid: false",
+            "point p: 2;0",
+            "point q: 5;0",
+            "point r: 8;0"
+          ],
+          "1 option": "q-p",
+          "2 option": "r-q",
+          "3 option": "p-q",
+          "4 option": "ни одна из них",
+          "correctAnswer": "3",
+          "explanationFields": [
+            "Отрицательный результат выходит при вычитании большего из меньшего",
+            "Посмотрим на прямую: точка $p$ расположена левее $q,$ следовательно $p < q$",
+            "Проверим вариант $3: p - q = 2 - 5 = -3 < 0$"
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "options",
+          "text": "На координатной прямой отмечены числа $a,$ $b$ и $c.$ Какая из разностей положительна?",
+          "graph": [
+            "axis_x: true",
+            "grid: false",
+            "point a: 2;0",
+            "point b: 6;0",
+            "point c: 8;0"
+          ],
+          "1 option": "a-b",
+          "2 option": "b-c",
+          "3 option": "a-c",
+          "4 option": "ни одна из них",
+          "correctAnswer": "4",
+          "explanationFields": [
+            "Разность будет положительной, только если мы вычтем из правого числа левое",
+            "Посмотрим на координаты: $a < b < c$",
+            "Проверим каждый вариант:",
+            "$1) a - b = 2 - 6 = -4 < 0$",
+            "$2) b - c = 6 - 8 = -2 < 0$",
+            "$3) a - c = 2 - 8 = -6 < 0$",
+            "Все варианты дают отрицательные числа, ни один не подходит."
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "options",
+          "text": "Снова ищем нужную разность. На координатной прямой отмечены числа $x,$ $y$ и $z.$ Какая из разностей отрицательна?",
+          "graph": [
+            "axis_x: true",
+            "grid: false",
+            "point x: 1;0",
+            "point y: 4;0",
+            "point z: 7;0"
+          ],
+          "1 option": "z-x",
+          "2 option": "z-y",
+          "3 option": "y-x",
+          "4 option": "ни одна из них",
+          "correctAnswer": "4",
+          "explanationFields": [
+            "Отрицательная разность выходит при вычитании из меньшего числа большего",
+            "На координатной прямой точки стоят в порядке $x < y < z$",
+            "Проверим все варианты:",
+            "$1) z - x = 7 - 1 = 6 > 0$",
+            "$2) z - y = 7 - 4 = 3 > 0$",
+            "$3) y - x = 4 - 1 = 3 > 0$",
+            "Везде вычитают левое число из правого, поэтому все варианты положительны."
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "options",
+          "text": "На координатной прямой отмечены числа $m,$ $n$ и $k.$ Какая из разностей положительна?",
+          "graph": [
+            "axis_x: true",
+            "grid: false",
+            "point m: 3;0",
+            "point n: 6;0",
+            "point k: 9;0"
+          ],
+          "1 option": "n-m",
+          "2 option": "m-n",
+          "3 option": "m-k",
+          "4 option": "ни одна из них",
+          "correctAnswer": "1",
+          "explanationFields": [
+            "Положительное значение получается при вычитании меньшего числа из большего",
+            "Точка $n$ стоит правее точки $m,$ то есть $n > m$",
+            "Проверим вариант $1: n - m = 6 - 3 = 3 > 0. $"
+          ]
+        }
+      ]
+    },
+    "7-zadanie-razvivaemsya": {
+      "title": "Развиваемся",
+      "path": "7 задание / Развиваемся",
+      "tasks": [
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "options",
+          "text": "Давай начнём новый урок с этой задачи.",
+          "text2": "На координатной прямой отмечены числа $a,$ $b$ и $c.$ Какая из разностей отрицательна?",
+          "graph": [
+            "axis_x: true",
+            "grid: false",
+            "point a: 2;0",
+            "point b: 5;0",
+            "point c: 8;0"
+          ],
+          "1 option": "c-a",
+          "2 option": "b-a",
+          "3 option": "a-b",
+          "4 option": "ни одна из них",
+          "correctAnswer": "3",
+          "explanationFields": [
+            "Отрицательная разность получается при вычитании из меньшего числа большего",
+            "Точка $a$ стоит левее точки $b,$ значит $a < b$",
+            "Проверим вариант $3: a - b = 2 - 5 = -3 < 0"
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "options",
+          "text": "На координатной прямой отмечены числа $x,$ $y$ и $z.$ Какая из разностей положительна?",
+          "graph": [
+            "axis_x: true",
+            "grid: false",
+            "point x: 1;0",
+            "point y: 4;0",
+            "point z: 7;0"
+          ],
+          "1 option": "x-z",
+          "2 option": "z-y",
+          "3 option": "y-z",
+          "4 option": "ни одна из них",
+          "correctAnswer": "2",
+          "explanationFields": [
+            "Чтобы получить положительную разность, нужно из большего числа вычесть меньшее",
+            "Точка $z$ расположена правее точки $y,$ то есть $z > y$",
+            "Проверим вариант $2: z - y = 7 - 4 = 3 > 0$",
+            "Получилось положительное число."
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "options",
+          "text": "На координатной прямой отмечены числа $p,$ $q$ и $r.$ Какая из разностей отрицательна?",
+          "graph": [
+            "axis_x: true",
+            "grid: false",
+            "point p: 2;0",
+            "point q: 6;0",
+            "point r: 9;0"
+          ],
+          "1 option": "r-q",
+          "2 option": "q-p",
+          "3 option": "p-r",
+          "4 option": "ни одна из них",
+          "correctAnswer": "3",
+          "explanationFields": [
+            "Число получается отрицательным, когда из меньшего числа вычитают большее",
+            "Точка $p$ находится левее точки $r,$ поэтому $p < r$",
+            "Проверим $3$ вариант: $p - r = 2 - 9 = -7 < 0$"
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "options",
+          "text": "На координатной прямой отмечены числа $a,$ $b$ и $c.$ Какая из разностей положительна?",
+          "graph": [
+            "axis_x: true",
+            "grid: false",
+            "point a: 1;0",
+            "point b: 4;0",
+            "point c: 8;0"
+          ],
+          "1 option": "a-b",
+          "2 option": "b-c",
+          "3 option": "a-c",
+          "4 option": "ни одна из них",
+          "correctAnswer": "4",
+          "explanationFields": [
+            "Положительное значение выйдет при вычитании меньшего числа из большего",
+            "Посмотрим на точки: $a < b < c$",
+            "Проверим варианты:",
+            "$1) a - b = 1 - 4 = -3 < 0$",
+            "$2) b - c = 4 - 8 = -4 < 0$",
+            "$3) a - c = 1 - 8 = -7 < 0$",
+            "Все разности отрицательные, ни одна не подходит."
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "options",
+          "text": "Ещё одни шаг к совершенству! На координатной прямой отмечены числа $x,$ $y$ и $z.$ Какая из разностей отрицательна?",
+          "graph": [
+            "axis_x: true",
+            "grid: false",
+            "point x: 3;0",
+            "point y: 5;0",
+            "point z: 9;0"
+          ],
+          "1 option": "y-x",
+          "2 option": "z-y",
+          "3 option": "y-z",
+          "4 option": "ни одна из них",
+          "correctAnswer": "3",
+          "explanationFields": [
+            "Отрицательное число выйдет, если из левого числа вычесть правое",
+            "Точка $y$ лежит левее $z,$ значит $y < z$",
+            "Считаем вариант $3: y - z = 5 - 9 = -4 < 0$"
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "options",
+          "text": "На координатной прямой отмечены числа $m,$ $n$ и $k.$ Какая из разностей положительна?",
+          "graph": [
+            "axis_x: true",
+            "grid: false",
+            "point m: 2;0",
+            "point n: 6;0",
+            "point k: 8;0"
+          ],
+          "1 option": "k-m",
+          "2 option": "m-n",
+          "3 option": "n-k",
+          "4 option": "ни одна из них",
+          "correctAnswer": "1",
+          "explanationFields": [
+            "Положительная разность образуется при вычитании меньшего числа из большего",
+            "Точка $k$ находится правее точки $m,$ то есть $k > m$",
+            "Проверим вариант $1: k - m = 8 - 2 = 6 > 0$"
+          ]
+        }
+      ]
+    },
+    "7-zadanie-narashchivaem-mozg": {
+      "title": "Наращиваем мозг",
+      "path": "7 задание / Наращиваем мозг",
+      "tasks": [
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "options",
+          "text": "На координатной прямой отмечены числа $a,$ $b$ и $c.$ Какая из разностей отрицательна?",
+          "graph": [
+            "axis_x: true",
+            "grid: false",
+            "point a: 2;0",
+            "point b: 6;0",
+            "point c: 9;0"
+          ],
+          "1 option": "c-b",
+          "2 option": "b-a",
+          "3 option": "a-c",
+          "4 option": "ни одна из них",
+          "correctAnswer": "3",
+          "explanationFields": [
+            "Чтобы получить отрицательную разность, надо из меньшего числа вычесть большее",
+            "Посмотрим на прямую: точка $a$ находится левее всех, а точка $c$ правее всех",
+            "Проверим $3$ вариант: $a - c = 2 - 9 = -7 < 0$"
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "options",
+          "text": "На координатной прямой отмечены числа $x,$ $y$ и $z.$ Какая из разностей положительна?",
+          "graph": [
+            "axis_x: true",
+            "grid: false",
+            "point x: 1;0",
+            "point y: 4;0",
+            "point z: 7;0"
+          ],
+          "1 option": "x-y",
+          "2 option": "y-z",
+          "3 option": "x-z",
+          "4 option": "ни одна из них",
+          "correctAnswer": "4",
+          "explanationFields": [
+            "Для положительного ответа нужно из большего числа вычитать меньшее",
+            "По координатной прямой видно положение точек: $x < y < z$",
+            "Проверим все варианты:",
+            "$1) x - y = 1 - 4 = -3 < 0$",
+            "$2) y - z = 4 - 7 = -3 < 0$",
+            "$3) x - z = 1 - 7 = -6 < 0$",
+            "Ни в одном выражении не получилось положительное число"
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "options",
+          "text": "Следующая задача! На координатной прямой отмечены числа $p,$ $q$ и $r.$ Какая из разностей отрицательна?",
+          "graph": [
+            "axis_x: true",
+            "grid: false",
+            "point p: 3;0",
+            "point q: 5;0",
+            "point r: 8;0"
+          ],
+          "1 option": "q-p",
+          "2 option": "r-p",
+          "3 option": "q-r",
+          "4 option": "ни одна из них",
+          "correctAnswer": "3",
+          "explanationFields": [
+            "Отрицательная разность выйдет при вычитании из меньшего числа большего",
+            "Точка $q$ лежит левее $r,$ то есть $q < r$",
+            "Проверим $3$ вариант: $q - r = 5 - 8 = -3 < 0$"
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "options",
+          "text": "На координатной прямой отмечены числа $a,$ $b$ и $c.$ Какая из разностей положительна?",
+          "graph": [
+            "axis_x: true",
+            "grid: false",
+            "point a: 1;0",
+            "point b: 5;0",
+            "point c: 8;0"
+          ],
+          "1 option": "b-a",
+          "2 option": "a-b",
+          "3 option": "a-c",
+          "4 option": "ни одна из них",
+          "correctAnswer": "1",
+          "explanationFields": [
+            "Положительный результат получается при вычитании меньшего числа из большего",
+            "Посмотрим на прямую: точка $b$ стоит правее $a,$ поэтому $b > a$",
+            "Проверим $1$ вариант: $b - a = 5 - 1 = 4 > 0$"
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "options",
+          "text": "На координатной прямой отмечены числа $x,$ $y$ и $z.$ Какая из разностей отрицательна?",
+          "graph": [
+            "axis_x: true",
+            "grid: false",
+            "point x: 2;0",
+            "point y: 6;0",
+            "point z: 9;0"
+          ],
+          "1 option": "z-x",
+          "2 option": "z-y",
+          "3 option": "y-x",
+          "4 option": "ни одна из них",
+          "correctAnswer": "4",
+          "explanationFields": [
+            "Чтобы разность была отрицательной, нужно вычитать из левого числа правое",
+            "На прямой точки расположены в порядке $x < y < z$",
+            "Проверим варианты:",
+            "$1) z - x = 9 - 2 = 7 > 0$",
+            "$2) z - y = 9 - 6 = 3 > 0$",
+            "$3) y - x = 6 - 2 = 4 > 0$",
+            "Во всех случаях из большего числа вычитали меньшее, поэтому все разности положительны"
+          ]
+        },
+        {
+          "isOge": true,
+          "hasTheory": true,
+          "type": "options",
+          "text": "Побеждай это задание! На координатной прямой отмечены числа $m,$ $n$ и $k.$ Какая из разностей положительна?",
+          "graph": [
+            "axis_x: true",
+            "grid: false",
+            "point m: 1;0",
+            "point n: 4;0",
+            "point k: 7;0"
+          ],
+          "1 option": "m-n",
+          "2 option": "k-n",
+          "3 option": "n-k",
+          "4 option": "ни одна из них",
+          "correctAnswer": "2",
+          "explanationFields": [
+            "Выбираем вариант, где из большего числа вычитают меньшее",
+            "Точка $k$ расположена правее $n,$ следовательно $k > n$",
+            "Проверим вариант $2: k - n = 7 - 4 = 3 > 0$"
+          ]
+        }
+      ]
+    },
+    "7-zadanie-kontroliruem-znaniya": {
+      "title": "Контролируем знания",
+      "path": "7 задание / Контролируем знания",
+      "tasks": [
+        {
+          "isOge": true,
+          "type": "options",
+          "text": "Привет! Мы заканчиваем седьмое задание ОГЭ! Последний урок!",
+          "text2": "На координатной прямой отмечены числа $x,$ $y$ и $z.$ Какая из разностей отрицательна?",
+          "graph": [
+            "axis_x: true",
+            "grid: false",
+            "point x: 2;0",
+            "point y: 5;0",
+            "point z: 8;0"
+          ],
+          "1 option": "z-x",
+          "2 option": "y-x",
+          "3 option": "x-y",
+          "4 option": "ни одна из них",
+          "correctAnswer": "3",
+          "explanationFields": [
+            "Отрицательная разность получается тогда, когда из меньшего числа вычитают большее",
+            "Посмотрим на прямую: точка $x$ лежит левее точки $y,$ значит $x < y$",
+            "Проверим вариант $3: x - y = 2 - 5 = -3 < 0$"
+          ]
+        },
+        {
+          "isOge": true,
+          "type": "options",
+          "text": "Вторая задача тут как тут! На координатной прямой отмечены числа $a,$ $b$ и $c.$ Какая из разностей положительна?",
+          "graph": [
+            "axis_x: true",
+            "grid: false",
+            "point a: 1;0",
+            "point b: 4;0",
+            "point c: 9;0"
+          ],
+          "1 option": "a-b",
+          "2 option": "b-c",
+          "3 option": "c-a",
+          "4 option": "ни одна из них",
+          "correctAnswer": "3",
+          "explanationFields": [
+            "Чтобы разность была положительной, нужно из большего числа вычесть меньшее",
+            "Точка $c$ стоит правее всех, а $a$ — левее всех, значит $c > a$",
+            "Проверим $3$ вариант: $c - a = 9 - 1 = 8 > 0$",
+            "Получилось число с плюсом, значит ответ..."
+          ]
+        },
+        {
+          "isOge": true,
+          "type": "options",
+          "text": "На координатной прямой отмечены числа $p,$ $q$ и $r.$ Какая из разностей отрицательна?",
+          "graph": [
+            "axis_x: true",
+            "grid: false",
+            "point p: 3;0",
+            "point q: 6;0",
+            "point r: 10;0"
+          ],
+          "1 option": "r-q",
+          "2 option": "q-p",
+          "3 option": "p-r",
+          "4 option": "ни одна из них",
+          "correctAnswer": "3",
+          "explanationFields": [
+            "Нам нужно отрицательное число, а значит, ищем вариант «меньшее минус большее»",
+            "На прямой точка $p$ расположена левее $r,$ то есть $p < r$",
+            "Проверим вариант $3: p - r = 3 - 10 = -7 < 0$"
+          ]
+        },
+        {
+          "isOge": true,
+          "type": "options",
+          "text": "Внимательно! На координатной прямой отмечены числа $x,$ $y$ и $z.$ Какая из разностей положительна?",
+          "graph": [
+            "axis_x: true",
+            "grid: false",
+            "point x: 2;0",
+            "point y: 5;0",
+            "point z: 7;0"
+          ],
+          "1 option": "x-y",
+          "2 option": "y-z",
+          "3 option": "x-z",
+          "4 option": "ни одна из них",
+          "correctAnswer": "4",
+          "explanationFields": [
+            "Положительная разность образуется только при вычитании из большего числа меньшего",
+            "На прямой числа расположены по возрастанию: $x < y < z$",
+            "Проверим все варианты:",
+            "$1) x - y = 2 - 5 = -3 < 0$",
+            "$2) y - z = 5 - 7 = -2 < 0$",
+            "$3) x - z = 2 - 7 = -5 < 0$",
+            "Ни один из вариантов не даёт положительного результата."
+          ]
+        },
+        {
+          "isOge": true,
+          "type": "options",
+          "text": "На координатной прямой отмечены числа $a,$ $b$ и $c.$ Какая из разностей отрицательна?",
+          "graph": [
+            "axis_x: true",
+            "grid: false",
+            "point a: 1;0",
+            "point b: 5;0",
+            "point c: 8;0"
+          ],
+          "1 option": "c-a",
+          "2 option": "b-a",
+          "3 option": "c-b",
+          "4 option": "ни одна из них",
+          "correctAnswer": "4",
+          "explanationFields": [
+            "Отрицательный результат выйдет при вычитании из меньшего числа большего",
+            "На координатной прямой $a < b < c$",
+            "Проверим варианты:",
+            "$1) c - a = 8 - 1 = 7 > 0$",
+            "$2) b - a = 5 - 1 = 4 > 0$",
+            "$3) c - b = 8 - 5 = 3 > 0$",
+            "Все разности оказались положительными, потому что из большего вычитали меньшее."
+          ]
+        },
+        {
+          "isOge": true,
+          "type": "options",
+          "text": "Предпоследняя задача нашего урока! На координатной прямой отмечены числа $m,$ $n$ и $k.$ Какая из разностей положительна?",
+          "graph": [
+            "axis_x: true",
+            "grid: false",
+            "point m: 2;0",
+            "point n: 6;0",
+            "point k: 9;0"
+          ],
+          "1 option": "n-m",
+          "2 option": "m-n",
+          "3 option": "m-k",
+          "4 option": "ни одна из них",
+          "correctAnswer": "1",
+          "explanationFields": [
+            "Чтобы получить результат больше нуля, вычитаем из правого числа левое",
+            "На прямой точка $n$ лежит правее точки $m,$ то есть $n > m$",
+            "Считаем $1$ вариант: $n - m = 6 - 2 = 4 > 0$"
+          ]
+        },
+        {
+          "isOge": true,
+          "type": "options",
+          "text": "На координатной прямой отмечены числа $x,$ $y$ и $z.$ Какая из разностей отрицательна?",
+          "graph": [
+            "axis_x: true",
+            "grid: false",
+            "point x: 1;0",
+            "point y: 4;0",
+            "point z: 7;0"
+          ],
+          "1 option": "z-y",
+          "2 option": "y-z",
+          "3 option": "y-x",
+          "4 option": "ни одна из них",
+          "correctAnswer": "2",
+          "explanationFields": [
+            "Для отрицательного ответа нужно вычесть из меньшего числа большее",
+            "Смотрим на чертёж: $y$ лежит левее $z,$ значит $y < z$",
+            "Проверим вариант $2: y - z = 4 - 7 = -3 < 0$"
+          ]
+        }
+      ]
+    },
+    "7-zadanie-zakreplyaem-temu": {
+      "title": "Закрепляем тему!",
+      "path": "7 задание / Закрепляем тему!",
+      "tasks": [],
+      "isRepetition": true,
+      "tasksToGather": 7
     }
   }
-  }
+        }
