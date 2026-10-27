@@ -1,3 +1,27 @@
-"tasks": [
-  { "generator": "sheets" }
-]
+{
+  "topic": {
+    "id": "oge-1-5",
+    "title": "Задания 1–5",
+    "color": "#1CB0F6",
+    "subtopics": [
+      {
+        "title": "Листы бумаги",
+        "levels": ["oge-sheets-1", "oge-sheets-2"]
+      }
+    ]
+  },
+  "lessons": {
+    "oge-sheets-1": {
+      "title": "Листы бумаги, вариант 1",
+      "tasks": [
+        { "generator": "sheets" }
+      ]
+    },
+    "oge-sheets-2": {
+      "title": "Листы бумаги, вариант 2",
+      "tasks": [
+        { "generator": "sheets" }
+      ]
+    }
+  }
+}
