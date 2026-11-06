@@ -47,6 +47,7 @@
         },
         {
           "type": "input",
+          "isOge": true,
           "generator": "sheets",
           "parts": [1],
           "count": 5
