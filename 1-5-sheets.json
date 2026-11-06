@@ -1,26 +1,64 @@
 {
   "topic": {
-    "id": "oge-1-5",
-    "title": "Задания 1–5",
-    "color": "#1CB0F6",
+    "id": "zadaniya-1-5",
+    "title": "Задания 1-5",
+    "color": "#8B5CF6",
     "subtopics": [
       {
-        "title": "Листы бумаги",
-        "levels": ["oge-sheets-1", "oge-sheets-2"]
+        "title": "Листы",
+        "levels": [
+          "zadaniya-1-5-izuchaem-1-zadanie"
+        ],
+        "id": "subtopic-1793970350414"
       }
     ]
   },
   "lessons": {
-    "oge-sheets-1": {
-      "title": "Листы бумаги, вариант 1",
+    "zadaniya-1-5-izuchaem-1-zadanie": {
+      "title": "Изучаем 1 задание",
+      "path": "Задания 1-5 / Изучаем 1 задание",
       "tasks": [
-        { "generator": "sheets" }
-      ]
-    },
-    "oge-sheets-2": {
-      "title": "Листы бумаги, вариант 2",
-      "tasks": [
-        { "generator": "sheets" }
+        {
+          "type": "theory",
+          "text": "Привет! Мы начинаем изучение варианта листов в 1-5 заданий.",
+          "graph [листы]": [
+            "grid: false",
+            "line.gray: 0;0 0;4 6;4 6;0 0;0",
+            "dashed_line.gray: 3;0 3;4",
+            "dashed_line.gray: 0;2 3;2",
+            "dashed_line.gray: 1.5;2 1.5;4",
+            "dashed_line.gray: 0;3 1.5;3",
+            "dashed_line.gray: 0.75;3 0.75;4",
+            "text.3;-0.75.size40: A0",
+            "text.4.5;2.size40: A1",
+            "text.1.5;1.size35: A2",
+            "text.2.25;3.size30: A3",
+            "text.0.75;2.5.size20: A4",
+            "text.1.13;3.5.size17: A5"
+          ]
+        },
+        {
+          "type": "input",
+          "graph": {
+            "name": "листы"
+          },
+          "text": "Ответ 1",
+          "correctAnswer": "1"
+        },
+        {
+          "type": "input",
+          "generator": "sheets",
+          "parts": [1],
+          "count": 5
+        },
+        {
+          "type": "input",
+          "generator": "sheets",
+          "sets": [
+            { "parts": [2], "count": 2 },
+            { "parts": [1], "count": 3 }
+          ]
+        }
       ]
     }
   }
