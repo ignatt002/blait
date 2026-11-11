@@ -7,7 +7,13 @@
       {
         "title": "Листы",
         "levels": [
-          "zadaniya-1-5-izuchaem-1-zadanie"
+          "###Первое задание",
+          "zadaniya-1-5-izuchaem-1-zadanie",
+          "zadaniya-1-5-nareshivaem-listy",
+          "zadaniya-1-5-zakreplyaem",
+          "zadaniya-1-5-generator",
+          "###Второе задание",
+          "zadaniya-1-5-izuchaem-2-zadanie"
         ],
         "id": "subtopic-1793970350414"
       }
@@ -22,7 +28,7 @@
           "type": "theory",
           "text": "Привет! Нам пора браться за 1-5 задания ОГЭ, и начнём мы с варианта про форматы листов.",
           "text2": "Сначала тебе напишут общий текст про весь вариант, просто прочитай его:",
-          "graph [листы]": [
+          "graph листы": [
             "grid: false",
             "line.gray: 0;0 0;4 6;4 6;0 0;0",
             "dashed_line.gray: 3;0 3;4",
@@ -83,22 +89,62 @@
           "text39": "Ответ: 4213"
         },
         {
-          "type": "input",
-          "text": "А теперь попробуй сам!",
+          "isOge": true,
+          "text": "А теперь попробуй самостоятельно!",
           "generator": "sheets"
         },
         {
           "isOge": true,
           "generator": "sheets",
           "parts": [1],
-          "count": 5
-        },
+          "count": 2
+        }
+      ]
+    },
+    "zadaniya-1-5-nareshivaem-listy": {
+      "title": "Нарешиваем листы",
+      "path": "Задания 1-5 / Нарешиваем листы",
+      "tasks": [
         {
+          "text": "Привет! Давай порешаем первое задание листов, чтобы на экзамене всё было круто :D",
+          "text2": "Вот тебе несколько вариантов:",
           "generator": "sheets",
-          "sets": [
-            { "parts": [2], "count": 2 },
-            { "parts": [1], "count": 3 }
-          ]
+          "parts": [1],
+          "count": 5
+        }
+      ]
+    },
+    "zadaniya-1-5-zakreplyaem": {
+      "title": "Закрепляем",
+      "path": "Задания 1-5 / Закрепляем",
+      "tasks": [
+        {
+          "text": "Давай закрепим первое задание листов. Поехали!",
+          "generator": "sheets",
+          "parts": [1],
+          "count": 5
+        }
+      ]
+    },
+    "zadaniya-1-5-generator": {
+      "title": "Генератор",
+      "path": "Задания 1-5 / Генератор",
+      "tasks": [
+        {
+          "type": "input",
+          "text": "Привет. Если первое задание в варианте листов показалось тебе сложным, ты можешь тренироваться на этом уроке. Это генератор первого задания, его можно открывать снова и снова, и здесь всегда будут новые задания. Приступим к заданиям!"
+        },
+        { "generator": "sheets", "parts": [1], "count": 4 }
+      ]
+    },
+    "zadaniya-1-5-izuchaem-2-zadanie": {
+      "title": "Изучаем 2 задание",
+      "path": "Задания 1-5 / Изучаем 2 задание",
+      "tasks": [
+        {
+          "type": "theory",
+          "text": "пример",
+          "generator": "sheets"
         }
       ]
     }
