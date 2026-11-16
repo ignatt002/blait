@@ -1,0 +1,60 @@
+{
+  "topic": {
+    "id": "tarify",
+    "title": "Тарифы",
+    "color": "#8B5CF6",
+    "subtopics": [
+      {
+        "title": "г",
+        "levels": [
+          "tarify-l"
+        ],
+        "id": "subtopic-1794827454725"
+      }
+    ]
+  },
+  "lessons": {
+    "tarify-l": {
+      "title": "л",
+      "path": "Тарифы / л",
+      "tasks": [
+        {
+          "graph": [
+            "crop: -2.5;-3 15.5;20",
+            "line.c3c3c3.width2: 0;18 0;0 13;0 13;18",
+            "tick_mark_horizontal.c 50: 0;2",
+            "tick_mark_horizontal.c 100: 0;4",
+            "tick_mark_horizontal.c 150: 0;6",
+            "tick_mark_horizontal.c 200: 0;8",
+            "tick_mark_horizontal.c 250: 0;10",
+            "tick_mark_horizontal.c 300: 0;12",
+            "tick_mark_horizontal.c 350: 0;14",
+            "tick_mark_horizontal.c 400: 0;16",
+            "tick_mark_horizontal.right.c 0,5: 13;2",
+            "tick_mark_horizontal.right.c 1: 13;4",
+            "tick_mark_horizontal.right.c 1,5: 13;6",
+            "tick_mark_horizontal.right.c 2: 13;8",
+            "tick_mark_horizontal.right.c 2,5: 13;10",
+            "tick_mark_horizontal.right.c 3: 13;12",
+            "tick_mark_horizontal.right.c 3,5: 13;14",
+            "tick_mark_horizontal.right.c 4: 13;16",
+            "tick_mark 1: 1;0",
+            "tick_mark 2: 2;0",
+            "tick_mark 3: 3;0",
+            "tick_mark 4: 4;0",
+            "tick_mark 5: 5;0",
+            "tick_mark 6: 6;0",
+            "tick_mark 7: 7;0",
+            "tick_mark 8: 8;0",
+            "tick_mark 9: 9;0",
+            "tick_mark 10: 10;0",
+            "tick_mark 11: 11;0",
+            "tick_mark 12: 12;0",
+            "line.c.marked.width2: 1;2 2;8 3;10 4;8 5;4 6;12 7;8"
+          ],
+          "type": "input"
+        }
+      ]
+    }
+  }
+}
