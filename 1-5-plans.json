@@ -5,57 +5,21 @@
     "color": "#8B5CF6",
     "subtopics": [
       {
-        "title": "г",
+        "title": "Тарифы",
         "levels": [
-          "tarify-l"
+          "###Первое задание",
+          "tarify-izuchaem-1-zadanie"
         ],
-        "id": "subtopic-1794827454725"
+        "id": "subtopic-1794985384804"
       }
     ]
   },
   "lessons": {
-    "tarify-l": {
-      "title": "л",
-      "path": "Тарифы / л",
+    "tarify-izuchaem-1-zadanie": {
+      "title": "Изучаем 1 задание",
+      "path": "Тарифы / Изучаем 1 задание",
       "tasks": [
-        {
-          "type": "input",
-          "graph": [
-            "crop: -2.5;-2 15.5;19",
-            "line.cccccc.width2: 0;18 0;0 13;0 13;18",
-            "line.c3c3c3.width2: -0.4;17.5 0;18 0.4;17.5",
-            "line.c3c3c3.width2: 12.6;17.5 13;18 13.4;17.5",
-            "tick_mark_horizontal.c 50: 0;2",
-            "tick_mark_horizontal.c 100: 0;4",
-            "tick_mark_horizontal.c 150: 0;6",
-            "tick_mark_horizontal.c 200: 0;8",
-            "tick_mark_horizontal.c 250: 0;10",
-            "tick_mark_horizontal.c 300: 0;12",
-            "tick_mark_horizontal.c 350: 0;14",
-            "tick_mark_horizontal.c 400: 0;16",
-            "tick_mark_horizontal.right.c 0,5: 13;2",
-            "tick_mark_horizontal.right.c 1: 13;4",
-            "tick_mark_horizontal.right.c 1,5: 13;6",
-            "tick_mark_horizontal.right.c 2: 13;8",
-            "tick_mark_horizontal.right.c 2,5: 13;10",
-            "tick_mark_horizontal.right.c 3: 13;12",
-            "tick_mark_horizontal.right.c 3,5: 13;14",
-            "tick_mark_horizontal.right.c 4: 13;16",
-            "tick_mark.gray 1: 1;0",
-            "tick_mark.gray 2: 2;0",
-            "tick_mark.gray 3: 3;0",
-            "tick_mark.gray 4: 4;0",
-            "tick_mark.gray 5: 5;0",
-            "tick_mark.gray 6: 6;0",
-            "tick_mark.gray 7: 7;0",
-            "tick_mark.gray 8: 8;0",
-            "tick_mark.gray 9: 9;0",
-            "tick_mark.gray 10: 10;0",
-            "tick_mark.gray 11: 11;0",
-            "tick_mark.gray 12: 12;0",
-            "line.49bff7.marked.width2: 1;2 2;8 3;10 4;8 5;4 6;12 7;8 8;16 9;10 10;6 11;14 12;4"
-          ]
-        }
+        { "generator": "tariffs" }
       ]
     }
   }
