@@ -182,7 +182,7 @@
         },
         {
           "isOge": true,
-          "generator": "sheets",
+          "generator": "tariffs",
           "parts": [1],
           "count": 4
         }
