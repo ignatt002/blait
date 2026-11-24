@@ -9,7 +9,9 @@
         "levels": [
           "###Первое задание",
           "tarify-izuchaem-1-zadanie",
-          "tarify-praktikuem-1-zadanie"
+          "tarify-praktikuem-1-zadanie",
+          "tarify-zakreplyaem",
+          "tarify-generator"
         ],
         "id": "subtopic-1794985384804"
       }
@@ -134,8 +136,11 @@
           "text22": "Ответ: 81235"
         },
         {
+          "isOge": true,
           "text": "Теперь попробуй самостоятельно на других графиках. Главное — просто не запутаться, само задание лёгкое.",
-          "generator": "tariffs"
+          "generator": "tariffs",
+          "parts": [1],
+          "count": 3
         }
       ]
     },
@@ -143,7 +148,44 @@
       "title": "Практикуем 1 задание",
       "path": "Тарифы / Практикуем 1 задание",
       "tasks": [
-        { "generator": "tariffs" }
+        {
+          "isOge": true,
+          "text": "Давай порешаем несколько первых задач про тарифы!",
+          "generator": "tariffs",
+          "parts": [1],
+          "count": 5
+        }
+      ]
+    },
+    "tarify-zakreplyaem": {
+      "title": "Закрепляем",
+      "path": "Тарифы / Закрепляем",
+      "tasks": [
+        {
+          "isOge": true,
+          "text": "Закрепим первую задачу тарифов, чтобы точно не ошибиться на экзамене :D",
+          "generator": "tariffs",
+          "parts": [1],
+          "count": 5
+        }
+      ],
+      "isTest": true
+    },
+    "tarify-generator": {
+      "title": "Генератор",
+      "path": "Тарифы / Генератор",
+      "tasks": [
+        {
+          "text": "Привет! Если тебе не хватило практики с первой задачей про тарифы, ты можешь позаниматься здесь. Это урок-генератор, сюда можно заходить снова и снова, и здесь всегда будут новые задачи.",
+          "text2": "Поехали!",
+          "type": "input"
+        },
+        {
+          "isOge": true,
+          "generator": "sheets",
+          "parts": [1],
+          "count": 4
+        }
       ]
     }
   }
